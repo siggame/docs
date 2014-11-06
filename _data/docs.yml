@@ -1,0 +1,4 @@
+- name: Droids
+  url: /droids
+- name: Chess
+  url: /chess

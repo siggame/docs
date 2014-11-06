@@ -1,0 +1,50 @@
+---
+# This file is compiled to CSS by Jekyll
+# Do not remove this header block. Otherwise, Jekyll will not see it
+---
+
+.navbar {
+    margin-bottom: 0px;
+
+    img {
+        width: 89;
+        height: 19;
+    }
+}
+
+.footer {
+    height: 62px;
+    .container {
+        height: 62px;
+    }
+}
+
+.post-list {
+    border-left: 1px #ddd solid;
+}
+
+.sidebar-nav {
+    width: 100%;
+    li {
+        &:hover {
+            border-left: 2px #f93 solid;
+        }
+    }
+}
+
+.affix {
+    width: 100%;
+}
+
+.navbar-nav li a {
+    line-height: 28px;
+}
+
+
+.book-container {
+    padding-top: 2em;
+    i {
+        font-size: 30em;
+        color: #DDD;
+    }
+}

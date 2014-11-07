@@ -1,4 +1,8 @@
 - name: Droids
   url: /droids
+- name: Mars
+  url: /mars
+- name: Reef
+  url: /reef
 - name: Chess
   url: /chess

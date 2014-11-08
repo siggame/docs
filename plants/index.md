@@ -9,9 +9,10 @@ Plants
 Visualizer
 ----------
 
-Visualizers are available for download. The date next to the download
-indicates when it was built. It's probably a good idea to get the
-latest one.
+Visualizers are available for download. These links point to the most
+recent build of each visualizer. Be sure to keep an eye on
+[status.megaminerai.com](http://status.megaminerai.com) to find out
+about updates to the visualizer!
 
 <a href="https://s3.amazonaws.com/siggame-mmai14-visualizers/plants-linux.zip" class="btn btn-info">
 Linux <i class="fa fa-linux"></i>

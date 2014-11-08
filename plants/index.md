@@ -44,3 +44,4 @@ can view the docs offline. We'll miss you though.
 
 * [Presentation](https://docs.google.com/presentation/d/18h1yBODcpoNLL6EIf1rMC86uqeLsmf06Y55I_I6MW6w/pub?start=false&loop=false&delayms=3000)
 * [Rules Documentation](https://docs.google.com/document/d/1DCSJ7FUmhzmzHN24CBBxux0y_OT1wynANPLEBXypYWg/pub)
+* [How to fix "Function Not Implemented"](https://docs.google.com/document/d/1t9wFoAbLC1K6EFcS11qJ9GCuof9-7xSkRgXbwvMAqFU/pub)

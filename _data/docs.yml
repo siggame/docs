@@ -1,3 +1,5 @@
+- name: Plants
+  url: /plants
 - name: Droids
   url: /droids
 - name: Mars

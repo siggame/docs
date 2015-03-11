@@ -13,3 +13,4 @@ production_url : "http://blog.megaminerai.com"
 
 exclude:
   - secret.sh*
+  - s3_website.yml

@@ -9,10 +9,10 @@ The arena will create a zip folder containing output from stderr, stdout, and bu
 This zip folder is made available to all competitors through the megaminerar.com site.
 
 ##Arena Statuses
-Embargo - An embargo means that your code is broken and is unable to run in the arena.
-Broken - Broken means that the arena is either down or there has been a networking issue between the competitor's code and the arena.
-Not Ready - Not Ready means that the arena is not yet running and no games are being played.
-Thunderbirds Are Go - Everything is working proplerly and your code is ready to run in the arena.
+-Embargo - An embargo means that your code is broken and is unable to run in the arena.
+-Broken - Broken means that the arena is either down or there has been a networking issue between the competitor's code and the arena.
+-Not Ready - Not Ready means that the arena is not yet running and no games are being played.
+-Thunderbirds Are Go - Everything is working proplerly and your code is ready to run in the arena.
 
 ##Dealing with Embargoes
 If your code has been embargoed, that means that there is something wrong with your code that prevents it from running in the arena.
@@ -21,8 +21,8 @@ Then, after your code has been fixed, it needs to be resubmitted to the arena.
 
 ##Software Versions
 Below is a list of supported software versions for MegaminerAI
-g++ 4.6.3
-javac 1.7.0_75
-java 1.7.0_75 (IcedTea 2.5.4)
-mono 3.12.1
-python 2.7.3 
+-g++ 4.6.3
+-javac 1.7.0_75
+-java 1.7.0_75 (IcedTea 2.5.4)
+-mono 3.12.1
+-python 2.7.3 

@@ -7,7 +7,7 @@ tags: IRC
 
 ## Need help with something related to MegaMinerAI?
 
-Checkout `#megaminer` on `irc.freenode.net`, where developers and your competition will hang out to discuss MegaMinerAI-related topics.
+Join channel `#megaminer` on `irc.freenode.net`, where developers and your competition will hang out to discuss MegaMinerAI-related topics.
 
 Want to engage in some friendly trash talk with your competitors?  Please keep it in person; our IRC channel doesn't need that nonsense.
 
@@ -35,8 +35,6 @@ You can connect to `#megaminer` at `http://webchat.freenode.net/` the channel fi
 
 ## Introducing \_\_bort\_\_, the friendly MegaMinerAI IRC Bot
 
-###  \_\_bort\_\_ was benevolently created for one purpose: To help the user with common MegaMinerAI topics.
+\_\_bort\_\_ was benevolently created for one purpose: To help the user with common MegaMinerAI topics.
 
-- Read \_\_bort\_\_'s documentation at: `http://bort-siggame.rhcloud.com/\_\_bort\_\_/help`
-
-
+- Read \_\_bort\_\_'s documentation at: `http://bort-siggame.rhcloud.com/__bort__/help`

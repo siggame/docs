@@ -1,10 +1,19 @@
-- name: Plants
-  url: /plants
-- name: Droids
-  url: /droids
-- name: Mars
-  url: /mars
-- name: Reef
-  url: /reef
-- name: Chess
-  url: /chess
+games:
+  - name: Plants
+    url: /plants
+  - name: Droids
+    url: /droids
+  - name: Mars
+    url: /mars
+  - name: Reef
+    url: /reef
+  - name: Chess
+    url: /chess
+
+other:
+  - name: Arena
+    url: /advice/arena
+  - name: General
+    url: /advice/general
+  - name: IRC
+    url: /advice/irc

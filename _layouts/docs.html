@@ -9,9 +9,16 @@ layout: base
     </div>
     <div class="col-sm-3 hidden-xs">
       <div data-spy="affix" data-offset-top="45" style="top:0px;" class="affix-top">
-        <h3>Our Games</h3>
+        <h3>Game Docs</h3>
         <ul class="sidebar-nav nav nav-pills nav-stacked" role="tablist">
-          {% for doc in site.data.docs %}
+          {% for doc in site.data.docs.games %}
+          <li><a href="{{ doc.url }}">{{ doc.name }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <h3>Other Docs</h3>
+        <ul class="sidebar-nav nav nav-pills nav-stacked" role="tablist">
+          {% for doc in site.data.docs.other %}
           <li><a href="{{ doc.url }}">{{ doc.name }}</a></li>
           {% endfor %}
         </ul>

@@ -9,6 +9,8 @@ games:
     url: /reef
   - name: Chess
     url: /chess
+  - name: Pharaoh
+    url: /pharaoh
 
 other:
   - name: Arena

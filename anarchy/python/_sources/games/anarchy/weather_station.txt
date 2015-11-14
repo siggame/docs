@@ -1,0 +1,5 @@
+Weather Station
+===============
+
+.. autoclass:: games.anarchy.WeatherStation
+    :members:

@@ -1,0 +1,6 @@
+Forecast
+========
+
+.. autoclass:: games.anarchy.Forecast
+    :members:
+

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="336fddab-5780-450a-b3fa-46e8f4f4eabc" Title="Joueur.cs.Games.Anarchy" Url="html/70150dc6-0929-456d-a0e5-21f9a46f105a.htm">
+    <HelpTOCNode Id="2f516688-d6bf-4df5-a55e-0e9f1caf87ac" Title="AI Class" Url="html/a1448599-b065-2722-60b3-445fb9775381.htm">
+      <HelpTOCNode Title="AI Constructor " Url="html/4650ba08-bf98-a14f-2ad4-1e95fa9cd023.htm" />
+      <HelpTOCNode Id="f89ac8c4-f112-4a76-a01d-e78d953738f4" Title="AI Methods" Url="html/c8dc0e39-feb4-4acb-d6c3-75e80c59c5a0.htm">
+        <HelpTOCNode Title="canBeBribed Method " Url="html/c4d9aebe-a48b-07b2-68bf-dce1ca859f3a.htm" />
+        <HelpTOCNode Title="Ended Method " Url="html/603a141a-e39c-eaf8-8ced-9da8be78882f.htm" />
+        <HelpTOCNode Title="GameUpdated Method " Url="html/759e1572-c718-a002-6418-3408f226b725.htm" />
+        <HelpTOCNode Title="GetName Method " Url="html/4205f36d-9e77-addf-016c-193e58f604fa.htm" />
+        <HelpTOCNode Title="RunTurn Method " Url="html/70b3a2ab-ff4c-1c25-ba3e-a08ee4222e31.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/dbcebbf4-4843-7d5b-aa8c-d931e758a032.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="50ea781a-72a1-41ac-ab8c-6e0c04cff351" Title="AI Fields" Url="html/726e5741-29ab-1963-a900-5a2a7f236bf1.htm">
+        <HelpTOCNode Title="Game Field" Url="html/5b2612ad-be8f-5fa9-d5fb-149761659aa3.htm" />
+        <HelpTOCNode Title="Player Field" Url="html/be44c7af-4a8f-15a9-f2d4-8a0e9e0321d2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7272c689-b4e8-46b8-956b-9d6d328e5786" Title="Building Class" Url="html/8f4d56a5-eb9d-2d93-cf86-dbb49f49076b.htm">
+      <HelpTOCNode Title="Building Constructor " Url="html/475ceb8f-fc1e-b3a6-2524-77bcfad2faea.htm" />
+      <HelpTOCNode Id="f0880a2a-fb92-4f75-a843-0373e0f90c29" Title="Building Properties" Url="html/ae1d8895-e1c9-d62d-663c-9bb493b0a317.htm">
+        <HelpTOCNode Title="Bribed Property " Url="html/02445d61-5ddf-710a-29c6-46c034bec01e.htm" />
+        <HelpTOCNode Title="BuildingEast Property " Url="html/dea93d7e-32b1-1680-ca11-96de0f162169.htm" />
+        <HelpTOCNode Title="BuildingNorth Property " Url="html/678d33ec-818f-a173-c221-c1739a6aae1d.htm" />
+        <HelpTOCNode Title="BuildingSouth Property " Url="html/c80705dd-7c59-cb6b-ab55-2e2309d522de.htm" />
+        <HelpTOCNode Title="BuildingWest Property " Url="html/146ffed0-d3b2-b53b-e036-b11da9f6877a.htm" />
+        <HelpTOCNode Title="Fire Property " Url="html/b315b409-7d8c-f59d-087b-6df9a6b35505.htm" />
+        <HelpTOCNode Title="Health Property " Url="html/cfa9acde-69f2-e15a-41e9-216861228f7e.htm" />
+        <HelpTOCNode Title="IsHeadquarters Property " Url="html/91e2d085-e658-0f41-51c0-275829619de7.htm" />
+        <HelpTOCNode Title="Owner Property " Url="html/3c2d3941-1721-10f9-67f9-b038cb71e614.htm" />
+        <HelpTOCNode Title="X Property " Url="html/a2a1e9fe-496c-7231-2e97-8eaa51bba75d.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/e1db6bd0-17aa-24fa-0634-6a577675edbb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Building Methods" Url="html/3730d4b6-bf40-aae4-e99f-5ce6d9999770.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="46e4bc59-76c8-44f5-a163-90a4796c5599" Title="FireDepartment Class" Url="html/aada0536-0d79-556f-bd5f-ff43a63076a4.htm">
+      <HelpTOCNode Title="FireDepartment Constructor " Url="html/681b24f6-4340-34fb-cb09-42988e7de082.htm" />
+      <HelpTOCNode Id="b48f992d-0c43-46dd-a612-94855a81e34b" Title="FireDepartment Properties" Url="html/dad2e079-0db2-266e-140b-76dbb802a301.htm">
+        <HelpTOCNode Title="FireExtinguished Property " Url="html/f8e3405b-0ca4-e7a6-fa68-aa8d2b288c51.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="98900a8c-1e2b-4c5b-a3e4-6c7e146bab94" Title="FireDepartment Methods" Url="html/16523c87-8409-be83-1f52-bed2ffb69163.htm">
+        <HelpTOCNode Title="Extinguish Method " Url="html/570202c8-9f42-b6ad-1c65-f8463133d0f5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f5430300-93a7-4ff4-9e45-a9f747ac0118" Title="Forecast Class" Url="html/d0d08be0-8010-70c6-2b7e-be7ddddbfdaf.htm">
+      <HelpTOCNode Title="Forecast Constructor " Url="html/e50424a6-e696-90ab-acce-123f8e0348ce.htm" />
+      <HelpTOCNode Id="ec1e0b50-e8f2-4ece-9d9b-4a4bd030648d" Title="Forecast Properties" Url="html/50c6ffcf-d7cc-1587-e3c2-530dd9d3b607.htm">
+        <HelpTOCNode Title="ControllingPlayer Property " Url="html/bd7e81f0-fcb8-76dd-59bf-f3d0ebe656c1.htm" />
+        <HelpTOCNode Title="Direction Property " Url="html/da7597d7-ae5d-4c7b-dd85-5f64c9ebec5c.htm" />
+        <HelpTOCNode Title="Intensity Property " Url="html/ec4a4dc6-e365-b246-8bc9-eb9417233b96.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Forecast Methods" Url="html/e837fe68-fe53-3dd6-2774-5e78714133c1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b5d1d9e6-ad14-468a-bba2-613394837a4f" Title="Game Class" Url="html/1a8b93cd-d169-0d45-10f2-f8ac6aa68a72.htm">
+      <HelpTOCNode Title="Game Constructor " Url="html/48ee6939-571d-097e-bb0f-10a821d2082e.htm" />
+      <HelpTOCNode Id="bb8978aa-2978-4769-a89d-846c096aad60" Title="Game Properties" Url="html/db544bf2-12f9-9292-5413-540069416f8a.htm">
+        <HelpTOCNode Title="BaseBribesPerTurn Property " Url="html/b104d3e1-d094-f544-c574-c6aa0bbc6d0b.htm" />
+        <HelpTOCNode Title="Buildings Property " Url="html/2c471f1a-f909-67f4-4338-91e932346e6b.htm" />
+        <HelpTOCNode Title="CurrentForecast Property " Url="html/505f5232-c427-88c7-3ed7-32caa4a9d246.htm" />
+        <HelpTOCNode Title="CurrentPlayer Property " Url="html/99e46504-0a0a-412b-e539-ad56fab0245c.htm" />
+        <HelpTOCNode Title="CurrentTurn Property " Url="html/47d98b0c-b5c9-daf3-2b1c-71cbe04487b8.htm" />
+        <HelpTOCNode Title="Forecasts Property " Url="html/1a19fe0f-6c4a-2171-1e0e-96a7f8e1423c.htm" />
+        <HelpTOCNode Title="MapHeight Property " Url="html/51bd524c-f005-4a4d-46da-df0f37023f2a.htm" />
+        <HelpTOCNode Title="MapWidth Property " Url="html/a52ab984-8f54-8673-349d-141713f73461.htm" />
+        <HelpTOCNode Title="MaxFire Property " Url="html/6bcad1c5-af63-8a3d-af39-552bb0be6c96.htm" />
+        <HelpTOCNode Title="MaxForecastIntensity Property " Url="html/ebb0edda-e7dc-af5c-8d2e-4ac967669e72.htm" />
+        <HelpTOCNode Title="MaxTurns Property " Url="html/11da5298-bc55-1f9d-cfc0-77c758204262.htm" />
+        <HelpTOCNode Title="NextForecast Property " Url="html/2b0e23cb-87b5-8b00-5dbe-b7771b3c1a31.htm" />
+        <HelpTOCNode Title="Players Property " Url="html/d262ebd6-9fc2-cf41-bdf2-a456d42330f8.htm" />
+        <HelpTOCNode Title="Session Property " Url="html/e18bd16e-f76d-64d4-98b5-7333ad902d00.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Game Methods" Url="html/e8c42f83-3218-4bbe-831c-e0924658f103.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d3f7f7e6-6bc9-44ae-a70a-aec35d228822" Title="GameObject Class" Url="html/c0386bb3-1342-1f26-0dc4-e9e829f85ebf.htm">
+      <HelpTOCNode Title="GameObject Constructor " Url="html/b47f0b8f-967d-4ec5-bb2f-dd1074d2d01e.htm" />
+      <HelpTOCNode Id="8b6d0b21-003b-45ac-a1bc-1998cadc6c77" Title="GameObject Properties" Url="html/35b1d40e-834f-7def-bde7-d11c7b962bbb.htm">
+        <HelpTOCNode Title="GameObjectName Property " Url="html/1ff22dee-2071-29ab-6a76-299e90ad0a7e.htm" />
+        <HelpTOCNode Title="Logs Property " Url="html/96aee40e-a2c0-3372-9222-20d4b556433a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="969929c2-ce66-4c69-8f08-864413c351aa" Title="GameObject Methods" Url="html/d82f5e8c-ba9c-047e-8905-0346a6152f65.htm">
+        <HelpTOCNode Title="Log Method " Url="html/537109ec-7a0b-bb91-0cf0-279c40ca1dc9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9a09b9ed-2789-45de-b117-a4b966dabb42" Title="Player Class" Url="html/76bc8cff-2ef0-0c25-aecb-09e3cb802e3f.htm">
+      <HelpTOCNode Title="Player Constructor " Url="html/c6622723-0419-2364-a405-94acd12ba4c8.htm" />
+      <HelpTOCNode Id="e7cb39b5-5143-4604-bbe8-c969ee22e59d" Title="Player Properties" Url="html/17ee9751-9c99-6b45-d4d3-59483c48de52.htm">
+        <HelpTOCNode Title="BribesRemaining Property " Url="html/3d606d27-9f0b-c687-5bef-91cf534f15cd.htm" />
+        <HelpTOCNode Title="Buildings Property " Url="html/4e1d109f-5633-7e8e-6561-0c0623a84299.htm" />
+        <HelpTOCNode Title="ClientType Property " Url="html/6b004057-e85a-314d-b14b-df7d3df7bda3.htm" />
+        <HelpTOCNode Title="FireDepartments Property " Url="html/f2d6599b-b2ae-b2e1-863f-c152a69617eb.htm" />
+        <HelpTOCNode Title="Headquarters Property " Url="html/79f40355-e7e1-f55e-b736-3ab1c0129103.htm" />
+        <HelpTOCNode Title="Lost Property " Url="html/b108b4ed-f35d-7958-52e1-7b50ae817209.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/8fc27bb4-36ea-a4eb-2b70-56f2b708929f.htm" />
+        <HelpTOCNode Title="OtherPlayer Property " Url="html/e8b1f334-0ff9-cc9e-345e-a0abf14c5d4d.htm" />
+        <HelpTOCNode Title="PoliceDepartments Property " Url="html/eb4a6aa2-c5d3-165c-ae95-9739731b961c.htm" />
+        <HelpTOCNode Title="ReasonLost Property " Url="html/a90cd9f0-41ec-195e-7eb9-c69cbb5db087.htm" />
+        <HelpTOCNode Title="ReasonWon Property " Url="html/20094c3a-9c6f-94c0-f9d1-59b65266ec3d.htm" />
+        <HelpTOCNode Title="TimeRemaining Property " Url="html/1124e175-c246-4b97-45bd-9c446c075313.htm" />
+        <HelpTOCNode Title="Warehouses Property " Url="html/acfc702d-ea2c-5cc5-ab74-00158aad4c86.htm" />
+        <HelpTOCNode Title="WeatherStations Property " Url="html/90c02733-c997-bcc6-7ca4-32ecc644a9aa.htm" />
+        <HelpTOCNode Title="Won Property " Url="html/9c95d209-3ef2-c59e-a603-62e1eb5a21b3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Player Methods" Url="html/6b52d570-f9da-510a-8af2-c4735c44137e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="05416ec8-ab8b-4467-9eb6-d289767f697c" Title="PoliceDepartment Class" Url="html/324f9277-4aaa-6405-598e-8327af142021.htm">
+      <HelpTOCNode Title="PoliceDepartment Constructor " Url="html/207a49c3-563a-7ada-a669-a1f204bf9707.htm" />
+      <HelpTOCNode Title="PoliceDepartment Properties" Url="html/bf6954cc-4995-9a5b-0058-cd6fa5621315.htm" />
+      <HelpTOCNode Id="76601282-6fc2-4b7b-8fee-46aca6202a8e" Title="PoliceDepartment Methods" Url="html/a519ef49-633f-140a-0a53-528c7f2b3071.htm">
+        <HelpTOCNode Title="Raid Method " Url="html/0dea90d3-71a3-f628-2843-425156bfa7a7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0e7e8eb9-5e0c-4f65-8678-f891a2ec6d1d" Title="Warehouse Class" Url="html/7e93298a-8002-733d-2227-8b7b91a05e41.htm">
+      <HelpTOCNode Title="Warehouse Constructor " Url="html/ca593c24-0dc3-0128-07b2-5b2bcbf3c532.htm" />
+      <HelpTOCNode Id="de986de9-b6dc-43fe-af72-249962d7cf39" Title="Warehouse Properties" Url="html/5b875a63-85a9-2a3d-ace3-c06dc4e88b1b.htm">
+        <HelpTOCNode Title="Exposure Property " Url="html/37a924b4-6550-c9a5-a199-71ca4353a91f.htm" />
+        <HelpTOCNode Title="FireAdded Property " Url="html/c57d9c26-1eec-57eb-8d92-38dc1f805e42.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ffa02c17-969f-47e3-a936-fb37d0d7afdf" Title="Warehouse Methods" Url="html/5eeaafbc-119a-cd66-bcc7-61b9e89f6aa5.htm">
+        <HelpTOCNode Title="Ignite Method " Url="html/8faa58e7-9f20-e915-b3dd-9d886e471108.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="33250865-ceca-4856-a1bb-15b871bf192f" Title="WeatherStation Class" Url="html/c9879efc-d97a-61fb-3dab-eea145f82738.htm">
+      <HelpTOCNode Title="WeatherStation Constructor " Url="html/b308343c-9c48-c3ff-609f-12f865bd53e9.htm" />
+      <HelpTOCNode Title="WeatherStation Properties" Url="html/854ecebe-aeb7-00e1-4602-39b161892f40.htm" />
+      <HelpTOCNode Id="40ebf352-9bea-4b6c-b1ff-508782359015" Title="WeatherStation Methods" Url="html/51b43841-642f-3af6-cd17-33c521021376.htm">
+        <HelpTOCNode Title="Intensify Method " Url="html/2e7c246a-630a-888e-c083-3a2a92979bc6.htm" />
+        <HelpTOCNode Title="Rotate Method " Url="html/e5cd81f0-1ab7-7c44-8347-771a3762aefc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

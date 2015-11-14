@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://r99acm.device.mst.edu:3080/documentation/anarchy -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Lua Anarchy Client Documentation</title>
+		<link rel="stylesheet" type="text/css" href="./LuaClient/reset.css">
+		<link rel="stylesheet" type="text/css" href="./LuaClient/main.css">
+		<script src="./LuaClient/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<h1 id="site-title"><a href="#">Lua Client Documentation</a></h1>
+			<h1>Anarchy Documentaion</h1>
+
+<section id="anarchy-documentation" class="documentation">
+	<section id="Game" class="game-class">
+		<header>Game</header>
+		<p class="description">Two player grid based game where each player tries to burn down the other player's buildings. Let it burn!</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="Game.mapHeight" class="attribute">
+					<header class="name"><span class="type">number</span> mapHeight</header>
+					
+					<p class="description">The width of the entire map along the vertical (y) axis.</p>
+				</li>
+				<li id="Game.baseBribesPerTurn" class="attribute">
+					<header class="name"><span class="type">number</span> baseBribesPerTurn</header>
+					
+					<p class="description">How many bribes players get at the beginning of their turn, not counting their burned down Buildings.</p>
+				</li>
+				<li id="Game.mapWidth" class="attribute">
+					<header class="name"><span class="type">number</span> mapWidth</header>
+					
+					<p class="description">The width of the entire map along the horizontal (x) axis.</p>
+				</li>
+				<li id="Game.currentForecast" class="attribute">
+					<header class="name"><span class="type">Forecast</span> currentForecast</header>
+					
+					<p class="description">The current Forecast, which will be applied at the end of the turn.</p>
+				</li>
+				<li id="Game.buildings" class="attribute">
+					<header class="name"><span class="type">table&lt;Building&gt;</span> buildings</header>
+					
+					<p class="description">All the buildings in the game.</p>
+				</li>
+				<li id="Game.currentPlayer" class="attribute">
+					<header class="name"><span class="type">Player</span> currentPlayer</header>
+					
+					<p class="description">The player whose turn it is currently. That player can send commands. Other players cannot.</p>
+				</li>
+				<li id="Game.currentTurn" class="attribute">
+					<header class="name"><span class="type">number</span> currentTurn</header>
+					
+					<p class="description">The current turn number, starting at 0 for the first player's turn</p>
+				</li>
+				<li id="Game.forecasts" class="attribute">
+					<header class="name"><span class="type">table&lt;Forecast&gt;</span> forecasts</header>
+					
+					<p class="description">All the forecasts in the game, indexed by turn number.</p>
+				</li>
+				<li id="Game.gameObjects" class="attribute">
+					<header class="name"><span class="type">table&lt;string, GameObject&gt;</span> gameObjects</header>
+					
+					<p class="description">A mapping of every game object's ID to the actual game object. Primarily used by the server and client to easily refer to the game objects via ID.</p>
+				</li>
+				<li id="Game.maxFire" class="attribute">
+					<header class="name"><span class="type">number</span> maxFire</header>
+					
+					<p class="description">The maximum amount of fire value for any Building.</p>
+				</li>
+				<li id="Game.maxForecastnumberensity" class="attribute">
+					<header class="name"><span class="type">number</span> maxForecastnumberensity</header>
+					
+					<p class="description">The maximum amount of numberensity value for any Forecast.</p>
+				</li>
+				<li id="Game.maxTurns" class="attribute">
+					<header class="name"><span class="type">number</span> maxTurns</header>
+					
+					<p class="description">The maximum number of turns before the game will automatically end.</p>
+					<p class="default">Defaults to: 100</p>				</li>
+				<li id="Game.nextForecast" class="attribute">
+					<header class="name"><span class="type">Forecast</span> nextForecast</header>
+					
+					<p class="description">The next Forecast, which will be applied at the end of your opponent's turn. This is also the Forecast WeatherStations can control this turn.</p>
+				</li>
+				<li id="Game.players" class="attribute">
+					<header class="name"><span class="type">table&lt;Player&gt;</span> players</header>
+					
+					<p class="description">List of all the players in the game.</p>
+				</li>
+				<li id="Game.session" class="attribute">
+					<header class="name"><span class="type">string</span> session</header>
+					
+					<p class="description">A unique identifier for the game instance that is being played.</p>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="AI" class="game-class">
+		<header>AI</header>
+		<p class="description">The AI competitors will add logic to this AI so its functions return valid and smart values.</p>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="AI.runTurn" class="function">
+					<header class="name"><span class="type">boolean</span> runTurn(<ul class="inline-arguments"></ul>)
+					</header>
+					
+					<p class="description">This is called every time the AI is asked to respond with a command during their turn</p>
+					<section class="returns">
+						<header>Returns <span class="type">boolean</span></header>
+						<p>represents if you want to end your turn. true means end the turn, false means to keep your turn going and re-call runTurn()</p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="Building" class="game-class">
+		<header>Building</header>
+		<div class="parentClasses">
+			Parent Classes: <ul><li><a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject">GameObject</a></li></ul>
+		</div>
+		<p class="description">A basic building. It does nothing besides burn down. Other Buildings inherit from this class.</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="Building.isHeadquarters" class="attribute">
+					<header class="name"><span class="type">boolean</span> isHeadquarters</header>
+					
+					<p class="description">true if this is the Headquarters of the owning player, false otherwise. Burning this down wins the game for the other Player.</p>
+				</li>
+				<li id="Building.bribed" class="attribute">
+					<header class="name"><span class="type">boolean</span> bribed</header>
+					
+					<p class="description">when true this building has already been bribed this turn and cannot be bribed again this turn.</p>
+				</li>
+				<li id="Building.owner" class="attribute">
+					<header class="name"><span class="type">Player</span> owner</header>
+					
+					<p class="description">The player that owns this building. If it burns down (health reaches 0) that player gets an additional bribe(s).</p>
+				</li>
+				<li id="Building.buildingNorth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingNorth</header>
+					
+					<p class="description">The Building directly to the north of this building, or null if not present.</p>
+				</li>
+				<li id="Building.buildingEast" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingEast</header>
+					
+					<p class="description">The Building directly to the east of this building, or null if not present.</p>
+				</li>
+				<li id="Building.buildingSouth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingSouth</header>
+					
+					<p class="description">The Building directly to the south of this building, or null if not present.</p>
+				</li>
+				<li id="Building.buildingWest" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingWest</header>
+					
+					<p class="description">The Building directly to the west of this building, or null if not present.</p>
+				</li>
+				<li id="Building.fire" class="attribute">
+					<header class="name"><span class="type">number</span> fire</header>
+					
+					<p class="description">How much fire is currently burning the building, and thus how much damage it will take at the end of its owner's turn. 0 means no fire.</p>
+				</li>
+				<li id="Building.gameObjectName" class="attribute">
+					<header class="name"><span class="type">string</span> gameObjectName</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.gameObjectName">GameObject.gameObjectName</a></p>
+					<p class="description">String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+				</li>
+				<li id="Building.health" class="attribute">
+					<header class="name"><span class="type">number</span> health</header>
+					
+					<p class="description">How much health this building currently has. When this reaches 0 the Building has been burned down</p>
+				</li>
+				<li id="Building.id" class="attribute">
+					<header class="name"><span class="type">string</span> id</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.id">GameObject.id</a></p>
+					<p class="description">A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+				</li>
+				<li id="Building.logs" class="attribute">
+					<header class="name"><span class="type">table&lt;string&gt;</span> logs</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.logs">GameObject.logs</a></p>
+					<p class="description">Any strings logged will be stored here when this game object logs the strings. numberended for debugging.</p>
+				</li>
+				<li id="Building.x" class="attribute">
+					<header class="name"><span class="type">number</span> x</header>
+					
+					<p class="description">The location of the Building along the x-axis</p>
+				</li>
+				<li id="Building.y" class="attribute">
+					<header class="name"><span class="type">number</span> y</header>
+					
+					<p class="description">The location of the Building along the y-axis</p>
+				</li>
+			</ul>
+		</section>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="Building.log" class="function">
+					<header class="name"><span class="type">void</span> log(<ul class="inline-arguments"><li><span class="type">string</span> message</li></ul>)
+					</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.log">GameObject.log</a></p>
+					<p class="description">adds a message to this game object's log. numberended for debugging purposes.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">string</span> message</header>
+								
+								<p class="description">A string to add to this GameObject's log. numberended for debugging.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">void</span></header>
+						<p></p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="FireDepartment" class="game-class">
+		<header>FireDepartment</header>
+		<div class="parentClasses">
+			Parent Classes: <ul><li><a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building">Building</a></li></ul>
+		</div>
+		<p class="description">Can put out fires completely.</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="FireDepartment.gameObjectName" class="attribute">
+					<header class="name"><span class="type">string</span> gameObjectName</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.gameObjectName">GameObject.gameObjectName</a></p>
+					<p class="description">String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+				</li>
+				<li id="FireDepartment.fireExtinguished" class="attribute">
+					<header class="name"><span class="type">number</span> fireExtinguished</header>
+					
+					<p class="description">The amount of fire removed from a building when bribed to extinguish a building.</p>
+				</li>
+				<li id="FireDepartment.buildingEast" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingEast</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingEast">Building.buildingEast</a></p>
+					<p class="description">The Building directly to the east of this building, or null if not present.</p>
+				</li>
+				<li id="FireDepartment.buildingNorth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingNorth</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingNorth">Building.buildingNorth</a></p>
+					<p class="description">The Building directly to the north of this building, or null if not present.</p>
+				</li>
+				<li id="FireDepartment.buildingSouth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingSouth</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingSouth">Building.buildingSouth</a></p>
+					<p class="description">The Building directly to the south of this building, or null if not present.</p>
+				</li>
+				<li id="FireDepartment.buildingWest" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingWest</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingWest">Building.buildingWest</a></p>
+					<p class="description">The Building directly to the west of this building, or null if not present.</p>
+				</li>
+				<li id="FireDepartment.fire" class="attribute">
+					<header class="name"><span class="type">number</span> fire</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.fire">Building.fire</a></p>
+					<p class="description">How much fire is currently burning the building, and thus how much damage it will take at the end of its owner's turn. 0 means no fire.</p>
+				</li>
+				<li id="FireDepartment.bribed" class="attribute">
+					<header class="name"><span class="type">boolean</span> bribed</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.bribed">Building.bribed</a></p>
+					<p class="description">when true this building has already been bribed this turn and cannot be bribed again this turn.</p>
+				</li>
+				<li id="FireDepartment.health" class="attribute">
+					<header class="name"><span class="type">number</span> health</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.health">Building.health</a></p>
+					<p class="description">How much health this building currently has. When this reaches 0 the Building has been burned down</p>
+				</li>
+				<li id="FireDepartment.id" class="attribute">
+					<header class="name"><span class="type">string</span> id</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.id">GameObject.id</a></p>
+					<p class="description">A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+				</li>
+				<li id="FireDepartment.isHeadquarters" class="attribute">
+					<header class="name"><span class="type">boolean</span> isHeadquarters</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.isHeadquarters">Building.isHeadquarters</a></p>
+					<p class="description">true if this is the Headquarters of the owning player, false otherwise. Burning this down wins the game for the other Player.</p>
+				</li>
+				<li id="FireDepartment.logs" class="attribute">
+					<header class="name"><span class="type">table&lt;string&gt;</span> logs</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.logs">GameObject.logs</a></p>
+					<p class="description">Any strings logged will be stored here when this game object logs the strings. numberended for debugging.</p>
+				</li>
+				<li id="FireDepartment.owner" class="attribute">
+					<header class="name"><span class="type">Player</span> owner</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.owner">Building.owner</a></p>
+					<p class="description">The player that owns this building. If it burns down (health reaches 0) that player gets an additional bribe(s).</p>
+				</li>
+				<li id="FireDepartment.x" class="attribute">
+					<header class="name"><span class="type">number</span> x</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.x">Building.x</a></p>
+					<p class="description">The location of the Building along the x-axis</p>
+				</li>
+				<li id="FireDepartment.y" class="attribute">
+					<header class="name"><span class="type">number</span> y</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.y">Building.y</a></p>
+					<p class="description">The location of the Building along the y-axis</p>
+				</li>
+			</ul>
+		</section>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="FireDepartment.extinguish" class="function">
+					<header class="name"><span class="type">boolean</span> extinguish(<ul class="inline-arguments"><li><span class="type">Building</span> building</li></ul>)
+					</header>
+					
+					<p class="description">Bribes this FireDepartment to extinguish the some of the fire in a building.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">Building</span> building</header>
+								
+								<p class="description">The Building you want to extinguish.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">boolean</span></header>
+						<p>true if the bribe worked, false otherwise</p>
+					</section>
+				</li>
+				<li id="FireDepartment.log" class="function">
+					<header class="name"><span class="type">void</span> log(<ul class="inline-arguments"><li><span class="type">string</span> message</li></ul>)
+					</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.log">GameObject.log</a></p>
+					<p class="description">adds a message to this game object's log. numberended for debugging purposes.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">string</span> message</header>
+								
+								<p class="description">A string to add to this GameObject's log. numberended for debugging.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">void</span></header>
+						<p></p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="Forecast" class="game-class">
+		<header>Forecast</header>
+		<div class="parentClasses">
+			Parent Classes: <ul><li><a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject">GameObject</a></li></ul>
+		</div>
+		<p class="description">The weather effect that will be applied at the end of a turn, which causes fires to spread.</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="Forecast.controllingPlayer" class="attribute">
+					<header class="name"><span class="type">Player</span> controllingPlayer</header>
+					
+					<p class="description">The Player that can use WeatherStations to control this Forecast when its the nextForecast.</p>
+				</li>
+				<li id="Forecast.direction" class="attribute">
+					<header class="name"><span class="type">string</span> direction</header>
+					
+					<p class="description">The direction the wind will blow fires in. Can be 'north', 'east', 'south', or 'west'</p>
+				</li>
+				<li id="Forecast.gameObjectName" class="attribute">
+					<header class="name"><span class="type">string</span> gameObjectName</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.gameObjectName">GameObject.gameObjectName</a></p>
+					<p class="description">String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+				</li>
+				<li id="Forecast.id" class="attribute">
+					<header class="name"><span class="type">string</span> id</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.id">GameObject.id</a></p>
+					<p class="description">A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+				</li>
+				<li id="Forecast.numberensity" class="attribute">
+					<header class="name"><span class="type">number</span> numberensity</header>
+					
+					<p class="description">How much of a Building's fire that can be blown in the direction of this Forecast. Fire is duplicated (copied), not moved (transfered).</p>
+				</li>
+				<li id="Forecast.logs" class="attribute">
+					<header class="name"><span class="type">table&lt;string&gt;</span> logs</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.logs">GameObject.logs</a></p>
+					<p class="description">Any strings logged will be stored here when this game object logs the strings. numberended for debugging.</p>
+				</li>
+			</ul>
+		</section>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="Forecast.log" class="function">
+					<header class="name"><span class="type">void</span> log(<ul class="inline-arguments"><li><span class="type">string</span> message</li></ul>)
+					</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.log">GameObject.log</a></p>
+					<p class="description">adds a message to this game object's log. numberended for debugging purposes.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">string</span> message</header>
+								
+								<p class="description">A string to add to this GameObject's log. numberended for debugging.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">void</span></header>
+						<p></p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="GameObject" class="game-class">
+		<header>GameObject</header>
+		<p class="description">An object in the game. The most basic class that all game classes should inherit from automatically.</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="GameObject.gameObjectName" class="attribute">
+					<header class="name"><span class="type">string</span> gameObjectName</header>
+					
+					<p class="description">String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+				</li>
+				<li id="GameObject.id" class="attribute">
+					<header class="name"><span class="type">string</span> id</header>
+					
+					<p class="description">A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+				</li>
+				<li id="GameObject.logs" class="attribute">
+					<header class="name"><span class="type">table&lt;string&gt;</span> logs</header>
+					
+					<p class="description">Any strings logged will be stored here when this game object logs the strings. numberended for debugging.</p>
+				</li>
+			</ul>
+		</section>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="GameObject.log" class="function">
+					<header class="name"><span class="type">void</span> log(<ul class="inline-arguments"><li><span class="type">string</span> message</li></ul>)
+					</header>
+					
+					<p class="description">adds a message to this game object's log. numberended for debugging purposes.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">string</span> message</header>
+								
+								<p class="description">A string to add to this GameObject's log. numberended for debugging.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">void</span></header>
+						<p></p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="Player" class="game-class">
+		<header>Player</header>
+		<div class="parentClasses">
+			Parent Classes: <ul><li><a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject">GameObject</a></li></ul>
+		</div>
+		<p class="description">A player in this game. Every AI controls one player.</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="Player.reasonLost" class="attribute">
+					<header class="name"><span class="type">string</span> reasonLost</header>
+					
+					<p class="description">the reason why the player lost the game</p>
+				</li>
+				<li id="Player.bribesRemaining" class="attribute">
+					<header class="name"><span class="type">number</span> bribesRemaining</header>
+					
+					<p class="description">How many bribes this player has remaining to use during their turn. Each action a Building does costs 1 bribe. Any unused bribes are lost at the end of the player's turn.</p>
+				</li>
+				<li id="Player.reasonWon" class="attribute">
+					<header class="name"><span class="type">string</span> reasonWon</header>
+					
+					<p class="description">the reason why the player won the game</p>
+				</li>
+				<li id="Player.clientType" class="attribute">
+					<header class="name"><span class="type">string</span> clientType</header>
+					
+					<p class="description">What type of client this is, e.g. 'Python', 'JavaScript', or some other language. For potential data mining purposes.</p>
+				</li>
+				<li id="Player.buildings" class="attribute">
+					<header class="name"><span class="type">table&lt;Building&gt;</span> buildings</header>
+					
+					<p class="description">All the buildings owned by this player.</p>
+				</li>
+				<li id="Player.timeRemaining" class="attribute">
+					<header class="name"><span class="type">float</span> timeRemaining</header>
+					
+					<p class="description">The amount of time (in ns) remaining for this AI to send commands.</p>
+				</li>
+				<li id="Player.logs" class="attribute">
+					<header class="name"><span class="type">table&lt;string&gt;</span> logs</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.logs">GameObject.logs</a></p>
+					<p class="description">Any strings logged will be stored here when this game object logs the strings. numberended for debugging.</p>
+				</li>
+				<li id="Player.id" class="attribute">
+					<header class="name"><span class="type">string</span> id</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.id">GameObject.id</a></p>
+					<p class="description">A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+				</li>
+				<li id="Player.gameObjectName" class="attribute">
+					<header class="name"><span class="type">string</span> gameObjectName</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.gameObjectName">GameObject.gameObjectName</a></p>
+					<p class="description">String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+				</li>
+				<li id="Player.headquarters" class="attribute">
+					<header class="name"><span class="type">Warehouse</span> headquarters</header>
+					
+					<p class="description">The Warehouse that serves as this player's headquarters and has extra health. If this gets destroyed they lose.</p>
+				</li>
+				<li id="Player.fireDepartments" class="attribute">
+					<header class="name"><span class="type">table&lt;FireDepartment&gt;</span> fireDepartments</header>
+					
+					<p class="description">All the FireDepartments owned by this player.</p>
+				</li>
+				<li id="Player.lost" class="attribute">
+					<header class="name"><span class="type">boolean</span> lost</header>
+					
+					<p class="description">if the player lost the game or not</p>
+					<p class="default">Defaults to: false</p>				</li>
+				<li id="Player.name" class="attribute">
+					<header class="name"><span class="type">string</span> name</header>
+					
+					<p class="description">The name of the player</p>
+					<p class="default">Defaults to: "Anonymous"</p>				</li>
+				<li id="Player.otherPlayer" class="attribute">
+					<header class="name"><span class="type">Player</span> otherPlayer</header>
+					
+					<p class="description">this player's opponent in the game.</p>
+				</li>
+				<li id="Player.policeDepartments" class="attribute">
+					<header class="name"><span class="type">table&lt;PoliceDepartment&gt;</span> policeDepartments</header>
+					
+					<p class="description">All the PoliceDepartments owned by this player.</p>
+				</li>
+				<li id="Player.warehouses" class="attribute">
+					<header class="name"><span class="type">table&lt;Warehouse&gt;</span> warehouses</header>
+					
+					<p class="description">All the warehouses owned by this player. Includes the Headquarters.</p>
+				</li>
+				<li id="Player.weatherStations" class="attribute">
+					<header class="name"><span class="type">table&lt;WeatherStation&gt;</span> weatherStations</header>
+					
+					<p class="description">All the WeatherStations owned by this player.</p>
+				</li>
+				<li id="Player.won" class="attribute">
+					<header class="name"><span class="type">boolean</span> won</header>
+					
+					<p class="description">if the player won the game or not</p>
+					<p class="default">Defaults to: false</p>				</li>
+			</ul>
+		</section>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="Player.log" class="function">
+					<header class="name"><span class="type">void</span> log(<ul class="inline-arguments"><li><span class="type">string</span> message</li></ul>)
+					</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.log">GameObject.log</a></p>
+					<p class="description">adds a message to this game object's log. numberended for debugging purposes.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">string</span> message</header>
+								
+								<p class="description">A string to add to this GameObject's log. numberended for debugging.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">void</span></header>
+						<p></p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="PoliceDepartment" class="game-class">
+		<header>PoliceDepartment</header>
+		<div class="parentClasses">
+			Parent Classes: <ul><li><a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building">Building</a></li></ul>
+		</div>
+		<p class="description">Used to keep cities under control and raid Warehouses.</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="PoliceDepartment.health" class="attribute">
+					<header class="name"><span class="type">number</span> health</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.health">Building.health</a></p>
+					<p class="description">How much health this building currently has. When this reaches 0 the Building has been burned down</p>
+				</li>
+				<li id="PoliceDepartment.bribed" class="attribute">
+					<header class="name"><span class="type">boolean</span> bribed</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.bribed">Building.bribed</a></p>
+					<p class="description">when true this building has already been bribed this turn and cannot be bribed again this turn.</p>
+				</li>
+				<li id="PoliceDepartment.id" class="attribute">
+					<header class="name"><span class="type">string</span> id</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.id">GameObject.id</a></p>
+					<p class="description">A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+				</li>
+				<li id="PoliceDepartment.buildingNorth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingNorth</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingNorth">Building.buildingNorth</a></p>
+					<p class="description">The Building directly to the north of this building, or null if not present.</p>
+				</li>
+				<li id="PoliceDepartment.buildingEast" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingEast</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingEast">Building.buildingEast</a></p>
+					<p class="description">The Building directly to the east of this building, or null if not present.</p>
+				</li>
+				<li id="PoliceDepartment.buildingSouth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingSouth</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingSouth">Building.buildingSouth</a></p>
+					<p class="description">The Building directly to the south of this building, or null if not present.</p>
+				</li>
+				<li id="PoliceDepartment.buildingWest" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingWest</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingWest">Building.buildingWest</a></p>
+					<p class="description">The Building directly to the west of this building, or null if not present.</p>
+				</li>
+				<li id="PoliceDepartment.fire" class="attribute">
+					<header class="name"><span class="type">number</span> fire</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.fire">Building.fire</a></p>
+					<p class="description">How much fire is currently burning the building, and thus how much damage it will take at the end of its owner's turn. 0 means no fire.</p>
+				</li>
+				<li id="PoliceDepartment.gameObjectName" class="attribute">
+					<header class="name"><span class="type">string</span> gameObjectName</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.gameObjectName">GameObject.gameObjectName</a></p>
+					<p class="description">String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+				</li>
+				<li id="PoliceDepartment.isHeadquarters" class="attribute">
+					<header class="name"><span class="type">boolean</span> isHeadquarters</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.isHeadquarters">Building.isHeadquarters</a></p>
+					<p class="description">true if this is the Headquarters of the owning player, false otherwise. Burning this down wins the game for the other Player.</p>
+				</li>
+				<li id="PoliceDepartment.logs" class="attribute">
+					<header class="name"><span class="type">table&lt;string&gt;</span> logs</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.logs">GameObject.logs</a></p>
+					<p class="description">Any strings logged will be stored here when this game object logs the strings. numberended for debugging.</p>
+				</li>
+				<li id="PoliceDepartment.owner" class="attribute">
+					<header class="name"><span class="type">Player</span> owner</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.owner">Building.owner</a></p>
+					<p class="description">The player that owns this building. If it burns down (health reaches 0) that player gets an additional bribe(s).</p>
+				</li>
+				<li id="PoliceDepartment.x" class="attribute">
+					<header class="name"><span class="type">number</span> x</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.x">Building.x</a></p>
+					<p class="description">The location of the Building along the x-axis</p>
+				</li>
+				<li id="PoliceDepartment.y" class="attribute">
+					<header class="name"><span class="type">number</span> y</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.y">Building.y</a></p>
+					<p class="description">The location of the Building along the y-axis</p>
+				</li>
+			</ul>
+		</section>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="PoliceDepartment.log" class="function">
+					<header class="name"><span class="type">void</span> log(<ul class="inline-arguments"><li><span class="type">string</span> message</li></ul>)
+					</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.log">GameObject.log</a></p>
+					<p class="description">adds a message to this game object's log. numberended for debugging purposes.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">string</span> message</header>
+								
+								<p class="description">A string to add to this GameObject's log. numberended for debugging.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">void</span></header>
+						<p></p>
+					</section>
+				</li>
+				<li id="PoliceDepartment.raid" class="function">
+					<header class="name"><span class="type">number</span> raid(<ul class="inline-arguments"><li><span class="type">Warehouse</span> warehouse</li></ul>)
+					</header>
+					
+					<p class="description">Bribe the police to raid a Warehouse, dealing damage equal based on the Warehouse's current exposure, and then resetting it to 0.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">Warehouse</span> warehouse</header>
+								
+								<p class="description">The warehouse you want to raid.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">number</span></header>
+						<p>The amount of damage dealt to the warehouse, or -1 if there was an error.</p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="Warehouse" class="game-class">
+		<header>Warehouse</header>
+		<div class="parentClasses">
+			Parent Classes: <ul><li><a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building">Building</a></li></ul>
+		</div>
+		<p class="description">A typical abandoned warehouse... that anarchists hang out in and can be bribed to burn down Buildings.</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="Warehouse.gameObjectName" class="attribute">
+					<header class="name"><span class="type">string</span> gameObjectName</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.gameObjectName">GameObject.gameObjectName</a></p>
+					<p class="description">String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+				</li>
+				<li id="Warehouse.exposure" class="attribute">
+					<header class="name"><span class="type">number</span> exposure</header>
+					
+					<p class="description">How exposed the anarchists in this warehouse are to PoliceDepartments. Raises when bribed to ignite buildings, and drops each turn if not bribed.</p>
+				</li>
+				<li id="Warehouse.bribed" class="attribute">
+					<header class="name"><span class="type">boolean</span> bribed</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.bribed">Building.bribed</a></p>
+					<p class="description">when true this building has already been bribed this turn and cannot be bribed again this turn.</p>
+				</li>
+				<li id="Warehouse.buildingEast" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingEast</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingEast">Building.buildingEast</a></p>
+					<p class="description">The Building directly to the east of this building, or null if not present.</p>
+				</li>
+				<li id="Warehouse.buildingNorth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingNorth</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingNorth">Building.buildingNorth</a></p>
+					<p class="description">The Building directly to the north of this building, or null if not present.</p>
+				</li>
+				<li id="Warehouse.buildingSouth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingSouth</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingSouth">Building.buildingSouth</a></p>
+					<p class="description">The Building directly to the south of this building, or null if not present.</p>
+				</li>
+				<li id="Warehouse.buildingWest" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingWest</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingWest">Building.buildingWest</a></p>
+					<p class="description">The Building directly to the west of this building, or null if not present.</p>
+				</li>
+				<li id="Warehouse.fire" class="attribute">
+					<header class="name"><span class="type">number</span> fire</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.fire">Building.fire</a></p>
+					<p class="description">How much fire is currently burning the building, and thus how much damage it will take at the end of its owner's turn. 0 means no fire.</p>
+				</li>
+				<li id="Warehouse.fireAdded" class="attribute">
+					<header class="name"><span class="type">number</span> fireAdded</header>
+					
+					<p class="description">The amount of fire added to buildings when bribed to ignite a building. Headquarters add more fire than normal Warehouses.</p>
+				</li>
+				<li id="Warehouse.health" class="attribute">
+					<header class="name"><span class="type">number</span> health</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.health">Building.health</a></p>
+					<p class="description">How much health this building currently has. When this reaches 0 the Building has been burned down</p>
+				</li>
+				<li id="Warehouse.id" class="attribute">
+					<header class="name"><span class="type">string</span> id</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.id">GameObject.id</a></p>
+					<p class="description">A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+				</li>
+				<li id="Warehouse.isHeadquarters" class="attribute">
+					<header class="name"><span class="type">boolean</span> isHeadquarters</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.isHeadquarters">Building.isHeadquarters</a></p>
+					<p class="description">true if this is the Headquarters of the owning player, false otherwise. Burning this down wins the game for the other Player.</p>
+				</li>
+				<li id="Warehouse.logs" class="attribute">
+					<header class="name"><span class="type">table&lt;string&gt;</span> logs</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.logs">GameObject.logs</a></p>
+					<p class="description">Any strings logged will be stored here when this game object logs the strings. numberended for debugging.</p>
+				</li>
+				<li id="Warehouse.owner" class="attribute">
+					<header class="name"><span class="type">Player</span> owner</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.owner">Building.owner</a></p>
+					<p class="description">The player that owns this building. If it burns down (health reaches 0) that player gets an additional bribe(s).</p>
+				</li>
+				<li id="Warehouse.x" class="attribute">
+					<header class="name"><span class="type">number</span> x</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.x">Building.x</a></p>
+					<p class="description">The location of the Building along the x-axis</p>
+				</li>
+				<li id="Warehouse.y" class="attribute">
+					<header class="name"><span class="type">number</span> y</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.y">Building.y</a></p>
+					<p class="description">The location of the Building along the y-axis</p>
+				</li>
+			</ul>
+		</section>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="Warehouse.ignite" class="function">
+					<header class="name"><span class="type">number</span> ignite(<ul class="inline-arguments"><li><span class="type">Building</span> building</li></ul>)
+					</header>
+					
+					<p class="description">Bribes the Warehouse to light a Building on fire. This adds this building's fireAdded to their fire, and then this building's exposure is increased based on the Manhatten distance between the two buildings.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">Building</span> building</header>
+								
+								<p class="description">The Building you want to light on fire.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">number</span></header>
+						<p>The exposure added to this Building's exposure. -1 is returned if there was an error.</p>
+					</section>
+				</li>
+				<li id="Warehouse.log" class="function">
+					<header class="name"><span class="type">void</span> log(<ul class="inline-arguments"><li><span class="type">string</span> message</li></ul>)
+					</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.log">GameObject.log</a></p>
+					<p class="description">adds a message to this game object's log. numberended for debugging purposes.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">string</span> message</header>
+								
+								<p class="description">A string to add to this GameObject's log. numberended for debugging.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">void</span></header>
+						<p></p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+	<section id="WeatherStation" class="game-class">
+		<header>WeatherStation</header>
+		<div class="parentClasses">
+			Parent Classes: <ul><li><a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building">Building</a></li></ul>
+		</div>
+		<p class="description">Can be bribed to change the next Forecast in some way.</p>
+		<section class="attributes">
+			<header>Attributes</header>
+			<ul>
+				<li id="WeatherStation.health" class="attribute">
+					<header class="name"><span class="type">number</span> health</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.health">Building.health</a></p>
+					<p class="description">How much health this building currently has. When this reaches 0 the Building has been burned down</p>
+				</li>
+				<li id="WeatherStation.bribed" class="attribute">
+					<header class="name"><span class="type">boolean</span> bribed</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.bribed">Building.bribed</a></p>
+					<p class="description">when true this building has already been bribed this turn and cannot be bribed again this turn.</p>
+				</li>
+				<li id="WeatherStation.id" class="attribute">
+					<header class="name"><span class="type">string</span> id</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.id">GameObject.id</a></p>
+					<p class="description">A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+				</li>
+				<li id="WeatherStation.buildingNorth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingNorth</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingNorth">Building.buildingNorth</a></p>
+					<p class="description">The Building directly to the north of this building, or null if not present.</p>
+				</li>
+				<li id="WeatherStation.buildingEast" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingEast</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingEast">Building.buildingEast</a></p>
+					<p class="description">The Building directly to the east of this building, or null if not present.</p>
+				</li>
+				<li id="WeatherStation.buildingSouth" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingSouth</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingSouth">Building.buildingSouth</a></p>
+					<p class="description">The Building directly to the south of this building, or null if not present.</p>
+				</li>
+				<li id="WeatherStation.buildingWest" class="attribute">
+					<header class="name"><span class="type">Building</span> buildingWest</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.buildingWest">Building.buildingWest</a></p>
+					<p class="description">The Building directly to the west of this building, or null if not present.</p>
+				</li>
+				<li id="WeatherStation.fire" class="attribute">
+					<header class="name"><span class="type">number</span> fire</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.fire">Building.fire</a></p>
+					<p class="description">How much fire is currently burning the building, and thus how much damage it will take at the end of its owner's turn. 0 means no fire.</p>
+				</li>
+				<li id="WeatherStation.gameObjectName" class="attribute">
+					<header class="name"><span class="type">string</span> gameObjectName</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.gameObjectName">GameObject.gameObjectName</a></p>
+					<p class="description">String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+				</li>
+				<li id="WeatherStation.isHeadquarters" class="attribute">
+					<header class="name"><span class="type">boolean</span> isHeadquarters</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.isHeadquarters">Building.isHeadquarters</a></p>
+					<p class="description">true if this is the Headquarters of the owning player, false otherwise. Burning this down wins the game for the other Player.</p>
+				</li>
+				<li id="WeatherStation.logs" class="attribute">
+					<header class="name"><span class="type">table&lt;string&gt;</span> logs</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.logs">GameObject.logs</a></p>
+					<p class="description">Any strings logged will be stored here when this game object logs the strings. numberended for debugging.</p>
+				</li>
+				<li id="WeatherStation.owner" class="attribute">
+					<header class="name"><span class="type">Player</span> owner</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.owner">Building.owner</a></p>
+					<p class="description">The player that owns this building. If it burns down (health reaches 0) that player gets an additional bribe(s).</p>
+				</li>
+				<li id="WeatherStation.x" class="attribute">
+					<header class="name"><span class="type">number</span> x</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.x">Building.x</a></p>
+					<p class="description">The location of the Building along the x-axis</p>
+				</li>
+				<li id="WeatherStation.y" class="attribute">
+					<header class="name"><span class="type">number</span> y</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#Building.y">Building.y</a></p>
+					<p class="description">The location of the Building along the y-axis</p>
+				</li>
+			</ul>
+		</section>
+		<section class="functions">
+			<header>Functions</header>
+			<ul>
+				<li id="WeatherStation.numberensify" class="function">
+					<header class="name"><span class="type">boolean</span> numberensify(<ul class="inline-arguments"><li><span class="type">boolean</span> negative</li></ul>)
+					</header>
+					
+					<p class="description">Bribe the weathermen to numberensity the next Forecast by 1 or -1</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">boolean</span> negative</header>
+								
+								<p class="description">By default the numberensity will be increased by 1, setting this to true decreases the numberensity by 1.</p>
+								<p class="default">Defaults to: false</p>							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">boolean</span></header>
+						<p>true if the numberensity was changed, false otherwise</p>
+					</section>
+				</li>
+				<li id="WeatherStation.log" class="function">
+					<header class="name"><span class="type">void</span> log(<ul class="inline-arguments"><li><span class="type">string</span> message</li></ul>)
+					</header>
+					<p class="inherited">Inherited from <a href="http://r99acm.device.mst.edu:3080/documentation/anarchy#GameObject.log">GameObject.log</a></p>
+					<p class="description">adds a message to this game object's log. numberended for debugging purposes.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">string</span> message</header>
+								
+								<p class="description">A string to add to this GameObject's log. numberended for debugging.</p>
+							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">void</span></header>
+						<p></p>
+					</section>
+				</li>
+				<li id="WeatherStation.rotate" class="function">
+					<header class="name"><span class="type">boolean</span> rotate(<ul class="inline-arguments"><li><span class="type">boolean</span> counterclockwise</li></ul>)
+					</header>
+					
+					<p class="description">Bribe the weathermen to change the direction of the next Forecast by rotating it clockwise or counterclockwise.</p>
+					<section class="arguments">
+						<header>Arguments</header>
+						<ul>
+							<li>
+								<header class="name"><span class="type">boolean</span> counterclockwise</header>
+								
+								<p class="description">By default the direction will be rotated clockwise. If you set this to true we will rotate the forecast counterclockwise instead.</p>
+								<p class="default">Defaults to: false</p>							</li>
+						</ul>
+					</section>
+					<section class="returns">
+						<header>Returns <span class="type">boolean</span></header>
+						<p>true if the rotation worked, false otherwise.</p>
+					</section>
+				</li>
+			</ul>
+		</section>
+	</section>
+</section>
+
+<script type="text/javascript">
+	var highlighted = undefined;
+	function removeHighlight() {
+		if(highlighted) {
+			highlighted.removeClass("anchor-highlight");
+			highlighted = undefined;
+			if(history.pushState) {
+				history.pushState("", document.title, window.location.pathname + window.location.search);
+			}
+		}
+	};
+
+	function scrollAnchor(clicked, target, hash) {
+		var msTime = 500;
+		var originalHash = hash;
+
+		if (clicked && location.pathname.replace(/^\//,'') == clicked.pathname.replace(/^\//,'') && location.hostname == clicked.hostname) {
+			hash = clicked.hash.replace('.', '\\.');
+			originalHash = clicked.hash;
+
+			target = $(hash);
+			target = target.length ? target : $('[name=' + hash.slice(1) +']');
+		}
+
+		if (target.length) {
+			var targetOffset = target.offset().top;
+			var targetHeight = target.height();
+			var windowHeight = $(window).height();
+			var offset = undefined;
+			if (targetHeight < windowHeight) {
+				offset = targetOffset - ((windowHeight / 2) - (targetHeight / 2));
+			}
+			else {
+				offset = targetOffset;
+			}
+
+			$('html,body').animate({scrollTop: offset}, msTime);
+
+			removeHighlight();
+			highlighted = target.addClass("anchor-highlight");
+
+			if(history.pushState) {
+				history.pushState(null, null, originalHash);
+			}
+			else {
+				setTimeout(function() {
+					location.hash = originalHash;
+				}, msTime);
+			}
+
+			return false;
+		}
+	};
+
+	$(document).ready(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			return scrollAnchor(this);
+		});
+
+		$(document).on('click', function (e) {
+			removeHighlight();
+		});
+
+		var hash = location.hash;
+		scrollAnchor(undefined, $(hash), hash.substr(1, hash.length-1));
+	});
+</script>
+
+		</div>
+	
+</body></html>

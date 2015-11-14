@@ -1,0 +1,69 @@
+\hypertarget{classAnarchy_1_1Forecast}{\section{Anarchy\-:\-:Forecast Class Reference}
+\label{classAnarchy_1_1Forecast}\index{Anarchy\-::\-Forecast@{Anarchy\-::\-Forecast}}
+}
+
+
+The weather effect that will be applied at the end of a turn, which causes fires to spread.  
+
+
+
+
+{\ttfamily \#include $<$forecast.\-h$>$}
+
+Inheritance diagram for Anarchy\-:\-:Forecast\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classAnarchy_1_1Forecast}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classAnarchy_1_1Player}{Anarchy\-::\-Player} $\ast$ \hyperlink{classAnarchy_1_1Forecast_a3e6c133fea0591d299943a5e3216211d}{controlling\-Player}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{classAnarchy_1_1Player}{Player} that can use Weather\-Stations to control this \hyperlink{classAnarchy_1_1Forecast}{Forecast} when its the next\-Forecast. \end{DoxyCompactList}\item 
+std\-::string \hyperlink{classAnarchy_1_1Forecast_ae1e9bbacab6d18bbec3cbb0e5a33756b}{direction}
+\begin{DoxyCompactList}\small\item\em The direction the wind will blow fires in. Can be 'north', 'east', 'south', or 'west' \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Forecast_a18d05c207ab1e31e06ecdc5781f50499}{intensity}
+\begin{DoxyCompactList}\small\item\em How much of a \hyperlink{classAnarchy_1_1Building}{Building}'s fire that can be blown in the direction of this \hyperlink{classAnarchy_1_1Forecast}{Forecast}. Fire is duplicated (copied), not moved (transfered). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classAnarchy_1_1Forecast_a231e15518a6467e6237a6eb55ca50c8a}{virtual void {\bfseries delta\-Update\-Field} (const std\-::string \&field\-Name, boost\-::property\-\_\-tree\-::ptree \&delta)}\label{classAnarchy_1_1Forecast_a231e15518a6467e6237a6eb55ca50c8a}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The weather effect that will be applied at the end of a turn, which causes fires to spread. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classAnarchy_1_1Forecast_a3e6c133fea0591d299943a5e3216211d}{\index{Anarchy\-::\-Forecast@{Anarchy\-::\-Forecast}!controlling\-Player@{controlling\-Player}}
+\index{controlling\-Player@{controlling\-Player}!Anarchy::Forecast@{Anarchy\-::\-Forecast}}
+\subsubsection[{controlling\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Player}$\ast$ Anarchy\-::\-Forecast\-::controlling\-Player}}\label{classAnarchy_1_1Forecast_a3e6c133fea0591d299943a5e3216211d}
+
+
+The \hyperlink{classAnarchy_1_1Player}{Player} that can use Weather\-Stations to control this \hyperlink{classAnarchy_1_1Forecast}{Forecast} when its the next\-Forecast. 
+
+\hypertarget{classAnarchy_1_1Forecast_ae1e9bbacab6d18bbec3cbb0e5a33756b}{\index{Anarchy\-::\-Forecast@{Anarchy\-::\-Forecast}!direction@{direction}}
+\index{direction@{direction}!Anarchy::Forecast@{Anarchy\-::\-Forecast}}
+\subsubsection[{direction}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Anarchy\-::\-Forecast\-::direction}}\label{classAnarchy_1_1Forecast_ae1e9bbacab6d18bbec3cbb0e5a33756b}
+
+
+The direction the wind will blow fires in. Can be 'north', 'east', 'south', or 'west' 
+
+\hypertarget{classAnarchy_1_1Forecast_a18d05c207ab1e31e06ecdc5781f50499}{\index{Anarchy\-::\-Forecast@{Anarchy\-::\-Forecast}!intensity@{intensity}}
+\index{intensity@{intensity}!Anarchy::Forecast@{Anarchy\-::\-Forecast}}
+\subsubsection[{intensity}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Forecast\-::intensity}}\label{classAnarchy_1_1Forecast_a18d05c207ab1e31e06ecdc5781f50499}
+
+
+How much of a \hyperlink{classAnarchy_1_1Building}{Building}'s fire that can be blown in the direction of this \hyperlink{classAnarchy_1_1Forecast}{Forecast}. Fire is duplicated (copied), not moved (transfered). 
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+forecast.\-h\item 
+forecast.\-cpp\end{DoxyCompactItemize}

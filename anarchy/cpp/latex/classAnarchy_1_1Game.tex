@@ -1,0 +1,167 @@
+\hypertarget{classAnarchy_1_1Game}{\section{Anarchy\-:\-:Game Class Reference}
+\label{classAnarchy_1_1Game}\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}}
+}
+
+
+Two player grid based game where each player tries to burn down the other player's buildings. Let it burn!  
+
+
+
+
+{\ttfamily \#include $<$game.\-h$>$}
+
+Inheritance diagram for Anarchy\-:\-:Game\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classAnarchy_1_1Game}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classAnarchy_1_1Game_a32c7550663b124a3c3f9f854d0ed0a72}{base\-Bribes\-Per\-Turn}
+\begin{DoxyCompactList}\small\item\em How many bribes players get at the beginning of their turn, not counting their burned down Buildings. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{classAnarchy_1_1Building}{Anarchy\-::\-Building} $\ast$ $>$ \hyperlink{classAnarchy_1_1Game_afed9b69dccd790514505d662b84d5573}{buildings}
+\begin{DoxyCompactList}\small\item\em All the buildings in the game. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Forecast}{Anarchy\-::\-Forecast} $\ast$ \hyperlink{classAnarchy_1_1Game_a4429e9c4a6613416867b241c37616562}{current\-Forecast}
+\begin{DoxyCompactList}\small\item\em The current \hyperlink{classAnarchy_1_1Forecast}{Forecast}, which will be applied at the end of the turn. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Player}{Anarchy\-::\-Player} $\ast$ \hyperlink{classAnarchy_1_1Game_ab9c7ef6e3dc9841ebfd6e30423d31677}{current\-Player}
+\begin{DoxyCompactList}\small\item\em The player whose turn it is currently. That player can send commands. Other players cannot. \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Game_a5ce8941697b3ca1e33d4a98b33a9c797}{current\-Turn}
+\begin{DoxyCompactList}\small\item\em The current turn number, starting at 0 for the first player's turn \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{classAnarchy_1_1Forecast}{Anarchy\-::\-Forecast} $\ast$ $>$ \hyperlink{classAnarchy_1_1Game_a756081a4d3d50cc285d0fac27eea7c5d}{forecasts}
+\begin{DoxyCompactList}\small\item\em All the forecasts in the game, indexed by turn number. \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Game_aaa29aba3235be8bcd5103507ce42b423}{map\-Height}
+\begin{DoxyCompactList}\small\item\em The width of the entire map along the vertical (y) axis. \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Game_a7693a0b5c342b32fda1de11b1b03d541}{map\-Width}
+\begin{DoxyCompactList}\small\item\em The width of the entire map along the horizontal (x) axis. \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Game_a306fca75bb8c449f1e17a1ec38c2ab97}{max\-Fire}
+\begin{DoxyCompactList}\small\item\em The maximum amount of fire value for any \hyperlink{classAnarchy_1_1Building}{Building}. \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Game_a6565f400e8dcdeecb5466a76f3da9beb}{max\-Forecast\-Intensity}
+\begin{DoxyCompactList}\small\item\em The maximum amount of intensity value for any \hyperlink{classAnarchy_1_1Forecast}{Forecast}. \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Game_a47e287119862163ec1bd33f0f5be15c0}{max\-Turns}
+\begin{DoxyCompactList}\small\item\em The maximum number of turns before the game will automatically end. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Forecast}{Anarchy\-::\-Forecast} $\ast$ \hyperlink{classAnarchy_1_1Game_ab5709ad48347f087ca94fc6912be6da3}{next\-Forecast}
+\begin{DoxyCompactList}\small\item\em The next \hyperlink{classAnarchy_1_1Forecast}{Forecast}, which will be applied at the end of your opponent's turn. This is also the \hyperlink{classAnarchy_1_1Forecast}{Forecast} Weather\-Stations can control this turn. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{classAnarchy_1_1Player}{Anarchy\-::\-Player} $\ast$ $>$ \hyperlink{classAnarchy_1_1Game_a7320fea6bc1ac442a31ec2b96dd9eee8}{players}
+\begin{DoxyCompactList}\small\item\em List of all the players in the game. \end{DoxyCompactList}\item 
+std\-::string \hyperlink{classAnarchy_1_1Game_a575c3471b0f8813e00559d0f85d37cf1}{session}
+\begin{DoxyCompactList}\small\item\em A unique identifier for the game instance that is being played. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classAnarchy_1_1Game_a10996ad01e194463698355ec39a4328e}{virtual void {\bfseries delta\-Update\-Field} (const std\-::string \&field\-Name, boost\-::property\-\_\-tree\-::ptree \&delta)}\label{classAnarchy_1_1Game_a10996ad01e194463698355ec39a4328e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Two player grid based game where each player tries to burn down the other player's buildings. Let it burn! 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classAnarchy_1_1Game_a32c7550663b124a3c3f9f854d0ed0a72}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!base\-Bribes\-Per\-Turn@{base\-Bribes\-Per\-Turn}}
+\index{base\-Bribes\-Per\-Turn@{base\-Bribes\-Per\-Turn}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{base\-Bribes\-Per\-Turn}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Game\-::base\-Bribes\-Per\-Turn}}\label{classAnarchy_1_1Game_a32c7550663b124a3c3f9f854d0ed0a72}
+
+
+How many bribes players get at the beginning of their turn, not counting their burned down Buildings. 
+
+\hypertarget{classAnarchy_1_1Game_afed9b69dccd790514505d662b84d5573}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!buildings@{buildings}}
+\index{buildings@{buildings}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{buildings}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Anarchy\-::\-Building}$\ast$$>$ Anarchy\-::\-Game\-::buildings}}\label{classAnarchy_1_1Game_afed9b69dccd790514505d662b84d5573}
+
+
+All the buildings in the game. 
+
+\hypertarget{classAnarchy_1_1Game_a4429e9c4a6613416867b241c37616562}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!current\-Forecast@{current\-Forecast}}
+\index{current\-Forecast@{current\-Forecast}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{current\-Forecast}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Forecast}$\ast$ Anarchy\-::\-Game\-::current\-Forecast}}\label{classAnarchy_1_1Game_a4429e9c4a6613416867b241c37616562}
+
+
+The current \hyperlink{classAnarchy_1_1Forecast}{Forecast}, which will be applied at the end of the turn. 
+
+\hypertarget{classAnarchy_1_1Game_ab9c7ef6e3dc9841ebfd6e30423d31677}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!current\-Player@{current\-Player}}
+\index{current\-Player@{current\-Player}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{current\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Player}$\ast$ Anarchy\-::\-Game\-::current\-Player}}\label{classAnarchy_1_1Game_ab9c7ef6e3dc9841ebfd6e30423d31677}
+
+
+The player whose turn it is currently. That player can send commands. Other players cannot. 
+
+\hypertarget{classAnarchy_1_1Game_a5ce8941697b3ca1e33d4a98b33a9c797}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!current\-Turn@{current\-Turn}}
+\index{current\-Turn@{current\-Turn}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{current\-Turn}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Game\-::current\-Turn}}\label{classAnarchy_1_1Game_a5ce8941697b3ca1e33d4a98b33a9c797}
+
+
+The current turn number, starting at 0 for the first player's turn 
+
+\hypertarget{classAnarchy_1_1Game_a756081a4d3d50cc285d0fac27eea7c5d}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!forecasts@{forecasts}}
+\index{forecasts@{forecasts}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{forecasts}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Anarchy\-::\-Forecast}$\ast$$>$ Anarchy\-::\-Game\-::forecasts}}\label{classAnarchy_1_1Game_a756081a4d3d50cc285d0fac27eea7c5d}
+
+
+All the forecasts in the game, indexed by turn number. 
+
+\hypertarget{classAnarchy_1_1Game_aaa29aba3235be8bcd5103507ce42b423}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!map\-Height@{map\-Height}}
+\index{map\-Height@{map\-Height}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{map\-Height}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Game\-::map\-Height}}\label{classAnarchy_1_1Game_aaa29aba3235be8bcd5103507ce42b423}
+
+
+The width of the entire map along the vertical (y) axis. 
+
+\hypertarget{classAnarchy_1_1Game_a7693a0b5c342b32fda1de11b1b03d541}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!map\-Width@{map\-Width}}
+\index{map\-Width@{map\-Width}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{map\-Width}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Game\-::map\-Width}}\label{classAnarchy_1_1Game_a7693a0b5c342b32fda1de11b1b03d541}
+
+
+The width of the entire map along the horizontal (x) axis. 
+
+\hypertarget{classAnarchy_1_1Game_a306fca75bb8c449f1e17a1ec38c2ab97}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!max\-Fire@{max\-Fire}}
+\index{max\-Fire@{max\-Fire}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{max\-Fire}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Game\-::max\-Fire}}\label{classAnarchy_1_1Game_a306fca75bb8c449f1e17a1ec38c2ab97}
+
+
+The maximum amount of fire value for any \hyperlink{classAnarchy_1_1Building}{Building}. 
+
+\hypertarget{classAnarchy_1_1Game_a6565f400e8dcdeecb5466a76f3da9beb}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!max\-Forecast\-Intensity@{max\-Forecast\-Intensity}}
+\index{max\-Forecast\-Intensity@{max\-Forecast\-Intensity}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{max\-Forecast\-Intensity}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Game\-::max\-Forecast\-Intensity}}\label{classAnarchy_1_1Game_a6565f400e8dcdeecb5466a76f3da9beb}
+
+
+The maximum amount of intensity value for any \hyperlink{classAnarchy_1_1Forecast}{Forecast}. 
+
+\hypertarget{classAnarchy_1_1Game_a47e287119862163ec1bd33f0f5be15c0}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!max\-Turns@{max\-Turns}}
+\index{max\-Turns@{max\-Turns}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{max\-Turns}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Game\-::max\-Turns}}\label{classAnarchy_1_1Game_a47e287119862163ec1bd33f0f5be15c0}
+
+
+The maximum number of turns before the game will automatically end. 
+
+\hypertarget{classAnarchy_1_1Game_ab5709ad48347f087ca94fc6912be6da3}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!next\-Forecast@{next\-Forecast}}
+\index{next\-Forecast@{next\-Forecast}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{next\-Forecast}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Forecast}$\ast$ Anarchy\-::\-Game\-::next\-Forecast}}\label{classAnarchy_1_1Game_ab5709ad48347f087ca94fc6912be6da3}
+
+
+The next \hyperlink{classAnarchy_1_1Forecast}{Forecast}, which will be applied at the end of your opponent's turn. This is also the \hyperlink{classAnarchy_1_1Forecast}{Forecast} Weather\-Stations can control this turn. 
+
+\hypertarget{classAnarchy_1_1Game_a7320fea6bc1ac442a31ec2b96dd9eee8}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!players@{players}}
+\index{players@{players}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{players}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Anarchy\-::\-Player}$\ast$$>$ Anarchy\-::\-Game\-::players}}\label{classAnarchy_1_1Game_a7320fea6bc1ac442a31ec2b96dd9eee8}
+
+
+List of all the players in the game. 
+
+\hypertarget{classAnarchy_1_1Game_a575c3471b0f8813e00559d0f85d37cf1}{\index{Anarchy\-::\-Game@{Anarchy\-::\-Game}!session@{session}}
+\index{session@{session}!Anarchy::Game@{Anarchy\-::\-Game}}
+\subsubsection[{session}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Anarchy\-::\-Game\-::session}}\label{classAnarchy_1_1Game_a575c3471b0f8813e00559d0f85d37cf1}
+
+
+A unique identifier for the game instance that is being played. 
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+game.\-h\item 
+game.\-cpp\end{DoxyCompactItemize}

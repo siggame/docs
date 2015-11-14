@@ -1,0 +1,74 @@
+\hypertarget{classAnarchy_1_1GameObject}{\section{Anarchy\-:\-:Game\-Object Class Reference}
+\label{classAnarchy_1_1GameObject}\index{Anarchy\-::\-Game\-Object@{Anarchy\-::\-Game\-Object}}
+}
+
+
+An object in the game. The most basic class that all game classes should inherit from automatically.  
+
+
+
+
+{\ttfamily \#include $<$game\-Object.\-h$>$}
+
+Inheritance diagram for Anarchy\-:\-:Game\-Object\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.574713cm]{classAnarchy_1_1GameObject}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classAnarchy_1_1GameObject_a962246ccd2b9ecf15478a9b46e6340fb}{log} (std\-::string message)
+\begin{DoxyCompactList}\small\item\em adds a message to this game object's log. Intended for debugging purposes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ std\-::string $>$ \hyperlink{classAnarchy_1_1GameObject_ac1d185992a4219a51e1d1d5f71114567}{logs}
+\begin{DoxyCompactList}\small\item\em Any strings logged will be stored here when this game object logs the strings. Intended for debugging. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classAnarchy_1_1GameObject_a95283cfa759dbf3a88c6d87fc426bdce}{virtual void {\bfseries delta\-Update\-Field} (const std\-::string \&field\-Name, boost\-::property\-\_\-tree\-::ptree \&delta)}\label{classAnarchy_1_1GameObject_a95283cfa759dbf3a88c6d87fc426bdce}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An object in the game. The most basic class that all game classes should inherit from automatically. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classAnarchy_1_1GameObject_a962246ccd2b9ecf15478a9b46e6340fb}{\index{Anarchy\-::\-Game\-Object@{Anarchy\-::\-Game\-Object}!log@{log}}
+\index{log@{log}!Anarchy::GameObject@{Anarchy\-::\-Game\-Object}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}void Anarchy\-::\-Game\-Object\-::log (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{message}
+\end{DoxyParamCaption}
+)}}\label{classAnarchy_1_1GameObject_a962246ccd2b9ecf15478a9b46e6340fb}
+
+
+adds a message to this game object's log. Intended for debugging purposes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & A string to add to this \hyperlink{classAnarchy_1_1GameObject}{Game\-Object}'s log. Intended for debugging.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classAnarchy_1_1GameObject_ac1d185992a4219a51e1d1d5f71114567}{\index{Anarchy\-::\-Game\-Object@{Anarchy\-::\-Game\-Object}!logs@{logs}}
+\index{logs@{logs}!Anarchy::GameObject@{Anarchy\-::\-Game\-Object}}
+\subsubsection[{logs}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$std\-::string$>$ Anarchy\-::\-Game\-Object\-::logs}}\label{classAnarchy_1_1GameObject_ac1d185992a4219a51e1d1d5f71114567}
+
+
+Any strings logged will be stored here when this game object logs the strings. Intended for debugging. 
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+game\-Object.\-h\item 
+game\-Object.\-cpp\end{DoxyCompactItemize}

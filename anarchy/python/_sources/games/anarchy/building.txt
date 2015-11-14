@@ -1,0 +1,6 @@
+Building
+========
+
+.. autoclass:: games.anarchy.Building
+    :members:
+

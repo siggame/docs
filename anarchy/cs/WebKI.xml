@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AI class">
+    <HelpKINode Title="AI Class" Url="html/a1448599-b065-2722-60b3-445fb9775381.htm" />
+    <HelpKINode Title="about AI class" Url="html/a1448599-b065-2722-60b3-445fb9775381.htm" />
+    <HelpKINode Title="constructor" Url="html/4650ba08-bf98-a14f-2ad4-1e95fa9cd023.htm" />
+    <HelpKINode Title="fields" Url="html/726e5741-29ab-1963-a900-5a2a7f236bf1.htm" />
+    <HelpKINode Title="methods" Url="html/c8dc0e39-feb4-4acb-d6c3-75e80c59c5a0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AI.AI constructor" Url="html/4650ba08-bf98-a14f-2ad4-1e95fa9cd023.htm" />
+  <HelpKINode Title="AI.canBeBribed method" Url="html/c4d9aebe-a48b-07b2-68bf-dce1ca859f3a.htm" />
+  <HelpKINode Title="AI.Ended method" Url="html/603a141a-e39c-eaf8-8ced-9da8be78882f.htm" />
+  <HelpKINode Title="AI.Game field" Url="html/5b2612ad-be8f-5fa9-d5fb-149761659aa3.htm" />
+  <HelpKINode Title="AI.GameUpdated method" Url="html/759e1572-c718-a002-6418-3408f226b725.htm" />
+  <HelpKINode Title="AI.GetName method" Url="html/4205f36d-9e77-addf-016c-193e58f604fa.htm" />
+  <HelpKINode Title="AI.Player field" Url="html/be44c7af-4a8f-15a9-f2d4-8a0e9e0321d2.htm" />
+  <HelpKINode Title="AI.RunTurn method" Url="html/70b3a2ab-ff4c-1c25-ba3e-a08ee4222e31.htm" />
+  <HelpKINode Title="AI.Start method" Url="html/dbcebbf4-4843-7d5b-aa8c-d931e758a032.htm" />
+  <HelpKINode Title="BaseBribesPerTurn property" Url="html/b104d3e1-d094-f544-c574-c6aa0bbc6d0b.htm" />
+  <HelpKINode Title="Bribed property" Url="html/02445d61-5ddf-710a-29c6-46c034bec01e.htm" />
+  <HelpKINode Title="BribesRemaining property" Url="html/3d606d27-9f0b-c687-5bef-91cf534f15cd.htm" />
+  <HelpKINode Title="Building class">
+    <HelpKINode Title="Building Class" Url="html/8f4d56a5-eb9d-2d93-cf86-dbb49f49076b.htm" />
+    <HelpKINode Title="about Building class" Url="html/8f4d56a5-eb9d-2d93-cf86-dbb49f49076b.htm" />
+    <HelpKINode Title="constructor" Url="html/475ceb8f-fc1e-b3a6-2524-77bcfad2faea.htm" />
+    <HelpKINode Title="methods" Url="html/3730d4b6-bf40-aae4-e99f-5ce6d9999770.htm" />
+    <HelpKINode Title="properties" Url="html/ae1d8895-e1c9-d62d-663c-9bb493b0a317.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Building.Bribed property" Url="html/02445d61-5ddf-710a-29c6-46c034bec01e.htm" />
+  <HelpKINode Title="Building.Building constructor" Url="html/475ceb8f-fc1e-b3a6-2524-77bcfad2faea.htm" />
+  <HelpKINode Title="Building.BuildingEast property" Url="html/dea93d7e-32b1-1680-ca11-96de0f162169.htm" />
+  <HelpKINode Title="Building.BuildingNorth property" Url="html/678d33ec-818f-a173-c221-c1739a6aae1d.htm" />
+  <HelpKINode Title="Building.BuildingSouth property" Url="html/c80705dd-7c59-cb6b-ab55-2e2309d522de.htm" />
+  <HelpKINode Title="Building.BuildingWest property" Url="html/146ffed0-d3b2-b53b-e036-b11da9f6877a.htm" />
+  <HelpKINode Title="Building.Fire property" Url="html/b315b409-7d8c-f59d-087b-6df9a6b35505.htm" />
+  <HelpKINode Title="Building.Health property" Url="html/cfa9acde-69f2-e15a-41e9-216861228f7e.htm" />
+  <HelpKINode Title="Building.IsHeadquarters property" Url="html/91e2d085-e658-0f41-51c0-275829619de7.htm" />
+  <HelpKINode Title="Building.Owner property" Url="html/3c2d3941-1721-10f9-67f9-b038cb71e614.htm" />
+  <HelpKINode Title="Building.X property" Url="html/a2a1e9fe-496c-7231-2e97-8eaa51bba75d.htm" />
+  <HelpKINode Title="Building.Y property" Url="html/e1db6bd0-17aa-24fa-0634-6a577675edbb.htm" />
+  <HelpKINode Title="BuildingEast property" Url="html/dea93d7e-32b1-1680-ca11-96de0f162169.htm" />
+  <HelpKINode Title="BuildingNorth property" Url="html/678d33ec-818f-a173-c221-c1739a6aae1d.htm" />
+  <HelpKINode Title="Buildings property">
+    <HelpKINode Title="Game.Buildings Property " Url="html/2c471f1a-f909-67f4-4338-91e932346e6b.htm" />
+    <HelpKINode Title="Player.Buildings Property " Url="html/4e1d109f-5633-7e8e-6561-0c0623a84299.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BuildingSouth property" Url="html/c80705dd-7c59-cb6b-ab55-2e2309d522de.htm" />
+  <HelpKINode Title="BuildingWest property" Url="html/146ffed0-d3b2-b53b-e036-b11da9f6877a.htm" />
+  <HelpKINode Title="canBeBribed method" Url="html/c4d9aebe-a48b-07b2-68bf-dce1ca859f3a.htm" />
+  <HelpKINode Title="ClientType property" Url="html/6b004057-e85a-314d-b14b-df7d3df7bda3.htm" />
+  <HelpKINode Title="ControllingPlayer property" Url="html/bd7e81f0-fcb8-76dd-59bf-f3d0ebe656c1.htm" />
+  <HelpKINode Title="CurrentForecast property" Url="html/505f5232-c427-88c7-3ed7-32caa4a9d246.htm" />
+  <HelpKINode Title="CurrentPlayer property" Url="html/99e46504-0a0a-412b-e539-ad56fab0245c.htm" />
+  <HelpKINode Title="CurrentTurn property" Url="html/47d98b0c-b5c9-daf3-2b1c-71cbe04487b8.htm" />
+  <HelpKINode Title="Direction property" Url="html/da7597d7-ae5d-4c7b-dd85-5f64c9ebec5c.htm" />
+  <HelpKINode Title="Ended method" Url="html/603a141a-e39c-eaf8-8ced-9da8be78882f.htm" />
+  <HelpKINode Title="Exposure property" Url="html/37a924b4-6550-c9a5-a199-71ca4353a91f.htm" />
+  <HelpKINode Title="Extinguish method" Url="html/570202c8-9f42-b6ad-1c65-f8463133d0f5.htm" />
+  <HelpKINode Title="Fire property" Url="html/b315b409-7d8c-f59d-087b-6df9a6b35505.htm" />
+  <HelpKINode Title="FireAdded property" Url="html/c57d9c26-1eec-57eb-8d92-38dc1f805e42.htm" />
+  <HelpKINode Title="FireDepartment class">
+    <HelpKINode Title="FireDepartment Class" Url="html/aada0536-0d79-556f-bd5f-ff43a63076a4.htm" />
+    <HelpKINode Title="about FireDepartment class" Url="html/aada0536-0d79-556f-bd5f-ff43a63076a4.htm" />
+    <HelpKINode Title="constructor" Url="html/681b24f6-4340-34fb-cb09-42988e7de082.htm" />
+    <HelpKINode Title="methods" Url="html/16523c87-8409-be83-1f52-bed2ffb69163.htm" />
+    <HelpKINode Title="properties" Url="html/dad2e079-0db2-266e-140b-76dbb802a301.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FireDepartment.Extinguish method" Url="html/570202c8-9f42-b6ad-1c65-f8463133d0f5.htm" />
+  <HelpKINode Title="FireDepartment.FireDepartment constructor" Url="html/681b24f6-4340-34fb-cb09-42988e7de082.htm" />
+  <HelpKINode Title="FireDepartment.FireExtinguished property" Url="html/f8e3405b-0ca4-e7a6-fa68-aa8d2b288c51.htm" />
+  <HelpKINode Title="FireDepartments property" Url="html/f2d6599b-b2ae-b2e1-863f-c152a69617eb.htm" />
+  <HelpKINode Title="FireExtinguished property" Url="html/f8e3405b-0ca4-e7a6-fa68-aa8d2b288c51.htm" />
+  <HelpKINode Title="Forecast class">
+    <HelpKINode Title="Forecast Class" Url="html/d0d08be0-8010-70c6-2b7e-be7ddddbfdaf.htm" />
+    <HelpKINode Title="about Forecast class" Url="html/d0d08be0-8010-70c6-2b7e-be7ddddbfdaf.htm" />
+    <HelpKINode Title="constructor" Url="html/e50424a6-e696-90ab-acce-123f8e0348ce.htm" />
+    <HelpKINode Title="methods" Url="html/e837fe68-fe53-3dd6-2774-5e78714133c1.htm" />
+    <HelpKINode Title="properties" Url="html/50c6ffcf-d7cc-1587-e3c2-530dd9d3b607.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Forecast.ControllingPlayer property" Url="html/bd7e81f0-fcb8-76dd-59bf-f3d0ebe656c1.htm" />
+  <HelpKINode Title="Forecast.Direction property" Url="html/da7597d7-ae5d-4c7b-dd85-5f64c9ebec5c.htm" />
+  <HelpKINode Title="Forecast.Forecast constructor" Url="html/e50424a6-e696-90ab-acce-123f8e0348ce.htm" />
+  <HelpKINode Title="Forecast.Intensity property" Url="html/ec4a4dc6-e365-b246-8bc9-eb9417233b96.htm" />
+  <HelpKINode Title="Forecasts property" Url="html/1a19fe0f-6c4a-2171-1e0e-96a7f8e1423c.htm" />
+  <HelpKINode Title="Game class">
+    <HelpKINode Title="Game Class" Url="html/1a8b93cd-d169-0d45-10f2-f8ac6aa68a72.htm" />
+    <HelpKINode Title="about Game class" Url="html/1a8b93cd-d169-0d45-10f2-f8ac6aa68a72.htm" />
+    <HelpKINode Title="constructor" Url="html/48ee6939-571d-097e-bb0f-10a821d2082e.htm" />
+    <HelpKINode Title="methods" Url="html/e8c42f83-3218-4bbe-831c-e0924658f103.htm" />
+    <HelpKINode Title="properties" Url="html/db544bf2-12f9-9292-5413-540069416f8a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Game field" Url="html/5b2612ad-be8f-5fa9-d5fb-149761659aa3.htm" />
+  <HelpKINode Title="Game.BaseBribesPerTurn property" Url="html/b104d3e1-d094-f544-c574-c6aa0bbc6d0b.htm" />
+  <HelpKINode Title="Game.Buildings property" Url="html/2c471f1a-f909-67f4-4338-91e932346e6b.htm" />
+  <HelpKINode Title="Game.CurrentForecast property" Url="html/505f5232-c427-88c7-3ed7-32caa4a9d246.htm" />
+  <HelpKINode Title="Game.CurrentPlayer property" Url="html/99e46504-0a0a-412b-e539-ad56fab0245c.htm" />
+  <HelpKINode Title="Game.CurrentTurn property" Url="html/47d98b0c-b5c9-daf3-2b1c-71cbe04487b8.htm" />
+  <HelpKINode Title="Game.Forecasts property" Url="html/1a19fe0f-6c4a-2171-1e0e-96a7f8e1423c.htm" />
+  <HelpKINode Title="Game.Game constructor" Url="html/48ee6939-571d-097e-bb0f-10a821d2082e.htm" />
+  <HelpKINode Title="Game.MapHeight property" Url="html/51bd524c-f005-4a4d-46da-df0f37023f2a.htm" />
+  <HelpKINode Title="Game.MapWidth property" Url="html/a52ab984-8f54-8673-349d-141713f73461.htm" />
+  <HelpKINode Title="Game.MaxFire property" Url="html/6bcad1c5-af63-8a3d-af39-552bb0be6c96.htm" />
+  <HelpKINode Title="Game.MaxForecastIntensity property" Url="html/ebb0edda-e7dc-af5c-8d2e-4ac967669e72.htm" />
+  <HelpKINode Title="Game.MaxTurns property" Url="html/11da5298-bc55-1f9d-cfc0-77c758204262.htm" />
+  <HelpKINode Title="Game.NextForecast property" Url="html/2b0e23cb-87b5-8b00-5dbe-b7771b3c1a31.htm" />
+  <HelpKINode Title="Game.Players property" Url="html/d262ebd6-9fc2-cf41-bdf2-a456d42330f8.htm" />
+  <HelpKINode Title="Game.Session property" Url="html/e18bd16e-f76d-64d4-98b5-7333ad902d00.htm" />
+  <HelpKINode Title="GameObject class">
+    <HelpKINode Title="GameObject Class" Url="html/c0386bb3-1342-1f26-0dc4-e9e829f85ebf.htm" />
+    <HelpKINode Title="about GameObject class" Url="html/c0386bb3-1342-1f26-0dc4-e9e829f85ebf.htm" />
+    <HelpKINode Title="constructor" Url="html/b47f0b8f-967d-4ec5-bb2f-dd1074d2d01e.htm" />
+    <HelpKINode Title="methods" Url="html/d82f5e8c-ba9c-047e-8905-0346a6152f65.htm" />
+    <HelpKINode Title="properties" Url="html/35b1d40e-834f-7def-bde7-d11c7b962bbb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GameObject.GameObject constructor" Url="html/b47f0b8f-967d-4ec5-bb2f-dd1074d2d01e.htm" />
+  <HelpKINode Title="GameObject.GameObjectName property" Url="html/1ff22dee-2071-29ab-6a76-299e90ad0a7e.htm" />
+  <HelpKINode Title="GameObject.Log method" Url="html/537109ec-7a0b-bb91-0cf0-279c40ca1dc9.htm" />
+  <HelpKINode Title="GameObject.Logs property" Url="html/96aee40e-a2c0-3372-9222-20d4b556433a.htm" />
+  <HelpKINode Title="GameObjectName property" Url="html/1ff22dee-2071-29ab-6a76-299e90ad0a7e.htm" />
+  <HelpKINode Title="GameUpdated method" Url="html/759e1572-c718-a002-6418-3408f226b725.htm" />
+  <HelpKINode Title="GetName method" Url="html/4205f36d-9e77-addf-016c-193e58f604fa.htm" />
+  <HelpKINode Title="Headquarters property" Url="html/79f40355-e7e1-f55e-b736-3ab1c0129103.htm" />
+  <HelpKINode Title="Health property" Url="html/cfa9acde-69f2-e15a-41e9-216861228f7e.htm" />
+  <HelpKINode Title="Ignite method" Url="html/8faa58e7-9f20-e915-b3dd-9d886e471108.htm" />
+  <HelpKINode Title="Intensify method" Url="html/2e7c246a-630a-888e-c083-3a2a92979bc6.htm" />
+  <HelpKINode Title="Intensity property" Url="html/ec4a4dc6-e365-b246-8bc9-eb9417233b96.htm" />
+  <HelpKINode Title="IsHeadquarters property" Url="html/91e2d085-e658-0f41-51c0-275829619de7.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy namespace" Url="html/70150dc6-0929-456d-a0e5-21f9a46f105a.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.AI class" Url="html/a1448599-b065-2722-60b3-445fb9775381.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.Building class" Url="html/8f4d56a5-eb9d-2d93-cf86-dbb49f49076b.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.FireDepartment class" Url="html/aada0536-0d79-556f-bd5f-ff43a63076a4.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.Forecast class" Url="html/d0d08be0-8010-70c6-2b7e-be7ddddbfdaf.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.Game class" Url="html/1a8b93cd-d169-0d45-10f2-f8ac6aa68a72.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.GameObject class" Url="html/c0386bb3-1342-1f26-0dc4-e9e829f85ebf.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.Player class" Url="html/76bc8cff-2ef0-0c25-aecb-09e3cb802e3f.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.PoliceDepartment class" Url="html/324f9277-4aaa-6405-598e-8327af142021.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.Warehouse class" Url="html/7e93298a-8002-733d-2227-8b7b91a05e41.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Anarchy.WeatherStation class" Url="html/c9879efc-d97a-61fb-3dab-eea145f82738.htm" />
+  <HelpKINode Title="Log method" Url="html/537109ec-7a0b-bb91-0cf0-279c40ca1dc9.htm" />
+  <HelpKINode Title="Logs property" Url="html/96aee40e-a2c0-3372-9222-20d4b556433a.htm" />
+  <HelpKINode Title="Lost property" Url="html/b108b4ed-f35d-7958-52e1-7b50ae817209.htm" />
+  <HelpKINode Title="MapHeight property" Url="html/51bd524c-f005-4a4d-46da-df0f37023f2a.htm" />
+  <HelpKINode Title="MapWidth property" Url="html/a52ab984-8f54-8673-349d-141713f73461.htm" />
+  <HelpKINode Title="MaxFire property" Url="html/6bcad1c5-af63-8a3d-af39-552bb0be6c96.htm" />
+  <HelpKINode Title="MaxForecastIntensity property" Url="html/ebb0edda-e7dc-af5c-8d2e-4ac967669e72.htm" />
+  <HelpKINode Title="MaxTurns property" Url="html/11da5298-bc55-1f9d-cfc0-77c758204262.htm" />
+  <HelpKINode Title="Name property" Url="html/8fc27bb4-36ea-a4eb-2b70-56f2b708929f.htm" />
+  <HelpKINode Title="NextForecast property" Url="html/2b0e23cb-87b5-8b00-5dbe-b7771b3c1a31.htm" />
+  <HelpKINode Title="OtherPlayer property" Url="html/e8b1f334-0ff9-cc9e-345e-a0abf14c5d4d.htm" />
+  <HelpKINode Title="Owner property" Url="html/3c2d3941-1721-10f9-67f9-b038cb71e614.htm" />
+  <HelpKINode Title="Player class">
+    <HelpKINode Title="Player Class" Url="html/76bc8cff-2ef0-0c25-aecb-09e3cb802e3f.htm" />
+    <HelpKINode Title="about Player class" Url="html/76bc8cff-2ef0-0c25-aecb-09e3cb802e3f.htm" />
+    <HelpKINode Title="constructor" Url="html/c6622723-0419-2364-a405-94acd12ba4c8.htm" />
+    <HelpKINode Title="methods" Url="html/6b52d570-f9da-510a-8af2-c4735c44137e.htm" />
+    <HelpKINode Title="properties" Url="html/17ee9751-9c99-6b45-d4d3-59483c48de52.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Player field" Url="html/be44c7af-4a8f-15a9-f2d4-8a0e9e0321d2.htm" />
+  <HelpKINode Title="Player.BribesRemaining property" Url="html/3d606d27-9f0b-c687-5bef-91cf534f15cd.htm" />
+  <HelpKINode Title="Player.Buildings property" Url="html/4e1d109f-5633-7e8e-6561-0c0623a84299.htm" />
+  <HelpKINode Title="Player.ClientType property" Url="html/6b004057-e85a-314d-b14b-df7d3df7bda3.htm" />
+  <HelpKINode Title="Player.FireDepartments property" Url="html/f2d6599b-b2ae-b2e1-863f-c152a69617eb.htm" />
+  <HelpKINode Title="Player.Headquarters property" Url="html/79f40355-e7e1-f55e-b736-3ab1c0129103.htm" />
+  <HelpKINode Title="Player.Lost property" Url="html/b108b4ed-f35d-7958-52e1-7b50ae817209.htm" />
+  <HelpKINode Title="Player.Name property" Url="html/8fc27bb4-36ea-a4eb-2b70-56f2b708929f.htm" />
+  <HelpKINode Title="Player.OtherPlayer property" Url="html/e8b1f334-0ff9-cc9e-345e-a0abf14c5d4d.htm" />
+  <HelpKINode Title="Player.Player constructor" Url="html/c6622723-0419-2364-a405-94acd12ba4c8.htm" />
+  <HelpKINode Title="Player.PoliceDepartments property" Url="html/eb4a6aa2-c5d3-165c-ae95-9739731b961c.htm" />
+  <HelpKINode Title="Player.ReasonLost property" Url="html/a90cd9f0-41ec-195e-7eb9-c69cbb5db087.htm" />
+  <HelpKINode Title="Player.ReasonWon property" Url="html/20094c3a-9c6f-94c0-f9d1-59b65266ec3d.htm" />
+  <HelpKINode Title="Player.TimeRemaining property" Url="html/1124e175-c246-4b97-45bd-9c446c075313.htm" />
+  <HelpKINode Title="Player.Warehouses property" Url="html/acfc702d-ea2c-5cc5-ab74-00158aad4c86.htm" />
+  <HelpKINode Title="Player.WeatherStations property" Url="html/90c02733-c997-bcc6-7ca4-32ecc644a9aa.htm" />
+  <HelpKINode Title="Player.Won property" Url="html/9c95d209-3ef2-c59e-a603-62e1eb5a21b3.htm" />
+  <HelpKINode Title="Players property" Url="html/d262ebd6-9fc2-cf41-bdf2-a456d42330f8.htm" />
+  <HelpKINode Title="PoliceDepartment class">
+    <HelpKINode Title="PoliceDepartment Class" Url="html/324f9277-4aaa-6405-598e-8327af142021.htm" />
+    <HelpKINode Title="about PoliceDepartment class" Url="html/324f9277-4aaa-6405-598e-8327af142021.htm" />
+    <HelpKINode Title="constructor" Url="html/207a49c3-563a-7ada-a669-a1f204bf9707.htm" />
+    <HelpKINode Title="methods" Url="html/a519ef49-633f-140a-0a53-528c7f2b3071.htm" />
+    <HelpKINode Title="properties" Url="html/bf6954cc-4995-9a5b-0058-cd6fa5621315.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PoliceDepartment.PoliceDepartment constructor" Url="html/207a49c3-563a-7ada-a669-a1f204bf9707.htm" />
+  <HelpKINode Title="PoliceDepartment.Raid method" Url="html/0dea90d3-71a3-f628-2843-425156bfa7a7.htm" />
+  <HelpKINode Title="PoliceDepartments property" Url="html/eb4a6aa2-c5d3-165c-ae95-9739731b961c.htm" />
+  <HelpKINode Title="Raid method" Url="html/0dea90d3-71a3-f628-2843-425156bfa7a7.htm" />
+  <HelpKINode Title="ReasonLost property" Url="html/a90cd9f0-41ec-195e-7eb9-c69cbb5db087.htm" />
+  <HelpKINode Title="ReasonWon property" Url="html/20094c3a-9c6f-94c0-f9d1-59b65266ec3d.htm" />
+  <HelpKINode Title="Rotate method" Url="html/e5cd81f0-1ab7-7c44-8347-771a3762aefc.htm" />
+  <HelpKINode Title="RunTurn method" Url="html/70b3a2ab-ff4c-1c25-ba3e-a08ee4222e31.htm" />
+  <HelpKINode Title="Session property" Url="html/e18bd16e-f76d-64d4-98b5-7333ad902d00.htm" />
+  <HelpKINode Title="Start method" Url="html/dbcebbf4-4843-7d5b-aa8c-d931e758a032.htm" />
+  <HelpKINode Title="TimeRemaining property" Url="html/1124e175-c246-4b97-45bd-9c446c075313.htm" />
+  <HelpKINode Title="Warehouse class">
+    <HelpKINode Title="Warehouse Class" Url="html/7e93298a-8002-733d-2227-8b7b91a05e41.htm" />
+    <HelpKINode Title="about Warehouse class" Url="html/7e93298a-8002-733d-2227-8b7b91a05e41.htm" />
+    <HelpKINode Title="constructor" Url="html/ca593c24-0dc3-0128-07b2-5b2bcbf3c532.htm" />
+    <HelpKINode Title="methods" Url="html/5eeaafbc-119a-cd66-bcc7-61b9e89f6aa5.htm" />
+    <HelpKINode Title="properties" Url="html/5b875a63-85a9-2a3d-ace3-c06dc4e88b1b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Warehouse.Exposure property" Url="html/37a924b4-6550-c9a5-a199-71ca4353a91f.htm" />
+  <HelpKINode Title="Warehouse.FireAdded property" Url="html/c57d9c26-1eec-57eb-8d92-38dc1f805e42.htm" />
+  <HelpKINode Title="Warehouse.Ignite method" Url="html/8faa58e7-9f20-e915-b3dd-9d886e471108.htm" />
+  <HelpKINode Title="Warehouse.Warehouse constructor" Url="html/ca593c24-0dc3-0128-07b2-5b2bcbf3c532.htm" />
+  <HelpKINode Title="Warehouses property" Url="html/acfc702d-ea2c-5cc5-ab74-00158aad4c86.htm" />
+  <HelpKINode Title="WeatherStation class">
+    <HelpKINode Title="WeatherStation Class" Url="html/c9879efc-d97a-61fb-3dab-eea145f82738.htm" />
+    <HelpKINode Title="about WeatherStation class" Url="html/c9879efc-d97a-61fb-3dab-eea145f82738.htm" />
+    <HelpKINode Title="constructor" Url="html/b308343c-9c48-c3ff-609f-12f865bd53e9.htm" />
+    <HelpKINode Title="methods" Url="html/51b43841-642f-3af6-cd17-33c521021376.htm" />
+    <HelpKINode Title="properties" Url="html/854ecebe-aeb7-00e1-4602-39b161892f40.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WeatherStation.Intensify method" Url="html/2e7c246a-630a-888e-c083-3a2a92979bc6.htm" />
+  <HelpKINode Title="WeatherStation.Rotate method" Url="html/e5cd81f0-1ab7-7c44-8347-771a3762aefc.htm" />
+  <HelpKINode Title="WeatherStation.WeatherStation constructor" Url="html/b308343c-9c48-c3ff-609f-12f865bd53e9.htm" />
+  <HelpKINode Title="WeatherStations property" Url="html/90c02733-c997-bcc6-7ca4-32ecc644a9aa.htm" />
+  <HelpKINode Title="Won property" Url="html/9c95d209-3ef2-c59e-a603-62e1eb5a21b3.htm" />
+  <HelpKINode Title="X property" Url="html/a2a1e9fe-496c-7231-2e97-8eaa51bba75d.htm" />
+  <HelpKINode Title="Y property" Url="html/e1db6bd0-17aa-24fa-0634-6a577675edbb.htm" />
+</HelpKI>

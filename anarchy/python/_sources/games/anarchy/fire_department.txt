@@ -1,0 +1,5 @@
+Fire Department
+===============
+
+.. autoclass:: games.anarchy.FireDepartment
+    :members:

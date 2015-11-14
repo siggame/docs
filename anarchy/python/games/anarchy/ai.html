@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>AI &mdash; Anarchy Python Client 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="Anarchy Python Client 1.0 documentation" href="../../index.html" />
+    <link rel="next" title="Game" href="game.html" />
+    <link rel="prev" title="Anarchy Python Client documentation" href="../../index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="game.html" title="Game"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../../index.html" title="Anarchy Python Client documentation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Anarchy Python Client 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="ai">
+<h1>AI<a class="headerlink" href="#ai" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="games.anarchy.AI">
+<em class="property">class </em><code class="descclassname">games.anarchy.</code><code class="descname">AI</code><span class="sig-paren">(</span><em>game</em><span class="sig-paren">)</span><a class="headerlink" href="#games.anarchy.AI" title="Permalink to this definition">¶</a></dt>
+<dd><p>the basic AI functions that are the same between games</p>
+<dl class="method">
+<dt id="games.anarchy.AI.can_be_bribed">
+<code class="descname">can_be_bribed</code><span class="sig-paren">(</span><em>building</em><span class="sig-paren">)</span><a class="headerlink" href="#games.anarchy.AI.can_be_bribed" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is an example of a utility function you could create.</p>
+<dl class="docutils">
+<dt>Returns:</dt>
+<dd>bool: determines whether the building can be bribed. True for yes, False for no</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="games.anarchy.AI.end">
+<code class="descname">end</code><span class="sig-paren">(</span><em>won</em>, <em>reason</em><span class="sig-paren">)</span><a class="headerlink" href="#games.anarchy.AI.end" title="Permalink to this definition">¶</a></dt>
+<dd><p>this is called when the game ends, you can clean up your data and dump files here if need be</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>won (bool): won == true means you won, won == false means you lost
+reason (str): the reason why you won or lost</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="games.anarchy.AI.game_updated">
+<code class="descname">game_updated</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#games.anarchy.AI.game_updated" title="Permalink to this definition">¶</a></dt>
+<dd><p>this is called every time the game&#8217;s state updates, so if you are tracking anything you can update it here.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="games.anarchy.AI.get_name">
+<code class="descname">get_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#games.anarchy.AI.get_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>this is the name you send to the server to play as.</p>
+<dl class="docutils">
+<dt>Returns</dt>
+<dd>str: the name you want your player to have</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="games.anarchy.AI.run_turn">
+<code class="descname">run_turn</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#games.anarchy.AI.run_turn" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is called every time the AI is asked to respond with a command during their turn</p>
+<dl class="docutils">
+<dt>Returns:</dt>
+<dd>bool: represents if you want to end your turn. true means end the turn, false means to keep your turn going and re-call runTurn()</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="games.anarchy.AI.start">
+<code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#games.anarchy.AI.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>this is called once the game starts and your AI knows its player.id and game. You can initialize your AI here.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../../index.html"
+                        title="previous chapter">Anarchy Python Client documentation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="game.html"
+                        title="next chapter">Game</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/games/anarchy/ai.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="game.html" title="Game"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../../index.html" title="Anarchy Python Client documentation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Anarchy Python Client 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, Jacob Fischer.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>

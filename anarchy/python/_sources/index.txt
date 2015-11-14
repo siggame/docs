@@ -1,0 +1,41 @@
+.. Anarchy Python Player documentation master file, created by
+   sphinx-quickstart on Fri Nov 13 22:38:33 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Anarchy Python Client documentation
+=================================================
+
+Your AI:
+
+.. toctree::
+   :maxdepth: 2
+
+   games/anarchy/ai
+
+Game Classes:
+
+.. toctree::
+   :maxdepth: 2
+
+   games/anarchy/game.rst
+
+   games/anarchy/game_object.rst
+
+   games/anarchy/player.rst
+
+   games/anarchy/forecast.rst
+
+   games/anarchy/building.rst
+   games/anarchy/fire_department.rst
+   games/anarchy/police_department.rst
+   games/anarchy/warehouse.rst
+   games/anarchy/weather_station.rst
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`
+

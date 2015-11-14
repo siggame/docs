@@ -1,0 +1,144 @@
+\hypertarget{classAnarchy_1_1Player}{\section{Anarchy\-:\-:Player Class Reference}
+\label{classAnarchy_1_1Player}\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}}
+}
+
+
+A player in this game. Every \hyperlink{classAnarchy_1_1AI}{A\-I} controls one player.  
+
+
+
+
+{\ttfamily \#include $<$player.\-h$>$}
+
+Inheritance diagram for Anarchy\-:\-:Player\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classAnarchy_1_1Player}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classAnarchy_1_1Player_a439ac9bc65f337358c0169f6352a3336}{bribes\-Remaining}
+\begin{DoxyCompactList}\small\item\em How many bribes this player has remaining to use during their turn. Each action a \hyperlink{classAnarchy_1_1Building}{Building} does costs 1 bribe. Any unused bribes are lost at the end of the player's turn. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{classAnarchy_1_1Building}{Anarchy\-::\-Building} $\ast$ $>$ \hyperlink{classAnarchy_1_1Player_a2b80bb75995c73f78df64ca6241cbc7b}{buildings}
+\begin{DoxyCompactList}\small\item\em All the buildings owned by this player. \end{DoxyCompactList}\item 
+std\-::string \hyperlink{classAnarchy_1_1Player_af5b7bce5d4d05b69d8b83d095f3ab39e}{client\-Type}
+\begin{DoxyCompactList}\small\item\em What type of client this is, e.\-g. 'Python', 'Java\-Script', or some other language. For potential data mining purposes. \end{DoxyCompactList}\item 
+std\-::vector\\*
+$<$ \hyperlink{classAnarchy_1_1FireDepartment}{Anarchy\-::\-Fire\-Department} $\ast$ $>$ \hyperlink{classAnarchy_1_1Player_a9ef8ddd89632fa942b09c5d5f47d432c}{fire\-Departments}
+\begin{DoxyCompactList}\small\item\em All the Fire\-Departments owned by this player. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Warehouse}{Anarchy\-::\-Warehouse} $\ast$ \hyperlink{classAnarchy_1_1Player_a175881daf024ff4b2ed8b7b7d0a8ab6b}{headquarters}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{classAnarchy_1_1Warehouse}{Warehouse} that serves as this player's headquarters and has extra health. If this gets destroyed they lose. \end{DoxyCompactList}\item 
+std\-::string \hyperlink{classAnarchy_1_1Player_aafaac857aee9c030ae5908678eef613d}{name}
+\begin{DoxyCompactList}\small\item\em The name of the player \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Player}{Anarchy\-::\-Player} $\ast$ \hyperlink{classAnarchy_1_1Player_aa2cc74a91a193fb6ec24e28b3c78e2df}{other\-Player}
+\begin{DoxyCompactList}\small\item\em this player's opponent in the game. \end{DoxyCompactList}\item 
+std\-::vector\\*
+$<$ \hyperlink{classAnarchy_1_1PoliceDepartment}{Anarchy\-::\-Police\-Department} $\ast$ $>$ \hyperlink{classAnarchy_1_1Player_a92ae92a6a0f6a491ec4ed9cd20cc598e}{police\-Departments}
+\begin{DoxyCompactList}\small\item\em All the Police\-Departments owned by this player. \end{DoxyCompactList}\item 
+float \hyperlink{classAnarchy_1_1Player_a242266d4bd3c79253b01173be7db0db9}{time\-Remaining}
+\begin{DoxyCompactList}\small\item\em The amount of time (in ns) remaining for this \hyperlink{classAnarchy_1_1AI}{A\-I} to send commands. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{classAnarchy_1_1Warehouse}{Anarchy\-::\-Warehouse} $\ast$ $>$ \hyperlink{classAnarchy_1_1Player_ae2913affe60c619b4b7d25475f677804}{warehouses}
+\begin{DoxyCompactList}\small\item\em All the warehouses owned by this player. Includes the Headquarters. \end{DoxyCompactList}\item 
+std\-::vector\\*
+$<$ \hyperlink{classAnarchy_1_1WeatherStation}{Anarchy\-::\-Weather\-Station} $\ast$ $>$ \hyperlink{classAnarchy_1_1Player_a7738ef75a6b23b3d48a7b6084a21c59c}{weather\-Stations}
+\begin{DoxyCompactList}\small\item\em All the Weather\-Stations owned by this player. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classAnarchy_1_1Player_a4a8fd3162e3a6eba89b48348c346c0c7}{virtual void {\bfseries delta\-Update\-Field} (const std\-::string \&field\-Name, boost\-::property\-\_\-tree\-::ptree \&delta)}\label{classAnarchy_1_1Player_a4a8fd3162e3a6eba89b48348c346c0c7}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A player in this game. Every \hyperlink{classAnarchy_1_1AI}{A\-I} controls one player. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classAnarchy_1_1Player_a439ac9bc65f337358c0169f6352a3336}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!bribes\-Remaining@{bribes\-Remaining}}
+\index{bribes\-Remaining@{bribes\-Remaining}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{bribes\-Remaining}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Player\-::bribes\-Remaining}}\label{classAnarchy_1_1Player_a439ac9bc65f337358c0169f6352a3336}
+
+
+How many bribes this player has remaining to use during their turn. Each action a \hyperlink{classAnarchy_1_1Building}{Building} does costs 1 bribe. Any unused bribes are lost at the end of the player's turn. 
+
+\hypertarget{classAnarchy_1_1Player_a2b80bb75995c73f78df64ca6241cbc7b}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!buildings@{buildings}}
+\index{buildings@{buildings}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{buildings}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Anarchy\-::\-Building}$\ast$$>$ Anarchy\-::\-Player\-::buildings}}\label{classAnarchy_1_1Player_a2b80bb75995c73f78df64ca6241cbc7b}
+
+
+All the buildings owned by this player. 
+
+\hypertarget{classAnarchy_1_1Player_af5b7bce5d4d05b69d8b83d095f3ab39e}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!client\-Type@{client\-Type}}
+\index{client\-Type@{client\-Type}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{client\-Type}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Anarchy\-::\-Player\-::client\-Type}}\label{classAnarchy_1_1Player_af5b7bce5d4d05b69d8b83d095f3ab39e}
+
+
+What type of client this is, e.\-g. 'Python', 'Java\-Script', or some other language. For potential data mining purposes. 
+
+\hypertarget{classAnarchy_1_1Player_a9ef8ddd89632fa942b09c5d5f47d432c}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!fire\-Departments@{fire\-Departments}}
+\index{fire\-Departments@{fire\-Departments}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{fire\-Departments}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Anarchy\-::\-Fire\-Department}$\ast$$>$ Anarchy\-::\-Player\-::fire\-Departments}}\label{classAnarchy_1_1Player_a9ef8ddd89632fa942b09c5d5f47d432c}
+
+
+All the Fire\-Departments owned by this player. 
+
+\hypertarget{classAnarchy_1_1Player_a175881daf024ff4b2ed8b7b7d0a8ab6b}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!headquarters@{headquarters}}
+\index{headquarters@{headquarters}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{headquarters}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Warehouse}$\ast$ Anarchy\-::\-Player\-::headquarters}}\label{classAnarchy_1_1Player_a175881daf024ff4b2ed8b7b7d0a8ab6b}
+
+
+The \hyperlink{classAnarchy_1_1Warehouse}{Warehouse} that serves as this player's headquarters and has extra health. If this gets destroyed they lose. 
+
+\hypertarget{classAnarchy_1_1Player_aafaac857aee9c030ae5908678eef613d}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!name@{name}}
+\index{name@{name}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{name}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Anarchy\-::\-Player\-::name}}\label{classAnarchy_1_1Player_aafaac857aee9c030ae5908678eef613d}
+
+
+The name of the player 
+
+\hypertarget{classAnarchy_1_1Player_aa2cc74a91a193fb6ec24e28b3c78e2df}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!other\-Player@{other\-Player}}
+\index{other\-Player@{other\-Player}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{other\-Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Player}$\ast$ Anarchy\-::\-Player\-::other\-Player}}\label{classAnarchy_1_1Player_aa2cc74a91a193fb6ec24e28b3c78e2df}
+
+
+this player's opponent in the game. 
+
+\hypertarget{classAnarchy_1_1Player_a92ae92a6a0f6a491ec4ed9cd20cc598e}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!police\-Departments@{police\-Departments}}
+\index{police\-Departments@{police\-Departments}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{police\-Departments}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Anarchy\-::\-Police\-Department}$\ast$$>$ Anarchy\-::\-Player\-::police\-Departments}}\label{classAnarchy_1_1Player_a92ae92a6a0f6a491ec4ed9cd20cc598e}
+
+
+All the Police\-Departments owned by this player. 
+
+\hypertarget{classAnarchy_1_1Player_a242266d4bd3c79253b01173be7db0db9}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!time\-Remaining@{time\-Remaining}}
+\index{time\-Remaining@{time\-Remaining}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{time\-Remaining}]{\setlength{\rightskip}{0pt plus 5cm}float Anarchy\-::\-Player\-::time\-Remaining}}\label{classAnarchy_1_1Player_a242266d4bd3c79253b01173be7db0db9}
+
+
+The amount of time (in ns) remaining for this \hyperlink{classAnarchy_1_1AI}{A\-I} to send commands. 
+
+\hypertarget{classAnarchy_1_1Player_ae2913affe60c619b4b7d25475f677804}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!warehouses@{warehouses}}
+\index{warehouses@{warehouses}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{warehouses}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Anarchy\-::\-Warehouse}$\ast$$>$ Anarchy\-::\-Player\-::warehouses}}\label{classAnarchy_1_1Player_ae2913affe60c619b4b7d25475f677804}
+
+
+All the warehouses owned by this player. Includes the Headquarters. 
+
+\hypertarget{classAnarchy_1_1Player_a7738ef75a6b23b3d48a7b6084a21c59c}{\index{Anarchy\-::\-Player@{Anarchy\-::\-Player}!weather\-Stations@{weather\-Stations}}
+\index{weather\-Stations@{weather\-Stations}!Anarchy::Player@{Anarchy\-::\-Player}}
+\subsubsection[{weather\-Stations}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf Anarchy\-::\-Weather\-Station}$\ast$$>$ Anarchy\-::\-Player\-::weather\-Stations}}\label{classAnarchy_1_1Player_a7738ef75a6b23b3d48a7b6084a21c59c}
+
+
+All the Weather\-Stations owned by this player. 
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+player.\-h\item 
+player.\-cpp\end{DoxyCompactItemize}

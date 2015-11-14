@@ -1,0 +1,5 @@
+Warehouse
+=========
+
+.. autoclass:: games.anarchy.Warehouse
+    :members:

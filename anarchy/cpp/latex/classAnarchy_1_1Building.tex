@@ -1,0 +1,141 @@
+\hypertarget{classAnarchy_1_1Building}{\section{Anarchy\-:\-:Building Class Reference}
+\label{classAnarchy_1_1Building}\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}}
+}
+
+
+A basic building. It does nothing besides burn down. Other Buildings inherit from this class.  
+
+
+
+
+{\ttfamily \#include $<$building.\-h$>$}
+
+Inheritance diagram for Anarchy\-:\-:Building\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.218391cm]{classAnarchy_1_1Building}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classAnarchy_1_1Building_a2d0079a53d7239ad72be834a168a29a4}{bribed}
+\begin{DoxyCompactList}\small\item\em when true this building has already been bribed this turn and cannot be bribed again this turn. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Building}{Anarchy\-::\-Building} $\ast$ \hyperlink{classAnarchy_1_1Building_aeecf09082fb73c6b6df35fda22431d79}{building\-East}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{classAnarchy_1_1Building}{Building} directly to the east of this building, or null if not present. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Building}{Anarchy\-::\-Building} $\ast$ \hyperlink{classAnarchy_1_1Building_aeed7b639ac2199c247d6b168a789acfc}{building\-North}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{classAnarchy_1_1Building}{Building} directly to the north of this building, or null if not present. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Building}{Anarchy\-::\-Building} $\ast$ \hyperlink{classAnarchy_1_1Building_a12a304929ca4c48f717035b535078c46}{building\-South}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{classAnarchy_1_1Building}{Building} directly to the south of this building, or null if not present. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Building}{Anarchy\-::\-Building} $\ast$ \hyperlink{classAnarchy_1_1Building_accc6c555aa5cd0e02e88dc727e5fcd79}{building\-West}
+\begin{DoxyCompactList}\small\item\em The \hyperlink{classAnarchy_1_1Building}{Building} directly to the west of this building, or null if not present. \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Building_a05b636d766c51eba120d9e044d82a402}{fire}
+\begin{DoxyCompactList}\small\item\em How much fire is currently burning the building, and thus how much damage it will take at the end of its owner's turn. 0 means no fire. \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Building_a3536e925fb8fc11bb403cc0555f935a4}{health}
+\begin{DoxyCompactList}\small\item\em How much health this building currently has. When this reaches 0 the \hyperlink{classAnarchy_1_1Building}{Building} has been burned down \end{DoxyCompactList}\item 
+bool \hyperlink{classAnarchy_1_1Building_a46e92ca7a40a44b467c58e1c67944d48}{is\-Headquarters}
+\begin{DoxyCompactList}\small\item\em true if this is the Headquarters of the owning player, false otherwise. Burning this down wins the game for the other \hyperlink{classAnarchy_1_1Player}{Player}. \end{DoxyCompactList}\item 
+\hyperlink{classAnarchy_1_1Player}{Anarchy\-::\-Player} $\ast$ \hyperlink{classAnarchy_1_1Building_ab3e204cfff1707cb86793b7889958e7f}{owner}
+\begin{DoxyCompactList}\small\item\em The player that owns this building. If it burns down (health reaches 0) that player gets an additional bribe(s). \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Building_a4748629dadd04cc82b3894214c764724}{x}
+\begin{DoxyCompactList}\small\item\em The location of the \hyperlink{classAnarchy_1_1Building}{Building} along the x-\/axis \end{DoxyCompactList}\item 
+int \hyperlink{classAnarchy_1_1Building_a9f3e61c752dba70cec82fc293444f295}{y}
+\begin{DoxyCompactList}\small\item\em The location of the \hyperlink{classAnarchy_1_1Building}{Building} along the y-\/axis \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classAnarchy_1_1Building_af5ecbdb03b63bdd2fa38ac599bf74410}{virtual void {\bfseries delta\-Update\-Field} (const std\-::string \&field\-Name, boost\-::property\-\_\-tree\-::ptree \&delta)}\label{classAnarchy_1_1Building_af5ecbdb03b63bdd2fa38ac599bf74410}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A basic building. It does nothing besides burn down. Other Buildings inherit from this class. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classAnarchy_1_1Building_a2d0079a53d7239ad72be834a168a29a4}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!bribed@{bribed}}
+\index{bribed@{bribed}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{bribed}]{\setlength{\rightskip}{0pt plus 5cm}bool Anarchy\-::\-Building\-::bribed}}\label{classAnarchy_1_1Building_a2d0079a53d7239ad72be834a168a29a4}
+
+
+when true this building has already been bribed this turn and cannot be bribed again this turn. 
+
+\hypertarget{classAnarchy_1_1Building_aeecf09082fb73c6b6df35fda22431d79}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!building\-East@{building\-East}}
+\index{building\-East@{building\-East}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{building\-East}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Building}$\ast$ Anarchy\-::\-Building\-::building\-East}}\label{classAnarchy_1_1Building_aeecf09082fb73c6b6df35fda22431d79}
+
+
+The \hyperlink{classAnarchy_1_1Building}{Building} directly to the east of this building, or null if not present. 
+
+\hypertarget{classAnarchy_1_1Building_aeed7b639ac2199c247d6b168a789acfc}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!building\-North@{building\-North}}
+\index{building\-North@{building\-North}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{building\-North}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Building}$\ast$ Anarchy\-::\-Building\-::building\-North}}\label{classAnarchy_1_1Building_aeed7b639ac2199c247d6b168a789acfc}
+
+
+The \hyperlink{classAnarchy_1_1Building}{Building} directly to the north of this building, or null if not present. 
+
+\hypertarget{classAnarchy_1_1Building_a12a304929ca4c48f717035b535078c46}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!building\-South@{building\-South}}
+\index{building\-South@{building\-South}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{building\-South}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Building}$\ast$ Anarchy\-::\-Building\-::building\-South}}\label{classAnarchy_1_1Building_a12a304929ca4c48f717035b535078c46}
+
+
+The \hyperlink{classAnarchy_1_1Building}{Building} directly to the south of this building, or null if not present. 
+
+\hypertarget{classAnarchy_1_1Building_accc6c555aa5cd0e02e88dc727e5fcd79}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!building\-West@{building\-West}}
+\index{building\-West@{building\-West}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{building\-West}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Building}$\ast$ Anarchy\-::\-Building\-::building\-West}}\label{classAnarchy_1_1Building_accc6c555aa5cd0e02e88dc727e5fcd79}
+
+
+The \hyperlink{classAnarchy_1_1Building}{Building} directly to the west of this building, or null if not present. 
+
+\hypertarget{classAnarchy_1_1Building_a05b636d766c51eba120d9e044d82a402}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!fire@{fire}}
+\index{fire@{fire}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{fire}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Building\-::fire}}\label{classAnarchy_1_1Building_a05b636d766c51eba120d9e044d82a402}
+
+
+How much fire is currently burning the building, and thus how much damage it will take at the end of its owner's turn. 0 means no fire. 
+
+\hypertarget{classAnarchy_1_1Building_a3536e925fb8fc11bb403cc0555f935a4}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!health@{health}}
+\index{health@{health}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{health}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Building\-::health}}\label{classAnarchy_1_1Building_a3536e925fb8fc11bb403cc0555f935a4}
+
+
+How much health this building currently has. When this reaches 0 the \hyperlink{classAnarchy_1_1Building}{Building} has been burned down 
+
+\hypertarget{classAnarchy_1_1Building_a46e92ca7a40a44b467c58e1c67944d48}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!is\-Headquarters@{is\-Headquarters}}
+\index{is\-Headquarters@{is\-Headquarters}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{is\-Headquarters}]{\setlength{\rightskip}{0pt plus 5cm}bool Anarchy\-::\-Building\-::is\-Headquarters}}\label{classAnarchy_1_1Building_a46e92ca7a40a44b467c58e1c67944d48}
+
+
+true if this is the Headquarters of the owning player, false otherwise. Burning this down wins the game for the other \hyperlink{classAnarchy_1_1Player}{Player}. 
+
+\hypertarget{classAnarchy_1_1Building_ab3e204cfff1707cb86793b7889958e7f}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!owner@{owner}}
+\index{owner@{owner}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{owner}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Anarchy\-::\-Player}$\ast$ Anarchy\-::\-Building\-::owner}}\label{classAnarchy_1_1Building_ab3e204cfff1707cb86793b7889958e7f}
+
+
+The player that owns this building. If it burns down (health reaches 0) that player gets an additional bribe(s). 
+
+\hypertarget{classAnarchy_1_1Building_a4748629dadd04cc82b3894214c764724}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!x@{x}}
+\index{x@{x}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Building\-::x}}\label{classAnarchy_1_1Building_a4748629dadd04cc82b3894214c764724}
+
+
+The location of the \hyperlink{classAnarchy_1_1Building}{Building} along the x-\/axis 
+
+\hypertarget{classAnarchy_1_1Building_a9f3e61c752dba70cec82fc293444f295}{\index{Anarchy\-::\-Building@{Anarchy\-::\-Building}!y@{y}}
+\index{y@{y}!Anarchy::Building@{Anarchy\-::\-Building}}
+\subsubsection[{y}]{\setlength{\rightskip}{0pt plus 5cm}int Anarchy\-::\-Building\-::y}}\label{classAnarchy_1_1Building_a9f3e61c752dba70cec82fc293444f295}
+
+
+The location of the \hyperlink{classAnarchy_1_1Building}{Building} along the y-\/axis 
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+building.\-h\item 
+building.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+Police Department
+=================
+
+.. autoclass:: games.anarchy.PoliceDepartment
+    :members:

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: ai.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: ai.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>// This is where you build your AI for the Anarchy game.
+
+var Class = require(__basedir + "/joueur/class");
+var BaseAI = require(__basedir + "/joueur/baseAI");
+
+
+/**
+ * @class
+ * @classdesc This is the class to play the Anarchy game. This is where you should build your AI.
+ */
+var AI = Class(BaseAI, {
+    /**
+     * this is the name you send to the server to play as.
+     *
+     * @memberof AI
+     */
+    getName: function() {
+        return "Anarchy JavaScript Player"; // REPLACE THIS WITH YOUR TEAM NAME
+    },
+
+    /**
+     * this is called once the game starts and your AI knows its playerID and game. You can initialize your AI here.
+     *
+     * @memberof AI
+     */
+    start: function() {
+    },
+
+    /**
+     * this is called every time the game's state updates, so if you are tracking anything you can update it here.
+     *
+     * @memberof AI
+     */
+    gameUpdated: function() {
+    },
+
+    /**
+     * this is called when the game ends, you can clean up your data and dump files here if need be
+     *
+     * @memberof AI
+     * @param {boolean} won - true means you won, false means you lost
+     * @param {string} reason - the human readable string explaining why you won or lost
+     */
+    ended: function(won, reason) {
+    },
+
+
+
+    /**
+     * This is called every time the AI is asked to respond with a command during their turn
+     *
+     * @memberof AI
+     * @returns {boolean} represents if you want to end your turn. true means end the turn, false means to keep your turn going and re-call runTurn()
+     */
+    runTurn: function() {
+        // Get my first warehouse
+        var warehouse = this.player.warehouses[0];
+        if(this.canBribe(warehouse)) {
+            //ignite the first enemy building
+            warehouse.ignite(this.player.otherPlayer.buildings[0]);
+        }
+
+        // Get my first fire department
+        var fireDepartment = this.player.fireDepartments[0];
+        if(this.canBribe(fireDepartment)) {
+            // extinguish my first building if it's not my headquarters
+            var myBuilding = this.player.buildings[0];
+            if(!myBuilding.isHeadquarters) {
+                fireDepartment.extinguish(myBuilding);
+            }
+        }
+
+        // Get my first police department
+        var policeDepartment = this.player.policeDepartments[0];
+        if(this.canBribe(policeDepartment)) {
+            // Get the first enemy warehouse
+            var toRaid = this.player.otherPlayer.warehouses[0];
+            // Make sure it is alive to be raided
+            if(toRaid.health > 0 &amp;&amp; !toRaid.isHeadquarters) {
+                // Raid the first enemy warehouse if it's alive and not a headquarters
+                policeDepartment.raid(toRaid);
+            }
+        }
+
+        // Get my first weather station
+        var weatherStation1 = this.player.weatherStations[0];
+        if(this.canBribe(weatherStation1)) {
+            // Make sure the intensity isn't at max
+            if(this.game.nextForecast.intensity &lt; this.game.maxForecastIntensity) {
+                weatherStation1.intensify();
+            }
+            else {
+                // Otherwise decrease the intensity
+                weatherStation1.intensify(true);
+            }
+        }
+
+        // Get my second weather station
+        var weatherStation2 = this.player.weatherStations[1];
+        if(this.canBribe(weatherStation2)) {
+            // Rotate clockwise
+            weatherStation2.rotate();
+        }
+
+        return true;
+    },
+
+
+    /**
+     * checks if this AI can bribe a building. This is an example function. you are free to remove/modify.
+     *
+     * @memberof AI
+     */
+    canBribe: function(building) {
+        return (building &amp;&amp; building.health > 0 &amp;&amp; !building.bribed &amp;&amp; building.owner == this.player)
+    },
+
+
+});
+
+module.exports = AI;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="AI.html">AI</a></li><li><a href="Building.html">Building</a></li><li><a href="FireDepartment.html">FireDepartment</a></li><li><a href="Forecast.html">Forecast</a></li><li><a href="Game.html">Game</a></li><li><a href="GameObject.html">GameObject</a></li><li><a href="Player.html">Player</a></li><li><a href="PoliceDepartment.html">PoliceDepartment</a></li><li><a href="Warehouse.html">Warehouse</a></li><li><a href="WeatherStation.html">WeatherStation</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.3</a> on Sat Nov 14 2015 09:37:59 GMT-0600 (CST)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

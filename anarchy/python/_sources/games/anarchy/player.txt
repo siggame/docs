@@ -1,0 +1,5 @@
+Player
+======
+
+.. autoclass:: games.anarchy.Player
+    :members:

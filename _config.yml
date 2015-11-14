@@ -11,6 +11,9 @@ markdown: kramdown
 static_url: /static/
 production_url : "http://blog.megaminerai.com"
 
+include:
+  - _static/
+
 exclude:
   - secret.sh*
   - s3_website.yml

@@ -3,7 +3,7 @@ layout: docs
 tags: Pharaoh
 ---
 
-# Plants
+# Pharaoh
 
 ## Visualizer
 

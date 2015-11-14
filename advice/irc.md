@@ -7,7 +7,7 @@ tags: IRC
 
 ## Need help with something related to MegaMinerAI?
 
-Join channel `#megaminer` on `irc.freenode.net`, where developers and your competition will hang out to discuss MegaMinerAI-related topics.
+Join channel `##megaminer` on `irc.freenode.net`, where developers and your competition will hang out to discuss MegaMinerAI-related topics.
 
 Want to engage in some friendly trash talk with your competitors?  Please keep it in person; our IRC channel doesn't need that nonsense.
 
@@ -17,13 +17,13 @@ Want to engage in some friendly trash talk with your competitors?  Please keep i
 
 server: `irc.freenode.net`
 
-channel: `#megaminer`
+channel: `##megaminer`
 
 ---
 
 ### Don't have an irc client?
 
-You can connect to `#megaminer` at `http://webchat.freenode.net/` the channel field being `#megaminer`
+You can connect to `##megaminer` at `http://webchat.freenode.net/`. The channels field should be `##megaminer`. You can choose your own nickname.
 
 ---
 

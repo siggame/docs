@@ -25,12 +25,12 @@ can view the docs offline. We'll miss you though.
 
 ### Docs
 
-* [C++]()
-* [C#]()
-* [Java]()
-* [Python]()
-* [Lua]()
-* [JavaScript]()
+* [C++](cpp/)
+* [C#](cs/)
+* [Java](java/)
+* [Python](python/)
+* [Lua](lua/LuaClient.html)
+* [JavaScript](js/)
 
 ### Other Docs and Downloads
 

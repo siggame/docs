@@ -11,6 +11,8 @@ games:
     url: /chess
   - name: Pharaoh
     url: /pharaoh
+  - name: Anarchy
+    url: /anarchy
 
 other:
   - name: Arena

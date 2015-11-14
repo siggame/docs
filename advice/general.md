@@ -63,11 +63,11 @@ process required by the arena.
 
 If you or your team chooses to use an IDE, be *very* sure that your
 code still builds with `make` and runs with `run`. Consult the
-[Arena Doc Page](/advice/general/) for more details about how your
+[Arena Doc Page](/advice/arena/) for more details about how your
 code runs in the arena.
 
-> Just because it runs in Visual Studio doesn't mean it's going to run
-> in the arena.
+> Just because it runs in your favorite IDE doesn't mean it's going to
+> run in the arena.
 
 ## Function Not Implemented
 

@@ -16,8 +16,10 @@ games:
 
 other:
   - name: Arena
-    url: /advice/arena
+    url: /advice/Arena
   - name: General
     url: /advice/general
   - name: IRC
     url: /advice/irc
+  - name: FAQs
+    url: https://docs.google.com/document/d/1MYn3rsE82sqVYKHXOLbkX5tYE22VFYk63dvDSAexmoI/pub

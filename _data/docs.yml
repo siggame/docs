@@ -16,7 +16,7 @@ games:
 
 other:
   - name: Arena
-    url: /advice/Arena
+    url: /advice/arena
   - name: General
     url: /advice/general
   - name: IRC

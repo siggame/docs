@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Chess Python 3 Client &mdash; Chess Python 3 Client 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/pydoctheme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/sidebar.js"></script>
+    <link rel="top" title="Chess Python 3 Client 1.0 documentation" href="index.html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="shortcut icon" type="image/png" href="_static/favicon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=0.8">
+    
+
+  </head>
+  <body role="document">
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="responsive-menu"><a href="#sidebar-anchor" title="Navigation">&#9776;</a></li>
+        <li><a href="index.html">Chess Python 3 Client 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="chess-python-3-client">
+<h1>Chess Python 3 Client<a class="headerlink" href="#chess-python-3-client" title="Permalink to this headline">¶</a></h1>
+<p>This is the root of you AI. Stay out of the joueur/ folder, it does most
+of the heavy lifting to play on our game servers. Your AI, and the game
+objects it manipulates are all in <code class="docutils literal"><span class="pre">games/chess/</span></code>, with your very own
+AI living in <code class="docutils literal"><span class="pre">games/chess/ai.py</span></code> for you to make smarter.</p>
+<div class="section" id="how-to-run">
+<h2>How to Run<a class="headerlink" href="#how-to-run" title="Permalink to this headline">¶</a></h2>
+<p>This client has been tested and confirmed to work on the Campus
+rc##xcs213 Linux machines, but it can work on your own Windows/Linux/Mac
+machines if you desire.</p>
+<div class="section" id="linux">
+<h3>Linux<a class="headerlink" href="#linux" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre>./testRun MyOwnGameSession
+</pre></div>
+</div>
+<p>For Linux a recent version of <code class="docutils literal"><span class="pre">python3</span></code> should work. It has been
+tested on 3.4.3 extensively, but sould work with &gt;= 3.2. The normal
+&#8216;python&#8217; usually refers to Python 2.7.X, so make sure you have the
+python<strong>3</strong> installed.</p>
+</div>
+<div class="section" id="windows">
+<h3>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h3>
+<p>On Windows you&#8217;ll need some version of Python 3. As of this version
+<a class="reference external" href="https://www.python.org/downloads/release/python-343/">3.4.3</a> worked
+fine. Install that and ensure that python is set up in your
+Environmental Variables as &#8216;python3&#8217;, then</p>
+<div class="highlight-python"><div class="highlight"><pre>python3 main.py Chess -s r99acm.device.mst.edu -r MyOwnGameSession
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="make">
+<h2>Make<a class="headerlink" href="#make" title="Permalink to this headline">¶</a></h2>
+<p>There is a <code class="docutils literal"><span class="pre">Makefile</span></code> provided, but it is empty as python is an
+intepreted language. If you want to add <code class="docutils literal"><span class="pre">make</span></code> steps feel free to, but
+you may want to check with an Arena dev to ensure the Arena has the
+packages you need to use in <code class="docutils literal"><span class="pre">make</span></code>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <a id="sidebar-anchor"></a>
+    
+
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Chess Python 3 Client</a><ul>
+<li><a class="reference internal" href="#how-to-run">How to Run</a><ul>
+<li><a class="reference internal" href="#linux">Linux</a></li>
+<li><a class="reference internal" href="#windows">Windows</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#make">Make</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/readme.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+      </ul>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, SIG-GAME.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>

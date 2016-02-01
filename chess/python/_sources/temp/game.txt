@@ -1,0 +1,7 @@
+
+Game
+========
+
+.. autoclass:: games.chess.Game
+    :members:
+

@@ -1,0 +1,7 @@
+
+GameObject
+========
+
+.. autoclass:: games.chess.GameObject
+    :members:
+

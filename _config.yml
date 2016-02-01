@@ -17,3 +17,6 @@ include:
 exclude:
   - secret.sh*
   - s3_website.yml
+
+gems:
+  - jekyll-paginate

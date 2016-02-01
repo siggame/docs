@@ -1,0 +1,9 @@
+
+Player
+========
+
+.. autoclass:: games.chess.Player
+    :members:
+    :inherited-members:
+    :show-inheritance:
+

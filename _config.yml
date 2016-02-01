@@ -12,7 +12,7 @@ static_url: /static/
 production_url : "http://blog.megaminerai.com"
 
 include:
-  - _static/
+  - _static
 
 exclude:
   - secret.sh*

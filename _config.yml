@@ -9,7 +9,7 @@ highlighter: true
 markdown: kramdown
 
 static_url: /static/
-production_url : "http://blog.megaminerai.com"
+production_url : "http://docs.megaminerai.com"
 
 include:
   - _static

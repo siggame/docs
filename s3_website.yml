@@ -21,6 +21,7 @@ s3_bucket: "docs.megaminerai.com"
 
 exclude_from_upload:
   - secret.sh*
+  - Gemfile*
 
 # s3_reduced_redundancy: true
 

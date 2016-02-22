@@ -7,11 +7,8 @@ tags: Chess2013 Chess2014
 
 ## Visualizer
 
-Chess visualizers are available for download. A Windows and a Linux
-build are contained a single ZIP below.
-
-<a href="https://s3.amazonaws.com/siggame-old-visualizer-builds/chess-visualizers.zip" class="btn btn-info">
-Download Visualizer <i class="fa fa-play-circle"></i>
+<a href="http://r99acm.device.mst.edu:3080/chesser" class="btn btn-info">
+Chess Visualizer <i class="fa fa-play-circle"></i>
 </a>
 
 ## Documentation

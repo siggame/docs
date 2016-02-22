@@ -24,7 +24,7 @@
     <script type="text/javascript" src="../_static/doctools.js"></script>
     <script type="text/javascript" src="../_static/sidebar.js"></script>
     <link rel="top" title="Chess Python 3 Client 1.0 documentation" href="../index.html" />
-    <link rel="next" title="Piece" href="piece.html" />
+    <link rel="next" title="Move" href="move.html" />
     <link rel="prev" title="GameObject" href="game_object.html" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <link rel="shortcut icon" type="image/png" href="../_static/favicon.png" />
@@ -48,118 +48,250 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="player">
-<h1>Player<a class="headerlink" href="#player" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="module-games.chess.player">
+<span id="player"></span><h1>Player<a class="headerlink" href="#module-games.chess.player" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
-<dt id="games.chess.Player">
-<em class="property">class </em><code class="descclassname">games.chess.</code><code class="descname">Player</code><a class="headerlink" href="#games.chess.Player" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">games.chess.game_object.GameObject</span></code></p>
+<dt id="games.chess.player.Player">
+<em class="property">class </em><code class="descclassname">games.chess.player.</code><code class="descname">Player</code><a class="headerlink" href="#games.chess.player.Player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="game_object.html#games.chess.game_object.GameObject" title="games.chess.game_object.GameObject"><code class="xref py py-class docutils literal"><span class="pre">games.chess.game_object.GameObject</span></code></a></p>
 <p>The class representing the Player in the Chess game.</p>
 <p>A player in this game. Every AI controls one player.</p>
 <dl class="attribute">
-<dt id="games.chess.Player.client_type">
-<code class="descname">client_type</code><a class="headerlink" href="#games.chess.Player.client_type" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.client_type">
+<code class="descname">client_type</code><a class="headerlink" href="#games.chess.player.Player.client_type" title="Permalink to this definition">¶</a></dt>
 <dd><p>What type of client this is, e.g. &#8216;Python&#8217;, &#8216;JavaScript&#8217;, or some other language. For potential data mining purposes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.color">
-<code class="descname">color</code><a class="headerlink" href="#games.chess.Player.color" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.color">
+<code class="descname">color</code><a class="headerlink" href="#games.chess.player.Player.color" title="Permalink to this definition">¶</a></dt>
 <dd><p>The color (side) of this player. Either &#8216;White&#8217; or &#8216;Black&#8217;, with the &#8216;White&#8217; player having the first move.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.file_direction">
-<code class="descname">file_direction</code><a class="headerlink" href="#games.chess.Player.file_direction" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.file_direction">
+<code class="descname">file_direction</code><a class="headerlink" href="#games.chess.player.Player.file_direction" title="Permalink to this definition">¶</a></dt>
 <dd><p>The direction your checkers must go along the file (y) axis until they reach the other side.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.game_object_name">
-<code class="descname">game_object_name</code><a class="headerlink" href="#games.chess.Player.game_object_name" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.game_object_name">
+<code class="descname">game_object_name</code><a class="headerlink" href="#games.chess.player.Player.game_object_name" title="Permalink to this definition">¶</a></dt>
 <dd><p>String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.id">
-<code class="descname">id</code><a class="headerlink" href="#games.chess.Player.id" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.id">
+<code class="descname">id</code><a class="headerlink" href="#games.chess.player.Player.id" title="Permalink to this definition">¶</a></dt>
 <dd><p>A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.in_check">
-<code class="descname">in_check</code><a class="headerlink" href="#games.chess.Player.in_check" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.in_check">
+<code class="descname">in_check</code><a class="headerlink" href="#games.chess.player.Player.in_check" title="Permalink to this definition">¶</a></dt>
 <dd><p>true if this player is currently in check, and must move out of check.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="method">
-<dt id="games.chess.Player.log">
-<code class="descname">log</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#games.chess.Player.log" title="Permalink to this definition">¶</a></dt>
-<dd><p>adds a message to this game object&#8217;s log. Intended for debugging purposes.</p>
-<dl class="docutils">
-<dt>Args:</dt>
-<dd>message (str): A string to add to this GameObject&#8217;s log. Intended for debugging.</dd>
-</dl>
+<dt id="games.chess.player.Player.log">
+<code class="descname">log</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#games.chess.player.Player.log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a message to this GameObject&#8217;s logs. Intended for your own debugging purposes, as strings stored here are saved in the gamelog.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> (<em>str</em>) &#8211; A string to add to this GameObject&#8217;s log. Intended for debugging.</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.logs">
-<code class="descname">logs</code><a class="headerlink" href="#games.chess.Player.logs" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.logs">
+<code class="descname">logs</code><a class="headerlink" href="#games.chess.player.Player.logs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Any strings logged will be stored here when this game object logs the strings. Intended for debugging.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">list[str]</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.lost">
-<code class="descname">lost</code><a class="headerlink" href="#games.chess.Player.lost" title="Permalink to this definition">¶</a></dt>
-<dd><p>if the player lost the game or not</p>
+<dt id="games.chess.player.Player.lost">
+<code class="descname">lost</code><a class="headerlink" href="#games.chess.player.Player.lost" title="Permalink to this definition">¶</a></dt>
+<dd><p>If the player lost the game or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.made_move">
-<code class="descname">made_move</code><a class="headerlink" href="#games.chess.Player.made_move" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.made_move">
+<code class="descname">made_move</code><a class="headerlink" href="#games.chess.player.Player.made_move" title="Permalink to this definition">¶</a></dt>
 <dd><p>If the Player has made their move for the turn. true means they can no longer move a piece this turn.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.name">
-<code class="descname">name</code><a class="headerlink" href="#games.chess.Player.name" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.name">
+<code class="descname">name</code><a class="headerlink" href="#games.chess.player.Player.name" title="Permalink to this definition">¶</a></dt>
 <dd><p>The name of the player</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.other_player">
-<code class="descname">other_player</code><a class="headerlink" href="#games.chess.Player.other_player" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.other_player">
+<code class="descname">other_player</code><a class="headerlink" href="#games.chess.player.Player.other_player" title="Permalink to this definition">¶</a></dt>
 <dd><p>this player&#8217;s opponent in the game.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="#games.chess.player.Player" title="games.chess.player.Player">Player</a></td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.pieces">
-<code class="descname">pieces</code><a class="headerlink" href="#games.chess.Player.pieces" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.pieces">
+<code class="descname">pieces</code><a class="headerlink" href="#games.chess.player.Player.pieces" title="Permalink to this definition">¶</a></dt>
 <dd><p>All the unpcaptured chess pieces owned by this player.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">list[Piece]</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.reason_lost">
-<code class="descname">reason_lost</code><a class="headerlink" href="#games.chess.Player.reason_lost" title="Permalink to this definition">¶</a></dt>
-<dd><p>the reason why the player lost the game</p>
+<dt id="games.chess.player.Player.reason_lost">
+<code class="descname">reason_lost</code><a class="headerlink" href="#games.chess.player.Player.reason_lost" title="Permalink to this definition">¶</a></dt>
+<dd><p>The reason why the player lost the game.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.reason_won">
-<code class="descname">reason_won</code><a class="headerlink" href="#games.chess.Player.reason_won" title="Permalink to this definition">¶</a></dt>
-<dd><p>the reason why the player won the game</p>
+<dt id="games.chess.player.Player.reason_won">
+<code class="descname">reason_won</code><a class="headerlink" href="#games.chess.player.Player.reason_won" title="Permalink to this definition">¶</a></dt>
+<dd><p>The reason why the player won the game.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.time_remaining">
-<code class="descname">time_remaining</code><a class="headerlink" href="#games.chess.Player.time_remaining" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.player.Player.time_remaining">
+<code class="descname">time_remaining</code><a class="headerlink" href="#games.chess.player.Player.time_remaining" title="Permalink to this definition">¶</a></dt>
 <dd><p>The amount of time (in ns) remaining for this AI to send commands.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">float</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.Player.won">
-<code class="descname">won</code><a class="headerlink" href="#games.chess.Player.won" title="Permalink to this definition">¶</a></dt>
-<dd><p>if the player won the game or not</p>
+<dt id="games.chess.player.Player.won">
+<code class="descname">won</code><a class="headerlink" href="#games.chess.player.Player.won" title="Permalink to this definition">¶</a></dt>
+<dd><p>If the player won the game or not.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">bool</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 </dd></dl>
@@ -179,8 +311,8 @@
   <p class="topless"><a href="game_object.html"
                         title="previous chapter">GameObject</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="piece.html"
-                        title="next chapter">Piece</a></p>
+  <p class="topless"><a href="move.html"
+                        title="next chapter">Move</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -212,7 +344,10 @@
           <a href="../genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="piece.html" title="Piece"
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="move.html" title="Move"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="game_object.html" title="GameObject"

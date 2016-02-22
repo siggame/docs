@@ -1,7 +1,9 @@
 
 Game
-========
+====
 
-.. autoclass:: games.chess.Game
+.. currentmodule:: games.chess.game
+
+.. automodule:: games.chess.game
     :members:
 

@@ -1,9 +1,0 @@
-
-Piece
-========
-
-.. autoclass:: games.chess.Piece
-    :members:
-    :inherited-members:
-    :show-inheritance:
-

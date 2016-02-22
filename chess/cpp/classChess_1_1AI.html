@@ -122,7 +122,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a10b2f452b67b8e144c95ccfd3f941b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is automatically called when the game ends.  <a href="#a10b2f452b67b8e144c95ccfd3f941b3b">More...</a><br/></td></tr>
 <tr class="separator:a10b2f452b67b8e144c95ccfd3f941b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37286708992282898023eb7dbc05a819"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1AI.html#a37286708992282898023eb7dbc05a819">runTurn</a> ()</td></tr>
-<tr class="memdesc:a37286708992282898023eb7dbc05a819"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called every time the <a class="el" href="classChess_1_1AI.html" title="This the header file for where you build your AI for the Chess game. ">AI</a> is asked to respond with a command during their turn  <a href="#a37286708992282898023eb7dbc05a819">More...</a><br/></td></tr>
+<tr class="memdesc:a37286708992282898023eb7dbc05a819"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called every time it is this <a class="el" href="classChess_1_1AI.html#a0afe1dd3e349c0ed7f5de1c7f4e4ea4e" title="This is a pointer to your AI&#39;s player. This AI class is not a player, but it should command this Play...">AI.player</a>'s turn.  <a href="#a37286708992282898023eb7dbc05a819">More...</a><br/></td></tr>
 <tr class="separator:a37286708992282898023eb7dbc05a819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -220,8 +220,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This is called every time the <a class="el" href="classChess_1_1AI.html" title="This the header file for where you build your AI for the Chess game. ">AI</a> is asked to respond with a command during their turn </p>
-<dl class="section return"><dt>Returns</dt><dd>represents if you want to end your turn. true means end the turn, false means to keep your turn going and re-call <a class="el" href="classChess_1_1AI.html#a37286708992282898023eb7dbc05a819" title="This is called every time the AI is asked to respond with a command during their turn ...">runTurn()</a></dd></dl>
+<p>This is called every time it is this <a class="el" href="classChess_1_1AI.html#a0afe1dd3e349c0ed7f5de1c7f4e4ea4e" title="This is a pointer to your AI&#39;s player. This AI class is not a player, but it should command this Play...">AI.player</a>'s turn. </p>
+<dl class="section return"><dt>Returns</dt><dd>Represents if you want to end your turn. True means end your turn, False means to keep your turn going and re-call this function.</dd></dl>
 
 </div>
 </div>
@@ -278,7 +278,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 31 2016 21:19:32 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 15 2016 15:33:21 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

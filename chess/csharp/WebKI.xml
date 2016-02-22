@@ -15,7 +15,10 @@
   <HelpKINode Title="AI.Player field" Url="html/35fc905e-414a-0aff-d43c-b2f052f153f1.htm" />
   <HelpKINode Title="AI.RunTurn method" Url="html/73a28fb7-d922-1748-fdfc-493797d1a933.htm" />
   <HelpKINode Title="AI.Start method" Url="html/036bae61-e4b7-4c5d-0453-ba1ef3b70c50.htm" />
-  <HelpKINode Title="Captured property" Url="html/b09bc522-94c2-f756-009f-62bdbd41a266.htm" />
+  <HelpKINode Title="Captured property">
+    <HelpKINode Title="Move.Captured Property " Url="html/65e82678-0984-8b48-92bc-3e3efd43316d.htm" />
+    <HelpKINode Title="Piece.Captured Property " Url="html/b09bc522-94c2-f756-009f-62bdbd41a266.htm" />
+  </HelpKINode>
   <HelpKINode Title="ClientType property" Url="html/47bf367d-98b6-c7ab-4378-8994a25c3941.htm" />
   <HelpKINode Title="Color property" Url="html/76baff5d-4b39-d6d5-236d-fba3472738cb.htm" />
   <HelpKINode Title="CurrentPlayer property" Url="html/df23e1c9-a844-ccef-6075-63c903d1b127.htm" />
@@ -23,6 +26,8 @@
   <HelpKINode Title="Ended method" Url="html/b0267b17-0d69-436c-e7f6-20402a27e9f4.htm" />
   <HelpKINode Title="File property" Url="html/54a7b714-7c07-e53e-7fbd-7fd74ae0627b.htm" />
   <HelpKINode Title="FileDirection property" Url="html/00147a7f-e175-6fb5-4e02-29078722d1e8.htm" />
+  <HelpKINode Title="FromFile property" Url="html/240a4d19-5876-20d3-6e9c-176a31827cb1.htm" />
+  <HelpKINode Title="FromRank property" Url="html/8ea83804-b038-67df-4077-24f8fdecbc3d.htm" />
   <HelpKINode Title="Game class">
     <HelpKINode Title="Game Class" Url="html/45bdb541-5ddb-2bcf-c9ab-017936f9518d.htm" />
     <HelpKINode Title="about Game class" Url="html/45bdb541-5ddb-2bcf-c9ab-017936f9518d.htm" />
@@ -60,6 +65,7 @@
   <HelpKINode Title="Joueur.cs.Games.Chess.AI class" Url="html/dd0e37f7-8df0-811d-fe8c-b0cd98a7cbfe.htm" />
   <HelpKINode Title="Joueur.cs.Games.Chess.Game class" Url="html/45bdb541-5ddb-2bcf-c9ab-017936f9518d.htm" />
   <HelpKINode Title="Joueur.cs.Games.Chess.GameObject class" Url="html/d915c19c-c1db-be35-4a28-dac4e7f0cd27.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Chess.Move class" Url="html/d1865ebd-d42e-eabd-1928-62d2e4d62300.htm" />
   <HelpKINode Title="Joueur.cs.Games.Chess.Piece class" Url="html/11e0b85f-4aac-deb9-22fd-2ebf0f5af437.htm" />
   <HelpKINode Title="Joueur.cs.Games.Chess.Player class" Url="html/21b2b6ca-b226-185e-9085-c1784f5fd2df.htm" />
   <HelpKINode Title="Log method" Url="html/b04ff510-5af3-fea4-0976-e6c4f2f2616a.htm" />
@@ -67,7 +73,23 @@
   <HelpKINode Title="Lost property" Url="html/f2feb55a-0211-e70c-4d97-31bb49eaadab.htm" />
   <HelpKINode Title="MadeMove property" Url="html/b1f89c51-93e5-3d8c-d3c9-4ac68bca31eb.htm" />
   <HelpKINode Title="MaxTurns property" Url="html/fba48850-bef8-ae33-8da2-70c76d358fe2.htm" />
+  <HelpKINode Title="Move class">
+    <HelpKINode Title="Move Class" Url="html/d1865ebd-d42e-eabd-1928-62d2e4d62300.htm" />
+    <HelpKINode Title="about Move class" Url="html/d1865ebd-d42e-eabd-1928-62d2e4d62300.htm" />
+    <HelpKINode Title="constructor" Url="html/bac2db1d-cc9b-924c-bc3e-4f85ada35787.htm" />
+    <HelpKINode Title="methods" Url="html/c4d2391e-22c6-1639-a4a6-917e7fbaa9d4.htm" />
+    <HelpKINode Title="properties" Url="html/8b1bda98-61ca-c88d-eafc-a188e651040b.htm" />
+  </HelpKINode>
   <HelpKINode Title="Move method" Url="html/c0d2b844-a6c0-0e08-4bca-291735761ba2.htm" />
+  <HelpKINode Title="Move.Captured property" Url="html/65e82678-0984-8b48-92bc-3e3efd43316d.htm" />
+  <HelpKINode Title="Move.FromFile property" Url="html/240a4d19-5876-20d3-6e9c-176a31827cb1.htm" />
+  <HelpKINode Title="Move.FromRank property" Url="html/8ea83804-b038-67df-4077-24f8fdecbc3d.htm" />
+  <HelpKINode Title="Move.Move constructor" Url="html/bac2db1d-cc9b-924c-bc3e-4f85ada35787.htm" />
+  <HelpKINode Title="Move.Piece property" Url="html/947017ec-9d54-7f79-ee4e-00eea0a9b3d8.htm" />
+  <HelpKINode Title="Move.Promotion property" Url="html/91966925-4b15-5c1a-4029-2c877464cf4c.htm" />
+  <HelpKINode Title="Move.San property" Url="html/394c9268-ac1c-41b7-d524-97689fc3005a.htm" />
+  <HelpKINode Title="Move.ToFile property" Url="html/cc8b39f2-0f32-2a27-c66c-481036b0abb9.htm" />
+  <HelpKINode Title="Move.ToRank property" Url="html/56804cfc-cc4b-cd3e-fb1f-d25c4bc3a812.htm" />
   <HelpKINode Title="Moves property" Url="html/e399a788-aa12-410c-efbe-6c9f30d47b79.htm" />
   <HelpKINode Title="Name property" Url="html/037746a6-ade6-6107-4b84-e32405ce2df5.htm" />
   <HelpKINode Title="OtherPlayer property" Url="html/09ca1784-53e2-262d-f82f-e00272714f9e.htm" />
@@ -79,6 +101,7 @@
     <HelpKINode Title="methods" Url="html/8a314ff1-37dc-9081-87f9-5f96b46c14ab.htm" />
     <HelpKINode Title="properties" Url="html/db0a9fa3-3cd3-7044-bec8-c64820d0deb8.htm" />
   </HelpKINode>
+  <HelpKINode Title="Piece property" Url="html/947017ec-9d54-7f79-ee4e-00eea0a9b3d8.htm" />
   <HelpKINode Title="Piece.Captured property" Url="html/b09bc522-94c2-f756-009f-62bdbd41a266.htm" />
   <HelpKINode Title="Piece.File property" Url="html/54a7b714-7c07-e53e-7fbd-7fd74ae0627b.htm" />
   <HelpKINode Title="Piece.HasMoved property" Url="html/7f7dca86-5672-17aa-6abe-548d9659938c.htm" />
@@ -114,13 +137,17 @@
   <HelpKINode Title="Player.TimeRemaining property" Url="html/804bdc38-9b20-a3d3-3e3c-2630c2496dee.htm" />
   <HelpKINode Title="Player.Won property" Url="html/8de627ff-3073-e3d9-a85d-f61f45d89b17.htm" />
   <HelpKINode Title="Players property" Url="html/6409ebcc-1c8b-dcd2-93cb-a7a37a67c85e.htm" />
+  <HelpKINode Title="Promotion property" Url="html/91966925-4b15-5c1a-4029-2c877464cf4c.htm" />
   <HelpKINode Title="Rank property" Url="html/3d02cbfd-d46b-1ca3-1fbe-c5c5b42f9899.htm" />
   <HelpKINode Title="ReasonLost property" Url="html/b0a4239a-fcbe-9f22-bdd5-fa3599b88a7c.htm" />
   <HelpKINode Title="ReasonWon property" Url="html/0306e383-539c-e20c-9625-aa43c2cc3650.htm" />
   <HelpKINode Title="RunTurn method" Url="html/73a28fb7-d922-1748-fdfc-493797d1a933.htm" />
+  <HelpKINode Title="San property" Url="html/394c9268-ac1c-41b7-d524-97689fc3005a.htm" />
   <HelpKINode Title="Session property" Url="html/77389615-c69d-757b-0764-5455188a4b9a.htm" />
   <HelpKINode Title="Start method" Url="html/036bae61-e4b7-4c5d-0453-ba1ef3b70c50.htm" />
   <HelpKINode Title="TimeRemaining property" Url="html/804bdc38-9b20-a3d3-3e3c-2630c2496dee.htm" />
+  <HelpKINode Title="ToFile property" Url="html/cc8b39f2-0f32-2a27-c66c-481036b0abb9.htm" />
+  <HelpKINode Title="ToRank property" Url="html/56804cfc-cc4b-cd3e-fb1f-d25c4bc3a812.htm" />
   <HelpKINode Title="TurnsToDraw property" Url="html/ce9fe4a6-57aa-75da-c9b3-0cfaaf6cbcd1.htm" />
   <HelpKINode Title="Type property" Url="html/ddfb1972-63be-c19e-6de5-7feaf51b04aa.htm" />
   <HelpKINode Title="Won property" Url="html/8de627ff-3073-e3d9-a85d-f61f45d89b17.htm" />

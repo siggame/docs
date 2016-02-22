@@ -1,7 +1,0 @@
-
-AI
-========
-
-.. autoclass:: games.chess.AI
-    :members:
-

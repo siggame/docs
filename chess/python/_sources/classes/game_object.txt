@@ -1,7 +1,9 @@
 
 GameObject
-========
+==========
 
-.. autoclass:: games.chess.GameObject
+.. currentmodule:: games.chess.game_object
+
+.. automodule:: games.chess.game_object
     :members:
 

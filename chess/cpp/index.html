@@ -77,10 +77,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Chess C++ Client Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is the root of you AI. Stay out of the joueur/ folder, it does most of the heavy lifting to play on our game servers. Your AI, and the game objects it manipulates are all in <code>games/game_name/</code>, with your very own AI living in <code>games/game_name/ai.h</code> and <code>games/game_name/ai.cpp</code> files for you to make smarter.</p>
+<div class="textblock"><p>This is the root of you AI. Stay out of the joueur/ folder, it does most of the heavy lifting to play on our game servers. Your AI, and the game objects it manipulates are all in <code>games/chess/</code>, with your very own AI living in <code>games/chess/ai.h</code> and <code>games/chess/ai.cpp</code> files for you to make smarter.</p>
 <h2>How to Run</h2>
 <p>This client has been tested and confirmed to work on the Campus rc##xcs213 Linux machines, but it can work on your own Windows/Linux/Mac machines if you desire.</p>
-<p>Also make sure <b>NOT</b> to try to compile this in your S-Drive. MST's system for managing the S-Drive will mess with file permissions, which will cause complication to fail. You can clone it outside the S-Drive and use an SCP program like <a href="https://winscp.net/eng/download.php">WinSCP</a> to edit the files in Windows using whatever IDE you want if you want to code in Windows, but compile in Linux.</p>
+<p>Also make sure <b>NOT</b> to try to compile this in your Missouri S&amp;T S-Drive. This is not a fault with the client, but rather the school's S-Drive implimentation changing some file permissions during run time. We cannot control this. Instead, we recommend cloning your repo outside the S-Drive and use an SCP program like <a href="https://winscp.net/eng/download.php">WinSCP</a> to edit the files in Windows using whatever IDE you want if you want to code in Windows, but compile in Linux.</p>
 <h3>Linux</h3>
 <p>``` make ./testRun MyOwnGameSession ```</p>
 <p>If you are on your own machine, make sure you've installed boost. The <code>libboost-all-dev</code> package should be up to date. You'll also need the <code>cmake</code> package for make to work.</p>
@@ -92,7 +92,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 31 2016 21:19:32 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 15 2016 15:33:21 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -111,12 +111,12 @@ Inheritance diagram for Chess::Piece:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2ad6dd82e23574c3e16b9ee6c5a56624"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Piece.html#a2ad6dd82e23574c3e16b9ee6c5a56624">move</a> (std::string <a class="el" href="classChess_1_1Piece.html#ac458e07e539e57a709bd19ca673a6bd2">rank</a>, int <a class="el" href="classChess_1_1Piece.html#a6b9c15d58fec8ea6aea1476a2c1ebd04">file</a>, std::string promotionType=&quot;&quot;)</td></tr>
-<tr class="memdesc:a2ad6dd82e23574c3e16b9ee6c5a56624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the piece from its current location to the given rank and file.  <a href="#a2ad6dd82e23574c3e16b9ee6c5a56624">More...</a><br/></td></tr>
-<tr class="separator:a2ad6dd82e23574c3e16b9ee6c5a56624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e2c0b84f82cb23ef2d755577f7bf65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classChess_1_1Move.html">Chess::Move</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Piece.html#a38e2c0b84f82cb23ef2d755577f7bf65">move</a> (std::string <a class="el" href="classChess_1_1Piece.html#ac458e07e539e57a709bd19ca673a6bd2">rank</a>, int <a class="el" href="classChess_1_1Piece.html#a6b9c15d58fec8ea6aea1476a2c1ebd04">file</a>, std::string promotionType=&quot;&quot;)</td></tr>
+<tr class="memdesc:a38e2c0b84f82cb23ef2d755577f7bf65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the piece from its current location to the given rank and file.  <a href="#a38e2c0b84f82cb23ef2d755577f7bf65">More...</a><br/></td></tr>
+<tr class="separator:a38e2c0b84f82cb23ef2d755577f7bf65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classChess_1_1GameObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classChess_1_1GameObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classChess_1_1GameObject.html">Chess::GameObject</a></td></tr>
 <tr class="memitem:a2a94f8aafdc9a4ae64753e538e0b52ef inherit pub_methods_classChess_1_1GameObject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1GameObject.html#a2a94f8aafdc9a4ae64753e538e0b52ef">log</a> (std::string message)</td></tr>
-<tr class="memdesc:a2a94f8aafdc9a4ae64753e538e0b52ef inherit pub_methods_classChess_1_1GameObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a message to this game object's log. Intended for debugging purposes.  <a href="#a2a94f8aafdc9a4ae64753e538e0b52ef">More...</a><br/></td></tr>
+<tr class="memdesc:a2a94f8aafdc9a4ae64753e538e0b52ef inherit pub_methods_classChess_1_1GameObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a message to this <a class="el" href="classChess_1_1GameObject.html" title="An object in the game. The most basic class that all game classes should inherit from automatically...">GameObject</a>'s logs. Intended for your own debugging purposes, as strings stored here are saved in the gamelog.  <a href="#a2a94f8aafdc9a4ae64753e538e0b52ef">More...</a><br/></td></tr>
 <tr class="separator:a2a94f8aafdc9a4ae64753e538e0b52ef inherit pub_methods_classChess_1_1GameObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -153,12 +153,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateFi
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A chess piece </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2ad6dd82e23574c3e16b9ee6c5a56624"></a>
+<a class="anchor" id="a38e2c0b84f82cb23ef2d755577f7bf65"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string Chess::Piece::move </td>
+          <td class="memname"><a class="el" href="classChess_1_1Move.html">Chess::Move</a> * Chess::Piece::move </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>rank</em>, </td>
@@ -192,7 +192,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateFi
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The standard algebraic notation (SAN) representation of the move if successful, empty string otherwise. In addition if you fail your move you lose.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classChess_1_1Move.html" title="Contains all details about a Piece&#39;s move in the game. ">Move</a> you did if successful, otherwise null if invalid. In addition if your move was invalid you will lose.</dd></dl>
 
 </div>
 </div>
@@ -288,7 +288,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateFi
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 31 2016 21:19:32 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 15 2016 15:33:21 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -48,39 +48,67 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="gameobject">
-<h1>GameObject<a class="headerlink" href="#gameobject" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="module-games.chess.game_object">
+<span id="gameobject"></span><h1>GameObject<a class="headerlink" href="#module-games.chess.game_object" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
-<dt id="games.chess.GameObject">
-<em class="property">class </em><code class="descclassname">games.chess.</code><code class="descname">GameObject</code><a class="headerlink" href="#games.chess.GameObject" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.game_object.GameObject">
+<em class="property">class </em><code class="descclassname">games.chess.game_object.</code><code class="descname">GameObject</code><a class="headerlink" href="#games.chess.game_object.GameObject" title="Permalink to this definition">¶</a></dt>
 <dd><p>The class representing the GameObject in the Chess game.</p>
 <p>An object in the game. The most basic class that all game classes should inherit from automatically.</p>
 <dl class="attribute">
-<dt id="games.chess.GameObject.game_object_name">
-<code class="descname">game_object_name</code><a class="headerlink" href="#games.chess.GameObject.game_object_name" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.game_object.GameObject.game_object_name">
+<code class="descname">game_object_name</code><a class="headerlink" href="#games.chess.game_object.GameObject.game_object_name" title="Permalink to this definition">¶</a></dt>
 <dd><p>String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.GameObject.id">
-<code class="descname">id</code><a class="headerlink" href="#games.chess.GameObject.id" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.game_object.GameObject.id">
+<code class="descname">id</code><a class="headerlink" href="#games.chess.game_object.GameObject.id" title="Permalink to this definition">¶</a></dt>
 <dd><p>A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="method">
-<dt id="games.chess.GameObject.log">
-<code class="descname">log</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#games.chess.GameObject.log" title="Permalink to this definition">¶</a></dt>
-<dd><p>adds a message to this game object&#8217;s log. Intended for debugging purposes.</p>
-<dl class="docutils">
-<dt>Args:</dt>
-<dd>message (str): A string to add to this GameObject&#8217;s log. Intended for debugging.</dd>
-</dl>
+<dt id="games.chess.game_object.GameObject.log">
+<code class="descname">log</code><span class="sig-paren">(</span><em>message</em><span class="sig-paren">)</span><a class="headerlink" href="#games.chess.game_object.GameObject.log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a message to this GameObject&#8217;s logs. Intended for your own debugging purposes, as strings stored here are saved in the gamelog.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>message</strong> (<em>str</em>) &#8211; A string to add to this GameObject&#8217;s log. Intended for debugging.</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 <dl class="attribute">
-<dt id="games.chess.GameObject.logs">
-<code class="descname">logs</code><a class="headerlink" href="#games.chess.GameObject.logs" title="Permalink to this definition">¶</a></dt>
+<dt id="games.chess.game_object.GameObject.logs">
+<code class="descname">logs</code><a class="headerlink" href="#games.chess.game_object.GameObject.logs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Any strings logged will be stored here when this game object logs the strings. Intended for debugging.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">list[str]</td>
+</tr>
+</tbody>
+</table>
 </dd></dl>
 
 </dd></dl>
@@ -132,6 +160,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="../genindex.html" title="General Index"
              accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
         <li class="right" >
           <a href="player.html" title="Player"
              accesskey="N">next</a> |</li>

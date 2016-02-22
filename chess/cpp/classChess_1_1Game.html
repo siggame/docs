@@ -113,14 +113,14 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a43e8e58d515de6021d8380676443e7b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The player whose turn it is currently. That player can send commands. Other players cannot.  <a href="#a43e8e58d515de6021d8380676443e7b4">More...</a><br/></td></tr>
 <tr class="separator:a43e8e58d515de6021d8380676443e7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2c21369873e24f71d29d8a227b3936c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#af2c21369873e24f71d29d8a227b3936c">currentTurn</a></td></tr>
-<tr class="memdesc:af2c21369873e24f71d29d8a227b3936c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current turn number, starting at 0 for the first player's turn  <a href="#af2c21369873e24f71d29d8a227b3936c">More...</a><br/></td></tr>
+<tr class="memdesc:af2c21369873e24f71d29d8a227b3936c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current turn number, starting at 0 for the first player's turn.  <a href="#af2c21369873e24f71d29d8a227b3936c">More...</a><br/></td></tr>
 <tr class="separator:af2c21369873e24f71d29d8a227b3936c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe30f0546531d385744eb24a0e260f15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#abe30f0546531d385744eb24a0e260f15">maxTurns</a></td></tr>
 <tr class="memdesc:abe30f0546531d385744eb24a0e260f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum number of turns before the game will automatically end.  <a href="#abe30f0546531d385744eb24a0e260f15">More...</a><br/></td></tr>
 <tr class="separator:abe30f0546531d385744eb24a0e260f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa050b26087afc929aa6ea730846611d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#afa050b26087afc929aa6ea730846611d">moves</a></td></tr>
-<tr class="memdesc:afa050b26087afc929aa6ea730846611d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of moves in standard algebraic notation (SAN).  <a href="#afa050b26087afc929aa6ea730846611d">More...</a><br/></td></tr>
-<tr class="separator:afa050b26087afc929aa6ea730846611d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70078c7060c17013a36f4295943f0430"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classChess_1_1Move.html">Chess::Move</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#a70078c7060c17013a36f4295943f0430">moves</a></td></tr>
+<tr class="memdesc:a70078c7060c17013a36f4295943f0430"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of Moves that have occured, in order.  <a href="#a70078c7060c17013a36f4295943f0430">More...</a><br/></td></tr>
+<tr class="separator:a70078c7060c17013a36f4295943f0430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af60c14eb8b405501eacb78335acbc5e6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classChess_1_1Piece.html">Chess::Piece</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#af60c14eb8b405501eacb78335acbc5e6">pieces</a></td></tr>
 <tr class="memdesc:af60c14eb8b405501eacb78335acbc5e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the uncaptured pieces in the game.  <a href="#af60c14eb8b405501eacb78335acbc5e6">More...</a><br/></td></tr>
 <tr class="separator:af60c14eb8b405501eacb78335acbc5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +167,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateFi
       </table>
 </div><div class="memdoc">
 
-<p>The current turn number, starting at 0 for the first player's turn </p>
+<p>The current turn number, starting at 0 for the first player's turn. </p>
 
 </div>
 </div>
@@ -185,17 +185,17 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateFi
 
 </div>
 </div>
-<a class="anchor" id="afa050b26087afc929aa6ea730846611d"></a>
+<a class="anchor" id="a70078c7060c17013a36f4295943f0430"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::string&gt; Chess::Game::moves</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classChess_1_1Move.html">Chess::Move</a>*&gt; Chess::Game::moves</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The list of moves in standard algebraic notation (SAN). </p>
+<p>The list of Moves that have occured, in order. </p>
 
 </div>
 </div>
@@ -262,7 +262,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateFi
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Jan 31 2016 21:19:32 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 15 2016 15:33:21 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -13,6 +13,10 @@ Chess Visualizer <i class="fa fa-play-circle"></i>
 
 ## Documentation
 
+<a href="https://docs.google.com/presentation/d/11CD1aWK_JwcV5r_dtblx76sdgxIanOAJK6HNzHkNKZg/pub?start=false&loop=false&delayms=3000" class="btn btn-info">
+In-Class Presentation <i class="fa fa-lightbulb-o"></i>
+</a>
+
 Each of the chess clients has an associated documentation set. Feel
 free to browse!
 

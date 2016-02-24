@@ -17,6 +17,10 @@ Chess Visualizer <i class="fa fa-play-circle"></i>
 In-Class Presentation <i class="fa fa-lightbulb-o"></i>
 </a>
 
+<a href="https://docs.google.com/document/d/1Ys51Oyz2SIPmwiol55uPBQ0TIPc9NF51gVeb119msuk/pub" class="btn btn-info">
+Frequently Asked Questions <i class="fa fa-question-circle"></i>
+</a>
+
 Each of the chess clients has an associated documentation set. Feel
 free to browse!
 

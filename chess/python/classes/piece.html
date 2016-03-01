@@ -54,11 +54,11 @@
 <em class="property">class </em><code class="descclassname">games.chess.piece.</code><code class="descname">Piece</code><a class="headerlink" href="#games.chess.piece.Piece" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="game_object.html#games.chess.game_object.GameObject" title="games.chess.game_object.GameObject"><code class="xref py py-class docutils literal"><span class="pre">games.chess.game_object.GameObject</span></code></a></p>
 <p>The class representing the Piece in the Chess game.</p>
-<p>A chess piece</p>
+<p>A chess piece.</p>
 <dl class="attribute">
 <dt id="games.chess.piece.Piece.captured">
 <code class="descname">captured</code><a class="headerlink" href="#games.chess.piece.Piece.captured" title="Permalink to this definition">¶</a></dt>
-<dd><p>When the piece has been captured (removed from the board) this is true. Otherwise false.</p>
+<dd><p>When the Piece has been captured (removed from the board) this is true. Otherwise false.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -72,12 +72,12 @@
 <dl class="attribute">
 <dt id="games.chess.piece.Piece.file">
 <code class="descname">file</code><a class="headerlink" href="#games.chess.piece.Piece.file" title="Permalink to this definition">¶</a></dt>
-<dd><p>The file (y) coordinate of the checker represented as a number [1-8].</p>
+<dd><p>The file (column) coordinate of the Piece represented as a letter [a-h], with &#8216;a&#8217; starting at the left of the board.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +100,7 @@
 <dl class="attribute">
 <dt id="games.chess.piece.Piece.has_moved">
 <code class="descname">has_moved</code><a class="headerlink" href="#games.chess.piece.Piece.has_moved" title="Permalink to this definition">¶</a></dt>
-<dd><p>If the piece has moved from its starting position.</p>
+<dd><p>If the Piece has moved from its starting position.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
@@ -155,16 +155,16 @@
 
 <dl class="method">
 <dt id="games.chess.piece.Piece.move">
-<code class="descname">move</code><span class="sig-paren">(</span><em>rank</em>, <em>file</em>, <em>promotionType=''</em><span class="sig-paren">)</span><a class="headerlink" href="#games.chess.piece.Piece.move" title="Permalink to this definition">¶</a></dt>
-<dd><p>Moves the piece from its current location to the given rank and file.</p>
+<code class="descname">move</code><span class="sig-paren">(</span><em>file</em>, <em>rank</em>, <em>promotionType=''</em><span class="sig-paren">)</span><a class="headerlink" href="#games.chess.piece.Piece.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves the Piece from its current location to the given rank and file.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>rank</strong> (<em>str</em>) &#8211; The rank (x) coordinate to move to. Must be [a-h].</li>
-<li><strong>file</strong> (<em>int</em>) &#8211; The file (y) coordinate to move to. Must be [1-8].</li>
-<li><strong>promotion_type</strong> (<em>Optional[str]</em>) &#8211; If this is a Pawn moving to the end of the board then this parameter is what to promote it to.</li>
+<li><strong>file</strong> (<em>str</em>) &#8211; The file coordinate to move to. Must be [a-h].</li>
+<li><strong>rank</strong> (<em>int</em>) &#8211; The rank coordinate to move to. Must be [1-8].</li>
+<li><strong>promotion_type</strong> (<em>Optional[str]</em>) &#8211; If this is a Pawn moving to the end of the board then this parameter is what to promote it to. When used must be &#8216;Queen&#8217;, &#8216;Knight&#8217;, &#8216;Rook&#8217;, or &#8216;Bishop&#8217;.</li>
 </ul>
 </td>
 </tr>
@@ -195,12 +195,12 @@
 <dl class="attribute">
 <dt id="games.chess.piece.Piece.rank">
 <code class="descname">rank</code><a class="headerlink" href="#games.chess.piece.Piece.rank" title="Permalink to this definition">¶</a></dt>
-<dd><p>The rank (x) coordinate of the checker represented as a letter [a-h].</p>
+<dd><p>The rank (row) coordinate of the Piece represented as a number [1-8], with 1 starting at the bottom of the board.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">int</td>
 </tr>
 </tbody>
 </table>
@@ -209,7 +209,7 @@
 <dl class="attribute">
 <dt id="games.chess.piece.Piece.type">
 <code class="descname">type</code><a class="headerlink" href="#games.chess.piece.Piece.type" title="Permalink to this definition">¶</a></dt>
-<dd><p>The type of chess piece this is, either: &#8216;King&#8217;, &#8216;Queen&#8217;, &#8216;Knight&#8217;, &#8216;Rook&#8217;, &#8216;Bishop&#8217;, or &#8216;Pawn&#8217;.</p>
+<dd><p>The type of chess Piece this is, either: &#8216;King&#8217;, &#8216;Queen&#8217;, &#8216;Knight&#8217;, &#8216;Rook&#8217;, &#8216;Bishop&#8217;, or &#8216;Pawn&#8217;.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />

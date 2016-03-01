@@ -25,7 +25,6 @@
   <HelpKINode Title="CurrentTurn property" Url="html/4f072198-f61b-8042-6550-e8bd5b9047a8.htm" />
   <HelpKINode Title="Ended method" Url="html/b0267b17-0d69-436c-e7f6-20402a27e9f4.htm" />
   <HelpKINode Title="File property" Url="html/54a7b714-7c07-e53e-7fbd-7fd74ae0627b.htm" />
-  <HelpKINode Title="FileDirection property" Url="html/00147a7f-e175-6fb5-4e02-29078722d1e8.htm" />
   <HelpKINode Title="FromFile property" Url="html/240a4d19-5876-20d3-6e9c-176a31827cb1.htm" />
   <HelpKINode Title="FromRank property" Url="html/8ea83804-b038-67df-4077-24f8fdecbc3d.htm" />
   <HelpKINode Title="Game class">
@@ -124,7 +123,6 @@
   <HelpKINode Title="Player field" Url="html/35fc905e-414a-0aff-d43c-b2f052f153f1.htm" />
   <HelpKINode Title="Player.ClientType property" Url="html/47bf367d-98b6-c7ab-4378-8994a25c3941.htm" />
   <HelpKINode Title="Player.Color property" Url="html/76baff5d-4b39-d6d5-236d-fba3472738cb.htm" />
-  <HelpKINode Title="Player.FileDirection property" Url="html/00147a7f-e175-6fb5-4e02-29078722d1e8.htm" />
   <HelpKINode Title="Player.InCheck property" Url="html/efc843ea-3dfa-a27d-f8b5-88b8fd4b305e.htm" />
   <HelpKINode Title="Player.Lost property" Url="html/f2feb55a-0211-e70c-4d97-31bb49eaadab.htm" />
   <HelpKINode Title="Player.MadeMove property" Url="html/b1f89c51-93e5-3d8c-d3c9-4ac68bca31eb.htm" />
@@ -132,6 +130,7 @@
   <HelpKINode Title="Player.OtherPlayer property" Url="html/09ca1784-53e2-262d-f82f-e00272714f9e.htm" />
   <HelpKINode Title="Player.Pieces property" Url="html/f84435a7-0bc3-5125-752a-b493b5f5d77a.htm" />
   <HelpKINode Title="Player.Player constructor" Url="html/2996288b-4968-a912-8aec-419e9c25c5aa.htm" />
+  <HelpKINode Title="Player.RankDirection property" Url="html/e90166ab-3b6e-9e46-78da-8a797e603663.htm" />
   <HelpKINode Title="Player.ReasonLost property" Url="html/b0a4239a-fcbe-9f22-bdd5-fa3599b88a7c.htm" />
   <HelpKINode Title="Player.ReasonWon property" Url="html/0306e383-539c-e20c-9625-aa43c2cc3650.htm" />
   <HelpKINode Title="Player.TimeRemaining property" Url="html/804bdc38-9b20-a3d3-3e3c-2630c2496dee.htm" />
@@ -139,6 +138,7 @@
   <HelpKINode Title="Players property" Url="html/6409ebcc-1c8b-dcd2-93cb-a7a37a67c85e.htm" />
   <HelpKINode Title="Promotion property" Url="html/91966925-4b15-5c1a-4029-2c877464cf4c.htm" />
   <HelpKINode Title="Rank property" Url="html/3d02cbfd-d46b-1ca3-1fbe-c5c5b42f9899.htm" />
+  <HelpKINode Title="RankDirection property" Url="html/e90166ab-3b6e-9e46-78da-8a797e603663.htm" />
   <HelpKINode Title="ReasonLost property" Url="html/b0a4239a-fcbe-9f22-bdd5-fa3599b88a7c.htm" />
   <HelpKINode Title="ReasonWon property" Url="html/0306e383-539c-e20c-9625-aa43c2cc3650.htm" />
   <HelpKINode Title="RunTurn method" Url="html/73a28fb7-d922-1748-fdfc-493797d1a933.htm" />

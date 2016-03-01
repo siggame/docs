@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['move',['move',['../classChess_1_1Piece.html#a38e2c0b84f82cb23ef2d755577f7bf65',1,'Chess::Piece']]]
+  ['move',['move',['../classChess_1_1Piece.html#a14ec54c7d4c8722aac38d8be93c88ee8',1,'Chess::Piece']]]
 ];

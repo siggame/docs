@@ -85,4 +85,4 @@ Below is a list of supported software versions for MegaminerAI. If you
 have questions about other software, please contact a dev to have this
 list updated.
 
-Please take a look at our ![always-up-to-date document](https://docs.google.com/document/d/1oeZ6MdfU-gmPzRJvZwkB8VzqWtlzHIViHDolDCei_KU/pub) on versions used in the arena!
+Please take a look at our [always-up-to-date document](https://docs.google.com/document/d/1oeZ6MdfU-gmPzRJvZwkB8VzqWtlzHIViHDolDCei_KU/pub) on versions used in the arena!

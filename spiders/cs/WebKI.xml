@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AI class">
+    <HelpKINode Title="AI Class" Url="html/71aa02a1-70c5-5446-cfa5-cd3cadd31c83.htm" />
+    <HelpKINode Title="about AI class" Url="html/71aa02a1-70c5-5446-cfa5-cd3cadd31c83.htm" />
+    <HelpKINode Title="constructor" Url="html/9fb7236f-c497-fd0b-9508-05bb231b11a2.htm" />
+    <HelpKINode Title="fields" Url="html/eede0cd1-58a3-5dbb-5f81-05a29e8d9623.htm" />
+    <HelpKINode Title="methods" Url="html/1a0cb59a-12c3-3dd0-df6e-630b36ab72fd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AI.AI constructor" Url="html/9fb7236f-c497-fd0b-9508-05bb231b11a2.htm" />
+  <HelpKINode Title="AI.Ended method" Url="html/f6f8cd70-b842-ce10-7770-56ee69b3945e.htm" />
+  <HelpKINode Title="AI.Game field" Url="html/e20030c0-b563-8df0-6c29-95806d7919a4.htm" />
+  <HelpKINode Title="AI.GameUpdated method" Url="html/3d820437-de7b-fd56-c0c4-a5b0cd7cd034.htm" />
+  <HelpKINode Title="AI.GetName method" Url="html/6a89518f-d9c2-698f-06d7-9be5c3884a01.htm" />
+  <HelpKINode Title="AI.Player field" Url="html/29facfc9-f897-f653-b25a-cc5047057d45.htm" />
+  <HelpKINode Title="AI.RunTurn method" Url="html/2c3dfdc6-7840-0212-f27d-6061bdfb83cc.htm" />
+  <HelpKINode Title="AI.Start method" Url="html/79e37da5-62c2-b33b-0f34-14b90f91ac02.htm" />
+  <HelpKINode Title="Attack method" Url="html/e8782412-f059-4645-e744-03903954359d.htm" />
+  <HelpKINode Title="BroodMother class">
+    <HelpKINode Title="BroodMother Class" Url="html/b5f0b027-c5a3-9cdb-325f-5b46db1782d3.htm" />
+    <HelpKINode Title="about BroodMother class" Url="html/b5f0b027-c5a3-9cdb-325f-5b46db1782d3.htm" />
+    <HelpKINode Title="constructor" Url="html/49ae6992-445e-b990-ebdb-06c5a2f57c16.htm" />
+    <HelpKINode Title="methods" Url="html/9d485e5b-dfe5-beee-f81f-0d8aeeea5986.htm" />
+    <HelpKINode Title="properties" Url="html/60394014-38c4-59a6-4f02-5246a1382b42.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BroodMother property" Url="html/b971cc24-e48a-b4c1-9897-8d10ad80dbca.htm" />
+  <HelpKINode Title="BroodMother.BroodMother constructor" Url="html/49ae6992-445e-b990-ebdb-06c5a2f57c16.htm" />
+  <HelpKINode Title="BroodMother.Consume method" Url="html/74aa8b4f-e68c-1e91-6f17-f660d7775c8e.htm" />
+  <HelpKINode Title="BroodMother.Eggs property" Url="html/ebd5fb70-2c8b-9998-a819-b4a261f1c220.htm" />
+  <HelpKINode Title="BroodMother.Health property" Url="html/b993bf0d-e81b-f7a1-2bf8-7a1c5baec4cb.htm" />
+  <HelpKINode Title="BroodMother.Spawn method" Url="html/79cf218a-82c4-2694-e544-fd36c5927988.htm" />
+  <HelpKINode Title="Busy property" Url="html/a7d355b1-458d-edb0-e7f6-1681898f68b3.htm" />
+  <HelpKINode Title="ClientType property" Url="html/c0069408-c602-af8c-6f90-5235486ca12c.htm" />
+  <HelpKINode Title="Consume method" Url="html/74aa8b4f-e68c-1e91-6f17-f660d7775c8e.htm" />
+  <HelpKINode Title="Coworkers property" Url="html/06c9f542-e233-356c-7580-3ab3b7f8a9b3.htm" />
+  <HelpKINode Title="CurrentPlayer property" Url="html/bfca21d9-7c12-233a-1703-6d5c183aeba5.htm" />
+  <HelpKINode Title="CurrentTurn property" Url="html/d677c04d-ae2a-8d73-5304-c7db4ff14874.htm" />
+  <HelpKINode Title="Cut method" Url="html/4b3cf6e0-174b-0249-e317-f5369af0a150.htm" />
+  <HelpKINode Title="CutSpeed property" Url="html/2c546d78-3b3e-6604-a52a-f18b9e244452.htm" />
+  <HelpKINode Title="Cutter class">
+    <HelpKINode Title="Cutter Class" Url="html/cb0094d8-d772-406c-6020-41d84ce31e09.htm" />
+    <HelpKINode Title="about Cutter class" Url="html/cb0094d8-d772-406c-6020-41d84ce31e09.htm" />
+    <HelpKINode Title="constructor" Url="html/db709d49-815f-1b96-29d3-794ce290fcc6.htm" />
+    <HelpKINode Title="methods" Url="html/ce878f1f-8b21-58c5-aacc-3e2d3df9ebe4.htm" />
+    <HelpKINode Title="properties" Url="html/88f4f332-fde5-b195-4d24-388cb49ea72c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cutter.Cut method" Url="html/4b3cf6e0-174b-0249-e317-f5369af0a150.htm" />
+  <HelpKINode Title="Cutter.Cutter constructor" Url="html/db709d49-815f-1b96-29d3-794ce290fcc6.htm" />
+  <HelpKINode Title="Cutter.CuttingWeb property" Url="html/43337806-14d8-4234-06d0-ab13b5b9ba12.htm" />
+  <HelpKINode Title="CuttingWeb property" Url="html/43337806-14d8-4234-06d0-ab13b5b9ba12.htm" />
+  <HelpKINode Title="DistanceTo method" Url="html/1a0e7d04-3ef5-017e-0cb1-01b3d01ea091.htm" />
+  <HelpKINode Title="Eggs property" Url="html/ebd5fb70-2c8b-9998-a819-b4a261f1c220.htm" />
+  <HelpKINode Title="EggsScalar property" Url="html/83b052d5-86ce-c98a-8dd2-27bfe1e0cf7a.htm" />
+  <HelpKINode Title="Ended method" Url="html/f6f8cd70-b842-ce10-7770-56ee69b3945e.htm" />
+  <HelpKINode Title="Game class">
+    <HelpKINode Title="Game Class" Url="html/1415aa80-af47-fdbd-707d-79587fb221e0.htm" />
+    <HelpKINode Title="about Game class" Url="html/1415aa80-af47-fdbd-707d-79587fb221e0.htm" />
+    <HelpKINode Title="constructor" Url="html/55aa5ea3-54fe-d5ca-be8e-6f21804bb1e4.htm" />
+    <HelpKINode Title="methods" Url="html/63240a0f-e78e-16db-69ab-bc487ecd5637.htm" />
+    <HelpKINode Title="properties" Url="html/fe6efd00-b656-9fa1-72e8-8b08baf567ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Game field" Url="html/e20030c0-b563-8df0-6c29-95806d7919a4.htm" />
+  <HelpKINode Title="Game.CurrentPlayer property" Url="html/bfca21d9-7c12-233a-1703-6d5c183aeba5.htm" />
+  <HelpKINode Title="Game.CurrentTurn property" Url="html/d677c04d-ae2a-8d73-5304-c7db4ff14874.htm" />
+  <HelpKINode Title="Game.CutSpeed property" Url="html/2c546d78-3b3e-6604-a52a-f18b9e244452.htm" />
+  <HelpKINode Title="Game.EggsScalar property" Url="html/83b052d5-86ce-c98a-8dd2-27bfe1e0cf7a.htm" />
+  <HelpKINode Title="Game.Game constructor" Url="html/55aa5ea3-54fe-d5ca-be8e-6f21804bb1e4.htm" />
+  <HelpKINode Title="Game.InitialWebStrength property" Url="html/71353c94-f0e7-e56a-312a-a90720ca6f69.htm" />
+  <HelpKINode Title="Game.MaxTurns property" Url="html/559536e8-eb63-85cc-6801-8716c15737f3.htm" />
+  <HelpKINode Title="Game.MovementSpeed property" Url="html/ddb9c1f4-f610-445e-7b20-0da78cf06e92.htm" />
+  <HelpKINode Title="Game.Nests property" Url="html/cacedb04-de6e-966a-b80c-698c5dc78adc.htm" />
+  <HelpKINode Title="Game.Players property" Url="html/adcf5dc0-b745-c7a2-4826-a282f4b3d9ae.htm" />
+  <HelpKINode Title="Game.Session property" Url="html/e92fbb83-08f7-c462-67dd-409f2b68302d.htm" />
+  <HelpKINode Title="Game.SpitSpeed property" Url="html/3384ad7e-e01f-a6ab-a60e-f8645cf9f549.htm" />
+  <HelpKINode Title="Game.WeavePower property" Url="html/c640e1f7-8b44-fbe5-865d-16dde4ec585f.htm" />
+  <HelpKINode Title="Game.WeaveSpeed property" Url="html/93783c02-01e8-768b-3c3c-96a81ab23bbd.htm" />
+  <HelpKINode Title="Game.Webs property" Url="html/58281636-63c2-2c24-df27-8639cd8ab99a.htm" />
+  <HelpKINode Title="GameObject class">
+    <HelpKINode Title="GameObject Class" Url="html/4e9d9448-e4b1-7910-2398-4b8ff0cb2546.htm" />
+    <HelpKINode Title="about GameObject class" Url="html/4e9d9448-e4b1-7910-2398-4b8ff0cb2546.htm" />
+    <HelpKINode Title="constructor" Url="html/11352eac-a79b-128a-be19-4583b7e36f45.htm" />
+    <HelpKINode Title="methods" Url="html/867923c5-4207-7752-dd9b-2a3db48a788b.htm" />
+    <HelpKINode Title="properties" Url="html/dbebb8b2-4abc-60ba-a1ab-e2de444bdc7e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GameObject.GameObject constructor" Url="html/11352eac-a79b-128a-be19-4583b7e36f45.htm" />
+  <HelpKINode Title="GameObject.GameObjectName property" Url="html/8451c28d-8e2f-0216-67cf-1de02992990f.htm" />
+  <HelpKINode Title="GameObject.Log method" Url="html/b17303ea-08e1-3b3f-eb7e-ee97f559a36a.htm" />
+  <HelpKINode Title="GameObject.Logs property" Url="html/f339cdc3-e79b-b686-44ad-df864e6d67b8.htm" />
+  <HelpKINode Title="GameObjectName property" Url="html/8451c28d-8e2f-0216-67cf-1de02992990f.htm" />
+  <HelpKINode Title="GameUpdated method" Url="html/3d820437-de7b-fd56-c0c4-a5b0cd7cd034.htm" />
+  <HelpKINode Title="GetName method" Url="html/6a89518f-d9c2-698f-06d7-9be5c3884a01.htm" />
+  <HelpKINode Title="Health property" Url="html/b993bf0d-e81b-f7a1-2bf8-7a1c5baec4cb.htm" />
+  <HelpKINode Title="InitialWebStrength property" Url="html/71353c94-f0e7-e56a-312a-a90720ca6f69.htm" />
+  <HelpKINode Title="IsDead property" Url="html/4eecc44b-9c7a-9a8e-3e7c-47e0933ec337.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders namespace" Url="html/a55be1ca-7d38-08c5-29f5-d0306cf0985c.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.AI class" Url="html/71aa02a1-70c5-5446-cfa5-cd3cadd31c83.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.BroodMother class" Url="html/b5f0b027-c5a3-9cdb-325f-5b46db1782d3.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Cutter class" Url="html/cb0094d8-d772-406c-6020-41d84ce31e09.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Game class" Url="html/1415aa80-af47-fdbd-707d-79587fb221e0.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.GameObject class" Url="html/4e9d9448-e4b1-7910-2398-4b8ff0cb2546.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Nest class" Url="html/4f208206-1d39-f26f-a8bd-64400e10b14e.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Player class" Url="html/833a0616-0ad5-e2e7-0027-afb1b16e29ff.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Spider class" Url="html/04006f1c-92f1-d933-943c-abe7728ef256.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Spiderling class" Url="html/7a22b267-9c91-9ee2-9a93-c96533bcb66c.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Spitter class" Url="html/13a3751b-a2b7-e7e4-1133-e730e4961acc.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Weaver class" Url="html/56a43eef-6903-3756-42d3-a3a2704462a2.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Spiders.Web class" Url="html/e8e0a466-323a-5b0b-b570-7b12ccfa15f3.htm" />
+  <HelpKINode Title="Length property" Url="html/2563aef8-ff1c-036e-1c6a-b847b34066ef.htm" />
+  <HelpKINode Title="Load property" Url="html/476b6651-5fd3-ae1b-69ad-849b65f7fd0b.htm" />
+  <HelpKINode Title="Log method" Url="html/b17303ea-08e1-3b3f-eb7e-ee97f559a36a.htm" />
+  <HelpKINode Title="Logs property" Url="html/f339cdc3-e79b-b686-44ad-df864e6d67b8.htm" />
+  <HelpKINode Title="Lost property" Url="html/8d106e42-3734-199c-37b2-94a95eeb1bd3.htm" />
+  <HelpKINode Title="MaxSpiderlings property" Url="html/84395e88-0534-30ea-c53a-dbd1635e2fdf.htm" />
+  <HelpKINode Title="MaxTurns property" Url="html/559536e8-eb63-85cc-6801-8716c15737f3.htm" />
+  <HelpKINode Title="Move method" Url="html/68979a8e-b4ea-4b64-f022-049f98152bef.htm" />
+  <HelpKINode Title="MovementSpeed property" Url="html/ddb9c1f4-f610-445e-7b20-0da78cf06e92.htm" />
+  <HelpKINode Title="MovingOnWeb property" Url="html/1b1b2c0e-2464-2755-a1c8-7f87b75521da.htm" />
+  <HelpKINode Title="MovingToNest property" Url="html/fe98c6bf-c01a-e98f-3b89-748c4ad1c968.htm" />
+  <HelpKINode Title="Name property" Url="html/1dc1280f-cf82-8e39-169c-2f1050eae481.htm" />
+  <HelpKINode Title="Nest class">
+    <HelpKINode Title="Nest Class" Url="html/4f208206-1d39-f26f-a8bd-64400e10b14e.htm" />
+    <HelpKINode Title="about Nest class" Url="html/4f208206-1d39-f26f-a8bd-64400e10b14e.htm" />
+    <HelpKINode Title="constructor" Url="html/c9ad6c9f-4495-0870-4c92-a2f505124fb9.htm" />
+    <HelpKINode Title="methods" Url="html/f43ec23d-b568-f0d4-44ce-a219e7129e26.htm" />
+    <HelpKINode Title="properties" Url="html/121cf63f-c812-4b44-5a33-63752a3c5277.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Nest property" Url="html/8720aeb1-9ba6-4d24-59ea-cea6112f0ba9.htm" />
+  <HelpKINode Title="Nest.DistanceTo method" Url="html/1a0e7d04-3ef5-017e-0cb1-01b3d01ea091.htm" />
+  <HelpKINode Title="Nest.Nest constructor" Url="html/c9ad6c9f-4495-0870-4c92-a2f505124fb9.htm" />
+  <HelpKINode Title="Nest.Spiders property" Url="html/0fdd3e3f-1d02-8ba9-f001-ac8a880d808a.htm" />
+  <HelpKINode Title="Nest.Webs property" Url="html/05028da0-eb79-0540-bd7e-7b2b5b73019e.htm" />
+  <HelpKINode Title="Nest.X property" Url="html/44846eec-738f-410b-f163-999675f06783.htm" />
+  <HelpKINode Title="Nest.Y property" Url="html/511e3b27-22a7-cf47-5480-235de06d0f71.htm" />
+  <HelpKINode Title="NestA property" Url="html/d13c6dc0-f25f-05ce-3b82-c4da8d8fd035.htm" />
+  <HelpKINode Title="NestB property" Url="html/a78d9b6a-3e77-064a-4094-ce4d4c84e259.htm" />
+  <HelpKINode Title="Nests property" Url="html/cacedb04-de6e-966a-b80c-698c5dc78adc.htm" />
+  <HelpKINode Title="OtherPlayer property" Url="html/6da1bf3b-9cfc-b437-7751-b80129463937.htm" />
+  <HelpKINode Title="Owner property" Url="html/841d35c2-9b5f-d4c1-b488-2ffa047ef70a.htm" />
+  <HelpKINode Title="Player class">
+    <HelpKINode Title="Player Class" Url="html/833a0616-0ad5-e2e7-0027-afb1b16e29ff.htm" />
+    <HelpKINode Title="about Player class" Url="html/833a0616-0ad5-e2e7-0027-afb1b16e29ff.htm" />
+    <HelpKINode Title="constructor" Url="html/61c7b4bb-2c35-2be8-e312-8d6d16d7c264.htm" />
+    <HelpKINode Title="methods" Url="html/683c24aa-6ff8-74d9-fc0d-d715da1312d2.htm" />
+    <HelpKINode Title="properties" Url="html/105ced66-6d51-2049-df1d-3acbe96041e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Player field" Url="html/29facfc9-f897-f653-b25a-cc5047057d45.htm" />
+  <HelpKINode Title="Player.BroodMother property" Url="html/b971cc24-e48a-b4c1-9897-8d10ad80dbca.htm" />
+  <HelpKINode Title="Player.ClientType property" Url="html/c0069408-c602-af8c-6f90-5235486ca12c.htm" />
+  <HelpKINode Title="Player.Lost property" Url="html/8d106e42-3734-199c-37b2-94a95eeb1bd3.htm" />
+  <HelpKINode Title="Player.MaxSpiderlings property" Url="html/84395e88-0534-30ea-c53a-dbd1635e2fdf.htm" />
+  <HelpKINode Title="Player.Name property" Url="html/1dc1280f-cf82-8e39-169c-2f1050eae481.htm" />
+  <HelpKINode Title="Player.OtherPlayer property" Url="html/6da1bf3b-9cfc-b437-7751-b80129463937.htm" />
+  <HelpKINode Title="Player.Player constructor" Url="html/61c7b4bb-2c35-2be8-e312-8d6d16d7c264.htm" />
+  <HelpKINode Title="Player.ReasonLost property" Url="html/d2c1ebc3-027d-b911-03f5-0df91b973c20.htm" />
+  <HelpKINode Title="Player.ReasonWon property" Url="html/bf100dcb-4f2a-f75f-327a-f53a9c22b3ac.htm" />
+  <HelpKINode Title="Player.Spiders property" Url="html/0f78f705-319b-cf6f-1ce8-62c70c581a4b.htm" />
+  <HelpKINode Title="Player.TimeRemaining property" Url="html/0b62b7ed-6371-e988-b1b6-2fe151f7d1a8.htm" />
+  <HelpKINode Title="Player.Won property" Url="html/a5a3064f-f00c-05bd-bbfc-3e4827a417a1.htm" />
+  <HelpKINode Title="Players property" Url="html/adcf5dc0-b745-c7a2-4826-a282f4b3d9ae.htm" />
+  <HelpKINode Title="ReasonLost property" Url="html/d2c1ebc3-027d-b911-03f5-0df91b973c20.htm" />
+  <HelpKINode Title="ReasonWon property" Url="html/bf100dcb-4f2a-f75f-327a-f53a9c22b3ac.htm" />
+  <HelpKINode Title="RunTurn method" Url="html/2c3dfdc6-7840-0212-f27d-6061bdfb83cc.htm" />
+  <HelpKINode Title="Session property" Url="html/e92fbb83-08f7-c462-67dd-409f2b68302d.htm" />
+  <HelpKINode Title="Spawn method" Url="html/79cf218a-82c4-2694-e544-fd36c5927988.htm" />
+  <HelpKINode Title="Spider class">
+    <HelpKINode Title="Spider Class" Url="html/04006f1c-92f1-d933-943c-abe7728ef256.htm" />
+    <HelpKINode Title="about Spider class" Url="html/04006f1c-92f1-d933-943c-abe7728ef256.htm" />
+    <HelpKINode Title="constructor" Url="html/63b90427-2477-57e7-ad8f-7804613d37d7.htm" />
+    <HelpKINode Title="methods" Url="html/a18eaed1-8f26-370a-611f-2c295620ad3d.htm" />
+    <HelpKINode Title="properties" Url="html/1636e336-a01e-6e88-5627-c2e67d123d25.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Spider.IsDead property" Url="html/4eecc44b-9c7a-9a8e-3e7c-47e0933ec337.htm" />
+  <HelpKINode Title="Spider.Nest property" Url="html/8720aeb1-9ba6-4d24-59ea-cea6112f0ba9.htm" />
+  <HelpKINode Title="Spider.Owner property" Url="html/841d35c2-9b5f-d4c1-b488-2ffa047ef70a.htm" />
+  <HelpKINode Title="Spider.Spider constructor" Url="html/63b90427-2477-57e7-ad8f-7804613d37d7.htm" />
+  <HelpKINode Title="Spiderling class">
+    <HelpKINode Title="Spiderling Class" Url="html/7a22b267-9c91-9ee2-9a93-c96533bcb66c.htm" />
+    <HelpKINode Title="about Spiderling class" Url="html/7a22b267-9c91-9ee2-9a93-c96533bcb66c.htm" />
+    <HelpKINode Title="constructor" Url="html/fc33f867-29c4-54ee-0544-70ad9304b315.htm" />
+    <HelpKINode Title="methods" Url="html/b379d7a5-d7cb-24b4-4810-6944f93af94d.htm" />
+    <HelpKINode Title="properties" Url="html/20785110-de1b-712f-1909-8aca9b6b6a06.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Spiderling.Attack method" Url="html/e8782412-f059-4645-e744-03903954359d.htm" />
+  <HelpKINode Title="Spiderling.Busy property" Url="html/a7d355b1-458d-edb0-e7f6-1681898f68b3.htm" />
+  <HelpKINode Title="Spiderling.Coworkers property" Url="html/06c9f542-e233-356c-7580-3ab3b7f8a9b3.htm" />
+  <HelpKINode Title="Spiderling.Move method" Url="html/68979a8e-b4ea-4b64-f022-049f98152bef.htm" />
+  <HelpKINode Title="Spiderling.MovingOnWeb property" Url="html/1b1b2c0e-2464-2755-a1c8-7f87b75521da.htm" />
+  <HelpKINode Title="Spiderling.MovingToNest property" Url="html/fe98c6bf-c01a-e98f-3b89-748c4ad1c968.htm" />
+  <HelpKINode Title="Spiderling.Spiderling constructor" Url="html/fc33f867-29c4-54ee-0544-70ad9304b315.htm" />
+  <HelpKINode Title="Spiderling.WorkRemaining property" Url="html/73084367-4fb4-cd62-623e-31a50713259e.htm" />
+  <HelpKINode Title="Spiderlings property" Url="html/bf0daefd-7694-9804-3b2c-e95aad7e2012.htm" />
+  <HelpKINode Title="Spiders property">
+    <HelpKINode Title="Nest.Spiders Property " Url="html/0fdd3e3f-1d02-8ba9-f001-ac8a880d808a.htm" />
+    <HelpKINode Title="Player.Spiders Property " Url="html/0f78f705-319b-cf6f-1ce8-62c70c581a4b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Spit method" Url="html/8609a07b-cc27-9742-4566-abdaedcc3a45.htm" />
+  <HelpKINode Title="SpitSpeed property" Url="html/3384ad7e-e01f-a6ab-a60e-f8645cf9f549.htm" />
+  <HelpKINode Title="Spitter class">
+    <HelpKINode Title="Spitter Class" Url="html/13a3751b-a2b7-e7e4-1133-e730e4961acc.htm" />
+    <HelpKINode Title="about Spitter class" Url="html/13a3751b-a2b7-e7e4-1133-e730e4961acc.htm" />
+    <HelpKINode Title="constructor" Url="html/80663317-4b3c-0bf8-b4cc-27ac89ec5413.htm" />
+    <HelpKINode Title="methods" Url="html/a08892b9-2ba7-9c0d-6e91-78a74debae5f.htm" />
+    <HelpKINode Title="properties" Url="html/e5da93ab-2ab8-6932-ca4d-edcfe299a07e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Spitter.Spit method" Url="html/8609a07b-cc27-9742-4566-abdaedcc3a45.htm" />
+  <HelpKINode Title="Spitter.Spitter constructor" Url="html/80663317-4b3c-0bf8-b4cc-27ac89ec5413.htm" />
+  <HelpKINode Title="Spitter.SpittingWebToNest property" Url="html/4dfae6f3-8837-8cb0-9a47-fa2b2f14295e.htm" />
+  <HelpKINode Title="SpittingWebToNest property" Url="html/4dfae6f3-8837-8cb0-9a47-fa2b2f14295e.htm" />
+  <HelpKINode Title="Start method" Url="html/79e37da5-62c2-b33b-0f34-14b90f91ac02.htm" />
+  <HelpKINode Title="Strength property" Url="html/e18f8528-6fb9-cf5e-f24b-39a3523352ac.htm" />
+  <HelpKINode Title="Strengthen method" Url="html/c5fcef14-e33c-953a-6664-2814bd042b5a.htm" />
+  <HelpKINode Title="StrengtheningWeb property" Url="html/8c02313b-cdd2-8944-eb6c-da34b24a4662.htm" />
+  <HelpKINode Title="TimeRemaining property" Url="html/0b62b7ed-6371-e988-b1b6-2fe151f7d1a8.htm" />
+  <HelpKINode Title="Weaken method" Url="html/2f30c50f-54c9-f04f-f6e4-99d5957147c5.htm" />
+  <HelpKINode Title="WeakeningWeb property" Url="html/9bfb031b-5301-f41d-cb70-03f14a8f165b.htm" />
+  <HelpKINode Title="WeavePower property" Url="html/c640e1f7-8b44-fbe5-865d-16dde4ec585f.htm" />
+  <HelpKINode Title="Weaver class">
+    <HelpKINode Title="Weaver Class" Url="html/56a43eef-6903-3756-42d3-a3a2704462a2.htm" />
+    <HelpKINode Title="about Weaver class" Url="html/56a43eef-6903-3756-42d3-a3a2704462a2.htm" />
+    <HelpKINode Title="constructor" Url="html/952ed973-2195-08d0-b524-5afa3434450e.htm" />
+    <HelpKINode Title="methods" Url="html/99030cad-bc50-ec47-8093-fc16d49fd959.htm" />
+    <HelpKINode Title="properties" Url="html/c336771d-2e89-6adc-76cb-7196b728254d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Weaver.Strengthen method" Url="html/c5fcef14-e33c-953a-6664-2814bd042b5a.htm" />
+  <HelpKINode Title="Weaver.StrengtheningWeb property" Url="html/8c02313b-cdd2-8944-eb6c-da34b24a4662.htm" />
+  <HelpKINode Title="Weaver.Weaken method" Url="html/2f30c50f-54c9-f04f-f6e4-99d5957147c5.htm" />
+  <HelpKINode Title="Weaver.WeakeningWeb property" Url="html/9bfb031b-5301-f41d-cb70-03f14a8f165b.htm" />
+  <HelpKINode Title="Weaver.Weaver constructor" Url="html/952ed973-2195-08d0-b524-5afa3434450e.htm" />
+  <HelpKINode Title="WeaveSpeed property" Url="html/93783c02-01e8-768b-3c3c-96a81ab23bbd.htm" />
+  <HelpKINode Title="Web class">
+    <HelpKINode Title="Web Class" Url="html/e8e0a466-323a-5b0b-b570-7b12ccfa15f3.htm" />
+    <HelpKINode Title="about Web class" Url="html/e8e0a466-323a-5b0b-b570-7b12ccfa15f3.htm" />
+    <HelpKINode Title="constructor" Url="html/db6ccffc-fed8-79b3-7ea2-0058e5ab328d.htm" />
+    <HelpKINode Title="methods" Url="html/a00c879e-209e-9477-9bd8-53c71fcf61fa.htm" />
+    <HelpKINode Title="properties" Url="html/24f132ab-8758-c255-dd58-6df5ec79b41f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Web.Length property" Url="html/2563aef8-ff1c-036e-1c6a-b847b34066ef.htm" />
+  <HelpKINode Title="Web.Load property" Url="html/476b6651-5fd3-ae1b-69ad-849b65f7fd0b.htm" />
+  <HelpKINode Title="Web.NestA property" Url="html/d13c6dc0-f25f-05ce-3b82-c4da8d8fd035.htm" />
+  <HelpKINode Title="Web.NestB property" Url="html/a78d9b6a-3e77-064a-4094-ce4d4c84e259.htm" />
+  <HelpKINode Title="Web.Spiderlings property" Url="html/bf0daefd-7694-9804-3b2c-e95aad7e2012.htm" />
+  <HelpKINode Title="Web.Strength property" Url="html/e18f8528-6fb9-cf5e-f24b-39a3523352ac.htm" />
+  <HelpKINode Title="Web.Web constructor" Url="html/db6ccffc-fed8-79b3-7ea2-0058e5ab328d.htm" />
+  <HelpKINode Title="Webs property">
+    <HelpKINode Title="Game.Webs Property " Url="html/58281636-63c2-2c24-df27-8639cd8ab99a.htm" />
+    <HelpKINode Title="Nest.Webs Property " Url="html/05028da0-eb79-0540-bd7e-7b2b5b73019e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Won property" Url="html/a5a3064f-f00c-05bd-bbfc-3e4827a417a1.htm" />
+  <HelpKINode Title="WorkRemaining property" Url="html/73084367-4fb4-cd62-623e-31a50713259e.htm" />
+  <HelpKINode Title="X property" Url="html/44846eec-738f-410b-f163-999675f06783.htm" />
+  <HelpKINode Title="Y property" Url="html/511e3b27-22a7-cf47-5480-235de06d0f71.htm" />
+</HelpKI>

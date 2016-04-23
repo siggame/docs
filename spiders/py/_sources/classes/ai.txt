@@ -1,0 +1,11 @@
+
+AI
+==
+
+.. currentmodule:: games.spiders.ai
+
+.. automodule:: games.spiders.ai
+    :members:
+    :inherited-members:
+    :show-inheritance:
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Spiders Lua Client</title>
+    <link rel="stylesheet" href="ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>Spiders Lua Client</h1>
+
+
+
+
+<h2>Classes</h2>
+<ul class="$(kind=='Topics' and '' or 'nowrap'">
+  <li><a href="classes/Cutter.html">Cutter</a></li>
+  <li><a href="classes/GameObject.html">GameObject</a></li>
+  <li><a href="classes/AI.html">AI</a></li>
+  <li><a href="classes/Spider.html">Spider</a></li>
+  <li><a href="classes/Nest.html">Nest</a></li>
+  <li><a href="classes/Weaver.html">Weaver</a></li>
+  <li><a href="classes/Player.html">Player</a></li>
+  <li><a href="classes/Spitter.html">Spitter</a></li>
+  <li><a href="classes/Web.html">Web</a></li>
+  <li><a href="classes/Game.html">Game</a></li>
+  <li><a href="classes/BroodMother.html">BroodMother</a></li>
+  <li><a href="classes/Spiderling.html">Spiderling</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+
+  <p><h1>Spiders Lua Client</h1>
+<p>This is the root of you AI. Stay out of the joueur/ folder, it does most of the heavy lifting to play on our game servers. Your AI, and the game objects it manipulates are all in <code>games/spiders/</code>, with your very own AI living in <code>games/spiders/ai.lua</code> for you to make smarter.</p>
+<h2>How to Run</h2>
+<p>This client <strong>does not</strong> work on the Campus rc##xcs213 Linux machines, but it can work on your own Windows/Linux/Mac machines. You just need to install lua 5.1 and luajit, both which are easy to install.</p>
+<h3>Linux</h3>
+<p>Make sure you have the package <code>lua5.1</code>, <code>lua-socket</code>, and <code>luajit</code> installed, then:</p>
+<p><code>./testRun myOwnGameSession</code></p>
+<h3>Windows</h3>
+<p>Just download <a href="http://luadist.org/">LuaDist</a>. That package has everything you need to run the Lua client, and actually has LuaJIT to run Lua. Place it the contents anywhere, then make sure to add the path to the bin/ folder in LuaDist to your Path. Then you can:</p>
+<p><code>lua main.lua Spiders -s r99acm.device.mst.edu -r myOwnGameSession</code></p>
+<h2>Make</h2>
+<p>There is a <code>Makefile</code> provided, but it is empty as Lua is an interpreted language. If you want to add <code>make</code> steps feel free to, but you may want to check with an Arena dev to make sure the Arena has the packages you need to use in <code>make</code>.</p>
+<h2>Other Notes</h2>
+<p>It is possible that on your Missouri S&amp;T S-Drive this client will not run properly. This is not a fault with the client, but rather the school's S-Drive implimentation changing some file permissions during run time. We cannot control this. Instead, we recommend cloning your repo outside the S-Drive and use an SCP program like <a href="https://winscp.net/eng/download.php">WinSCP</a> to edit the files in Windows using whatever IDE you want if you want to code in Windows, but compile in Linux.</p></p>
+
+<h2>Classes</h2>
+<table class="module_list">
+	<tr>
+		<td class="name"  nowrap><a href="classes/Cutter.html">Cutter</a></td>
+		<td class="summary">A Spiderling that can cut existing Webs.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/GameObject.html">GameObject</a></td>
+		<td class="summary">An object in the game.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/AI.html">AI</a></td>
+		<td class="summary">the AI functions for the Spiders game.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Spider.html">Spider</a></td>
+		<td class="summary">A Spider in the game.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Nest.html">Nest</a></td>
+		<td class="summary">A location (node) connected to other Nests via Webs (edges) in the game that Spiders can converge on, regardless of owner.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Weaver.html">Weaver</a></td>
+		<td class="summary">A Spiderling that can alter existing Webs by weaving to add or remove silk from the Webs, thus altering its strength.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Player.html">Player</a></td>
+		<td class="summary">A player in this game.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Spitter.html">Spitter</a></td>
+		<td class="summary">A Spiderling that creates and spits new Webs from the Nest it is on to another Nest, connecting them.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Web.html">Web</a></td>
+		<td class="summary">A connection (edge) to a Nest (node) in the game that Spiders can converge on (regardless of owner).</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Game.html">Game</a></td>
+		<td class="summary">There's an infestation of enemy spiders challenging your queen broodmother spider! Protect her and attack the other broodmother in this turn based, node based, game.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/BroodMother.html">BroodMother</a></td>
+		<td class="summary">The Spider Queen.</td>
+	</tr>
+	<tr>
+		<td class="name"  nowrap><a href="classes/Spiderling.html">Spiderling</a></td>
+		<td class="summary">A Spider spawned by the BroodMother.</td>
+	</tr>
+</table>
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.2</a></i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

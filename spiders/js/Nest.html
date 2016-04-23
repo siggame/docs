@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Spiders JavaScript Client</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    
+    <meta name="description" content="JavaScript Client for Spiders via Node.js" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"Spiders JavaScript Client","meta":{"title":"Spiders JavaScript Client","description":"JavaScript Client for Spiders via Node.js","footer":"&copy; MST ACM SIG-GAME"},"linenums":true,"default":{}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">Spiders JavaScript Client</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="AI">
+            <span class="title">
+                <a href="AI.html">AI</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="AI#game"><a href="AI.html#game">game</a></li>
+            
+                <li data-name="AI#player"><a href="AI.html#player">player</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="AI#ended"><a href="AI.html#ended">ended</a></li>
+            
+                <li data-name="AI#gameUpdated"><a href="AI.html#gameUpdated">gameUpdated</a></li>
+            
+                <li data-name="AI#getName"><a href="AI.html#getName">getName</a></li>
+            
+                <li data-name="AI#runTurn"><a href="AI.html#runTurn">runTurn</a></li>
+            
+                <li data-name="AI#start"><a href="AI.html#start">start</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="BroodMother">
+            <span class="title">
+                <a href="BroodMother.html">BroodMother</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="BroodMother#eggs"><a href="BroodMother.html#eggs">eggs</a></li>
+            
+                <li data-name="BroodMother#gameObjectName"><a href="BroodMother.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="BroodMother#health"><a href="BroodMother.html#health">health</a></li>
+            
+                <li data-name="BroodMother#id"><a href="BroodMother.html#id">id</a></li>
+            
+                <li data-name="BroodMother#isDead"><a href="BroodMother.html#isDead">isDead</a></li>
+            
+                <li data-name="BroodMother#logs"><a href="BroodMother.html#logs">logs</a></li>
+            
+                <li data-name="BroodMother#nest"><a href="BroodMother.html#nest">nest</a></li>
+            
+                <li data-name="BroodMother#owner"><a href="BroodMother.html#owner">owner</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="BroodMother#consume"><a href="BroodMother.html#consume">consume</a></li>
+            
+                <li data-name="BroodMother#log"><a href="BroodMother.html#log">log</a></li>
+            
+                <li data-name="BroodMother#spawn"><a href="BroodMother.html#spawn">spawn</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Cutter">
+            <span class="title">
+                <a href="Cutter.html">Cutter</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Cutter#busy"><a href="Cutter.html#busy">busy</a></li>
+            
+                <li data-name="Cutter#coworkers"><a href="Cutter.html#coworkers">coworkers</a></li>
+            
+                <li data-name="Cutter#cuttingWeb"><a href="Cutter.html#cuttingWeb">cuttingWeb</a></li>
+            
+                <li data-name="Cutter#gameObjectName"><a href="Cutter.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Cutter#id"><a href="Cutter.html#id">id</a></li>
+            
+                <li data-name="Cutter#isDead"><a href="Cutter.html#isDead">isDead</a></li>
+            
+                <li data-name="Cutter#logs"><a href="Cutter.html#logs">logs</a></li>
+            
+                <li data-name="Cutter#movingOnWeb"><a href="Cutter.html#movingOnWeb">movingOnWeb</a></li>
+            
+                <li data-name="Cutter#movingToNest"><a href="Cutter.html#movingToNest">movingToNest</a></li>
+            
+                <li data-name="Cutter#nest"><a href="Cutter.html#nest">nest</a></li>
+            
+                <li data-name="Cutter#owner"><a href="Cutter.html#owner">owner</a></li>
+            
+                <li data-name="Cutter#workRemaining"><a href="Cutter.html#workRemaining">workRemaining</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Cutter#attack"><a href="Cutter.html#attack">attack</a></li>
+            
+                <li data-name="Cutter#cut"><a href="Cutter.html#cut">cut</a></li>
+            
+                <li data-name="Cutter#log"><a href="Cutter.html#log">log</a></li>
+            
+                <li data-name="Cutter#move"><a href="Cutter.html#move">move</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Game">
+            <span class="title">
+                <a href="Game.html">Game</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Game#currentPlayer"><a href="Game.html#currentPlayer">currentPlayer</a></li>
+            
+                <li data-name="Game#currentTurn"><a href="Game.html#currentTurn">currentTurn</a></li>
+            
+                <li data-name="Game#cutSpeed"><a href="Game.html#cutSpeed">cutSpeed</a></li>
+            
+                <li data-name="Game#eggsScalar"><a href="Game.html#eggsScalar">eggsScalar</a></li>
+            
+                <li data-name="Game#gameObjects"><a href="Game.html#gameObjects">gameObjects</a></li>
+            
+                <li data-name="Game#initialWebStrength"><a href="Game.html#initialWebStrength">initialWebStrength</a></li>
+            
+                <li data-name="Game#maxTurns"><a href="Game.html#maxTurns">maxTurns</a></li>
+            
+                <li data-name="Game#movementSpeed"><a href="Game.html#movementSpeed">movementSpeed</a></li>
+            
+                <li data-name="Game#nests"><a href="Game.html#nests">nests</a></li>
+            
+                <li data-name="Game#players"><a href="Game.html#players">players</a></li>
+            
+                <li data-name="Game#session"><a href="Game.html#session">session</a></li>
+            
+                <li data-name="Game#spitSpeed"><a href="Game.html#spitSpeed">spitSpeed</a></li>
+            
+                <li data-name="Game#weavePower"><a href="Game.html#weavePower">weavePower</a></li>
+            
+                <li data-name="Game#weaveSpeed"><a href="Game.html#weaveSpeed">weaveSpeed</a></li>
+            
+                <li data-name="Game#webs"><a href="Game.html#webs">webs</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="GameObject">
+            <span class="title">
+                <a href="GameObject.html">GameObject</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="GameObject#gameObjectName"><a href="GameObject.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="GameObject#id"><a href="GameObject.html#id">id</a></li>
+            
+                <li data-name="GameObject#logs"><a href="GameObject.html#logs">logs</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="GameObject#log"><a href="GameObject.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Nest">
+            <span class="title">
+                <a href="Nest.html">Nest</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Nest#gameObjectName"><a href="Nest.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Nest#id"><a href="Nest.html#id">id</a></li>
+            
+                <li data-name="Nest#logs"><a href="Nest.html#logs">logs</a></li>
+            
+                <li data-name="Nest#spiders"><a href="Nest.html#spiders">spiders</a></li>
+            
+                <li data-name="Nest#webs"><a href="Nest.html#webs">webs</a></li>
+            
+                <li data-name="Nest#x"><a href="Nest.html#x">x</a></li>
+            
+                <li data-name="Nest#y"><a href="Nest.html#y">y</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Nest#distanceTo"><a href="Nest.html#distanceTo">distanceTo</a></li>
+            
+                <li data-name="Nest#log"><a href="Nest.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Player">
+            <span class="title">
+                <a href="Player.html">Player</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Player#broodMother"><a href="Player.html#broodMother">broodMother</a></li>
+            
+                <li data-name="Player#clientType"><a href="Player.html#clientType">clientType</a></li>
+            
+                <li data-name="Player#gameObjectName"><a href="Player.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Player#id"><a href="Player.html#id">id</a></li>
+            
+                <li data-name="Player#logs"><a href="Player.html#logs">logs</a></li>
+            
+                <li data-name="Player#lost"><a href="Player.html#lost">lost</a></li>
+            
+                <li data-name="Player#maxSpiderlings"><a href="Player.html#maxSpiderlings">maxSpiderlings</a></li>
+            
+                <li data-name="Player#name"><a href="Player.html#name">name</a></li>
+            
+                <li data-name="Player#otherPlayer"><a href="Player.html#otherPlayer">otherPlayer</a></li>
+            
+                <li data-name="Player#reasonLost"><a href="Player.html#reasonLost">reasonLost</a></li>
+            
+                <li data-name="Player#reasonWon"><a href="Player.html#reasonWon">reasonWon</a></li>
+            
+                <li data-name="Player#spiders"><a href="Player.html#spiders">spiders</a></li>
+            
+                <li data-name="Player#timeRemaining"><a href="Player.html#timeRemaining">timeRemaining</a></li>
+            
+                <li data-name="Player#won"><a href="Player.html#won">won</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Player#log"><a href="Player.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Spider">
+            <span class="title">
+                <a href="Spider.html">Spider</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Spider#gameObjectName"><a href="Spider.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Spider#id"><a href="Spider.html#id">id</a></li>
+            
+                <li data-name="Spider#isDead"><a href="Spider.html#isDead">isDead</a></li>
+            
+                <li data-name="Spider#logs"><a href="Spider.html#logs">logs</a></li>
+            
+                <li data-name="Spider#nest"><a href="Spider.html#nest">nest</a></li>
+            
+                <li data-name="Spider#owner"><a href="Spider.html#owner">owner</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Spider#log"><a href="Spider.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Spiderling">
+            <span class="title">
+                <a href="Spiderling.html">Spiderling</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Spiderling#busy"><a href="Spiderling.html#busy">busy</a></li>
+            
+                <li data-name="Spiderling#coworkers"><a href="Spiderling.html#coworkers">coworkers</a></li>
+            
+                <li data-name="Spiderling#gameObjectName"><a href="Spiderling.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Spiderling#id"><a href="Spiderling.html#id">id</a></li>
+            
+                <li data-name="Spiderling#isDead"><a href="Spiderling.html#isDead">isDead</a></li>
+            
+                <li data-name="Spiderling#logs"><a href="Spiderling.html#logs">logs</a></li>
+            
+                <li data-name="Spiderling#movingOnWeb"><a href="Spiderling.html#movingOnWeb">movingOnWeb</a></li>
+            
+                <li data-name="Spiderling#movingToNest"><a href="Spiderling.html#movingToNest">movingToNest</a></li>
+            
+                <li data-name="Spiderling#nest"><a href="Spiderling.html#nest">nest</a></li>
+            
+                <li data-name="Spiderling#owner"><a href="Spiderling.html#owner">owner</a></li>
+            
+                <li data-name="Spiderling#workRemaining"><a href="Spiderling.html#workRemaining">workRemaining</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Spiderling#attack"><a href="Spiderling.html#attack">attack</a></li>
+            
+                <li data-name="Spiderling#log"><a href="Spiderling.html#log">log</a></li>
+            
+                <li data-name="Spiderling#move"><a href="Spiderling.html#move">move</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Spitter">
+            <span class="title">
+                <a href="Spitter.html">Spitter</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Spitter#busy"><a href="Spitter.html#busy">busy</a></li>
+            
+                <li data-name="Spitter#coworkers"><a href="Spitter.html#coworkers">coworkers</a></li>
+            
+                <li data-name="Spitter#gameObjectName"><a href="Spitter.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Spitter#id"><a href="Spitter.html#id">id</a></li>
+            
+                <li data-name="Spitter#isDead"><a href="Spitter.html#isDead">isDead</a></li>
+            
+                <li data-name="Spitter#logs"><a href="Spitter.html#logs">logs</a></li>
+            
+                <li data-name="Spitter#movingOnWeb"><a href="Spitter.html#movingOnWeb">movingOnWeb</a></li>
+            
+                <li data-name="Spitter#movingToNest"><a href="Spitter.html#movingToNest">movingToNest</a></li>
+            
+                <li data-name="Spitter#nest"><a href="Spitter.html#nest">nest</a></li>
+            
+                <li data-name="Spitter#owner"><a href="Spitter.html#owner">owner</a></li>
+            
+                <li data-name="Spitter#spittingWebToNest"><a href="Spitter.html#spittingWebToNest">spittingWebToNest</a></li>
+            
+                <li data-name="Spitter#workRemaining"><a href="Spitter.html#workRemaining">workRemaining</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Spitter#attack"><a href="Spitter.html#attack">attack</a></li>
+            
+                <li data-name="Spitter#log"><a href="Spitter.html#log">log</a></li>
+            
+                <li data-name="Spitter#move"><a href="Spitter.html#move">move</a></li>
+            
+                <li data-name="Spitter#spit"><a href="Spitter.html#spit">spit</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Weaver">
+            <span class="title">
+                <a href="Weaver.html">Weaver</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Weaver#busy"><a href="Weaver.html#busy">busy</a></li>
+            
+                <li data-name="Weaver#coworkers"><a href="Weaver.html#coworkers">coworkers</a></li>
+            
+                <li data-name="Weaver#gameObjectName"><a href="Weaver.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Weaver#id"><a href="Weaver.html#id">id</a></li>
+            
+                <li data-name="Weaver#isDead"><a href="Weaver.html#isDead">isDead</a></li>
+            
+                <li data-name="Weaver#logs"><a href="Weaver.html#logs">logs</a></li>
+            
+                <li data-name="Weaver#movingOnWeb"><a href="Weaver.html#movingOnWeb">movingOnWeb</a></li>
+            
+                <li data-name="Weaver#movingToNest"><a href="Weaver.html#movingToNest">movingToNest</a></li>
+            
+                <li data-name="Weaver#nest"><a href="Weaver.html#nest">nest</a></li>
+            
+                <li data-name="Weaver#owner"><a href="Weaver.html#owner">owner</a></li>
+            
+                <li data-name="Weaver#strengtheningWeb"><a href="Weaver.html#strengtheningWeb">strengtheningWeb</a></li>
+            
+                <li data-name="Weaver#weakeningWeb"><a href="Weaver.html#weakeningWeb">weakeningWeb</a></li>
+            
+                <li data-name="Weaver#workRemaining"><a href="Weaver.html#workRemaining">workRemaining</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Weaver#attack"><a href="Weaver.html#attack">attack</a></li>
+            
+                <li data-name="Weaver#log"><a href="Weaver.html#log">log</a></li>
+            
+                <li data-name="Weaver#move"><a href="Weaver.html#move">move</a></li>
+            
+                <li data-name="Weaver#strengthen"><a href="Weaver.html#strengthen">strengthen</a></li>
+            
+                <li data-name="Weaver#weaken"><a href="Weaver.html#weaken">weaken</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Web">
+            <span class="title">
+                <a href="Web.html">Web</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Web#gameObjectName"><a href="Web.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Web#id"><a href="Web.html#id">id</a></li>
+            
+                <li data-name="Web#length"><a href="Web.html#length">length</a></li>
+            
+                <li data-name="Web#load"><a href="Web.html#load">load</a></li>
+            
+                <li data-name="Web#logs"><a href="Web.html#logs">logs</a></li>
+            
+                <li data-name="Web#nestA"><a href="Web.html#nestA">nestA</a></li>
+            
+                <li data-name="Web#nestB"><a href="Web.html#nestB">nestB</a></li>
+            
+                <li data-name="Web#spiderlings"><a href="Web.html#spiderlings">spiderlings</a></li>
+            
+                <li data-name="Web#strength"><a href="Web.html#strength">strength</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Web#log"><a href="Web.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="Nest.html">Class: Nest</h1>
+        
+
+
+
+<section>
+    
+<header>
+    <h2>
+    Nest
+    </h2>
+    
+        <div class="class-description">A location (node) connected to other Nests via Webs (edges) in the game that Spiders can converge on, regardless of owner.</div>
+    
+</header>  
+
+<article>
+    <div class="container-overview">
+    
+    
+    
+        
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="Nest">
+            
+            new Nest<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            nest.js, line 18
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+    
+    </div>
+    
+    
+        <h3 class="subsection-title">Extends</h3>
+        
+        <ul>
+            <li><a href="GameObject.html">GameObject</a></li>
+        </ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Members</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer inherited">
+        <h4 class="name" id="gameObjectName">
+            
+                
+<span class="types ">
+
+    <span class="type string">string</span>
+
+
+            
+            gameObjectName
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from">
+            <a href="GameObject.html#gameObjectName">GameObject#gameObjectName</a>
+        </dd>
+    
+
+    
+    <div class="description">
+        String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer inherited">
+        <h4 class="name" id="id">
+            
+                
+<span class="types ">
+
+    <span class="type string">string</span>
+
+
+            
+            id
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from">
+            <a href="GameObject.html#id">GameObject#id</a>
+        </dd>
+    
+
+    
+    <div class="description">
+        A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer inherited">
+        <h4 class="name" id="logs">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;string></span>
+
+
+            
+            logs
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from">
+            <a href="GameObject.html#logs">GameObject#logs</a>
+        </dd>
+    
+
+    
+    <div class="description">
+        Any strings logged will be stored here. Intended for debugging.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="spiders">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Spider.html">Spider</a>></span>
+
+
+            
+            spiders
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        All the Spiders currently located on this Nest.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="webs">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Web.html">Web</a>></span>
+
+
+            
+            webs
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        Webs that connect to this Nest.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="x">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            x
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The X coordinate of the Nest. Used for distance calculations.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="y">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            y
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The Y coordinate of the Nest. Used for distance calculations.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+        <h3 class="subsection-title">Methods</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="distanceTo">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            distanceTo<span class="signature">(nest)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            nest.js, line 82
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        Calculates the distance from this Nest to another Nest
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>nest</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="types ">
+
+    <span class="type Nest"><a href="Nest.html">Nest</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The nest to calculate the distance to</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+<div class="returns">
+
+<h5>Returns:
+
+
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+
+</h5>
+The euclidean distance between the two Nests
+
+</div>
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer inherited">
+        <h4 class="name" id="log">
+            
+            log<span class="signature">(message)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            gameObject.js, line 70
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from">
+            <a href="GameObject.html#log">GameObject#log</a>
+        </dd>
+    
+
+    
+    <div class="description">
+        Adds a message to this GameObject's logs. Intended for your own debugging purposes, as strings stored here are saved in the gamelog.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>message</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="types ">
+
+    <span class="type string">string</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                A string to add to this GameObject's log. Intended for debugging.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+    
+    
+</article>
+
+</section>  
+
+
+
+
+
+        
+
+        <footer>
+            
+                &copy; MST ACM SIG-GAME &mdash;
+            
+            Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.3</a> on Sat Apr 23 2016 08:39:00 GMT-0500 (CDT)
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

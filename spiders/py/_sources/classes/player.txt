@@ -1,0 +1,11 @@
+
+Player
+======
+
+.. currentmodule:: games.spiders.player
+
+.. automodule:: games.spiders.player
+    :members:
+    :inherited-members:
+    :show-inheritance:
+

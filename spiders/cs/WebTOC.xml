@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="e0e507cb-ae5e-4dd2-ade4-e455f4d11bc3" Title="Joueur.cs.Games.Spiders" Url="html/a55be1ca-7d38-08c5-29f5-d0306cf0985c.htm">
+    <HelpTOCNode Id="8ae540c8-ffc2-4926-9042-3ae2d00fc610" Title="AI Class" Url="html/71aa02a1-70c5-5446-cfa5-cd3cadd31c83.htm">
+      <HelpTOCNode Title="AI Constructor " Url="html/9fb7236f-c497-fd0b-9508-05bb231b11a2.htm" />
+      <HelpTOCNode Id="8f6cbd13-7077-439d-82b5-062a3b114b92" Title="AI Methods" Url="html/1a0cb59a-12c3-3dd0-df6e-630b36ab72fd.htm">
+        <HelpTOCNode Title="Ended Method " Url="html/f6f8cd70-b842-ce10-7770-56ee69b3945e.htm" />
+        <HelpTOCNode Title="GameUpdated Method " Url="html/3d820437-de7b-fd56-c0c4-a5b0cd7cd034.htm" />
+        <HelpTOCNode Title="GetName Method " Url="html/6a89518f-d9c2-698f-06d7-9be5c3884a01.htm" />
+        <HelpTOCNode Title="RunTurn Method " Url="html/2c3dfdc6-7840-0212-f27d-6061bdfb83cc.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/79e37da5-62c2-b33b-0f34-14b90f91ac02.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ac71af5c-141f-4455-ade5-b5a79f518534" Title="AI Fields" Url="html/eede0cd1-58a3-5dbb-5f81-05a29e8d9623.htm">
+        <HelpTOCNode Title="Game Field" Url="html/e20030c0-b563-8df0-6c29-95806d7919a4.htm" />
+        <HelpTOCNode Title="Player Field" Url="html/29facfc9-f897-f653-b25a-cc5047057d45.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="42db97df-8ba0-46b1-b11d-9f57977aa2f9" Title="BroodMother Class" Url="html/b5f0b027-c5a3-9cdb-325f-5b46db1782d3.htm">
+      <HelpTOCNode Title="BroodMother Constructor " Url="html/49ae6992-445e-b990-ebdb-06c5a2f57c16.htm" />
+      <HelpTOCNode Id="d889ad12-6338-4f98-9f7e-33d7f1171675" Title="BroodMother Properties" Url="html/60394014-38c4-59a6-4f02-5246a1382b42.htm">
+        <HelpTOCNode Title="Eggs Property " Url="html/ebd5fb70-2c8b-9998-a819-b4a261f1c220.htm" />
+        <HelpTOCNode Title="Health Property " Url="html/b993bf0d-e81b-f7a1-2bf8-7a1c5baec4cb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6bdd0ae5-03e7-43cd-98cc-df9b211a315d" Title="BroodMother Methods" Url="html/9d485e5b-dfe5-beee-f81f-0d8aeeea5986.htm">
+        <HelpTOCNode Title="Consume Method " Url="html/74aa8b4f-e68c-1e91-6f17-f660d7775c8e.htm" />
+        <HelpTOCNode Title="Spawn Method " Url="html/79cf218a-82c4-2694-e544-fd36c5927988.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="894eab33-32ee-4e2e-82fc-a083bc9298ef" Title="Cutter Class" Url="html/cb0094d8-d772-406c-6020-41d84ce31e09.htm">
+      <HelpTOCNode Title="Cutter Constructor " Url="html/db709d49-815f-1b96-29d3-794ce290fcc6.htm" />
+      <HelpTOCNode Id="bfe5dd88-75ae-428f-b185-d64f8b74424d" Title="Cutter Properties" Url="html/88f4f332-fde5-b195-4d24-388cb49ea72c.htm">
+        <HelpTOCNode Title="CuttingWeb Property " Url="html/43337806-14d8-4234-06d0-ab13b5b9ba12.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a6a5ec73-d5ae-4bd8-9b70-80af65531e97" Title="Cutter Methods" Url="html/ce878f1f-8b21-58c5-aacc-3e2d3df9ebe4.htm">
+        <HelpTOCNode Title="Cut Method " Url="html/4b3cf6e0-174b-0249-e317-f5369af0a150.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e850b076-e79c-4505-9caa-f257dc3bcd7e" Title="Game Class" Url="html/1415aa80-af47-fdbd-707d-79587fb221e0.htm">
+      <HelpTOCNode Title="Game Constructor " Url="html/55aa5ea3-54fe-d5ca-be8e-6f21804bb1e4.htm" />
+      <HelpTOCNode Id="7f2b0ea7-dc0a-4885-8d12-9fbea57498b1" Title="Game Properties" Url="html/fe6efd00-b656-9fa1-72e8-8b08baf567ce.htm">
+        <HelpTOCNode Title="CurrentPlayer Property " Url="html/bfca21d9-7c12-233a-1703-6d5c183aeba5.htm" />
+        <HelpTOCNode Title="CurrentTurn Property " Url="html/d677c04d-ae2a-8d73-5304-c7db4ff14874.htm" />
+        <HelpTOCNode Title="CutSpeed Property " Url="html/2c546d78-3b3e-6604-a52a-f18b9e244452.htm" />
+        <HelpTOCNode Title="EggsScalar Property " Url="html/83b052d5-86ce-c98a-8dd2-27bfe1e0cf7a.htm" />
+        <HelpTOCNode Title="InitialWebStrength Property " Url="html/71353c94-f0e7-e56a-312a-a90720ca6f69.htm" />
+        <HelpTOCNode Title="MaxTurns Property " Url="html/559536e8-eb63-85cc-6801-8716c15737f3.htm" />
+        <HelpTOCNode Title="MovementSpeed Property " Url="html/ddb9c1f4-f610-445e-7b20-0da78cf06e92.htm" />
+        <HelpTOCNode Title="Nests Property " Url="html/cacedb04-de6e-966a-b80c-698c5dc78adc.htm" />
+        <HelpTOCNode Title="Players Property " Url="html/adcf5dc0-b745-c7a2-4826-a282f4b3d9ae.htm" />
+        <HelpTOCNode Title="Session Property " Url="html/e92fbb83-08f7-c462-67dd-409f2b68302d.htm" />
+        <HelpTOCNode Title="SpitSpeed Property " Url="html/3384ad7e-e01f-a6ab-a60e-f8645cf9f549.htm" />
+        <HelpTOCNode Title="WeavePower Property " Url="html/c640e1f7-8b44-fbe5-865d-16dde4ec585f.htm" />
+        <HelpTOCNode Title="WeaveSpeed Property " Url="html/93783c02-01e8-768b-3c3c-96a81ab23bbd.htm" />
+        <HelpTOCNode Title="Webs Property " Url="html/58281636-63c2-2c24-df27-8639cd8ab99a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Game Methods" Url="html/63240a0f-e78e-16db-69ab-bc487ecd5637.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f29a9bb7-71e1-445a-a615-3c4c356e667b" Title="GameObject Class" Url="html/4e9d9448-e4b1-7910-2398-4b8ff0cb2546.htm">
+      <HelpTOCNode Title="GameObject Constructor " Url="html/11352eac-a79b-128a-be19-4583b7e36f45.htm" />
+      <HelpTOCNode Id="75f08a02-4742-4a4c-9889-6b7d471d8700" Title="GameObject Properties" Url="html/dbebb8b2-4abc-60ba-a1ab-e2de444bdc7e.htm">
+        <HelpTOCNode Title="GameObjectName Property " Url="html/8451c28d-8e2f-0216-67cf-1de02992990f.htm" />
+        <HelpTOCNode Title="Logs Property " Url="html/f339cdc3-e79b-b686-44ad-df864e6d67b8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f082000c-fd0a-404d-8132-7dbfe0ddef2e" Title="GameObject Methods" Url="html/867923c5-4207-7752-dd9b-2a3db48a788b.htm">
+        <HelpTOCNode Title="Log Method " Url="html/b17303ea-08e1-3b3f-eb7e-ee97f559a36a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c275122-b762-40e3-b5ef-0b0870dc33bc" Title="Nest Class" Url="html/4f208206-1d39-f26f-a8bd-64400e10b14e.htm">
+      <HelpTOCNode Title="Nest Constructor " Url="html/c9ad6c9f-4495-0870-4c92-a2f505124fb9.htm" />
+      <HelpTOCNode Id="3362a416-6549-443c-b2c0-65a6eccd1224" Title="Nest Properties" Url="html/121cf63f-c812-4b44-5a33-63752a3c5277.htm">
+        <HelpTOCNode Title="Spiders Property " Url="html/0fdd3e3f-1d02-8ba9-f001-ac8a880d808a.htm" />
+        <HelpTOCNode Title="Webs Property " Url="html/05028da0-eb79-0540-bd7e-7b2b5b73019e.htm" />
+        <HelpTOCNode Title="X Property " Url="html/44846eec-738f-410b-f163-999675f06783.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/511e3b27-22a7-cf47-5480-235de06d0f71.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b768327f-41d3-4206-b4bb-cad4617b8021" Title="Nest Methods" Url="html/f43ec23d-b568-f0d4-44ce-a219e7129e26.htm">
+        <HelpTOCNode Title="DistanceTo Method " Url="html/1a0e7d04-3ef5-017e-0cb1-01b3d01ea091.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e8e63c61-ff08-44d5-8f0b-87e1b887abfd" Title="Player Class" Url="html/833a0616-0ad5-e2e7-0027-afb1b16e29ff.htm">
+      <HelpTOCNode Title="Player Constructor " Url="html/61c7b4bb-2c35-2be8-e312-8d6d16d7c264.htm" />
+      <HelpTOCNode Id="a162c129-815d-4ac0-ba94-5579d81049f1" Title="Player Properties" Url="html/105ced66-6d51-2049-df1d-3acbe96041e8.htm">
+        <HelpTOCNode Title="BroodMother Property " Url="html/b971cc24-e48a-b4c1-9897-8d10ad80dbca.htm" />
+        <HelpTOCNode Title="ClientType Property " Url="html/c0069408-c602-af8c-6f90-5235486ca12c.htm" />
+        <HelpTOCNode Title="Lost Property " Url="html/8d106e42-3734-199c-37b2-94a95eeb1bd3.htm" />
+        <HelpTOCNode Title="MaxSpiderlings Property " Url="html/84395e88-0534-30ea-c53a-dbd1635e2fdf.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/1dc1280f-cf82-8e39-169c-2f1050eae481.htm" />
+        <HelpTOCNode Title="OtherPlayer Property " Url="html/6da1bf3b-9cfc-b437-7751-b80129463937.htm" />
+        <HelpTOCNode Title="ReasonLost Property " Url="html/d2c1ebc3-027d-b911-03f5-0df91b973c20.htm" />
+        <HelpTOCNode Title="ReasonWon Property " Url="html/bf100dcb-4f2a-f75f-327a-f53a9c22b3ac.htm" />
+        <HelpTOCNode Title="Spiders Property " Url="html/0f78f705-319b-cf6f-1ce8-62c70c581a4b.htm" />
+        <HelpTOCNode Title="TimeRemaining Property " Url="html/0b62b7ed-6371-e988-b1b6-2fe151f7d1a8.htm" />
+        <HelpTOCNode Title="Won Property " Url="html/a5a3064f-f00c-05bd-bbfc-3e4827a417a1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Player Methods" Url="html/683c24aa-6ff8-74d9-fc0d-d715da1312d2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5a73db9d-12f6-400f-b801-a466249bbbbf" Title="Spider Class" Url="html/04006f1c-92f1-d933-943c-abe7728ef256.htm">
+      <HelpTOCNode Title="Spider Constructor " Url="html/63b90427-2477-57e7-ad8f-7804613d37d7.htm" />
+      <HelpTOCNode Id="0786dbfd-1cae-45f7-a040-2c89a1962075" Title="Spider Properties" Url="html/1636e336-a01e-6e88-5627-c2e67d123d25.htm">
+        <HelpTOCNode Title="IsDead Property " Url="html/4eecc44b-9c7a-9a8e-3e7c-47e0933ec337.htm" />
+        <HelpTOCNode Title="Nest Property " Url="html/8720aeb1-9ba6-4d24-59ea-cea6112f0ba9.htm" />
+        <HelpTOCNode Title="Owner Property " Url="html/841d35c2-9b5f-d4c1-b488-2ffa047ef70a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Spider Methods" Url="html/a18eaed1-8f26-370a-611f-2c295620ad3d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8ad326dd-686b-4bb1-9081-bb061d02d0a2" Title="Spiderling Class" Url="html/7a22b267-9c91-9ee2-9a93-c96533bcb66c.htm">
+      <HelpTOCNode Title="Spiderling Constructor " Url="html/fc33f867-29c4-54ee-0544-70ad9304b315.htm" />
+      <HelpTOCNode Id="8640e4bf-2718-42d6-a510-4af593b506f4" Title="Spiderling Properties" Url="html/20785110-de1b-712f-1909-8aca9b6b6a06.htm">
+        <HelpTOCNode Title="Busy Property " Url="html/a7d355b1-458d-edb0-e7f6-1681898f68b3.htm" />
+        <HelpTOCNode Title="Coworkers Property " Url="html/06c9f542-e233-356c-7580-3ab3b7f8a9b3.htm" />
+        <HelpTOCNode Title="MovingOnWeb Property " Url="html/1b1b2c0e-2464-2755-a1c8-7f87b75521da.htm" />
+        <HelpTOCNode Title="MovingToNest Property " Url="html/fe98c6bf-c01a-e98f-3b89-748c4ad1c968.htm" />
+        <HelpTOCNode Title="WorkRemaining Property " Url="html/73084367-4fb4-cd62-623e-31a50713259e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="30bfe0dc-1020-4f01-ab8a-720ff63ea26d" Title="Spiderling Methods" Url="html/b379d7a5-d7cb-24b4-4810-6944f93af94d.htm">
+        <HelpTOCNode Title="Attack Method " Url="html/e8782412-f059-4645-e744-03903954359d.htm" />
+        <HelpTOCNode Title="Move Method " Url="html/68979a8e-b4ea-4b64-f022-049f98152bef.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4b637b66-1791-4950-9844-6dc61974c1e6" Title="Spitter Class" Url="html/13a3751b-a2b7-e7e4-1133-e730e4961acc.htm">
+      <HelpTOCNode Title="Spitter Constructor " Url="html/80663317-4b3c-0bf8-b4cc-27ac89ec5413.htm" />
+      <HelpTOCNode Id="5136aa92-0c6a-4b11-9f3f-63e8a1782e02" Title="Spitter Properties" Url="html/e5da93ab-2ab8-6932-ca4d-edcfe299a07e.htm">
+        <HelpTOCNode Title="SpittingWebToNest Property " Url="html/4dfae6f3-8837-8cb0-9a47-fa2b2f14295e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bf8e2be6-9a6f-4875-a255-6c5ba8c52b92" Title="Spitter Methods" Url="html/a08892b9-2ba7-9c0d-6e91-78a74debae5f.htm">
+        <HelpTOCNode Title="Spit Method " Url="html/8609a07b-cc27-9742-4566-abdaedcc3a45.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ff93a968-7e42-4594-bec8-4347784e6813" Title="Weaver Class" Url="html/56a43eef-6903-3756-42d3-a3a2704462a2.htm">
+      <HelpTOCNode Title="Weaver Constructor " Url="html/952ed973-2195-08d0-b524-5afa3434450e.htm" />
+      <HelpTOCNode Id="4bca71ba-e22b-4de6-b1b5-f988f40dec1c" Title="Weaver Properties" Url="html/c336771d-2e89-6adc-76cb-7196b728254d.htm">
+        <HelpTOCNode Title="StrengtheningWeb Property " Url="html/8c02313b-cdd2-8944-eb6c-da34b24a4662.htm" />
+        <HelpTOCNode Title="WeakeningWeb Property " Url="html/9bfb031b-5301-f41d-cb70-03f14a8f165b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bccabad3-b208-4ac5-82ea-d222c6d28432" Title="Weaver Methods" Url="html/99030cad-bc50-ec47-8093-fc16d49fd959.htm">
+        <HelpTOCNode Title="Strengthen Method " Url="html/c5fcef14-e33c-953a-6664-2814bd042b5a.htm" />
+        <HelpTOCNode Title="Weaken Method " Url="html/2f30c50f-54c9-f04f-f6e4-99d5957147c5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="debac33a-f463-4db3-810a-0c6eaff66e6f" Title="Web Class" Url="html/e8e0a466-323a-5b0b-b570-7b12ccfa15f3.htm">
+      <HelpTOCNode Title="Web Constructor " Url="html/db6ccffc-fed8-79b3-7ea2-0058e5ab328d.htm" />
+      <HelpTOCNode Id="c0c8694c-63b3-4626-bd8a-39c38bef94b7" Title="Web Properties" Url="html/24f132ab-8758-c255-dd58-6df5ec79b41f.htm">
+        <HelpTOCNode Title="Length Property " Url="html/2563aef8-ff1c-036e-1c6a-b847b34066ef.htm" />
+        <HelpTOCNode Title="Load Property " Url="html/476b6651-5fd3-ae1b-69ad-849b65f7fd0b.htm" />
+        <HelpTOCNode Title="NestA Property " Url="html/d13c6dc0-f25f-05ce-3b82-c4da8d8fd035.htm" />
+        <HelpTOCNode Title="NestB Property " Url="html/a78d9b6a-3e77-064a-4094-ce4d4c84e259.htm" />
+        <HelpTOCNode Title="Spiderlings Property " Url="html/bf0daefd-7694-9804-3b2c-e95aad7e2012.htm" />
+        <HelpTOCNode Title="Strength Property " Url="html/e18f8528-6fb9-cf5e-f24b-39a3523352ac.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Web Methods" Url="html/a00c879e-209e-9477-9bd8-53c71fcf61fa.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

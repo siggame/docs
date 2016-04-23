@@ -35,5 +35,5 @@ can view the docs offline. We'll miss you though.
 ### Other Docs and Downloads
 
 * [Presentation](https://docs.google.com/presentation/d/1nwrPIy9ZTPQP7CNJnlFmGss7qAPZ_Oj81Mxnx6cW_ho/pub?start=false&loop=false&delayms=3000)
-* [Game Documentation (Google Docs)](https://docs.google.com/document/d/1PO8O9jYTvK3u2qfXJItBjD04WBhNmPccMh_5CGLEL3Q/pub)
+* [Game Documentation (Google Docs)](https://docs.google.com/document/d/1d3KoJ8eCD8iLbh8XuOr6Yr0Dk6MZV2AADVTZcObKKrw/pub)
 * [How to fix "Function Not Implemented"](https://docs.google.com/document/d/1t9wFoAbLC1K6EFcS11qJ9GCuof9-7xSkRgXbwvMAqFU/pub)

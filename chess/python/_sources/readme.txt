@@ -1,10 +1,10 @@
 Chess Python 3 Client
 =====================
 
-This is the root of you AI. Stay out of the joueur/ folder, it does most
-of the heavy lifting to play on our game servers. Your AI, and the game
-objects it manipulates are all in ``games/chess/``, with your very own
-AI living in ``games/chess/ai.py`` for you to make smarter.
+This is the root of you AI. Stay out of the ``joueur/`` folder, it does
+most of the heavy lifting to play on our game servers. Your AI, and the
+game objects it manipulates are all in ``games/chess/``, with your very
+own AI living in ``games/chess/ai.py`` for you to make smarter.
 
 How to Run
 ----------
@@ -20,7 +20,7 @@ Linux
 
     ./testRun MyOwnGameSession
 
-For Linux a recent version of ``python3`` should work. It has been
+For Linux, a recent version of ``python3`` should work. It has been
 tested on 3.4.3 extensively, but should work with >= 3.2. The normal
 'python' usually refers to Python 2.7.X, so make sure you have the
 python\ **3** installed.
@@ -28,7 +28,8 @@ python\ **3** installed.
 Windows
 ~~~~~~~
 
-On Windows you'll need some version of Python 3. As of this version
+On Windows you'll need some version of Python 3. As with the Linux
+version,
 `3.4.3 <https://www.python.org/downloads/release/python-343/>`__ worked
 fine. Install that and ensure that python is set up in your
 Environmental Variables as 'python3', then

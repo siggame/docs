@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['incheck',['inCheck',['../classChess_1_1Player.html#ab290a490daa33a73b4865441d961d510',1,'Chess::Player']]]
+  ['hasmoved',['hasMoved',['../classChess_1_1Piece.html#a34bf9b2c1876a84b847a21c91eab89db',1,'Chess::Piece']]]
 ];

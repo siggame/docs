@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['log',['log',['../classChess_1_1GameObject.html#a2a94f8aafdc9a4ae64753e538e0b52ef',1,'Chess::GameObject']]],
-  ['logs',['logs',['../classChess_1_1GameObject.html#a73d49d9242b224ced373a22e8fc119f6',1,'Chess::GameObject']]]
+  ['id',['id',['../classJoueur_1_1BaseGameObject.html#aec1e1435760002cfac6a17041c9234e7',1,'Joueur::BaseGameObject']]],
+  ['incheck',['inCheck',['../classChess_1_1Player.html#ab290a490daa33a73b4865441d961d510',1,'Chess::Player']]]
 ];

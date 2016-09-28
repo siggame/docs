@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['game',['Game',['../classChess_1_1Game.html',1,'Chess']]],
-  ['game',['game',['../classChess_1_1AI.html#a25c19ba3e28aad0fae60462a2cbc3e58',1,'Chess::AI']]],
-  ['gameobject',['GameObject',['../classChess_1_1GameObject.html',1,'Chess']]],
-  ['gameupdated',['gameUpdated',['../classChess_1_1AI.html#a518e0055bf50d6d1dff36707b576883f',1,'Chess::AI']]],
-  ['getname',['getName',['../classChess_1_1AI.html#af7e0fe2b4bf9e8598c6012a9c313c7f0',1,'Chess::AI']]]
+  ['fen',['fen',['../classChess_1_1Game.html#a0af17b36d5b5c0f5a1cf465ad62ba82a',1,'Chess::Game']]],
+  ['file',['file',['../classChess_1_1Piece.html#af2992e258445f7c7d5b5371e8724f041',1,'Chess::Piece']]],
+  ['fromfile',['fromFile',['../classChess_1_1Move.html#a85bdab1208c29679b2ffa98931312666',1,'Chess::Move']]],
+  ['fromrank',['fromRank',['../classChess_1_1Move.html#a421d45cff30c402afd6594151546fa2f',1,'Chess::Move']]]
 ];

@@ -87,7 +87,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classChess_1_1Game-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Chess::Game Class Reference</div>  </div>
@@ -115,6 +114,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af2c21369873e24f71d29d8a227b3936c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#af2c21369873e24f71d29d8a227b3936c">currentTurn</a></td></tr>
 <tr class="memdesc:af2c21369873e24f71d29d8a227b3936c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current turn number, starting at 0 for the first player's turn.  <a href="#af2c21369873e24f71d29d8a227b3936c">More...</a><br/></td></tr>
 <tr class="separator:af2c21369873e24f71d29d8a227b3936c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af17b36d5b5c0f5a1cf465ad62ba82a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#a0af17b36d5b5c0f5a1cf465ad62ba82a">fen</a></td></tr>
+<tr class="memdesc:a0af17b36d5b5c0f5a1cf465ad62ba82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forsyth–Edwards Notation, a notation that describes the game board.  <a href="#a0af17b36d5b5c0f5a1cf465ad62ba82a">More...</a><br/></td></tr>
+<tr class="separator:a0af17b36d5b5c0f5a1cf465ad62ba82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe30f0546531d385744eb24a0e260f15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#abe30f0546531d385744eb24a0e260f15">maxTurns</a></td></tr>
 <tr class="memdesc:abe30f0546531d385744eb24a0e260f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum number of turns before the game will automatically end.  <a href="#abe30f0546531d385744eb24a0e260f15">More...</a><br/></td></tr>
 <tr class="separator:abe30f0546531d385744eb24a0e260f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,12 +135,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af6cf00eba5ae52d7d64339a58d3f71c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classChess_1_1Game.html#af6cf00eba5ae52d7d64339a58d3f71c2">turnsToDraw</a></td></tr>
 <tr class="memdesc:af6cf00eba5ae52d7d64339a58d3f71c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many turns until the game ends because no pawn has moved and no <a class="el" href="classChess_1_1Piece.html" title="A chess piece. ">Piece</a> has been taken.  <a href="#af6cf00eba5ae52d7d64339a58d3f71c2">More...</a><br/></td></tr>
 <tr class="separator:af6cf00eba5ae52d7d64339a58d3f71c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a41867de5c93971e25ff3e3e9875a3b9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41867de5c93971e25ff3e3e9875a3b9d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateField</b> (const std::string &amp;fieldName, boost::property_tree::ptree &amp;delta)</td></tr>
-<tr class="separator:a41867de5c93971e25ff3e3e9875a3b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The traditional 8x8 chess board with pieces. </p>
@@ -168,6 +164,20 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateFi
 </div><div class="memdoc">
 
 <p>The current turn number, starting at 0 for the first player's turn. </p>
+
+</div>
+</div>
+<a class="anchor" id="a0af17b36d5b5c0f5a1cf465ad62ba82a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Chess::Game::fen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Forsyth–Edwards Notation, a notation that describes the game board. </p>
 
 </div>
 </div>
@@ -262,7 +272,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>deltaUpdateFi
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 2 2016 22:21:34 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 27 2016 20:23:07 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

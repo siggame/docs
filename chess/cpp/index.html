@@ -77,7 +77,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Chess C++ Client Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This is the root of you AI. Stay out of the joueur/ folder, it does most of the heavy lifting to play on our game servers. Your AI, and the game objects it manipulates are all in <code>games/chess/</code>, with your very own AI living in <code>games/chess/ai.h</code> and <code>games/chess/ai.cpp</code> files for you to make smarter.</p>
+<div class="textblock"><p>This is the root of you AI. Stay out of the <code>joueur/</code> folder, it does most of the heavy lifting to play on our game servers. Your AI, and the game objects it manipulates are all in <code>games/chess/</code>, with your very own AI living in <code>games/chess/ai.h</code> and <code>games/chess/ai.cpp</code> files for you to make smarter.</p>
 <h2>How to Run</h2>
 <p>This client has been tested and confirmed to work on the Campus rc##xcs213 Linux machines, but it can work on your own Windows/Linux/Mac machines if you desire.</p>
 <p>Also make sure <b>NOT</b> to try to compile this in your Missouri S&amp;T S-Drive. This is not a fault with the client, but rather the school's S-Drive implimentation changing some file permissions during run time. We cannot control this. Instead, we recommend cloning your repo outside the S-Drive and use an SCP program like <a href="https://winscp.net/eng/download.php">WinSCP</a> to edit the files in Windows using whatever IDE you want if you want to code in Windows, but compile in Linux.</p>
@@ -86,14 +86,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 ./testRun MyOwnGameSession
 </pre><p>If you are on your own machine, make sure you've installed boost. The <code>libboost-all-dev</code> package should be up to date. You'll also need the <code>cmake</code> package for make to work.</p>
 <h3>Windows</h3>
-<p>Be aware that getting this C++ client to build on Windows, while possible, can be a headache.</p>
-<p>For Windows, Boost has a simple way to <a href="http://www.boost.org/doc/libs/1_58_0/more/getting_started/windows.html">compile from source using bootstrap</a>. You'll need to do that. This client does work with VC++, you can create a solution at the root or ask a dev for the sln file. Just add the directory you built Boost in the Project's linker configuration. You'll also need to set command line arguments like the other clients.</p>
+<p>For Windows, Boost has a simple way to <a href="http://www.boost.org/doc/libs/1_58_0/more/getting_started/windows.html">compile from source using bootstrap</a>. You'll need to do that. This client does work with VC++, you can create a solution at the root or ask a dev for the sln file. Just add the directory you built Boost in the Project's linker configuration. You'll also need to use the following command line arguments:</p>
+<p><code>Chess -s r99acm.device.mst.edu</code></p>
 <h2>Other notes</h2>
 <p>The initial <code>make</code> step may take upwards of 2 minutes. You should see a percent progress updating on your screen, but it will be slow. Subsequent <code>make</code>s should be only a few seconds if you don't <code>make clean</code>. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 2 2016 22:21:34 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 27 2016 20:23:07 for Chess C++ Client by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

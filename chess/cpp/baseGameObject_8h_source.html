@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Chess C++ Client: gameManager.h Source File</title>
+<title>Chess C++ Client: baseGameObject.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,38 +79,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="headertitle">
-<div class="title">gameManager.h</div>  </div>
+<div class="title">baseGameObject.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// This is a class that manages the Chess Game and it&#39;s GameObjects. Competitors should never have to care about this class&#39;s existance.</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef JOUEUR_CHESS_GAMEMANAGER_H</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define JOUEUR_CHESS_GAMEMANAGER_H</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;chess.h&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../../joueur/baseGameManager.h&quot;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span>Chess::GameManager : <span class="keyword">public</span> Joueur::BaseGameManager</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classChess_1_1AI.html">Chess::AI</a>* chessAI;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="classChess_1_1Game.html">Chess::Game</a>* chessGame;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classJoueur_1_1BaseGameObject.html">Joueur::BaseGameObject</a>* createGameObject(<span class="keyword">const</span> std::string&amp; gameObjectName);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        GameManager();</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">void</span> setupAI(<span class="keyword">const</span> std::string&amp; playerID);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        boost::property_tree::ptree* orderAI(<span class="keyword">const</span> std::string&amp; order, boost::property_tree::ptree* args);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;registry.h&quot;</span></div>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef JOUEUR_BASEGAMEOBJECT_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define JOUEUR_BASEGAMEOBJECT_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;joueur.h&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;deltaMergeable.h&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classJoueur_1_1BaseGameObject.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classJoueur_1_1BaseGameObject.html">Joueur::BaseGameObject</a> : <span class="keyword">public</span> Joueur::DeltaMergeable</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classJoueur_1_1BaseGameObject.html#aec1e1435760002cfac6a17041c9234e7">   17</a></span>&#160;        std::string <a class="code" href="classJoueur_1_1BaseGameObject.html#aec1e1435760002cfac6a17041c9234e7">id</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classJoueur_1_1BaseGameObject.html#a74e5c981b84252a6b07b1e8d8107a4eb">   22</a></span>&#160;        std::string <a class="code" href="classJoueur_1_1BaseGameObject.html#a74e5c981b84252a6b07b1e8d8107a4eb">gameObjectName</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> deltaUpdateField(<span class="keyword">const</span> std::string&amp; fieldName, boost::property_tree::ptree&amp; delta);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> runOnServer();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classChess_1_1AI_html"><div class="ttname"><a href="classChess_1_1AI.html">Chess::AI</a></div><div class="ttdoc">This the header file for where you build your AI for the Chess game. </div><div class="ttdef"><b>Definition:</b> ai.h:20</div></div>
 <div class="ttc" id="classJoueur_1_1BaseGameObject_html"><div class="ttname"><a href="classJoueur_1_1BaseGameObject.html">Joueur::BaseGameObject</a></div><div class="ttdoc">The base class all GameObjects inherit from, regardless of game. </div><div class="ttdef"><b>Definition:</b> baseGameObject.h:11</div></div>
-<div class="ttc" id="classChess_1_1Game_html"><div class="ttname"><a href="classChess_1_1Game.html">Chess::Game</a></div><div class="ttdoc">The traditional 8x8 chess board with pieces. </div><div class="ttdef"><b>Definition:</b> game.h:16</div></div>
+<div class="ttc" id="classJoueur_1_1BaseGameObject_html_aec1e1435760002cfac6a17041c9234e7"><div class="ttname"><a href="classJoueur_1_1BaseGameObject.html#aec1e1435760002cfac6a17041c9234e7">Joueur::BaseGameObject::id</a></div><div class="ttdeci">std::string id</div><div class="ttdoc">A unique identifier for each game object. During any game IDs will never be re-used. </div><div class="ttdef"><b>Definition:</b> baseGameObject.h:17</div></div>
+<div class="ttc" id="classJoueur_1_1BaseGameObject_html_a74e5c981b84252a6b07b1e8d8107a4eb"><div class="ttname"><a href="classJoueur_1_1BaseGameObject.html#a74e5c981b84252a6b07b1e8d8107a4eb">Joueur::BaseGameObject::gameObjectName</a></div><div class="ttdeci">std::string gameObjectName</div><div class="ttdoc">String representing the top level Class that this game object is an instance of. Used for reflection ...</div><div class="ttdef"><b>Definition:</b> baseGameObject.h:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

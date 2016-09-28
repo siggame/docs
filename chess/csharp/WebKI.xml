@@ -24,6 +24,7 @@
   <HelpKINode Title="CurrentPlayer property" Url="html/df23e1c9-a844-ccef-6075-63c903d1b127.htm" />
   <HelpKINode Title="CurrentTurn property" Url="html/4f072198-f61b-8042-6550-e8bd5b9047a8.htm" />
   <HelpKINode Title="Ended method" Url="html/b0267b17-0d69-436c-e7f6-20402a27e9f4.htm" />
+  <HelpKINode Title="Fen property" Url="html/4c8fff86-2745-e7fa-d14e-a61358192def.htm" />
   <HelpKINode Title="File property" Url="html/54a7b714-7c07-e53e-7fbd-7fd74ae0627b.htm" />
   <HelpKINode Title="FromFile property" Url="html/240a4d19-5876-20d3-6e9c-176a31827cb1.htm" />
   <HelpKINode Title="FromRank property" Url="html/8ea83804-b038-67df-4077-24f8fdecbc3d.htm" />
@@ -37,6 +38,7 @@
   <HelpKINode Title="Game field" Url="html/51581690-5619-ae24-abc9-39a44118a939.htm" />
   <HelpKINode Title="Game.CurrentPlayer property" Url="html/df23e1c9-a844-ccef-6075-63c903d1b127.htm" />
   <HelpKINode Title="Game.CurrentTurn property" Url="html/4f072198-f61b-8042-6550-e8bd5b9047a8.htm" />
+  <HelpKINode Title="Game.Fen property" Url="html/4c8fff86-2745-e7fa-d14e-a61358192def.htm" />
   <HelpKINode Title="Game.Game constructor" Url="html/42a2b918-8217-0616-21a0-aa316f0402a0.htm" />
   <HelpKINode Title="Game.MaxTurns property" Url="html/fba48850-bef8-ae33-8da2-70c76d358fe2.htm" />
   <HelpKINode Title="Game.Moves property" Url="html/e399a788-aa12-410c-efbe-6c9f30d47b79.htm" />
@@ -91,7 +93,7 @@
   <HelpKINode Title="Move.ToRank property" Url="html/56804cfc-cc4b-cd3e-fb1f-d25c4bc3a812.htm" />
   <HelpKINode Title="Moves property" Url="html/e399a788-aa12-410c-efbe-6c9f30d47b79.htm" />
   <HelpKINode Title="Name property" Url="html/037746a6-ade6-6107-4b84-e32405ce2df5.htm" />
-  <HelpKINode Title="OtherPlayer property" Url="html/09ca1784-53e2-262d-f82f-e00272714f9e.htm" />
+  <HelpKINode Title="Opponent property" Url="html/e02212ea-8f80-b78d-0401-bb4ba1942377.htm" />
   <HelpKINode Title="Owner property" Url="html/665415d2-a46b-2fa8-d251-baaaf52d0870.htm" />
   <HelpKINode Title="Piece class">
     <HelpKINode Title="Piece Class" Url="html/11e0b85f-4aac-deb9-22fd-2ebf0f5af437.htm" />
@@ -127,7 +129,7 @@
   <HelpKINode Title="Player.Lost property" Url="html/f2feb55a-0211-e70c-4d97-31bb49eaadab.htm" />
   <HelpKINode Title="Player.MadeMove property" Url="html/b1f89c51-93e5-3d8c-d3c9-4ac68bca31eb.htm" />
   <HelpKINode Title="Player.Name property" Url="html/037746a6-ade6-6107-4b84-e32405ce2df5.htm" />
-  <HelpKINode Title="Player.OtherPlayer property" Url="html/09ca1784-53e2-262d-f82f-e00272714f9e.htm" />
+  <HelpKINode Title="Player.Opponent property" Url="html/e02212ea-8f80-b78d-0401-bb4ba1942377.htm" />
   <HelpKINode Title="Player.Pieces property" Url="html/f84435a7-0bc3-5125-752a-b493b5f5d77a.htm" />
   <HelpKINode Title="Player.Player constructor" Url="html/2996288b-4968-a912-8aec-419e9c25c5aa.htm" />
   <HelpKINode Title="Player.RankDirection property" Url="html/e90166ab-3b6e-9e46-78da-8a797e603663.htm" />

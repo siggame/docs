@@ -7,13 +7,13 @@ tags: Chess2013 Chess2014
 
 ## Visualizer
 
-<a href="http://r99acm.device.mst.edu:3080/chesser" class="btn btn-info">
+<a href="http://r99acm.device.mst.edu:5400" class="btn btn-info">
 Chess Visualizer <i class="fa fa-play-circle"></i>
 </a>
 
 ## Documentation
 
-<a href="https://docs.google.com/presentation/d/11CD1aWK_JwcV5r_dtblx76sdgxIanOAJK6HNzHkNKZg/pub?start=false&loop=false&delayms=3000" class="btn btn-info">
+<a href="https://docs.google.com/presentation/d/1rqSnIWXZwu9Qajnjbl8iLpCZk2OndqnwevQR4QyNS54/" class="btn btn-info">
 In-Class Presentation <i class="fa fa-lightbulb-o"></i>
 </a>
 

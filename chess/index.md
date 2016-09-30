@@ -14,7 +14,7 @@ Chess Visualizer <i class="fa fa-play-circle"></i>
 ## Documentation
 
 <a href="https://docs.google.com/presentation/d/1rqSnIWXZwu9Qajnjbl8iLpCZk2OndqnwevQR4QyNS54/" class="btn btn-info">
-In-Class Presentation <i class="fa fa-lightbulb-o"></i>
+In-Class Presentation <i class="fa fa-file-powerpoint-o"></i>
 </a>
 
 <a href="https://docs.google.com/document/d/1Ys51Oyz2SIPmwiol55uPBQ0TIPc9NF51gVeb119msuk/pub" class="btn btn-info">

@@ -45,17 +45,18 @@ The arena will do the following things with your code:
 
 The arena will create a zip folder containing build output as well as
 output from `stderr` and `stdout`. This zip folder is made available to
-the AI's team through SIG-Game's main website. Additionally, game logs
-(more specifically, the compressed gamelogs or `glogs`) are made
-available to the teams who participated in them. Teams can only
-download arena games in which they participated.
+the AI's team through SIG-Game's main website. `stdout` will be
+limited to 5MB. Additionally, game logs (more specifically, the
+compressed gamelogs or `glogs`) are made available to the teams who 
+participated in them. Teams can only download arena games in which they 
+participated.
 
 ## Arena Statuses
 
-- **Embargo** - An embargo means that your code is broken and is
+- **Embargoed** - An embargo means that your code is broken and is
   unable to run in the arena. This could be caused by compilation
   errors, segmentation faults, or other AI-code-related problems.
-- **Broken** - Broken means that the arena is either down or there has
+- **Something Broke** - Broken means that the arena is either down or there has
   been a networking issue between the website and the arena.
 - **Not Ready** - Not Ready means that the arena is (intentionally)
   not yet running and no games are being played.

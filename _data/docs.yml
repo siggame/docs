@@ -25,3 +25,5 @@ other:
     url: /advice/discord
   - name: FAQs
     url: https://docs.google.com/document/d/1MYn3rsE82sqVYKHXOLbkX5tYE22VFYk63dvDSAexmoI/pub
+  - name: Running Your Own Game Server
+    url: /advice/gameserver

@@ -3,13 +3,25 @@ layout: docs
 tags: General
 ---
 
-# Running Your Own Game Server
+# Game Server
+
+The ACM SIG-Game framework uses a client <--> server architecture. AIs connect as clients to a game server. This way AIs written in different languages can play with each other, regardless of how their host programming language works. In addition is speeds up development so SIG-Game can focus on implementing the game on 1 server instead of every AI programming language.
+
+ACM SIG-Game provides a game server running on campus for students and competitors to connect to for testing their AIs. By default, running your AI via the command line with:
+
+```
+./testRun MySuperDuperSessionString
+```
+
+Will default in the server's location so you don't have to worry about the url to our server.
+
+## Running Your Own Game Server
 
 Although we provide you with a game server running on our own on campus server for testing your AI, we understand there are circumstances where you would want your personal game server; such as being off campus, developing off-line, or just to improve speed.
 
 To do so, just download and run our game server: [Cerveau][1]. The instructions to run it should be available and up to date on GitHub in the `README.md`. Essentially you just need to install [Node.js][2], and then run our server via node.
 
-## Considerations
+### Considerations
 
 By running your own game server you are taking on the task on maintaining it. Throughout competitions if bugs are found, then devs push the updates to GitHub. You will be responsible for pulling in changes on your local game server instances.
 
@@ -17,7 +29,7 @@ Additionally, with the game server being open source to everyone, that means you
 
 Instead, if you happen to find bugs, or have questions, please tell a dev. Although our games go through testing each semester, bugs can happen, and we'd love you to help us help you!
 
-## Visualizing Games
+### Visualizing Games
 
 By default, the game server has no concept of a visualizer. We configure the instance running on our on campus server to give you the visualizer url via the ` --visualizer-url` argument to your clients when the game ends. You can do that too, however, an easier method exists.
 

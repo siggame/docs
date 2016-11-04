@@ -17,13 +17,13 @@ games:
     url: /spiders
 
 other:
-  - name: Arena
-    url: /advice/arena
   - name: General
     url: /advice/general
-  - name: Discord Chat
-    url: /advice/discord
+  - name: Arena
+    url: /advice/arena
+  - name: Game Server
+    url: /advice/gameserver
   - name: FAQs
     url: https://docs.google.com/document/d/1MYn3rsE82sqVYKHXOLbkX5tYE22VFYk63dvDSAexmoI/pub
-  - name: Running Your Own Game Server
-    url: /advice/gameserver
+  - name: Discord Chat
+    url: /advice/discord

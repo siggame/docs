@@ -35,7 +35,7 @@ The arena will do the following things with your code:
    AI. The arena will run your script expecting the ability to use the
    following arguments:
 
-   `./run <game name> -r <game session id> -s <game server hostname> -p <game server port>`
+   `bash arenaRun <game name> -r <game session id> -s <game server hostname> -p <game server port> -i <player index> -n <team name>`
 
    Should you decide to change your run file (which is not
    recommended), it **must** accept those arguments in that order to

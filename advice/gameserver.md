@@ -5,15 +5,13 @@ tags: General
 
 # Game Server
 
-The ACM SIG-Game framework uses a client <--> server architecture. AIs connect as clients to a game server. This way AIs written in different languages can play with each other, regardless of how their host programming language works. In addition is speeds up development so SIG-Game can focus on implementing the game on 1 server instead of every AI programming language.
+The ACM SIG-Game framework uses a client ↔ server architecture. AIs connect as clients to a game server. This way AIs written in different languages can play with each other, regardless of how their host programming language works. In addition this speeds up development.
 
-ACM SIG-Game provides a game server running on campus for students and competitors to connect to for testing their AIs. By default, running your AI via the command line with:
+ACM SIG-Game provides a game server running on campus for students and competitors to connect to for testing their AIs. The supplied `testRun` script defaults in our server so you don't have to worry about the game server:
 
 ```
 ./testRun MySuperDuperSessionString
 ```
-
-Will default in the server's location so you don't have to worry about the url to our server.
 
 ## Running Your Own Game Server
 

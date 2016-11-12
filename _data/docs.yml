@@ -1,20 +1,22 @@
 games:
-  - name: Plants
+  - name: "MMAI 11: Plants"
     url: /plants
-  - name: Droids
+  - name: "MMAI 12: Droids"
     url: /droids
-  - name: Mars
+  - name: "MMAI 13: Mars"
     url: /mars
-  - name: Reef
+  - name: "MMAI 14: Reef"
     url: /reef
-  - name: Chess
-    url: /chess
-  - name: Pharaoh
+  - name: "MMAI 15: Pharaoh"
     url: /pharaoh
-  - name: Anarchy
+  - name: "MMAI 16: Anarchy"
     url: /anarchy
-  - name: Spiders
+  - name: "MMAI 17: Spiders"
     url: /spiders
+
+mst_ai:
+  - name: "Chess"
+    url: /chess
 
 other:
   - name: General
@@ -27,3 +29,5 @@ other:
     url: https://docs.google.com/document/d/1MYn3rsE82sqVYKHXOLbkX5tYE22VFYk63dvDSAexmoI/pub
   - name: Discord Chat
     url: /advice/discord
+  - name: Non MST Students
+    url: /advice/nomst

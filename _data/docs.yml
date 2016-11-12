@@ -13,6 +13,8 @@ games:
     url: /anarchy
   - name: "MMAI 17: Spiders"
     url: /spiders
+  - name: "MMAI 18: Saloon"
+    url: /saloon
 
 mst_ai:
   - name: "Chess"

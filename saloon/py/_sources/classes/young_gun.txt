@@ -1,0 +1,11 @@
+
+YoungGun
+========
+
+.. currentmodule:: games.saloon.young_gun
+
+.. automodule:: games.saloon.young_gun
+    :members:
+    :inherited-members:
+    :show-inheritance:
+

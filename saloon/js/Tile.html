@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Saloon JavaScript Client</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    
+    <meta name="description" content="JavaScript Client for Saloon via Node.js" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"Saloon JavaScript Client","meta":{"title":"Saloon JavaScript Client","description":"JavaScript Client for Saloon via Node.js","footer":"&copy; MST ACM SIG-GAME"},"linenums":true,"default":{}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">Saloon JavaScript Client</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="AI">
+            <span class="title">
+                <a href="AI.html">AI</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="AI#game"><a href="AI.html#game">game</a></li>
+            
+                <li data-name="AI#player"><a href="AI.html#player">player</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="AI#ended"><a href="AI.html#ended">ended</a></li>
+            
+                <li data-name="AI#findPath"><a href="AI.html#findPath">findPath</a></li>
+            
+                <li data-name="AI#gameUpdated"><a href="AI.html#gameUpdated">gameUpdated</a></li>
+            
+                <li data-name="AI#getName"><a href="AI.html#getName">getName</a></li>
+            
+                <li data-name="AI#runTurn"><a href="AI.html#runTurn">runTurn</a></li>
+            
+                <li data-name="AI#start"><a href="AI.html#start">start</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Bottle">
+            <span class="title">
+                <a href="Bottle.html">Bottle</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Bottle#direction"><a href="Bottle.html#direction">direction</a></li>
+            
+                <li data-name="Bottle#drunkDirection"><a href="Bottle.html#drunkDirection">drunkDirection</a></li>
+            
+                <li data-name="Bottle#gameObjectName"><a href="Bottle.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Bottle#id"><a href="Bottle.html#id">id</a></li>
+            
+                <li data-name="Bottle#isDestroyed"><a href="Bottle.html#isDestroyed">isDestroyed</a></li>
+            
+                <li data-name="Bottle#logs"><a href="Bottle.html#logs">logs</a></li>
+            
+                <li data-name="Bottle#tile"><a href="Bottle.html#tile">tile</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Bottle#log"><a href="Bottle.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Cowboy">
+            <span class="title">
+                <a href="Cowboy.html">Cowboy</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Cowboy#canMove"><a href="Cowboy.html#canMove">canMove</a></li>
+            
+                <li data-name="Cowboy#drunkDirection"><a href="Cowboy.html#drunkDirection">drunkDirection</a></li>
+            
+                <li data-name="Cowboy#focus"><a href="Cowboy.html#focus">focus</a></li>
+            
+                <li data-name="Cowboy#gameObjectName"><a href="Cowboy.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Cowboy#health"><a href="Cowboy.html#health">health</a></li>
+            
+                <li data-name="Cowboy#id"><a href="Cowboy.html#id">id</a></li>
+            
+                <li data-name="Cowboy#isDead"><a href="Cowboy.html#isDead">isDead</a></li>
+            
+                <li data-name="Cowboy#isDrunk"><a href="Cowboy.html#isDrunk">isDrunk</a></li>
+            
+                <li data-name="Cowboy#job"><a href="Cowboy.html#job">job</a></li>
+            
+                <li data-name="Cowboy#logs"><a href="Cowboy.html#logs">logs</a></li>
+            
+                <li data-name="Cowboy#owner"><a href="Cowboy.html#owner">owner</a></li>
+            
+                <li data-name="Cowboy#tile"><a href="Cowboy.html#tile">tile</a></li>
+            
+                <li data-name="Cowboy#tolerance"><a href="Cowboy.html#tolerance">tolerance</a></li>
+            
+                <li data-name="Cowboy#turnsBusy"><a href="Cowboy.html#turnsBusy">turnsBusy</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Cowboy#act"><a href="Cowboy.html#act">act</a></li>
+            
+                <li data-name="Cowboy#log"><a href="Cowboy.html#log">log</a></li>
+            
+                <li data-name="Cowboy#move"><a href="Cowboy.html#move">move</a></li>
+            
+                <li data-name="Cowboy#play"><a href="Cowboy.html#play">play</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Furnishing">
+            <span class="title">
+                <a href="Furnishing.html">Furnishing</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Furnishing#gameObjectName"><a href="Furnishing.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Furnishing#health"><a href="Furnishing.html#health">health</a></li>
+            
+                <li data-name="Furnishing#id"><a href="Furnishing.html#id">id</a></li>
+            
+                <li data-name="Furnishing#isDestroyed"><a href="Furnishing.html#isDestroyed">isDestroyed</a></li>
+            
+                <li data-name="Furnishing#isPiano"><a href="Furnishing.html#isPiano">isPiano</a></li>
+            
+                <li data-name="Furnishing#isPlaying"><a href="Furnishing.html#isPlaying">isPlaying</a></li>
+            
+                <li data-name="Furnishing#logs"><a href="Furnishing.html#logs">logs</a></li>
+            
+                <li data-name="Furnishing#tile"><a href="Furnishing.html#tile">tile</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Furnishing#log"><a href="Furnishing.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Game">
+            <span class="title">
+                <a href="Game.html">Game</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Game#bartenderCooldown"><a href="Game.html#bartenderCooldown">bartenderCooldown</a></li>
+            
+                <li data-name="Game#bottles"><a href="Game.html#bottles">bottles</a></li>
+            
+                <li data-name="Game#brawlerDamage"><a href="Game.html#brawlerDamage">brawlerDamage</a></li>
+            
+                <li data-name="Game#cowboys"><a href="Game.html#cowboys">cowboys</a></li>
+            
+                <li data-name="Game#currentPlayer"><a href="Game.html#currentPlayer">currentPlayer</a></li>
+            
+                <li data-name="Game#currentTurn"><a href="Game.html#currentTurn">currentTurn</a></li>
+            
+                <li data-name="Game#furnishings"><a href="Game.html#furnishings">furnishings</a></li>
+            
+                <li data-name="Game#gameObjects"><a href="Game.html#gameObjects">gameObjects</a></li>
+            
+                <li data-name="Game#jobs"><a href="Game.html#jobs">jobs</a></li>
+            
+                <li data-name="Game#mapHeight"><a href="Game.html#mapHeight">mapHeight</a></li>
+            
+                <li data-name="Game#mapWidth"><a href="Game.html#mapWidth">mapWidth</a></li>
+            
+                <li data-name="Game#maxCowboysPerJob"><a href="Game.html#maxCowboysPerJob">maxCowboysPerJob</a></li>
+            
+                <li data-name="Game#maxTurns"><a href="Game.html#maxTurns">maxTurns</a></li>
+            
+                <li data-name="Game#players"><a href="Game.html#players">players</a></li>
+            
+                <li data-name="Game#rowdinessToSiesta"><a href="Game.html#rowdinessToSiesta">rowdinessToSiesta</a></li>
+            
+                <li data-name="Game#session"><a href="Game.html#session">session</a></li>
+            
+                <li data-name="Game#sharpshooterDamage"><a href="Game.html#sharpshooterDamage">sharpshooterDamage</a></li>
+            
+                <li data-name="Game#siestaLength"><a href="Game.html#siestaLength">siestaLength</a></li>
+            
+                <li data-name="Game#tiles"><a href="Game.html#tiles">tiles</a></li>
+            
+                <li data-name="Game#turnsDrunk"><a href="Game.html#turnsDrunk">turnsDrunk</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Game#getTileAt"><a href="Game.html#getTileAt">getTileAt</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="GameObject">
+            <span class="title">
+                <a href="GameObject.html">GameObject</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="GameObject#gameObjectName"><a href="GameObject.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="GameObject#id"><a href="GameObject.html#id">id</a></li>
+            
+                <li data-name="GameObject#logs"><a href="GameObject.html#logs">logs</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="GameObject#log"><a href="GameObject.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Player">
+            <span class="title">
+                <a href="Player.html">Player</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Player#clientType"><a href="Player.html#clientType">clientType</a></li>
+            
+                <li data-name="Player#cowboys"><a href="Player.html#cowboys">cowboys</a></li>
+            
+                <li data-name="Player#gameObjectName"><a href="Player.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Player#id"><a href="Player.html#id">id</a></li>
+            
+                <li data-name="Player#kills"><a href="Player.html#kills">kills</a></li>
+            
+                <li data-name="Player#logs"><a href="Player.html#logs">logs</a></li>
+            
+                <li data-name="Player#lost"><a href="Player.html#lost">lost</a></li>
+            
+                <li data-name="Player#name"><a href="Player.html#name">name</a></li>
+            
+                <li data-name="Player#opponent"><a href="Player.html#opponent">opponent</a></li>
+            
+                <li data-name="Player#reasonLost"><a href="Player.html#reasonLost">reasonLost</a></li>
+            
+                <li data-name="Player#reasonWon"><a href="Player.html#reasonWon">reasonWon</a></li>
+            
+                <li data-name="Player#rowdiness"><a href="Player.html#rowdiness">rowdiness</a></li>
+            
+                <li data-name="Player#score"><a href="Player.html#score">score</a></li>
+            
+                <li data-name="Player#siesta"><a href="Player.html#siesta">siesta</a></li>
+            
+                <li data-name="Player#timeRemaining"><a href="Player.html#timeRemaining">timeRemaining</a></li>
+            
+                <li data-name="Player#won"><a href="Player.html#won">won</a></li>
+            
+                <li data-name="Player#youngGun"><a href="Player.html#youngGun">youngGun</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Player#log"><a href="Player.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Tile">
+            <span class="title">
+                <a href="Tile.html">Tile</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Tile.directions"><a href="Tile.html#.directions">directions</a></li>
+            
+                <li data-name="Tile#bottle"><a href="Tile.html#bottle">bottle</a></li>
+            
+                <li data-name="Tile#cowboy"><a href="Tile.html#cowboy">cowboy</a></li>
+            
+                <li data-name="Tile#furnishing"><a href="Tile.html#furnishing">furnishing</a></li>
+            
+                <li data-name="Tile#gameObjectName"><a href="Tile.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Tile#hasHazard"><a href="Tile.html#hasHazard">hasHazard</a></li>
+            
+                <li data-name="Tile#id"><a href="Tile.html#id">id</a></li>
+            
+                <li data-name="Tile#isBalcony"><a href="Tile.html#isBalcony">isBalcony</a></li>
+            
+                <li data-name="Tile#logs"><a href="Tile.html#logs">logs</a></li>
+            
+                <li data-name="Tile#tileEast"><a href="Tile.html#tileEast">tileEast</a></li>
+            
+                <li data-name="Tile#tileNorth"><a href="Tile.html#tileNorth">tileNorth</a></li>
+            
+                <li data-name="Tile#tileSouth"><a href="Tile.html#tileSouth">tileSouth</a></li>
+            
+                <li data-name="Tile#tileWest"><a href="Tile.html#tileWest">tileWest</a></li>
+            
+                <li data-name="Tile#x"><a href="Tile.html#x">x</a></li>
+            
+                <li data-name="Tile#y"><a href="Tile.html#y">y</a></li>
+            
+                <li data-name="Tile#youngGun"><a href="Tile.html#youngGun">youngGun</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Tile#getNeighbors"><a href="Tile.html#getNeighbors">getNeighbors</a></li>
+            
+                <li data-name="Tile#hasNeighbor"><a href="Tile.html#hasNeighbor">hasNeighbor</a></li>
+            
+                <li data-name="Tile#isPathable"><a href="Tile.html#isPathable">isPathable</a></li>
+            
+                <li data-name="Tile#log"><a href="Tile.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="YoungGun">
+            <span class="title">
+                <a href="YoungGun.html">YoungGun</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="YoungGun#callInTile"><a href="YoungGun.html#callInTile">callInTile</a></li>
+            
+                <li data-name="YoungGun#canCallIn"><a href="YoungGun.html#canCallIn">canCallIn</a></li>
+            
+                <li data-name="YoungGun#gameObjectName"><a href="YoungGun.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="YoungGun#id"><a href="YoungGun.html#id">id</a></li>
+            
+                <li data-name="YoungGun#logs"><a href="YoungGun.html#logs">logs</a></li>
+            
+                <li data-name="YoungGun#owner"><a href="YoungGun.html#owner">owner</a></li>
+            
+                <li data-name="YoungGun#tile"><a href="YoungGun.html#tile">tile</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="YoungGun#callIn"><a href="YoungGun.html#callIn">callIn</a></li>
+            
+                <li data-name="YoungGun#log"><a href="YoungGun.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="Tile.html">Class: Tile</h1>
+        
+
+
+
+<section>
+    
+<header>
+    <h2>
+    Tile
+    </h2>
+    
+        <div class="class-description">A Tile in the game that makes up the 2D map grid.</div>
+    
+</header>  
+
+<article>
+    <div class="container-overview">
+    
+    
+    
+        
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="Tile">
+            
+            new Tile<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            tile.js, line 16
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+    
+    </div>
+    
+    
+        <h3 class="subsection-title">Extends</h3>
+        
+        <ul>
+            <li><a href="GameObject.html">GameObject</a></li>
+        </ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Members</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id=".directions">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;string></span>
+
+
+            
+            <span class="type-signature static">static,constant</span>Tile.directions
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The valid directions that tiles can be in, "North", "East", "South", or "West"
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="bottle">
+            
+                
+<span class="types ">
+
+    <span class="type Bottle"><a href="Bottle.html">Bottle</a></span>
+
+
+            
+            bottle
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The beer Bottle currently flying over this Tile.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="cowboy">
+            
+                
+<span class="types ">
+
+    <span class="type Cowboy"><a href="Cowboy.html">Cowboy</a></span>
+
+
+            
+            cowboy
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The Cowboy that is on this Tile, null otherwise.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="furnishing">
+            
+                
+<span class="types ">
+
+    <span class="type Furnishing"><a href="Furnishing.html">Furnishing</a></span>
+
+
+            
+            furnishing
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The furnishing that is on this Tile, null otherwise.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer inherited">
+        <h4 class="name" id="gameObjectName">
+            
+                
+<span class="types ">
+
+    <span class="type string">string</span>
+
+
+            
+            gameObjectName
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from">
+            <a href="GameObject.html#gameObjectName">GameObject#gameObjectName</a>
+        </dd>
+    
+
+    
+    <div class="description">
+        String representing the top level Class that this game object is an instance of. Used for reflection to create new instances on clients, but exposed for convenience should AIs want this data.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="hasHazard">
+            
+                
+<span class="types ">
+
+    <span class="type boolean">boolean</span>
+
+
+            
+            hasHazard
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        If this Tile is pathable, but has a hazard that damages Cowboys that path through it.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer inherited">
+        <h4 class="name" id="id">
+            
+                
+<span class="types ">
+
+    <span class="type string">string</span>
+
+
+            
+            id
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from">
+            <a href="GameObject.html#id">GameObject#id</a>
+        </dd>
+    
+
+    
+    <div class="description">
+        A unique id for each instance of a GameObject or a sub class. Used for client and server communication. Should never change value after being set.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="isBalcony">
+            
+                
+<span class="types ">
+
+    <span class="type boolean">boolean</span>
+
+
+            
+            isBalcony
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        If this Tile is a balcony of the Saloon that YoungGuns walk around on, and can never be pathed through by Cowboys.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer inherited">
+        <h4 class="name" id="logs">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;string></span>
+
+
+            
+            logs
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from">
+            <a href="GameObject.html#logs">GameObject#logs</a>
+        </dd>
+    
+
+    
+    <div class="description">
+        Any strings logged will be stored here. Intended for debugging.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="tileEast">
+            
+                
+<span class="types ">
+
+    <span class="type Tile"><a href="Tile.html">Tile</a></span>
+
+
+            
+            tileEast
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The Tile to the 'East' of this one (x+1, y). Null if out of bounds of the map.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="tileNorth">
+            
+                
+<span class="types ">
+
+    <span class="type Tile"><a href="Tile.html">Tile</a></span>
+
+
+            
+            tileNorth
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The Tile to the 'North' of this one (x, y-1). Null if out of bounds of the map.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="tileSouth">
+            
+                
+<span class="types ">
+
+    <span class="type Tile"><a href="Tile.html">Tile</a></span>
+
+
+            
+            tileSouth
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The Tile to the 'South' of this one (x, y+1). Null if out of bounds of the map.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="tileWest">
+            
+                
+<span class="types ">
+
+    <span class="type Tile"><a href="Tile.html">Tile</a></span>
+
+
+            
+            tileWest
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The Tile to the 'West' of this one (x-1, y). Null if out of bounds of the map.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="x">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            x
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The x (horizontal) position of this Tile.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="y">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            y
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The y (vertical) position of this Tile.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="youngGun">
+            
+                
+<span class="types ">
+
+    <span class="type YoungGun"><a href="YoungGun.html">YoungGun</a></span>
+
+
+            
+            youngGun
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The YoungGun on this tile, null otherwise.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+        <h3 class="subsection-title">Methods</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="getNeighbors">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Tile.html">Tile</a>></span>
+
+
+            
+            getNeighbors<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            tile.js, line 147
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        Gets the neighbors of this Tile
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+<div class="returns">
+
+<h5>Returns:
+
+
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Tile.html">Tile</a>></span>
+
+
+
+</h5>
+The neighboring (adjacent) Tiles to this tile
+
+</div>
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="hasNeighbor">
+            
+                
+<span class="types ">
+
+    <span class="type boolean">boolean</span>
+
+
+            
+            hasNeighbor<span class="signature">(tile)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            tile.js, line 178
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        Checks if this Tile has a specific neighboring Tile
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>tile</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="types ">
+
+    <span class="type Tile"><a href="Tile.html">Tile</a></span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                tile to check against</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+<div class="returns">
+
+<h5>Returns:
+
+
+<span class="types ">
+
+    <span class="type boolean">boolean</span>
+
+
+
+</h5>
+if the tile is a neighbor of this Tile, false otherwise
+
+</div>
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="isPathable">
+            
+                
+<span class="types ">
+
+    <span class="type boolean">boolean</span>
+
+
+            
+            isPathable<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            tile.js, line 166
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        Checks if a Tile is pathable to units
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+<div class="returns">
+
+<h5>Returns:
+
+
+<span class="types ">
+
+    <span class="type boolean">boolean</span>
+
+
+
+</h5>
+True if pathable, false otherwise
+
+</div>
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer inherited">
+        <h4 class="name" id="log">
+            
+            log<span class="signature">(message)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            gameObject.js, line 68
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+        <dt class="inherited-from">Inherited From:</dt>
+        <dd class="inherited-from">
+            <a href="GameObject.html#log">GameObject#log</a>
+        </dd>
+    
+
+    
+    <div class="description">
+        Adds a message to this GameObject's logs. Intended for your own debugging purposes, as strings stored here are saved in the gamelog.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>message</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="types ">
+
+    <span class="type string">string</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                A string to add to this GameObject's log. Intended for debugging.</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+    
+    
+</article>
+
+</section>  
+
+
+
+
+
+        
+
+        <footer>
+            
+                &copy; MST ACM SIG-GAME &mdash;
+            
+            Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.1</a> on Sat Nov 12 2016 08:23:40 GMT-0600 (CST)
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Act method" Url="html/37854d70-0cf6-5310-7e12-2d559bf0f0f3.htm" />
+  <HelpKINode Title="AI class">
+    <HelpKINode Title="AI Class" Url="html/01d94c39-0c50-b8ba-a940-195896b16f6c.htm" />
+    <HelpKINode Title="about AI class" Url="html/01d94c39-0c50-b8ba-a940-195896b16f6c.htm" />
+    <HelpKINode Title="constructor" Url="html/e64f82b7-76ce-df27-bcb7-654eefc8b7a7.htm" />
+    <HelpKINode Title="fields" Url="html/0b6406b3-efba-2446-5b2d-aa4c10ebf04f.htm" />
+    <HelpKINode Title="methods" Url="html/b402cedf-25bd-f0e6-5e62-550e02e5c839.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AI.AI constructor" Url="html/e64f82b7-76ce-df27-bcb7-654eefc8b7a7.htm" />
+  <HelpKINode Title="AI.Ended method" Url="html/838bb4a6-4582-46bc-bd6e-1bdb84eb7d63.htm" />
+  <HelpKINode Title="AI.Game field" Url="html/518d2a25-576d-b6cd-554e-38ee3475b392.htm" />
+  <HelpKINode Title="AI.GameUpdated method" Url="html/ff809487-44d6-ee30-4043-02029c1a7932.htm" />
+  <HelpKINode Title="AI.GetName method" Url="html/c1b65d03-03fe-52e3-84a2-7d3add0603e8.htm" />
+  <HelpKINode Title="AI.Player field" Url="html/5b4d9333-b14a-2230-02d1-5dd462bfdd13.htm" />
+  <HelpKINode Title="AI.RunTurn method" Url="html/b9e417b4-8c11-0ed9-3afe-7d95d428c9e6.htm" />
+  <HelpKINode Title="AI.Start method" Url="html/92be3fa8-ad6b-cba3-5fa1-408647d41f65.htm" />
+  <HelpKINode Title="BartenderCooldown property" Url="html/c4b6ec7f-0761-021d-0f84-8d195960a985.htm" />
+  <HelpKINode Title="Bottle class">
+    <HelpKINode Title="Bottle Class" Url="html/97e12d85-e102-4934-108a-48a2bc197c92.htm" />
+    <HelpKINode Title="about Bottle class" Url="html/97e12d85-e102-4934-108a-48a2bc197c92.htm" />
+    <HelpKINode Title="constructor" Url="html/e082a62d-ae82-31c4-b0b9-e12d941fe5e6.htm" />
+    <HelpKINode Title="methods" Url="html/38b0f618-8bdf-7950-2203-fefb7805b67f.htm" />
+    <HelpKINode Title="properties" Url="html/1146d39d-2e58-1ad5-4fb5-f5cb92138a9a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Bottle property" Url="html/2c2e4ee3-5645-71a7-4aa1-a4722e424e28.htm" />
+  <HelpKINode Title="Bottle.Bottle constructor" Url="html/e082a62d-ae82-31c4-b0b9-e12d941fe5e6.htm" />
+  <HelpKINode Title="Bottle.Direction property" Url="html/91cc8c8c-cdf9-e26d-e6c7-89ce1e1d5c03.htm" />
+  <HelpKINode Title="Bottle.DrunkDirection property" Url="html/e956441c-0f7e-eef5-844d-2f4a45e60226.htm" />
+  <HelpKINode Title="Bottle.IsDestroyed property" Url="html/b423b7ed-c429-3782-6ae9-cb18a9af98d8.htm" />
+  <HelpKINode Title="Bottle.Tile property" Url="html/c3cb068d-4d0f-8bf1-2f4a-5419c3687c97.htm" />
+  <HelpKINode Title="Bottles property" Url="html/65ccbaed-b47a-9a1a-d84e-9f170e99bf2d.htm" />
+  <HelpKINode Title="BrawlerDamage property" Url="html/285aa456-9eb9-4834-e051-53c5c6a5e162.htm" />
+  <HelpKINode Title="CallIn method" Url="html/f2d3c5c8-e816-736a-105c-89d0a5214f4e.htm" />
+  <HelpKINode Title="CallInTile property" Url="html/0957ac18-aacd-90fb-04c7-17be91a23f1d.htm" />
+  <HelpKINode Title="CanCallIn property" Url="html/3eeacabe-865b-e065-fbf7-eecc18e7c967.htm" />
+  <HelpKINode Title="CanMove property" Url="html/38c5d998-424c-1a16-d7ec-963c615013d9.htm" />
+  <HelpKINode Title="ClientType property" Url="html/412d509b-5540-9b8e-c840-9d90133f921f.htm" />
+  <HelpKINode Title="Cowboy class">
+    <HelpKINode Title="Cowboy Class" Url="html/950c6f74-3fef-2a0d-6513-8cd0509aad7e.htm" />
+    <HelpKINode Title="about Cowboy class" Url="html/950c6f74-3fef-2a0d-6513-8cd0509aad7e.htm" />
+    <HelpKINode Title="constructor" Url="html/277d0a93-6015-e5e8-e25b-02ba6342a4dd.htm" />
+    <HelpKINode Title="methods" Url="html/d00d059f-528c-91ef-80c7-e43d537b8590.htm" />
+    <HelpKINode Title="properties" Url="html/877725d9-9979-f51f-715b-f43b2e744d8b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cowboy property" Url="html/4484f2a1-9c46-c756-e0aa-b9b3190b430d.htm" />
+  <HelpKINode Title="Cowboy.Act method" Url="html/37854d70-0cf6-5310-7e12-2d559bf0f0f3.htm" />
+  <HelpKINode Title="Cowboy.CanMove property" Url="html/38c5d998-424c-1a16-d7ec-963c615013d9.htm" />
+  <HelpKINode Title="Cowboy.Cowboy constructor" Url="html/277d0a93-6015-e5e8-e25b-02ba6342a4dd.htm" />
+  <HelpKINode Title="Cowboy.DrunkDirection property" Url="html/a1455bf4-f1ae-55ee-387f-e221fa8f810b.htm" />
+  <HelpKINode Title="Cowboy.Focus property" Url="html/8790025b-4289-567d-f467-fac6fce8fd6a.htm" />
+  <HelpKINode Title="Cowboy.Health property" Url="html/2100c54d-0356-22a7-9c0e-04916c744953.htm" />
+  <HelpKINode Title="Cowboy.IsDead property" Url="html/9709e73b-285b-eb6f-c13b-fa9e8f026513.htm" />
+  <HelpKINode Title="Cowboy.IsDrunk property" Url="html/566685b9-234b-aae1-1a5d-0f36840d07d9.htm" />
+  <HelpKINode Title="Cowboy.Job property" Url="html/eaaa80a0-c472-cafe-7daa-14de4f8a4c65.htm" />
+  <HelpKINode Title="Cowboy.Move method" Url="html/a8e5eb53-a358-8a4a-8c90-28f0b80a9b14.htm" />
+  <HelpKINode Title="Cowboy.Owner property" Url="html/4177ed62-7af5-fea0-bc4c-447ce65a32d3.htm" />
+  <HelpKINode Title="Cowboy.Play method" Url="html/dc7f94cc-8b31-7641-ad8b-b0acb4d0de59.htm" />
+  <HelpKINode Title="Cowboy.Tile property" Url="html/11bc7ef1-8da2-0a9f-f9b4-34076879d642.htm" />
+  <HelpKINode Title="Cowboy.Tolerance property" Url="html/40a46477-4765-6a35-abc2-6d7624a29968.htm" />
+  <HelpKINode Title="Cowboy.TurnsBusy property" Url="html/b0c61b06-e4de-b287-f280-5853e7c7dc77.htm" />
+  <HelpKINode Title="Cowboys property">
+    <HelpKINode Title="Game.Cowboys Property " Url="html/657fb6dc-b795-5b1a-dcb2-4ce3260cfcf3.htm" />
+    <HelpKINode Title="Player.Cowboys Property " Url="html/6c847bdc-67ea-d0a2-3c9d-3f2a67b5da42.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CurrentPlayer property" Url="html/2921ee2f-7d4b-66c4-1b4a-2feceb909aae.htm" />
+  <HelpKINode Title="CurrentTurn property" Url="html/82c66bcb-d99d-34c7-22d2-87a47d169dd8.htm" />
+  <HelpKINode Title="Direction property" Url="html/91cc8c8c-cdf9-e26d-e6c7-89ce1e1d5c03.htm" />
+  <HelpKINode Title="Directions field" Url="html/a6f0a0b4-ff96-a5f1-6575-e511bb733207.htm" />
+  <HelpKINode Title="DrunkDirection property">
+    <HelpKINode Title="Bottle.DrunkDirection Property " Url="html/e956441c-0f7e-eef5-844d-2f4a45e60226.htm" />
+    <HelpKINode Title="Cowboy.DrunkDirection Property " Url="html/a1455bf4-f1ae-55ee-387f-e221fa8f810b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Ended method" Url="html/838bb4a6-4582-46bc-bd6e-1bdb84eb7d63.htm" />
+  <HelpKINode Title="Focus property" Url="html/8790025b-4289-567d-f467-fac6fce8fd6a.htm" />
+  <HelpKINode Title="Furnishing class">
+    <HelpKINode Title="Furnishing Class" Url="html/669de378-339e-5cad-d703-b90a0bcfd802.htm" />
+    <HelpKINode Title="about Furnishing class" Url="html/669de378-339e-5cad-d703-b90a0bcfd802.htm" />
+    <HelpKINode Title="constructor" Url="html/267b5d61-e636-ff82-638f-db9696adc904.htm" />
+    <HelpKINode Title="methods" Url="html/47c1603b-c041-bd26-aaf0-9bd5b016192a.htm" />
+    <HelpKINode Title="properties" Url="html/2ad3656e-596a-6fc4-b8d6-3ac48ac2815c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Furnishing property" Url="html/65a6b058-7d9d-66e9-6dc2-25c13b55317f.htm" />
+  <HelpKINode Title="Furnishing.Furnishing constructor" Url="html/267b5d61-e636-ff82-638f-db9696adc904.htm" />
+  <HelpKINode Title="Furnishing.Health property" Url="html/6b369540-7d91-9154-6b3c-edeeba6f2816.htm" />
+  <HelpKINode Title="Furnishing.IsDestroyed property" Url="html/2d953976-0faf-6647-6ab1-c11f5e4c5783.htm" />
+  <HelpKINode Title="Furnishing.IsPiano property" Url="html/5720dd2c-6767-f35c-88ee-fb81087d4b4e.htm" />
+  <HelpKINode Title="Furnishing.IsPlaying property" Url="html/be288e65-82c8-4c5d-10ca-2818af6344e9.htm" />
+  <HelpKINode Title="Furnishing.Tile property" Url="html/5d3d1bf5-50c2-c858-e03f-8b0eacd49f75.htm" />
+  <HelpKINode Title="Furnishings property" Url="html/c5745f0d-68de-4be4-de05-5f496191c10a.htm" />
+  <HelpKINode Title="Game class">
+    <HelpKINode Title="Game Class" Url="html/dc91c285-6d59-8e82-e90e-648cd965c051.htm" />
+    <HelpKINode Title="about Game class" Url="html/dc91c285-6d59-8e82-e90e-648cd965c051.htm" />
+    <HelpKINode Title="constructor" Url="html/f156ce05-95de-0d53-5689-f5e48ba6f46d.htm" />
+    <HelpKINode Title="methods" Url="html/77c9aee2-6264-8150-c877-fbf1163bd690.htm" />
+    <HelpKINode Title="properties" Url="html/1a0786a5-458d-1df3-b9c8-13c7096b2ccd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Game field" Url="html/518d2a25-576d-b6cd-554e-38ee3475b392.htm" />
+  <HelpKINode Title="Game.BartenderCooldown property" Url="html/c4b6ec7f-0761-021d-0f84-8d195960a985.htm" />
+  <HelpKINode Title="Game.Bottles property" Url="html/65ccbaed-b47a-9a1a-d84e-9f170e99bf2d.htm" />
+  <HelpKINode Title="Game.BrawlerDamage property" Url="html/285aa456-9eb9-4834-e051-53c5c6a5e162.htm" />
+  <HelpKINode Title="Game.Cowboys property" Url="html/657fb6dc-b795-5b1a-dcb2-4ce3260cfcf3.htm" />
+  <HelpKINode Title="Game.CurrentPlayer property" Url="html/2921ee2f-7d4b-66c4-1b4a-2feceb909aae.htm" />
+  <HelpKINode Title="Game.CurrentTurn property" Url="html/82c66bcb-d99d-34c7-22d2-87a47d169dd8.htm" />
+  <HelpKINode Title="Game.Furnishings property" Url="html/c5745f0d-68de-4be4-de05-5f496191c10a.htm" />
+  <HelpKINode Title="Game.Game constructor" Url="html/f156ce05-95de-0d53-5689-f5e48ba6f46d.htm" />
+  <HelpKINode Title="Game.GetTileAt method" Url="html/16b99b0f-c946-05d7-bc31-3f0545b6a613.htm" />
+  <HelpKINode Title="Game.Jobs property" Url="html/5799bfe8-353f-ae04-a7ff-fada4def3e43.htm" />
+  <HelpKINode Title="Game.MapHeight property" Url="html/31153740-4847-6a1e-ee69-103f92b92d5c.htm" />
+  <HelpKINode Title="Game.MapWidth property" Url="html/b2a25420-eb24-2e7f-3839-79cbe44c7b1b.htm" />
+  <HelpKINode Title="Game.MaxCowboysPerJob property" Url="html/c6dd8124-eca1-7994-ac82-60b1bde3c899.htm" />
+  <HelpKINode Title="Game.MaxTurns property" Url="html/e7709257-6977-0127-b029-53bc0697fded.htm" />
+  <HelpKINode Title="Game.Players property" Url="html/ae8aa0ab-47d2-5d16-77bb-055aa6ef33e7.htm" />
+  <HelpKINode Title="Game.RowdinessToSiesta property" Url="html/391f18bf-c9e9-2fb0-c79e-3410e4392ee6.htm" />
+  <HelpKINode Title="Game.Session property" Url="html/711f5e01-3949-8971-25d6-3670ca3d6432.htm" />
+  <HelpKINode Title="Game.SharpshooterDamage property" Url="html/c5552acd-6f82-72e8-6bea-070ae72cc6df.htm" />
+  <HelpKINode Title="Game.SiestaLength property" Url="html/4880055b-64e2-cbc6-45cb-22fee47ae63a.htm" />
+  <HelpKINode Title="Game.Tiles property" Url="html/d3234b00-ae75-310d-1b8b-938b920db6ad.htm" />
+  <HelpKINode Title="Game.TurnsDrunk property" Url="html/b76dd159-26b5-8dd2-8e42-9c856961fa58.htm" />
+  <HelpKINode Title="GameObject class">
+    <HelpKINode Title="GameObject Class" Url="html/f27742ad-fd9f-aff1-c0af-55cea5b676e7.htm" />
+    <HelpKINode Title="about GameObject class" Url="html/f27742ad-fd9f-aff1-c0af-55cea5b676e7.htm" />
+    <HelpKINode Title="constructor" Url="html/eb3c48bf-0b4b-77bb-73d8-138f98b83244.htm" />
+    <HelpKINode Title="methods" Url="html/0bb3a02f-0944-b03e-9327-b854e5ef3412.htm" />
+    <HelpKINode Title="properties" Url="html/2e70916e-8c50-93ed-eb7a-34dab19d9c1d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GameObject.GameObject constructor" Url="html/eb3c48bf-0b4b-77bb-73d8-138f98b83244.htm" />
+  <HelpKINode Title="GameObject.GameObjectName property" Url="html/f98df9e2-b3e5-7036-f28c-ef0dd2eec57f.htm" />
+  <HelpKINode Title="GameObject.Log method" Url="html/f79252a5-a3f7-68d8-dba4-fcd949556ee4.htm" />
+  <HelpKINode Title="GameObject.Logs property" Url="html/ade38f8b-6641-d1b3-321f-ed4d87e0fb2d.htm" />
+  <HelpKINode Title="GameObjectName property" Url="html/f98df9e2-b3e5-7036-f28c-ef0dd2eec57f.htm" />
+  <HelpKINode Title="GameUpdated method" Url="html/ff809487-44d6-ee30-4043-02029c1a7932.htm" />
+  <HelpKINode Title="GetName method" Url="html/c1b65d03-03fe-52e3-84a2-7d3add0603e8.htm" />
+  <HelpKINode Title="GetNeighbors method" Url="html/548e0007-352a-3b4f-5bad-a341c87db791.htm" />
+  <HelpKINode Title="GetTileAt method" Url="html/16b99b0f-c946-05d7-bc31-3f0545b6a613.htm" />
+  <HelpKINode Title="HasHazard property" Url="html/d3fde924-0254-01d6-5d02-7ef7d0faaa36.htm" />
+  <HelpKINode Title="HasNeighbor method" Url="html/816d6f6a-9d87-be3a-361c-d9acfdbfa4b9.htm" />
+  <HelpKINode Title="Health property">
+    <HelpKINode Title="Cowboy.Health Property " Url="html/2100c54d-0356-22a7-9c0e-04916c744953.htm" />
+    <HelpKINode Title="Furnishing.Health Property " Url="html/6b369540-7d91-9154-6b3c-edeeba6f2816.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsBalcony property" Url="html/350e88b6-2e51-b7d9-1155-2bb9b67e1152.htm" />
+  <HelpKINode Title="IsDead property" Url="html/9709e73b-285b-eb6f-c13b-fa9e8f026513.htm" />
+  <HelpKINode Title="IsDestroyed property">
+    <HelpKINode Title="Bottle.IsDestroyed Property " Url="html/b423b7ed-c429-3782-6ae9-cb18a9af98d8.htm" />
+    <HelpKINode Title="Furnishing.IsDestroyed Property " Url="html/2d953976-0faf-6647-6ab1-c11f5e4c5783.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsDrunk property" Url="html/566685b9-234b-aae1-1a5d-0f36840d07d9.htm" />
+  <HelpKINode Title="IsPathable method" Url="html/f9604f64-75f7-94f7-8cf3-1406c84d612b.htm" />
+  <HelpKINode Title="IsPiano property" Url="html/5720dd2c-6767-f35c-88ee-fb81087d4b4e.htm" />
+  <HelpKINode Title="IsPlaying property" Url="html/be288e65-82c8-4c5d-10ca-2818af6344e9.htm" />
+  <HelpKINode Title="Job property" Url="html/eaaa80a0-c472-cafe-7daa-14de4f8a4c65.htm" />
+  <HelpKINode Title="Jobs property" Url="html/5799bfe8-353f-ae04-a7ff-fada4def3e43.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon namespace" Url="html/b845ce19-d165-fa42-0593-eb3d89422ed8.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.AI class" Url="html/01d94c39-0c50-b8ba-a940-195896b16f6c.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.Bottle class" Url="html/97e12d85-e102-4934-108a-48a2bc197c92.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.Cowboy class" Url="html/950c6f74-3fef-2a0d-6513-8cd0509aad7e.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.Furnishing class" Url="html/669de378-339e-5cad-d703-b90a0bcfd802.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.Game class" Url="html/dc91c285-6d59-8e82-e90e-648cd965c051.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.GameObject class" Url="html/f27742ad-fd9f-aff1-c0af-55cea5b676e7.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.Player class" Url="html/5429a2f4-7d7a-83da-eb93-74048b8eb5e2.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.Tile class" Url="html/44e05e89-d52e-9980-8898-d83ef2c85bc4.htm" />
+  <HelpKINode Title="Joueur.cs.Games.Saloon.YoungGun class" Url="html/43526aef-9388-2efe-685b-cd7e812d4945.htm" />
+  <HelpKINode Title="Kills property" Url="html/e811964d-407b-f963-b64b-ef7f246a02c6.htm" />
+  <HelpKINode Title="Log method" Url="html/f79252a5-a3f7-68d8-dba4-fcd949556ee4.htm" />
+  <HelpKINode Title="Logs property" Url="html/ade38f8b-6641-d1b3-321f-ed4d87e0fb2d.htm" />
+  <HelpKINode Title="Lost property" Url="html/32c8791e-341a-1a96-7942-be3e4a11d7ea.htm" />
+  <HelpKINode Title="MapHeight property" Url="html/31153740-4847-6a1e-ee69-103f92b92d5c.htm" />
+  <HelpKINode Title="MapWidth property" Url="html/b2a25420-eb24-2e7f-3839-79cbe44c7b1b.htm" />
+  <HelpKINode Title="MaxCowboysPerJob property" Url="html/c6dd8124-eca1-7994-ac82-60b1bde3c899.htm" />
+  <HelpKINode Title="MaxTurns property" Url="html/e7709257-6977-0127-b029-53bc0697fded.htm" />
+  <HelpKINode Title="Move method" Url="html/a8e5eb53-a358-8a4a-8c90-28f0b80a9b14.htm" />
+  <HelpKINode Title="Name property" Url="html/9b8830c6-5914-5e68-e15a-c22e5bc5e234.htm" />
+  <HelpKINode Title="Opponent property" Url="html/65274a68-8084-496b-cf38-9d42616e5077.htm" />
+  <HelpKINode Title="Owner property">
+    <HelpKINode Title="Cowboy.Owner Property " Url="html/4177ed62-7af5-fea0-bc4c-447ce65a32d3.htm" />
+    <HelpKINode Title="YoungGun.Owner Property " Url="html/395fd268-2f98-f463-731d-e71fec2bf60c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Play method" Url="html/dc7f94cc-8b31-7641-ad8b-b0acb4d0de59.htm" />
+  <HelpKINode Title="Player class">
+    <HelpKINode Title="Player Class" Url="html/5429a2f4-7d7a-83da-eb93-74048b8eb5e2.htm" />
+    <HelpKINode Title="about Player class" Url="html/5429a2f4-7d7a-83da-eb93-74048b8eb5e2.htm" />
+    <HelpKINode Title="constructor" Url="html/2730b9e6-69cc-2d47-110a-3d548d2971f6.htm" />
+    <HelpKINode Title="methods" Url="html/da71f91c-4f5d-ce24-915d-3b6bf80c6525.htm" />
+    <HelpKINode Title="properties" Url="html/6e81e3b5-add6-401f-bd3a-5f2b98f42b3e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Player field" Url="html/5b4d9333-b14a-2230-02d1-5dd462bfdd13.htm" />
+  <HelpKINode Title="Player.ClientType property" Url="html/412d509b-5540-9b8e-c840-9d90133f921f.htm" />
+  <HelpKINode Title="Player.Cowboys property" Url="html/6c847bdc-67ea-d0a2-3c9d-3f2a67b5da42.htm" />
+  <HelpKINode Title="Player.Kills property" Url="html/e811964d-407b-f963-b64b-ef7f246a02c6.htm" />
+  <HelpKINode Title="Player.Lost property" Url="html/32c8791e-341a-1a96-7942-be3e4a11d7ea.htm" />
+  <HelpKINode Title="Player.Name property" Url="html/9b8830c6-5914-5e68-e15a-c22e5bc5e234.htm" />
+  <HelpKINode Title="Player.Opponent property" Url="html/65274a68-8084-496b-cf38-9d42616e5077.htm" />
+  <HelpKINode Title="Player.Player constructor" Url="html/2730b9e6-69cc-2d47-110a-3d548d2971f6.htm" />
+  <HelpKINode Title="Player.ReasonLost property" Url="html/0513e040-b08e-4177-5a63-131c5559e434.htm" />
+  <HelpKINode Title="Player.ReasonWon property" Url="html/569a5b6d-1db6-3824-7015-4933ca20cd91.htm" />
+  <HelpKINode Title="Player.Rowdiness property" Url="html/c5e8a866-d8c6-893e-8812-82e43a91cac6.htm" />
+  <HelpKINode Title="Player.Score property" Url="html/d06b3584-e89e-b68e-0342-24121cf89a8f.htm" />
+  <HelpKINode Title="Player.Siesta property" Url="html/23d6e24a-a22a-250c-2697-7108bacd910f.htm" />
+  <HelpKINode Title="Player.TimeRemaining property" Url="html/4a6e170e-d174-e08c-e8b4-d211711f7b60.htm" />
+  <HelpKINode Title="Player.Won property" Url="html/387d4d93-ddf9-84a4-163a-600d0cbc9608.htm" />
+  <HelpKINode Title="Player.YoungGun property" Url="html/e80eddc3-b5b2-f4c4-3be1-ee108e1d7449.htm" />
+  <HelpKINode Title="Players property" Url="html/ae8aa0ab-47d2-5d16-77bb-055aa6ef33e7.htm" />
+  <HelpKINode Title="ReasonLost property" Url="html/0513e040-b08e-4177-5a63-131c5559e434.htm" />
+  <HelpKINode Title="ReasonWon property" Url="html/569a5b6d-1db6-3824-7015-4933ca20cd91.htm" />
+  <HelpKINode Title="Rowdiness property" Url="html/c5e8a866-d8c6-893e-8812-82e43a91cac6.htm" />
+  <HelpKINode Title="RowdinessToSiesta property" Url="html/391f18bf-c9e9-2fb0-c79e-3410e4392ee6.htm" />
+  <HelpKINode Title="RunTurn method" Url="html/b9e417b4-8c11-0ed9-3afe-7d95d428c9e6.htm" />
+  <HelpKINode Title="Score property" Url="html/d06b3584-e89e-b68e-0342-24121cf89a8f.htm" />
+  <HelpKINode Title="Session property" Url="html/711f5e01-3949-8971-25d6-3670ca3d6432.htm" />
+  <HelpKINode Title="SharpshooterDamage property" Url="html/c5552acd-6f82-72e8-6bea-070ae72cc6df.htm" />
+  <HelpKINode Title="Siesta property" Url="html/23d6e24a-a22a-250c-2697-7108bacd910f.htm" />
+  <HelpKINode Title="SiestaLength property" Url="html/4880055b-64e2-cbc6-45cb-22fee47ae63a.htm" />
+  <HelpKINode Title="Start method" Url="html/92be3fa8-ad6b-cba3-5fa1-408647d41f65.htm" />
+  <HelpKINode Title="Tile class">
+    <HelpKINode Title="Tile Class" Url="html/44e05e89-d52e-9980-8898-d83ef2c85bc4.htm" />
+    <HelpKINode Title="about Tile class" Url="html/44e05e89-d52e-9980-8898-d83ef2c85bc4.htm" />
+    <HelpKINode Title="constructor" Url="html/e9f964a3-80ec-f05b-349d-a84b457a769b.htm" />
+    <HelpKINode Title="fields" Url="html/a5bed749-026c-9bd1-e764-39077dfed41b.htm" />
+    <HelpKINode Title="methods" Url="html/c45b93e4-8133-a96d-6093-7f1bbb41380f.htm" />
+    <HelpKINode Title="properties" Url="html/cfa84944-69e2-7094-5d47-7e76e023782a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tile property">
+    <HelpKINode Title="Bottle.Tile Property " Url="html/c3cb068d-4d0f-8bf1-2f4a-5419c3687c97.htm" />
+    <HelpKINode Title="Cowboy.Tile Property " Url="html/11bc7ef1-8da2-0a9f-f9b4-34076879d642.htm" />
+    <HelpKINode Title="Furnishing.Tile Property " Url="html/5d3d1bf5-50c2-c858-e03f-8b0eacd49f75.htm" />
+    <HelpKINode Title="YoungGun.Tile Property " Url="html/1bba9aa0-d7a8-40fc-fbc3-78be438a9d9b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tile.Bottle property" Url="html/2c2e4ee3-5645-71a7-4aa1-a4722e424e28.htm" />
+  <HelpKINode Title="Tile.Cowboy property" Url="html/4484f2a1-9c46-c756-e0aa-b9b3190b430d.htm" />
+  <HelpKINode Title="Tile.Directions field" Url="html/a6f0a0b4-ff96-a5f1-6575-e511bb733207.htm" />
+  <HelpKINode Title="Tile.Furnishing property" Url="html/65a6b058-7d9d-66e9-6dc2-25c13b55317f.htm" />
+  <HelpKINode Title="Tile.GetNeighbors method" Url="html/548e0007-352a-3b4f-5bad-a341c87db791.htm" />
+  <HelpKINode Title="Tile.HasHazard property" Url="html/d3fde924-0254-01d6-5d02-7ef7d0faaa36.htm" />
+  <HelpKINode Title="Tile.HasNeighbor method" Url="html/816d6f6a-9d87-be3a-361c-d9acfdbfa4b9.htm" />
+  <HelpKINode Title="Tile.IsBalcony property" Url="html/350e88b6-2e51-b7d9-1155-2bb9b67e1152.htm" />
+  <HelpKINode Title="Tile.IsPathable method" Url="html/f9604f64-75f7-94f7-8cf3-1406c84d612b.htm" />
+  <HelpKINode Title="Tile.Tile constructor" Url="html/e9f964a3-80ec-f05b-349d-a84b457a769b.htm" />
+  <HelpKINode Title="Tile.TileEast property" Url="html/d9baebcb-3ae5-001a-d2ab-69c08167f27a.htm" />
+  <HelpKINode Title="Tile.TileNorth property" Url="html/f88f5bf9-7bb3-a4e4-797a-fbc8ace5e00c.htm" />
+  <HelpKINode Title="Tile.TileSouth property" Url="html/ee822bdd-1254-f056-123b-a413ad85fe04.htm" />
+  <HelpKINode Title="Tile.TileWest property" Url="html/ce43e9a2-d0a6-173c-b1de-00ca4354a54f.htm" />
+  <HelpKINode Title="Tile.X property" Url="html/ccb093c0-fc9c-90b9-1e17-58b5731de9bc.htm" />
+  <HelpKINode Title="Tile.Y property" Url="html/e743eb19-97bf-450d-21d9-1dd763cb4492.htm" />
+  <HelpKINode Title="Tile.YoungGun property" Url="html/8eab8826-02a7-2082-0f4c-c5febc956185.htm" />
+  <HelpKINode Title="TileEast property" Url="html/d9baebcb-3ae5-001a-d2ab-69c08167f27a.htm" />
+  <HelpKINode Title="TileNorth property" Url="html/f88f5bf9-7bb3-a4e4-797a-fbc8ace5e00c.htm" />
+  <HelpKINode Title="Tiles property" Url="html/d3234b00-ae75-310d-1b8b-938b920db6ad.htm" />
+  <HelpKINode Title="TileSouth property" Url="html/ee822bdd-1254-f056-123b-a413ad85fe04.htm" />
+  <HelpKINode Title="TileWest property" Url="html/ce43e9a2-d0a6-173c-b1de-00ca4354a54f.htm" />
+  <HelpKINode Title="TimeRemaining property" Url="html/4a6e170e-d174-e08c-e8b4-d211711f7b60.htm" />
+  <HelpKINode Title="Tolerance property" Url="html/40a46477-4765-6a35-abc2-6d7624a29968.htm" />
+  <HelpKINode Title="TurnsBusy property" Url="html/b0c61b06-e4de-b287-f280-5853e7c7dc77.htm" />
+  <HelpKINode Title="TurnsDrunk property" Url="html/b76dd159-26b5-8dd2-8e42-9c856961fa58.htm" />
+  <HelpKINode Title="Won property" Url="html/387d4d93-ddf9-84a4-163a-600d0cbc9608.htm" />
+  <HelpKINode Title="X property" Url="html/ccb093c0-fc9c-90b9-1e17-58b5731de9bc.htm" />
+  <HelpKINode Title="Y property" Url="html/e743eb19-97bf-450d-21d9-1dd763cb4492.htm" />
+  <HelpKINode Title="YoungGun class">
+    <HelpKINode Title="YoungGun Class" Url="html/43526aef-9388-2efe-685b-cd7e812d4945.htm" />
+    <HelpKINode Title="about YoungGun class" Url="html/43526aef-9388-2efe-685b-cd7e812d4945.htm" />
+    <HelpKINode Title="constructor" Url="html/acd90b2f-d2b3-fc88-801f-802e503246dc.htm" />
+    <HelpKINode Title="methods" Url="html/ec045c44-49b5-4410-18be-d7b64e604047.htm" />
+    <HelpKINode Title="properties" Url="html/51c55885-45d5-3f2f-a413-bc32a6040995.htm" />
+  </HelpKINode>
+  <HelpKINode Title="YoungGun property">
+    <HelpKINode Title="Player.YoungGun Property " Url="html/e80eddc3-b5b2-f4c4-3be1-ee108e1d7449.htm" />
+    <HelpKINode Title="Tile.YoungGun Property " Url="html/8eab8826-02a7-2082-0f4c-c5febc956185.htm" />
+  </HelpKINode>
+  <HelpKINode Title="YoungGun.CallIn method" Url="html/f2d3c5c8-e816-736a-105c-89d0a5214f4e.htm" />
+  <HelpKINode Title="YoungGun.CallInTile property" Url="html/0957ac18-aacd-90fb-04c7-17be91a23f1d.htm" />
+  <HelpKINode Title="YoungGun.CanCallIn property" Url="html/3eeacabe-865b-e065-fbf7-eecc18e7c967.htm" />
+  <HelpKINode Title="YoungGun.Owner property" Url="html/395fd268-2f98-f463-731d-e71fec2bf60c.htm" />
+  <HelpKINode Title="YoungGun.Tile property" Url="html/1bba9aa0-d7a8-40fc-fbc3-78be438a9d9b.htm" />
+  <HelpKINode Title="YoungGun.YoungGun constructor" Url="html/acd90b2f-d2b3-fc88-801f-802e503246dc.htm" />
+</HelpKI>

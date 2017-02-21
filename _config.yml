@@ -9,7 +9,7 @@ highlighter: rouge
 markdown: kramdown
 
 static_url: /static/
-production_url : "http://docs.megaminerai.com"
+production_url : "http://docs.siggame.io"
 
 include:
   - _static

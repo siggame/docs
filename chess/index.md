@@ -7,7 +7,7 @@ tags: Chess2013 Chess2014
 
 ## Visualizer
 
-<a href="http://r99acm.device.mst.edu:5400" class="btn btn-info">
+<a href="http://vis.siggame.io/" class="btn btn-info">
 Chess Visualizer <i class="fa fa-play-circle"></i>
 </a>
 

@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="f30d7e38-430b-4235-8192-2d2c61a6365e" Title="Joueur.cs.Games.Chess" Url="html/f91e494b-11d3-ead2-92a5-5a709354f533.htm">
-    <HelpTOCNode Id="4a95c7fd-ce59-4f4b-9658-afa44874ec8a" Title="AI Class" Url="html/dd0e37f7-8df0-811d-fe8c-b0cd98a7cbfe.htm">
+  <HelpTOCNode Id="85a555e0-631a-4dfb-b746-330b9ac170e3" Title="Joueur.cs.Games.Chess" Url="html/f91e494b-11d3-ead2-92a5-5a709354f533.htm">
+    <HelpTOCNode Id="d5307d2b-35c9-49b0-b15f-ea44bc516c22" Title="AI Class" Url="html/dd0e37f7-8df0-811d-fe8c-b0cd98a7cbfe.htm">
       <HelpTOCNode Title="AI Constructor " Url="html/f9935875-9201-fb9f-1140-464930cf59d1.htm" />
-      <HelpTOCNode Id="ea102fea-d8aa-496e-bdb5-707b1406b486" Title="AI Methods" Url="html/30761f81-2530-7510-02e9-cfd4ec7a4d07.htm">
+      <HelpTOCNode Id="f4c7cef0-f055-4dd1-afab-f7609066e0f0" Title="AI Methods" Url="html/30761f81-2530-7510-02e9-cfd4ec7a4d07.htm">
         <HelpTOCNode Title="Ended Method " Url="html/b0267b17-0d69-436c-e7f6-20402a27e9f4.htm" />
         <HelpTOCNode Title="GameUpdated Method " Url="html/4ffe47b2-94e7-fc97-0b71-e8ec8075a811.htm" />
         <HelpTOCNode Title="GetName Method " Url="html/a523f3f7-4c15-3875-b242-80e1567691e8.htm" />
         <HelpTOCNode Title="RunTurn Method " Url="html/73a28fb7-d922-1748-fdfc-493797d1a933.htm" />
         <HelpTOCNode Title="Start Method " Url="html/036bae61-e4b7-4c5d-0453-ba1ef3b70c50.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="d60a96d2-79ae-4e93-b9c7-b00ff5e59814" Title="AI Fields" Url="html/e50f66df-fdd2-b103-4d60-72887af09152.htm">
+      <HelpTOCNode Id="7e7a20db-c4df-4015-8aae-f4bf736fcbb3" Title="AI Fields" Url="html/e50f66df-fdd2-b103-4d60-72887af09152.htm">
         <HelpTOCNode Title="Game Field" Url="html/51581690-5619-ae24-abc9-39a44118a939.htm" />
         <HelpTOCNode Title="Player Field" Url="html/35fc905e-414a-0aff-d43c-b2f052f153f1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="cd7c77b2-4be2-4964-94e1-2dd2101d78aa" Title="Game Class" Url="html/45bdb541-5ddb-2bcf-c9ab-017936f9518d.htm">
+    <HelpTOCNode Id="a86c36ff-4353-4892-8c5f-16fc27149121" Title="Game Class" Url="html/45bdb541-5ddb-2bcf-c9ab-017936f9518d.htm">
       <HelpTOCNode Title="Game Constructor " Url="html/42a2b918-8217-0616-21a0-aa316f0402a0.htm" />
-      <HelpTOCNode Id="047e0f90-35e7-45c5-836a-039e22de86bf" Title="Game Properties" Url="html/9cf1f282-9c44-3de3-db48-6f9166370b1d.htm">
+      <HelpTOCNode Id="3263aaf0-c897-475f-8c1d-7a6d0f35688d" Title="Game Properties" Url="html/9cf1f282-9c44-3de3-db48-6f9166370b1d.htm">
         <HelpTOCNode Title="CurrentPlayer Property " Url="html/df23e1c9-a844-ccef-6075-63c903d1b127.htm" />
         <HelpTOCNode Title="CurrentTurn Property " Url="html/4f072198-f61b-8042-6550-e8bd5b9047a8.htm" />
         <HelpTOCNode Title="Fen Property " Url="html/4c8fff86-2745-e7fa-d14e-a61358192def.htm" />
@@ -31,19 +31,19 @@
       </HelpTOCNode>
       <HelpTOCNode Title="Game Methods" Url="html/b8e0abca-1652-e4be-3ab1-99c28d2b20cf.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="d7de6553-a4f2-401a-97ad-557ecbea36db" Title="GameObject Class" Url="html/d915c19c-c1db-be35-4a28-dac4e7f0cd27.htm">
+    <HelpTOCNode Id="3b92c95b-c163-4034-a4c4-94c157599c50" Title="GameObject Class" Url="html/d915c19c-c1db-be35-4a28-dac4e7f0cd27.htm">
       <HelpTOCNode Title="GameObject Constructor " Url="html/fdcdf7d8-c2be-a94f-7f33-7a6525d1fea9.htm" />
-      <HelpTOCNode Id="178ae2ab-5d60-42e8-b816-b63ba3605915" Title="GameObject Properties" Url="html/69cd1325-fc25-cd5a-a2bb-24a91dd8629c.htm">
+      <HelpTOCNode Id="e882a350-2c7f-4908-999e-d90d85f9f4e1" Title="GameObject Properties" Url="html/69cd1325-fc25-cd5a-a2bb-24a91dd8629c.htm">
         <HelpTOCNode Title="GameObjectName Property " Url="html/7a04bbf4-a601-a837-2d64-a78279ff669f.htm" />
         <HelpTOCNode Title="Logs Property " Url="html/c4a4f78b-193e-8930-a5f4-8e091e92d536.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="dff80f0e-275f-4037-b3de-2c4985e2afc1" Title="GameObject Methods" Url="html/c5857626-ec14-f31f-cd78-009471bc0973.htm">
+      <HelpTOCNode Id="33490cc6-f7c2-4769-ba19-a3eeecdd6899" Title="GameObject Methods" Url="html/c5857626-ec14-f31f-cd78-009471bc0973.htm">
         <HelpTOCNode Title="Log Method " Url="html/b04ff510-5af3-fea4-0976-e6c4f2f2616a.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="c40ea07b-8765-4968-84e1-ae6a4cd9570c" Title="Move Class" Url="html/d1865ebd-d42e-eabd-1928-62d2e4d62300.htm">
+    <HelpTOCNode Id="a670431f-0933-48f8-b112-52ebe3c9cdbe" Title="Move Class" Url="html/d1865ebd-d42e-eabd-1928-62d2e4d62300.htm">
       <HelpTOCNode Title="Move Constructor " Url="html/bac2db1d-cc9b-924c-bc3e-4f85ada35787.htm" />
-      <HelpTOCNode Id="840902da-20c4-46b9-89b9-b19400991a07" Title="Move Properties" Url="html/8b1bda98-61ca-c88d-eafc-a188e651040b.htm">
+      <HelpTOCNode Id="b967b261-d93a-4ad8-aafc-c67c25159c67" Title="Move Properties" Url="html/8b1bda98-61ca-c88d-eafc-a188e651040b.htm">
         <HelpTOCNode Title="Captured Property " Url="html/65e82678-0984-8b48-92bc-3e3efd43316d.htm" />
         <HelpTOCNode Title="FromFile Property " Url="html/240a4d19-5876-20d3-6e9c-176a31827cb1.htm" />
         <HelpTOCNode Title="FromRank Property " Url="html/8ea83804-b038-67df-4077-24f8fdecbc3d.htm" />
@@ -55,9 +55,9 @@
       </HelpTOCNode>
       <HelpTOCNode Title="Move Methods" Url="html/c4d2391e-22c6-1639-a4a6-917e7fbaa9d4.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="fcefce71-0b25-415f-b9ff-c47d364780d5" Title="Piece Class" Url="html/11e0b85f-4aac-deb9-22fd-2ebf0f5af437.htm">
+    <HelpTOCNode Id="b07f8dc3-7a5a-420d-a533-9b18cd37bd4b" Title="Piece Class" Url="html/11e0b85f-4aac-deb9-22fd-2ebf0f5af437.htm">
       <HelpTOCNode Title="Piece Constructor " Url="html/11456bca-af44-96a8-2d30-715f098fca75.htm" />
-      <HelpTOCNode Id="b4c5d4b7-0b38-451a-9b32-b83d13c831c9" Title="Piece Properties" Url="html/db0a9fa3-3cd3-7044-bec8-c64820d0deb8.htm">
+      <HelpTOCNode Id="0b223850-20c4-4fcd-a2dd-e3dfab7a2e72" Title="Piece Properties" Url="html/db0a9fa3-3cd3-7044-bec8-c64820d0deb8.htm">
         <HelpTOCNode Title="Captured Property " Url="html/b09bc522-94c2-f756-009f-62bdbd41a266.htm" />
         <HelpTOCNode Title="File Property " Url="html/54a7b714-7c07-e53e-7fbd-7fd74ae0627b.htm" />
         <HelpTOCNode Title="HasMoved Property " Url="html/7f7dca86-5672-17aa-6abe-548d9659938c.htm" />
@@ -65,13 +65,13 @@
         <HelpTOCNode Title="Rank Property " Url="html/3d02cbfd-d46b-1ca3-1fbe-c5c5b42f9899.htm" />
         <HelpTOCNode Title="Type Property " Url="html/ddfb1972-63be-c19e-6de5-7feaf51b04aa.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="b70b9e13-9827-49ce-a25f-f3c12b77d89b" Title="Piece Methods" Url="html/8a314ff1-37dc-9081-87f9-5f96b46c14ab.htm">
+      <HelpTOCNode Id="c3ab7c5a-318a-40fa-89bd-663c2812f90b" Title="Piece Methods" Url="html/8a314ff1-37dc-9081-87f9-5f96b46c14ab.htm">
         <HelpTOCNode Title="Move Method " Url="html/c0d2b844-a6c0-0e08-4bca-291735761ba2.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="30586cd5-8f0b-49f7-a187-1ec7f0768aa7" Title="Player Class" Url="html/21b2b6ca-b226-185e-9085-c1784f5fd2df.htm">
+    <HelpTOCNode Id="49104d10-827b-43a6-9d4b-37be40069d1c" Title="Player Class" Url="html/21b2b6ca-b226-185e-9085-c1784f5fd2df.htm">
       <HelpTOCNode Title="Player Constructor " Url="html/2996288b-4968-a912-8aec-419e9c25c5aa.htm" />
-      <HelpTOCNode Id="7fa49cd1-9d64-4002-86b1-1c4ff587713d" Title="Player Properties" Url="html/ed072a4a-2c7e-8e6a-c05b-78ca2de3ea99.htm">
+      <HelpTOCNode Id="b8a17119-c693-401a-872e-178eddefa526" Title="Player Properties" Url="html/ed072a4a-2c7e-8e6a-c05b-78ca2de3ea99.htm">
         <HelpTOCNode Title="ClientType Property " Url="html/47bf367d-98b6-c7ab-4378-8994a25c3941.htm" />
         <HelpTOCNode Title="Color Property " Url="html/76baff5d-4b39-d6d5-236d-fba3472738cb.htm" />
         <HelpTOCNode Title="InCheck Property " Url="html/efc843ea-3dfa-a27d-f8b5-88b8fd4b305e.htm" />

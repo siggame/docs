@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['game',['Game',['../classChess_1_1Game.html',1,'Chess']]],
-  ['gameobject',['GameObject',['../classChess_1_1GameObject.html',1,'Chess']]]
+  ['game',['Game',['../classcpp__client_1_1chess_1_1Game.html',1,'cpp_client::chess']]],
+  ['game_5fobject',['Game_object',['../classcpp__client_1_1chess_1_1Game__object.html',1,'cpp_client::chess']]]
 ];

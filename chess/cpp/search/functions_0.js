@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ended',['ended',['../classChess_1_1AI.html#a10b2f452b67b8e144c95ccfd3f941b3b',1,'Chess::AI']]]
+  ['as',['as',['../classcpp__client_1_1Base__object.html#af7d6b8df284f19792b5a78f3095be84b',1,'cpp_client::Base_object']]]
 ];

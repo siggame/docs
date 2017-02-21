@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name',['name',['../classChess_1_1Player.html#ac7c9467a831311bde3bc71e9650d2153',1,'Chess::Player']]]
+  ['name',['name',['../classcpp__client_1_1chess_1_1Player.html#aed452e03ebeedb225dedce625ebb8aef',1,'cpp_client::chess::Player']]]
 ];

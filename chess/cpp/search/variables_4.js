@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['id',['id',['../classJoueur_1_1BaseGameObject.html#aec1e1435760002cfac6a17041c9234e7',1,'Joueur::BaseGameObject']]],
-  ['incheck',['inCheck',['../classChess_1_1Player.html#ab290a490daa33a73b4865441d961d510',1,'Chess::Player']]]
+  ['id',['id',['../classcpp__client_1_1chess_1_1Game__object.html#a5aa331bdf8b7334c90daec853bf72cc8',1,'cpp_client::chess::Game_object']]],
+  ['in_5fcheck',['in_check',['../classcpp__client_1_1chess_1_1Player.html#aacb9f817a05da12ed5b5b511c5c54ee8',1,'cpp_client::chess::Player']]]
 ];

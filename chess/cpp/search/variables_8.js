@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['opponent',['opponent',['../classChess_1_1Player.html#a7322063bd4f9d9268a98c78816ec9f9a',1,'Chess::Player']]],
-  ['owner',['owner',['../classChess_1_1Piece.html#aa9a6e4c12079fa60a52635b31505549f',1,'Chess::Piece']]]
+  ['opponent',['opponent',['../classcpp__client_1_1chess_1_1Player.html#a6266071c60a43af099c9455d8f4eea0b',1,'cpp_client::chess::Player']]],
+  ['owner',['owner',['../classcpp__client_1_1chess_1_1Piece.html#a0c37761014b1cc1d47bb4e4b2817eb39',1,'cpp_client::chess::Piece']]]
 ];

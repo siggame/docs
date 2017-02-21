@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['runturn',['runTurn',['../classChess_1_1AI.html#a37286708992282898023eb7dbc05a819',1,'Chess::AI']]]
+  ['log',['log',['../classcpp__client_1_1chess_1_1Game__object.html#ae3e61f42d84f94f73c06084f4efb5a6d',1,'cpp_client::chess::Game_object']]]
 ];

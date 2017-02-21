@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['mademove',['madeMove',['../classChess_1_1Player.html#a0e9b9fd42d5019aec41dc0fab5489d11',1,'Chess::Player']]],
-  ['maxturns',['maxTurns',['../classChess_1_1Game.html#abe30f0546531d385744eb24a0e260f15',1,'Chess::Game']]],
-  ['moves',['moves',['../classChess_1_1Game.html#a70078c7060c17013a36f4295943f0430',1,'Chess::Game']]]
+  ['made_5fmove',['made_move',['../classcpp__client_1_1chess_1_1Player.html#a28ab816534caf46354f8d5dc232aa540',1,'cpp_client::chess::Player']]],
+  ['max_5fturns',['max_turns',['../classcpp__client_1_1chess_1_1Game.html#a7545e38da6c93079da24fef08acccfc9',1,'cpp_client::chess::Game']]],
+  ['moves',['moves',['../classcpp__client_1_1chess_1_1Game.html#a5b2edb997c119f3ebcf5ac85a99217ee',1,'cpp_client::chess::Game']]]
 ];

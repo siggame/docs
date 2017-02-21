@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['timeremaining',['timeRemaining',['../classChess_1_1Player.html#aec70de4701f56e7145aab2b5bbe9f167',1,'Chess::Player']]],
-  ['tofile',['toFile',['../classChess_1_1Move.html#a623d57925e8062e44ec020d78a749a2d',1,'Chess::Move']]],
-  ['torank',['toRank',['../classChess_1_1Move.html#ae526e45ca2d7525e8fff5fcb8a63547e',1,'Chess::Move']]],
-  ['turnstodraw',['turnsToDraw',['../classChess_1_1Game.html#af6cf00eba5ae52d7d64339a58d3f71c2',1,'Chess::Game']]],
-  ['type',['type',['../classChess_1_1Piece.html#a5ad7f4882b93c7bda45ffa51bbfa6edf',1,'Chess::Piece']]]
+  ['time_5fremaining',['time_remaining',['../classcpp__client_1_1chess_1_1Player.html#a136f91601faaf266c25edad2863a6b21',1,'cpp_client::chess::Player']]],
+  ['to_5ffile',['to_file',['../classcpp__client_1_1chess_1_1Move.html#a7753bf48124febce0ea70668d76fb858',1,'cpp_client::chess::Move']]],
+  ['to_5frank',['to_rank',['../classcpp__client_1_1chess_1_1Move.html#a20148bc334bc1011b062251909cff8c0',1,'cpp_client::chess::Move']]],
+  ['turns_5fto_5fdraw',['turns_to_draw',['../classcpp__client_1_1chess_1_1Game.html#a2e7ce1441af32641fdc4ea73b2bdf780',1,'cpp_client::chess::Game']]],
+  ['type',['type',['../classcpp__client_1_1chess_1_1Piece.html#ab187d09dc3a2ca62aa66f7b475f2190f',1,'cpp_client::chess::Piece']]]
 ];

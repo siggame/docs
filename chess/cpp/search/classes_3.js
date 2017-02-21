@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['move',['Move',['../classChess_1_1Move.html',1,'Chess']]]
+  ['move',['Move',['../classcpp__client_1_1chess_1_1Move.html',1,'cpp_client::chess']]]
 ];

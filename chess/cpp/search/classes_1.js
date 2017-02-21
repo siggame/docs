@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['basegameobject',['BaseGameObject',['../classJoueur_1_1BaseGameObject.html',1,'Joueur']]]
+  ['base_5fai',['Base_ai',['../classcpp__client_1_1Base__ai.html',1,'cpp_client']]],
+  ['base_5fobject',['Base_object',['../classcpp__client_1_1Base__object.html',1,'cpp_client']]]
 ];

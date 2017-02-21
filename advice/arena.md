@@ -31,7 +31,7 @@ The arena will do the following things with your code:
    contents of your `Makefile`. However, if you are having problems
    building with `make`, please ask a dev for help.
 
-3. Run the `run` script in the root of your repository to run your
+3. Run the `arenaRun` script in the root of your repository to run your
    AI. The arena will run your script expecting the ability to use the
    following arguments:
 
@@ -46,10 +46,12 @@ The arena will do the following things with your code:
 The arena will create a zip folder containing build output as well as
 output from `stderr` and `stdout`. This zip folder is made available to
 the AI's team through SIG-Game's main website. `stdout` will be
-limited to 5MB. Additionally, game logs (more specifically, the
-compressed gamelogs or `glogs`) are made available to the teams who 
-participated in them. Teams can only download arena games in which they 
-participated.
+limited to 5MB. There will also be a directory created in the root of your
+client at runtime called `arenaupload`. This directory will be zipped and 
+uploaded with your build output. `arenaupload` will be limited to 300MB.
+Additionally, game logs (more specifically, the compressed gamelogs or 
+`glogs`) are made available to the teams who participated in them. 
+Teams can only download arena games in which they participated.
 
 ## Arena Statuses
 

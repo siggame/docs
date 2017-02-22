@@ -13,7 +13,7 @@ The Missouri S&T Campus hosts a variety of computers for students to connect to.
 
 These "temp accounts" should be given to you at the time of registration. They allow you to log into the campus computers and use them.
 
-Most teams choose to connect to the campus [Linux machines][hostnames] through an SSH program like PuTTY. The CS machines (`rc01xcs213.managed.mst.edu`, where `##` is `01`-`16`) are the ones we suggest using if you client language supports it.
+Most teams choose to connect to the campus [Linux machines][hostnames] through an SSH program like PuTTY. The CS machines (`rc01xcs213.managed.mst.edu`, where `##` is `01`-`16`) are the ones we suggest using if your client language supports it.
 
 [hostnames]: https://it.mst.edu/services/linux/hostnames/
 

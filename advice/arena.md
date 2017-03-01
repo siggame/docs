@@ -89,3 +89,11 @@ have questions about other software, please contact a dev to have this
 list updated.
 
 Please take a look at our [always-up-to-date document](https://docs.google.com/document/d/1oeZ6MdfU-gmPzRJvZwkB8VzqWtlzHIViHDolDCei_KU/pub) on versions used in the arena!
+
+## Computational Limitations
+
+- **RAM** - Usage is limited to 2GB.  If you use more, it may cause lag, server crashes, and/or cause unfairness in other games running 
+  on the same machine.
+- **CPU** - Thread usage is limited to 2 max.  If you use more, it may cause unfairness in other games running on the same machine.
+- **Disk** - While there is no hard limit on disk usage, keep in mind that if your git repository is very large the arena may have 
+  trouble with your games.

@@ -47,11 +47,12 @@ The arena will create a zip folder containing build output as well as
 output from `stderr` and `stdout`. This zip folder is made available to
 the AI's team through SIG-Game's main website. `stdout` will be
 limited to 5MB. There will also be a directory created in the root of your
-client at runtime called `arenaupload`. This directory will be zipped and 
-uploaded with your build output. `arenaupload` will be limited to 300MB.
-Additionally, game logs (more specifically, the compressed gamelogs or 
-`glogs`) are made available to the teams who participated in them. 
-Teams can only download arena games in which they participated.
+client at runtime called `arenaupload`. This directory will be zipped as 
+`yourstuff.zip` and uploaded with your build output. `arenaupload` will 
+be limited to 300MB. Additionally, game logs (more specifically, the 
+compressed gamelogs or `glogs`) are made available to the teams who 
+participated in them. Teams can only download arena games in which 
+they participated.
 
 ## Arena Statuses
 

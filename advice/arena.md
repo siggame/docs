@@ -34,13 +34,13 @@ The arena will do the following things with your code:
 3. Run the `arenaRun` script in the root of your repository to run your
    AI. The arena will run your script expecting the ability to use the
    following arguments:
-
+       
    `bash arenaRun <game slug> -r <game session id> -s <game server hostname> -p <game server port> -i <player index> -n <team name>`
-
+           
    Should you decide to change your run file (which is not
    recommended), it **must** accept those arguments in that order to
    run in the arena.
-   
+
 4. After the game completes you will have 40 seconds to do things and shut down your client. After that the arena will attempt to force
    kill your client. If your client is still running after the force kill attempt you may be embargoed.
 

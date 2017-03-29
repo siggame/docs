@@ -34,6 +34,7 @@ The arena will do the following things with your code:
 3. Run the `arenaRun` script in the root of your repository to run your
    AI. The arena will run your script expecting the ability to use the
    following arguments:
+   
    ```
    bash arenaRun <game slug> -r <game session id> -s <game server hostname> -p <game server port> -i <player index> -n <team name>
    ```
@@ -66,7 +67,7 @@ they participated.
   been a networking issue between the website and the arena.
 - **Not Ready** - Not Ready means that the arena is (intentionally)
   not yet running and no games are being played.
-- **Thunderbirds Are Go** - Everything is working proplerly and your
+- **Thunderbirds Are Go** - Everything is working properly and your
   code is ready to run in the arena.
 
 ## Dealing with Embargoes

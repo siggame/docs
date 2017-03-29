@@ -34,8 +34,10 @@ The arena will do the following things with your code:
 3. Run the `arenaRun` script in the root of your repository to run your
    AI. The arena will run your script expecting the ability to use the
    following arguments:
-   \n`bash arenaRun <game slug> -r <game session id> -s <game server hostname> -p <game server port> -i <player index> -n <team name>`
-   \nShould you decide to change your run file (which is not
+   
+   `bash arenaRun <game slug> -r <game session id> -s <game server hostname> -p <game server port> -i <player index> -n <team name>`
+   
+   Should you decide to change your run file (which is not
    recommended), it **must** accept those arguments in that order to
    run in the arena.
 

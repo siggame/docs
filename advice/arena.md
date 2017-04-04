@@ -79,9 +79,9 @@ in the zip folder mentioned above.  Then, after your code has been
 fixed, it needs to be resubmitted to the arena. Be sure to check the
 build output as well as `stdout` and `stderr`.
 
-## Scoreboard
+## Statisics
 
-A scoreboard with everyone's rankings in the arena is available at http://arena.siggame.io:52184/mies/thunderdome/mmai_scoreboard.  It displays live scoring based off of games played in the arena.
+Statistics with everyone's rankings in the arena is available at http://arena.siggame.io/mies/thunderdome/scoreboards.  It displays live scoring based off of games played in the arena.
 
 ## Tournaments
 

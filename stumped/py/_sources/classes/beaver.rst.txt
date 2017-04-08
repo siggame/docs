@@ -1,0 +1,11 @@
+
+Beaver
+======
+
+.. currentmodule:: games.stumped.beaver
+
+.. automodule:: games.stumped.beaver
+    :members:
+    :inherited-members:
+    :show-inheritance:
+

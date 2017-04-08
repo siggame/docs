@@ -1,0 +1,11 @@
+
+Job
+===
+
+.. currentmodule:: games.stumped.job
+
+.. automodule:: games.stumped.job
+    :members:
+    :inherited-members:
+    :show-inheritance:
+

@@ -29,4 +29,4 @@ free to browse!
 
 * [Game Rules](https://github.com/siggame/Cadre/blob/master/Games/Stumped/rules.md)
 * [Opening Presentation](https://docs.google.com/presentation/d/1dDkDHs-wNGC6nBfTLBE--cpNgTxXXRDdKWDpXxgDtew/edit?usp=sharing)
-* [Getting Started Slides](https://docs.google.com/presentation/d/1CJ7KVHxCCfjC9DF_t_myyOFbmLodM_MgEZ7VNcSjYvU/pub?start=false)
+* [Getting Started Slides](https://docs.google.com/presentation/d/1--35tKMtsLVQGdwXho8z7zOzeMHiLqhn_y73kP2T220/edit?usp=sharing)

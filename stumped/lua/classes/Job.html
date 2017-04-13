@@ -43,8 +43,8 @@
   <li><a href="../classes/Beaver.html">Beaver</a></li>
   <li><a href="../classes/Game.html">Game</a></li>
   <li><a href="../classes/GameObject.html">GameObject</a></li>
-  <li><a href="../classes/Job.html">Job</a></li>
-  <li><strong>Player</strong></li>
+  <li><strong>Job</strong></li>
+  <li><a href="../classes/Player.html">Player</a></li>
   <li><a href="../classes/Spawner.html">Spawner</a></li>
   <li><a href="../classes/Tile.html">Tile</a></li>
 </ul>
@@ -53,56 +53,52 @@
 
 <div id="content">
 
-<h1>Class <code>Player</code></h1>
-<p>A player in this game.</p>
-<p> Every AI controls one player.</p>
+<h1>Class <code>Job</code></h1>
+<p>Information about a beaver's job.</p>
+<p></p>
 
 
 <h2><a href="#Fields">Fields</a></h2>
 <table class="function_list">
 	<tr>
-	<td class="name" nowrap><a href="#self.beavers">self.beavers</a></td>
-	<td class="summary">The array-like table of Beavers owned by this Player.</td>
+	<td class="name" nowrap><a href="#self.actions">self.actions</a></td>
+	<td class="summary">The number of actions this Job can make per turn.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.branchesToBuildLodge">self.branchesToBuildLodge</a></td>
-	<td class="summary">How many branches are required to build a lodge for this Player.</td>
+	<td class="name" nowrap><a href="#self.carryLimit">self.carryLimit</a></td>
+	<td class="summary">How many combined resources a beaver with this Job can hold at once.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.clientType">self.clientType</a></td>
-	<td class="summary">What type of client this is, e.g.</td>
+	<td class="name" nowrap><a href="#self.chopping">self.chopping</a></td>
+	<td class="summary">Scalar for how many branches this Job harvests at once.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.lodges">self.lodges</a></td>
-	<td class="summary">A array-like table of Tiles that contain lodges owned by this player.</td>
+	<td class="name" nowrap><a href="#self.cost">self.cost</a></td>
+	<td class="summary">How much food this Job costs to recruit.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.lost">self.lost</a></td>
-	<td class="summary">If the player lost the game or not.</td>
+	<td class="name" nowrap><a href="#self.damage">self.damage</a></td>
+	<td class="summary">The amount of damage this Job does per attack.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.name">self.name</a></td>
-	<td class="summary">The name of the player.</td>
+	<td class="name" nowrap><a href="#self.distractionPower">self.distractionPower</a></td>
+	<td class="summary">How many turns a beaver attacked by this Job is distracted by.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.opponent">self.opponent</a></td>
-	<td class="summary">This player's opponent in the game.</td>
+	<td class="name" nowrap><a href="#self.health">self.health</a></td>
+	<td class="summary">The amount of starting health this Job has.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.reasonLost">self.reasonLost</a></td>
-	<td class="summary">The reason why the player lost the game.</td>
+	<td class="name" nowrap><a href="#self.moves">self.moves</a></td>
+	<td class="summary">The number of moves this Job can make per turn.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.reasonWon">self.reasonWon</a></td>
-	<td class="summary">The reason why the player won the game.</td>
+	<td class="name" nowrap><a href="#self.munching">self.munching</a></td>
+	<td class="summary">Scalar for how much food this Job harvests at once.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.timeRemaining">self.timeRemaining</a></td>
-	<td class="summary">The amount of time (in ns) remaining for this AI to send commands.</td>
-	</tr>
-	<tr>
-	<td class="name" nowrap><a href="#self.won">self.won</a></td>
-	<td class="summary">If the player won the game or not.</td>
+	<td class="name" nowrap><a href="#self.title">self.title</a></td>
+	<td class="summary">The Job title.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.gameObjectName">self.gameObjectName</a></td>
@@ -120,7 +116,11 @@
 <h2><a href="#Methods">Methods</a></h2>
 <table class="function_list">
 	<tr>
-	<td class="name" nowrap><a href="#Player:log">Player:log (message)</a></td>
+	<td class="name" nowrap><a href="#Job:recruit">Job:recruit (tile)</a></td>
+	<td class="summary">Recruits a Beaver of this Job to a lodge</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Job:log">Job:log (message)</a></td>
 	<td class="summary">(inherited) Adds a message to this GameObject's logs.</td>
 	</tr>
 </table>
@@ -133,11 +133,11 @@
 
     <dl class="function">
     <dt>
-    <a name = "self.beavers"></a>
-    <strong>self.beavers</strong>
+    <a name = "self.actions"></a>
+    <strong>self.actions</strong>
     </dt>
     <dd>
-    The array-like table of Beavers owned by this Player.
+    The number of actions this Job can make per turn.
 
 
 
@@ -147,11 +147,11 @@
 
 </dd>
     <dt>
-    <a name = "self.branchesToBuildLodge"></a>
-    <strong>self.branchesToBuildLodge</strong>
+    <a name = "self.carryLimit"></a>
+    <strong>self.carryLimit</strong>
     </dt>
     <dd>
-    How many branches are required to build a lodge for this Player.
+    How many combined resources a beaver with this Job can hold at once.
 
 
 
@@ -161,11 +161,11 @@
 
 </dd>
     <dt>
-    <a name = "self.clientType"></a>
-    <strong>self.clientType</strong>
+    <a name = "self.chopping"></a>
+    <strong>self.chopping</strong>
     </dt>
     <dd>
-    What type of client this is, e.g.  'Python', 'JavaScript', or some other language. For potential data mining purposes.
+    Scalar for how many branches this Job harvests at once.
 
 
 
@@ -175,11 +175,11 @@
 
 </dd>
     <dt>
-    <a name = "self.lodges"></a>
-    <strong>self.lodges</strong>
+    <a name = "self.cost"></a>
+    <strong>self.cost</strong>
     </dt>
     <dd>
-    A array-like table of Tiles that contain lodges owned by this player.
+    How much food this Job costs to recruit.
 
 
 
@@ -189,11 +189,11 @@
 
 </dd>
     <dt>
-    <a name = "self.lost"></a>
-    <strong>self.lost</strong>
+    <a name = "self.damage"></a>
+    <strong>self.damage</strong>
     </dt>
     <dd>
-    If the player lost the game or not.
+    The amount of damage this Job does per attack.
 
 
 
@@ -203,11 +203,11 @@
 
 </dd>
     <dt>
-    <a name = "self.name"></a>
-    <strong>self.name</strong>
+    <a name = "self.distractionPower"></a>
+    <strong>self.distractionPower</strong>
     </dt>
     <dd>
-    The name of the player.
+    How many turns a beaver attacked by this Job is distracted by.
 
 
 
@@ -217,11 +217,11 @@
 
 </dd>
     <dt>
-    <a name = "self.opponent"></a>
-    <strong>self.opponent</strong>
+    <a name = "self.health"></a>
+    <strong>self.health</strong>
     </dt>
     <dd>
-    This player's opponent in the game.
+    The amount of starting health this Job has.
 
 
 
@@ -231,11 +231,11 @@
 
 </dd>
     <dt>
-    <a name = "self.reasonLost"></a>
-    <strong>self.reasonLost</strong>
+    <a name = "self.moves"></a>
+    <strong>self.moves</strong>
     </dt>
     <dd>
-    The reason why the player lost the game.
+    The number of moves this Job can make per turn.
 
 
 
@@ -245,11 +245,11 @@
 
 </dd>
     <dt>
-    <a name = "self.reasonWon"></a>
-    <strong>self.reasonWon</strong>
+    <a name = "self.munching"></a>
+    <strong>self.munching</strong>
     </dt>
     <dd>
-    The reason why the player won the game.
+    Scalar for how much food this Job harvests at once.
 
 
 
@@ -259,25 +259,11 @@
 
 </dd>
     <dt>
-    <a name = "self.timeRemaining"></a>
-    <strong>self.timeRemaining</strong>
+    <a name = "self.title"></a>
+    <strong>self.title</strong>
     </dt>
     <dd>
-    The amount of time (in ns) remaining for this AI to send commands.
-
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "self.won"></a>
-    <strong>self.won</strong>
-    </dt>
-    <dd>
-    If the player won the game or not.
+    The Job title.
 
 
 
@@ -345,8 +331,35 @@
 
     <dl class="function">
     <dt>
-    <a name = "Player:log"></a>
-    <strong>Player:log (message)</strong>
+    <a name = "Job:recruit"></a>
+    <strong>Job:recruit (tile)</strong>
+    </dt>
+    <dd>
+    Recruits a Beaver of this Job to a lodge
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tile</span>
+            <span class="types"><a class="type" href="../classes/Tile.html#">Tile</a></span>
+         The Tile that is a lodge owned by you that you wish to spawn the Beaver of this Job on.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../classes/Beaver.html#">Beaver</a></span>
+        The recruited Beaver if successful, nil otherwise.
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Job:log"></a>
+    <strong>Job:log (message)</strong>
     </dt>
     <dd>
     (inherited) Adds a message to this GameObject's logs.  Intended for your own debugging purposes, as strings stored here are saved in the gamelog.

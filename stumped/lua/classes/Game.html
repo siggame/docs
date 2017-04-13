@@ -3,7 +3,7 @@
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <head>
-    <title>Saloon Lua Client</title>
+    <title>Stumped Lua Client</title>
     <link rel="stylesheet" href="../ldoc.css" type="text/css" />
 </head>
 <body>
@@ -24,7 +24,7 @@
 
 <div id="navigation">
 <br/>
-<h1>Saloon Lua Client</h1>
+<h1>Stumped Lua Client</h1>
 
 <ul>
   <li><a href="../index.html">Index</a></li>
@@ -38,16 +38,15 @@
 
 
 <h2>Classes</h2>
-<ul class="$(kind=='Topics' and '' or 'nowrap'">
-  <li><a href="../classes/Tile.html">Tile</a></li>
-  <li><a href="../classes/YoungGun.html">YoungGun</a></li>
-  <li><a href="../classes/GameObject.html">GameObject</a></li>
-  <li><a href="../classes/Furnishing.html">Furnishing</a></li>
+<ul class="nowrap">
   <li><a href="../classes/AI.html">AI</a></li>
-  <li><a href="../classes/Bottle.html">Bottle</a></li>
-  <li><a href="../classes/Player.html">Player</a></li>
-  <li><a href="../classes/Cowboy.html">Cowboy</a></li>
+  <li><a href="../classes/Beaver.html">Beaver</a></li>
   <li><strong>Game</strong></li>
+  <li><a href="../classes/GameObject.html">GameObject</a></li>
+  <li><a href="../classes/Job.html">Job</a></li>
+  <li><a href="../classes/Player.html">Player</a></li>
+  <li><a href="../classes/Spawner.html">Spawner</a></li>
+  <li><a href="../classes/Tile.html">Tile</a></li>
 </ul>
 
 </div>
@@ -55,7 +54,7 @@
 <div id="content">
 
 <h1>Class <code>Game</code></h1>
-<p>Use cowboys to have a good time and play some music on a Piano, while brawling with enemy Cowboys.</p>
+<p>Gather branches and build up your lodge as beavers fight to survive.</p>
 <p></p>
 
 
@@ -66,20 +65,8 @@
 	<td class="summary">The name of this game, "{game_name}".</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.bartenderCooldown">self.bartenderCooldown</a></td>
-	<td class="summary">How many turns a Bartender will be busy for after throwing a Bottle.</td>
-	</tr>
-	<tr>
-	<td class="name" nowrap><a href="#self.bottles">self.bottles</a></td>
-	<td class="summary">All the beer Bottles currently flying across the saloon in the game.</td>
-	</tr>
-	<tr>
-	<td class="name" nowrap><a href="#self.brawlerDamage">self.brawlerDamage</a></td>
-	<td class="summary">How much damage is applied to neighboring things bit by the Sharpshooter between turns.</td>
-	</tr>
-	<tr>
-	<td class="name" nowrap><a href="#self.cowboys">self.cowboys</a></td>
-	<td class="summary">Every Cowboy in the game.</td>
+	<td class="name" nowrap><a href="#self.beavers">self.beavers</a></td>
+	<td class="summary">Every Beaver in the game.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.currentPlayer">self.currentPlayer</a></td>
@@ -90,8 +77,8 @@
 	<td class="summary">The current turn number, starting at 0 for the first player's turn.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.furnishings">self.furnishings</a></td>
-	<td class="summary">Every furnishing in the game.</td>
+	<td class="name" nowrap><a href="#self.freeBeaversCount">self.freeBeaversCount</a></td>
+	<td class="summary">When a Player has less Beavers than this number, then recruiting other Beavers is free.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.gameObjects">self.gameObjects</a></td>
@@ -99,7 +86,15 @@
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.jobs">self.jobs</a></td>
-	<td class="summary">All the jobs that Cowboys can be called in with.</td>
+	<td class="summary">All the Jobs that Beavers can have in the game.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#self.lodgeCostConstant">self.lodgeCostConstant</a></td>
+	<td class="summary">Constant number used to calculate what it costs to spawn a new lodge.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#self.lodgesToWin">self.lodgesToWin</a></td>
+	<td class="summary">How many lodges must be owned by a Player at once to win the game.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.mapHeight">self.mapHeight</a></td>
@@ -110,10 +105,6 @@
 	<td class="summary">The number of Tiles in the map along the x (horizontal) axis.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.maxCowboysPerJob">self.maxCowboysPerJob</a></td>
-	<td class="summary">The maximum number of Cowboys a Player can bring into the saloon of each specific job.</td>
-	</tr>
-	<tr>
 	<td class="name" nowrap><a href="#self.maxTurns">self.maxTurns</a></td>
 	<td class="summary">The maximum number of turns before the game will automatically end.</td>
 	</tr>
@@ -122,28 +113,24 @@
 	<td class="summary">List of all the players in the game.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.rowdinessToSiesta">self.rowdinessToSiesta</a></td>
-	<td class="summary">When a player's rowdiness reaches or exceeds this number their Cowboys take a collective siesta.</td>
-	</tr>
-	<tr>
 	<td class="name" nowrap><a href="#self.session">self.session</a></td>
 	<td class="summary">A unique identifier for the game instance that is being played.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.sharpshooterDamage">self.sharpshooterDamage</a></td>
-	<td class="summary">How much damage is applied to things hit by Sharpshooters when they act.</td>
+	<td class="name" nowrap><a href="#self.spawner">self.spawner</a></td>
+	<td class="summary">Every Spawner in the game.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.siestaLength">self.siestaLength</a></td>
-	<td class="summary">How long siestas are for a player's team.</td>
+	<td class="name" nowrap><a href="#self.spawnerHarvestConstant">self.spawnerHarvestConstant</a></td>
+	<td class="summary">Constant number used to calculate how many branches/food Beavers harvest from Spawners.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#self.spawnerTypes">self.spawnerTypes</a></td>
+	<td class="summary">All the types of Spawners in the game.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.tiles">self.tiles</a></td>
 	<td class="summary">All the tiles in the map, stored in Row-major order.</td>
-	</tr>
-	<tr>
-	<td class="name" nowrap><a href="#self.turnsDrunk">self.turnsDrunk</a></td>
-	<td class="summary">How many turns a Cowboy will be drunk for if a bottle breaks on it.</td>
 	</tr>
 </table>
 <h2><a href="#Methods">Methods</a></h2>
@@ -158,7 +145,8 @@
 <br/>
 
 
-    <h2><a name="Fields"></a>Fields</h2>
+    <h2 class="section-header "><a name="Fields"></a>Fields</h2>
+
     <dl class="function">
     <dt>
     <a name = "self.name"></a>
@@ -175,53 +163,11 @@
 
 </dd>
     <dt>
-    <a name = "self.bartenderCooldown"></a>
-    <strong>self.bartenderCooldown</strong>
+    <a name = "self.beavers"></a>
+    <strong>self.beavers</strong>
     </dt>
     <dd>
-    How many turns a Bartender will be busy for after throwing a Bottle.
-
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "self.bottles"></a>
-    <strong>self.bottles</strong>
-    </dt>
-    <dd>
-    All the beer Bottles currently flying across the saloon in the game.
-
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "self.brawlerDamage"></a>
-    <strong>self.brawlerDamage</strong>
-    </dt>
-    <dd>
-    How much damage is applied to neighboring things bit by the Sharpshooter between turns.
-
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "self.cowboys"></a>
-    <strong>self.cowboys</strong>
-    </dt>
-    <dd>
-    Every Cowboy in the game.
+    Every Beaver in the game.
 
 
 
@@ -259,11 +205,11 @@
 
 </dd>
     <dt>
-    <a name = "self.furnishings"></a>
-    <strong>self.furnishings</strong>
+    <a name = "self.freeBeaversCount"></a>
+    <strong>self.freeBeaversCount</strong>
     </dt>
     <dd>
-    Every furnishing in the game.
+    When a Player has less Beavers than this number, then recruiting other Beavers is free.
 
 
 
@@ -291,7 +237,35 @@
     <strong>self.jobs</strong>
     </dt>
     <dd>
-    All the jobs that Cowboys can be called in with.
+    All the Jobs that Beavers can have in the game.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "self.lodgeCostConstant"></a>
+    <strong>self.lodgeCostConstant</strong>
+    </dt>
+    <dd>
+    Constant number used to calculate what it costs to spawn a new lodge.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "self.lodgesToWin"></a>
+    <strong>self.lodgesToWin</strong>
+    </dt>
+    <dd>
+    How many lodges must be owned by a Player at once to win the game.
 
 
 
@@ -329,20 +303,6 @@
 
 </dd>
     <dt>
-    <a name = "self.maxCowboysPerJob"></a>
-    <strong>self.maxCowboysPerJob</strong>
-    </dt>
-    <dd>
-    The maximum number of Cowboys a Player can bring into the saloon of each specific job.
-
-
-
-
-
-
-
-</dd>
-    <dt>
     <a name = "self.maxTurns"></a>
     <strong>self.maxTurns</strong>
     </dt>
@@ -371,20 +331,6 @@
 
 </dd>
     <dt>
-    <a name = "self.rowdinessToSiesta"></a>
-    <strong>self.rowdinessToSiesta</strong>
-    </dt>
-    <dd>
-    When a player's rowdiness reaches or exceeds this number their Cowboys take a collective siesta.
-
-
-
-
-
-
-
-</dd>
-    <dt>
     <a name = "self.session"></a>
     <strong>self.session</strong>
     </dt>
@@ -399,11 +345,11 @@
 
 </dd>
     <dt>
-    <a name = "self.sharpshooterDamage"></a>
-    <strong>self.sharpshooterDamage</strong>
+    <a name = "self.spawner"></a>
+    <strong>self.spawner</strong>
     </dt>
     <dd>
-    How much damage is applied to things hit by Sharpshooters when they act.
+    Every Spawner in the game.
 
 
 
@@ -413,11 +359,25 @@
 
 </dd>
     <dt>
-    <a name = "self.siestaLength"></a>
-    <strong>self.siestaLength</strong>
+    <a name = "self.spawnerHarvestConstant"></a>
+    <strong>self.spawnerHarvestConstant</strong>
     </dt>
     <dd>
-    How long siestas are for a player's team.
+    Constant number used to calculate how many branches/food Beavers harvest from Spawners.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "self.spawnerTypes"></a>
+    <strong>self.spawnerTypes</strong>
+    </dt>
+    <dd>
+    All the types of Spawners in the game.
 
 
 
@@ -440,22 +400,9 @@
 
 
 </dd>
-    <dt>
-    <a name = "self.turnsDrunk"></a>
-    <strong>self.turnsDrunk</strong>
-    </dt>
-    <dd>
-    How many turns a Cowboy will be drunk for if a bottle breaks on it.
-
-
-
-
-
-
-
-</dd>
 </dl>
-    <h2><a name="Methods"></a>Methods</h2>
+    <h2 class="section-header "><a name="Methods"></a>Methods</h2>
+
     <dl class="function">
     <dt>
     <a name = "Game:getTileAt"></a>
@@ -488,7 +435,8 @@
 </div> <!-- id="content" -->
 </div> <!-- id="main" -->
 <div id="about">
-<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.2</a></i>
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2017-04-13 15:29:36 </i>
 </div> <!-- id="about" -->
 </div> <!-- id="container" -->
 </body>

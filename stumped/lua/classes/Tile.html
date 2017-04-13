@@ -3,7 +3,7 @@
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <head>
-    <title>Saloon Lua Client</title>
+    <title>Stumped Lua Client</title>
     <link rel="stylesheet" href="../ldoc.css" type="text/css" />
 </head>
 <body>
@@ -24,7 +24,7 @@
 
 <div id="navigation">
 <br/>
-<h1>Saloon Lua Client</h1>
+<h1>Stumped Lua Client</h1>
 
 <ul>
   <li><a href="../index.html">Index</a></li>
@@ -38,16 +38,15 @@
 
 
 <h2>Classes</h2>
-<ul class="$(kind=='Topics' and '' or 'nowrap'">
-  <li><strong>Tile</strong></li>
-  <li><a href="../classes/YoungGun.html">YoungGun</a></li>
-  <li><a href="../classes/GameObject.html">GameObject</a></li>
-  <li><a href="../classes/Furnishing.html">Furnishing</a></li>
+<ul class="nowrap">
   <li><a href="../classes/AI.html">AI</a></li>
-  <li><a href="../classes/Bottle.html">Bottle</a></li>
-  <li><a href="../classes/Player.html">Player</a></li>
-  <li><a href="../classes/Cowboy.html">Cowboy</a></li>
+  <li><a href="../classes/Beaver.html">Beaver</a></li>
   <li><a href="../classes/Game.html">Game</a></li>
+  <li><a href="../classes/GameObject.html">GameObject</a></li>
+  <li><a href="../classes/Job.html">Job</a></li>
+  <li><a href="../classes/Player.html">Player</a></li>
+  <li><a href="../classes/Spawner.html">Spawner</a></li>
+  <li><strong>Tile</strong></li>
 </ul>
 
 </div>
@@ -62,24 +61,28 @@
 <h2><a href="#Fields">Fields</a></h2>
 <table class="function_list">
 	<tr>
-	<td class="name" nowrap><a href="#self.bottle">self.bottle</a></td>
-	<td class="summary">The beer Bottle currently flying over this Tile.</td>
+	<td class="name" nowrap><a href="#self.beaver">self.beaver</a></td>
+	<td class="summary">The Beaver on this Tile if present, otherwise nil.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.cowboy">self.cowboy</a></td>
-	<td class="summary">The Cowboy that is on this Tile, nil otherwise.</td>
+	<td class="name" nowrap><a href="#self.branches">self.branches</a></td>
+	<td class="summary">The number of branches dropped on this Tile.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.furnishing">self.furnishing</a></td>
-	<td class="summary">The furnishing that is on this Tile, nil otherwise.</td>
+	<td class="name" nowrap><a href="#self.flowDirection">self.flowDirection</a></td>
+	<td class="summary">The cardinal direction water is flowing on this Tile ('North', 'East', 'South', 'West').</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.hasHazard">self.hasHazard</a></td>
-	<td class="summary">If this Tile is pathable, but has a hazard that damages Cowboys that path through it.</td>
+	<td class="name" nowrap><a href="#self.food">self.food</a></td>
+	<td class="summary">The number of food dropped on this Tile.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#self.isBalcony">self.isBalcony</a></td>
-	<td class="summary">If this Tile is a balcony of the Saloon that YoungGuns walk around on, and can never be pathed through by Cowboys.</td>
+	<td class="name" nowrap><a href="#self.lodgeOwner">self.lodgeOwner</a></td>
+	<td class="summary">The owner of the Beaver lodge on this Tile, if present, otherwise nil.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#self.spawner">self.spawner</a></td>
+	<td class="summary">The resource Spawner on this Tile if present, otherwise nil.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.tileEast">self.tileEast</a></td>
@@ -98,16 +101,16 @@
 	<td class="summary">The Tile to the 'West' of this one (x-1, y).</td>
 	</tr>
 	<tr>
+	<td class="name" nowrap><a href="#self.type">self.type</a></td>
+	<td class="summary">What type of Tile this is, either 'Water' or 'Land'.</td>
+	</tr>
+	<tr>
 	<td class="name" nowrap><a href="#self.x">self.x</a></td>
 	<td class="summary">The x (horizontal) position of this Tile.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.y">self.y</a></td>
 	<td class="summary">The y (vertical) position of this Tile.</td>
-	</tr>
-	<tr>
-	<td class="name" nowrap><a href="#self.youngGun">self.youngGun</a></td>
-	<td class="summary">The YoungGun on this tile, nil otherwise.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#self.gameObjectName">self.gameObjectName</a></td>
@@ -150,14 +153,15 @@
 <br/>
 
 
-    <h2><a name="Fields"></a>Fields</h2>
+    <h2 class="section-header "><a name="Fields"></a>Fields</h2>
+
     <dl class="function">
     <dt>
-    <a name = "self.bottle"></a>
-    <strong>self.bottle</strong>
+    <a name = "self.beaver"></a>
+    <strong>self.beaver</strong>
     </dt>
     <dd>
-    The beer Bottle currently flying over this Tile.
+    The Beaver on this Tile if present, otherwise nil.
 
 
 
@@ -167,11 +171,11 @@
 
 </dd>
     <dt>
-    <a name = "self.cowboy"></a>
-    <strong>self.cowboy</strong>
+    <a name = "self.branches"></a>
+    <strong>self.branches</strong>
     </dt>
     <dd>
-    The Cowboy that is on this Tile, nil otherwise.
+    The number of branches dropped on this Tile.
 
 
 
@@ -181,11 +185,11 @@
 
 </dd>
     <dt>
-    <a name = "self.furnishing"></a>
-    <strong>self.furnishing</strong>
+    <a name = "self.flowDirection"></a>
+    <strong>self.flowDirection</strong>
     </dt>
     <dd>
-    The furnishing that is on this Tile, nil otherwise.
+    The cardinal direction water is flowing on this Tile ('North', 'East', 'South', 'West').
 
 
 
@@ -195,11 +199,11 @@
 
 </dd>
     <dt>
-    <a name = "self.hasHazard"></a>
-    <strong>self.hasHazard</strong>
+    <a name = "self.food"></a>
+    <strong>self.food</strong>
     </dt>
     <dd>
-    If this Tile is pathable, but has a hazard that damages Cowboys that path through it.
+    The number of food dropped on this Tile.
 
 
 
@@ -209,11 +213,25 @@
 
 </dd>
     <dt>
-    <a name = "self.isBalcony"></a>
-    <strong>self.isBalcony</strong>
+    <a name = "self.lodgeOwner"></a>
+    <strong>self.lodgeOwner</strong>
     </dt>
     <dd>
-    If this Tile is a balcony of the Saloon that YoungGuns walk around on, and can never be pathed through by Cowboys.
+    The owner of the Beaver lodge on this Tile, if present, otherwise nil.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "self.spawner"></a>
+    <strong>self.spawner</strong>
+    </dt>
+    <dd>
+    The resource Spawner on this Tile if present, otherwise nil.
 
 
 
@@ -279,6 +297,20 @@
 
 </dd>
     <dt>
+    <a name = "self.type"></a>
+    <strong>self.type</strong>
+    </dt>
+    <dd>
+    What type of Tile this is, either 'Water' or 'Land'.
+
+
+
+
+
+
+
+</dd>
+    <dt>
     <a name = "self.x"></a>
     <strong>self.x</strong>
     </dt>
@@ -298,20 +330,6 @@
     </dt>
     <dd>
     The y (vertical) position of this Tile.
-
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "self.youngGun"></a>
-    <strong>self.youngGun</strong>
-    </dt>
-    <dd>
-    The YoungGun on this tile, nil otherwise.
 
 
 
@@ -389,7 +407,8 @@
 
 </dd>
 </dl>
-    <h2><a name="Methods"></a>Methods</h2>
+    <h2 class="section-header "><a name="Methods"></a>Methods</h2>
+
     <dl class="function">
     <dt>
     <a name = "Tile:log"></a>
@@ -402,7 +421,7 @@
     <h3>Parameters:</h3>
     <ul>
         <li><span class="parameter">message</span>
-            <span class="types"><a class="type" href="http://www.lua.org/manual/5.1/manual.html#5.4">string</a></span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a></span>
          A string to add to this GameObject's log. Intended for debugging.
         </li>
     </ul>
@@ -471,7 +490,8 @@
 </div> <!-- id="content" -->
 </div> <!-- id="main" -->
 <div id="about">
-<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.2</a></i>
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2017-04-13 15:29:36 </i>
 </div> <!-- id="about" -->
 </div> <!-- id="container" -->
 </body>

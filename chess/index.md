@@ -31,6 +31,6 @@ free to browse!
 
 ## Tournament
 
-For instructions on how to compete as a human competitor using our system see here:
+For instructions on how to compete as a human competitor using our system [read this document][instructions]:
 
-https://docs.google.com/document/d/1lFXIeG37yl7jt4-e6MBY47k7q7izfOVrZjcj4rb0vy8/pub
+[instructions]: https://docs.google.com/document/d/1lFXIeG37yl7jt4-e6MBY47k7q7izfOVrZjcj4rb0vy8/pub

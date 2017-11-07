@@ -83,6 +83,10 @@ build output as well as `stdout` and `stderr`.
 
 Statistics with everyone's rankings in the arena is available at http://arena.siggame.io/mies/thunderdome/scoreboards.  It displays live scoring based off of games played in the arena.
 
+## Custom Games
+
+Tired of waiting for the arena to play your team versus another?  Now you can create your own custom games!  Just go to http://arena.siggame.io/mies/thunderdome/inject_com.
+
 ## Tournaments
 
 All SIG-Game tournaments are run using the same system as the

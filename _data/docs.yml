@@ -17,6 +17,8 @@ games:
     url: /saloon
   - name: "MMAI 19: Stumped"
     url: /stumped
+  - name: "MMAI 20: Catastrophe"
+    url: /catastrophe
 
 mst_ai:
   - name: "Chess"

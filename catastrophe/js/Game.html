@@ -1,0 +1,2200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Catastrophe JavaScript Client</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    
+    <meta name="description" content="JavaScript Client for Catastrophe via Node.js" />
+    
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"Catastrophe JavaScript Client","meta":{"title":"Catastrophe JavaScript Client","description":"JavaScript Client for Catastrophe via Node.js","footer":"&copy; MST ACM SIG-GAME","hideOverview":true,"noSourceFiles":true},"linenums":true,"default":{}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">Catastrophe JavaScript Client</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="AI">
+            <span class="title">
+                <a href="AI.html">AI</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="AI#ended"><a href="AI.html#ended">ended</a></li>
+            
+                <li data-name="AI#findPath"><a href="AI.html#findPath">findPath</a></li>
+            
+                <li data-name="AI#gameUpdated"><a href="AI.html#gameUpdated">gameUpdated</a></li>
+            
+                <li data-name="AI#getName"><a href="AI.html#getName">getName</a></li>
+            
+                <li data-name="AI#runTurn"><a href="AI.html#runTurn">runTurn</a></li>
+            
+                <li data-name="AI#start"><a href="AI.html#start">start</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Game">
+            <span class="title">
+                <a href="Game.html">Game</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Game#catEnergyMult"><a href="Game.html#catEnergyMult">catEnergyMult</a></li>
+            
+                <li data-name="Game#currentPlayer"><a href="Game.html#currentPlayer">currentPlayer</a></li>
+            
+                <li data-name="Game#currentTurn"><a href="Game.html#currentTurn">currentTurn</a></li>
+            
+                <li data-name="Game#gameObjects"><a href="Game.html#gameObjects">gameObjects</a></li>
+            
+                <li data-name="Game#harvestCooldown"><a href="Game.html#harvestCooldown">harvestCooldown</a></li>
+            
+                <li data-name="Game#jobs"><a href="Game.html#jobs">jobs</a></li>
+            
+                <li data-name="Game#lowerHarvestAmount"><a href="Game.html#lowerHarvestAmount">lowerHarvestAmount</a></li>
+            
+                <li data-name="Game#mapHeight"><a href="Game.html#mapHeight">mapHeight</a></li>
+            
+                <li data-name="Game#mapWidth"><a href="Game.html#mapWidth">mapWidth</a></li>
+            
+                <li data-name="Game#maxTurns"><a href="Game.html#maxTurns">maxTurns</a></li>
+            
+                <li data-name="Game#monumentCostMult"><a href="Game.html#monumentCostMult">monumentCostMult</a></li>
+            
+                <li data-name="Game#monumentMaterials"><a href="Game.html#monumentMaterials">monumentMaterials</a></li>
+            
+                <li data-name="Game#name"><a href="Game.html#name">name</a></li>
+            
+                <li data-name="Game#neutralMaterials"><a href="Game.html#neutralMaterials">neutralMaterials</a></li>
+            
+                <li data-name="Game#players"><a href="Game.html#players">players</a></li>
+            
+                <li data-name="Game#session"><a href="Game.html#session">session</a></li>
+            
+                <li data-name="Game#shelterMaterials"><a href="Game.html#shelterMaterials">shelterMaterials</a></li>
+            
+                <li data-name="Game#starvingEnergyMult"><a href="Game.html#starvingEnergyMult">starvingEnergyMult</a></li>
+            
+                <li data-name="Game#structures"><a href="Game.html#structures">structures</a></li>
+            
+                <li data-name="Game#tiles"><a href="Game.html#tiles">tiles</a></li>
+            
+                <li data-name="Game#turnsBetweenHarvests"><a href="Game.html#turnsBetweenHarvests">turnsBetweenHarvests</a></li>
+            
+                <li data-name="Game#turnsToCreateHuman"><a href="Game.html#turnsToCreateHuman">turnsToCreateHuman</a></li>
+            
+                <li data-name="Game#turnsToLowerHarvest"><a href="Game.html#turnsToLowerHarvest">turnsToLowerHarvest</a></li>
+            
+                <li data-name="Game#units"><a href="Game.html#units">units</a></li>
+            
+                <li data-name="Game#wallMaterials"><a href="Game.html#wallMaterials">wallMaterials</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Game#getTileAt"><a href="Game.html#getTileAt">getTileAt</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="GameObject">
+            <span class="title">
+                <a href="GameObject.html">GameObject</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="GameObject#gameObjectName"><a href="GameObject.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="GameObject#id"><a href="GameObject.html#id">id</a></li>
+            
+                <li data-name="GameObject#logs"><a href="GameObject.html#logs">logs</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="GameObject#log"><a href="GameObject.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Job">
+            <span class="title">
+                <a href="Job.html">Job</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Job#actionCost"><a href="Job.html#actionCost">actionCost</a></li>
+            
+                <li data-name="Job#carryLimit"><a href="Job.html#carryLimit">carryLimit</a></li>
+            
+                <li data-name="Job#gameObjectName"><a href="Job.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Job#id"><a href="Job.html#id">id</a></li>
+            
+                <li data-name="Job#logs"><a href="Job.html#logs">logs</a></li>
+            
+                <li data-name="Job#moves"><a href="Job.html#moves">moves</a></li>
+            
+                <li data-name="Job#regenRate"><a href="Job.html#regenRate">regenRate</a></li>
+            
+                <li data-name="Job#title"><a href="Job.html#title">title</a></li>
+            
+                <li data-name="Job#upkeep"><a href="Job.html#upkeep">upkeep</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Job#log"><a href="Job.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Player">
+            <span class="title">
+                <a href="Player.html">Player</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Player#cat"><a href="Player.html#cat">cat</a></li>
+            
+                <li data-name="Player#clientType"><a href="Player.html#clientType">clientType</a></li>
+            
+                <li data-name="Player#food"><a href="Player.html#food">food</a></li>
+            
+                <li data-name="Player#gameObjectName"><a href="Player.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Player#id"><a href="Player.html#id">id</a></li>
+            
+                <li data-name="Player#logs"><a href="Player.html#logs">logs</a></li>
+            
+                <li data-name="Player#lost"><a href="Player.html#lost">lost</a></li>
+            
+                <li data-name="Player#name"><a href="Player.html#name">name</a></li>
+            
+                <li data-name="Player#opponent"><a href="Player.html#opponent">opponent</a></li>
+            
+                <li data-name="Player#reasonLost"><a href="Player.html#reasonLost">reasonLost</a></li>
+            
+                <li data-name="Player#reasonWon"><a href="Player.html#reasonWon">reasonWon</a></li>
+            
+                <li data-name="Player#structures"><a href="Player.html#structures">structures</a></li>
+            
+                <li data-name="Player#timeRemaining"><a href="Player.html#timeRemaining">timeRemaining</a></li>
+            
+                <li data-name="Player#units"><a href="Player.html#units">units</a></li>
+            
+                <li data-name="Player#upkeep"><a href="Player.html#upkeep">upkeep</a></li>
+            
+                <li data-name="Player#won"><a href="Player.html#won">won</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Player#log"><a href="Player.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Structure">
+            <span class="title">
+                <a href="Structure.html">Structure</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Structure#effectRadius"><a href="Structure.html#effectRadius">effectRadius</a></li>
+            
+                <li data-name="Structure#gameObjectName"><a href="Structure.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Structure#id"><a href="Structure.html#id">id</a></li>
+            
+                <li data-name="Structure#logs"><a href="Structure.html#logs">logs</a></li>
+            
+                <li data-name="Structure#materials"><a href="Structure.html#materials">materials</a></li>
+            
+                <li data-name="Structure#owner"><a href="Structure.html#owner">owner</a></li>
+            
+                <li data-name="Structure#tile"><a href="Structure.html#tile">tile</a></li>
+            
+                <li data-name="Structure#type"><a href="Structure.html#type">type</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Structure#log"><a href="Structure.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Tile">
+            <span class="title">
+                <a href="Tile.html">Tile</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Tile#food"><a href="Tile.html#food">food</a></li>
+            
+                <li data-name="Tile#gameObjectName"><a href="Tile.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Tile#harvestRate"><a href="Tile.html#harvestRate">harvestRate</a></li>
+            
+                <li data-name="Tile#id"><a href="Tile.html#id">id</a></li>
+            
+                <li data-name="Tile#logs"><a href="Tile.html#logs">logs</a></li>
+            
+                <li data-name="Tile#materials"><a href="Tile.html#materials">materials</a></li>
+            
+                <li data-name="Tile#structure"><a href="Tile.html#structure">structure</a></li>
+            
+                <li data-name="Tile#tileEast"><a href="Tile.html#tileEast">tileEast</a></li>
+            
+                <li data-name="Tile#tileNorth"><a href="Tile.html#tileNorth">tileNorth</a></li>
+            
+                <li data-name="Tile#tileSouth"><a href="Tile.html#tileSouth">tileSouth</a></li>
+            
+                <li data-name="Tile#tileWest"><a href="Tile.html#tileWest">tileWest</a></li>
+            
+                <li data-name="Tile#turnsToHarvest"><a href="Tile.html#turnsToHarvest">turnsToHarvest</a></li>
+            
+                <li data-name="Tile#unit"><a href="Tile.html#unit">unit</a></li>
+            
+                <li data-name="Tile#x"><a href="Tile.html#x">x</a></li>
+            
+                <li data-name="Tile#y"><a href="Tile.html#y">y</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Tile#directions"><a href="Tile.html#directions">directions</a></li>
+            
+                <li data-name="Tile#getNeighbors"><a href="Tile.html#getNeighbors">getNeighbors</a></li>
+            
+                <li data-name="Tile#hasNeighbor"><a href="Tile.html#hasNeighbor">hasNeighbor</a></li>
+            
+                <li data-name="Tile#isPathable"><a href="Tile.html#isPathable">isPathable</a></li>
+            
+                <li data-name="Tile#log"><a href="Tile.html#log">log</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Unit">
+            <span class="title">
+                <a href="Unit.html">Unit</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Unit#acted"><a href="Unit.html#acted">acted</a></li>
+            
+                <li data-name="Unit#energy"><a href="Unit.html#energy">energy</a></li>
+            
+                <li data-name="Unit#food"><a href="Unit.html#food">food</a></li>
+            
+                <li data-name="Unit#gameObjectName"><a href="Unit.html#gameObjectName">gameObjectName</a></li>
+            
+                <li data-name="Unit#id"><a href="Unit.html#id">id</a></li>
+            
+                <li data-name="Unit#job"><a href="Unit.html#job">job</a></li>
+            
+                <li data-name="Unit#logs"><a href="Unit.html#logs">logs</a></li>
+            
+                <li data-name="Unit#materials"><a href="Unit.html#materials">materials</a></li>
+            
+                <li data-name="Unit#movementTarget"><a href="Unit.html#movementTarget">movementTarget</a></li>
+            
+                <li data-name="Unit#moves"><a href="Unit.html#moves">moves</a></li>
+            
+                <li data-name="Unit#owner"><a href="Unit.html#owner">owner</a></li>
+            
+                <li data-name="Unit#squad"><a href="Unit.html#squad">squad</a></li>
+            
+                <li data-name="Unit#starving"><a href="Unit.html#starving">starving</a></li>
+            
+                <li data-name="Unit#tile"><a href="Unit.html#tile">tile</a></li>
+            
+                <li data-name="Unit#turnsToDie"><a href="Unit.html#turnsToDie">turnsToDie</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Unit#attack"><a href="Unit.html#attack">attack</a></li>
+            
+                <li data-name="Unit#changeJob"><a href="Unit.html#changeJob">changeJob</a></li>
+            
+                <li data-name="Unit#construct"><a href="Unit.html#construct">construct</a></li>
+            
+                <li data-name="Unit#convert"><a href="Unit.html#convert">convert</a></li>
+            
+                <li data-name="Unit#deconstruct"><a href="Unit.html#deconstruct">deconstruct</a></li>
+            
+                <li data-name="Unit#drop"><a href="Unit.html#drop">drop</a></li>
+            
+                <li data-name="Unit#harvest"><a href="Unit.html#harvest">harvest</a></li>
+            
+                <li data-name="Unit#log"><a href="Unit.html#log">log</a></li>
+            
+                <li data-name="Unit#move"><a href="Unit.html#move">move</a></li>
+            
+                <li data-name="Unit#pickup"><a href="Unit.html#pickup">pickup</a></li>
+            
+                <li data-name="Unit#rest"><a href="Unit.html#rest">rest</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="Game.html">Class: Game</h1>
+        
+
+
+
+<section>
+    
+<header>
+    <h2>
+    Game
+    </h2>
+    
+        <div class="class-description">Convert as many humans to as you can to survive in this post-apocalyptic wasteland.</div>
+    
+</header>  
+
+<article>
+    <div class="container-overview" style="display: none;">
+    
+    
+    
+        
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="Game">
+            
+            new Game<span class="signature">()</span>
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        initializes a Game with basic logic as provided by the Creer code generator
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+    
+    </div>
+    
+    
+        <h3 class="subsection-title">Extends</h3>
+        
+        <ul>
+            <li>BaseGame</li>
+        </ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Members</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="catEnergyMult">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            catEnergyMult
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The multiplier for the amount of energy regenerated when resting in a shelter with the cat overlord.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="currentPlayer">
+            
+                
+<span class="types ">
+
+    <span class="type Player"><a href="Player.html">Player</a></span>
+
+
+            
+            currentPlayer
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The player whose turn it is currently. That player can send commands. Other players cannot.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="currentTurn">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            currentTurn
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The current turn number, starting at 0 for the first player's turn.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="gameObjects">
+            
+                
+<span class="types ">
+
+    <span class="type object">Object.&lt;string, <a href="GameObject.html">GameObject</a>></span>
+
+
+            
+            gameObjects
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        A mapping of every game object's ID to the actual game object. Primarily used by the server and client to easily refer to the game objects via ID.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="harvestCooldown">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            harvestCooldown
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The amount of turns it takes for a Tile that was just harvested to grow food again.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="jobs">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Job.html">Job</a>></span>
+
+
+            
+            jobs
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        All the Jobs that Units can have in the game.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="lowerHarvestAmount">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            lowerHarvestAmount
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The amount that the harvest rate is lowered each season.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="mapHeight">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            mapHeight
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The number of Tiles in the map along the y (vertical) axis.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="mapWidth">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            mapWidth
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The number of Tiles in the map along the x (horizontal) axis.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="maxTurns">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            maxTurns
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The maximum number of turns before the game will automatically end.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="monumentCostMult">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            monumentCostMult
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The multiplier for the cost of actions when performing them in range of a monument. Does not effect pickup cost.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="monumentMaterials">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            monumentMaterials
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The number of materials in a monument.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="name">
+            
+            name
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The name of the game.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="neutralMaterials">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            neutralMaterials
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The number of materials in a neutral Structure.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="players">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Player.html">Player</a>></span>
+
+
+            
+            players
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        List of all the players in the game.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="session">
+            
+                
+<span class="types ">
+
+    <span class="type string">string</span>
+
+
+            
+            session
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        A unique identifier for the game instance that is being played.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="shelterMaterials">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            shelterMaterials
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The number of materials in a shelter.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="starvingEnergyMult">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            starvingEnergyMult
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The multiplier for the amount of energy regenerated when resting while starving.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="structures">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Structure.html">Structure</a>></span>
+
+
+            
+            structures
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        Every Structure in the game.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="tiles">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Tile.html">Tile</a>></span>
+
+
+            
+            tiles
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        All the tiles in the map, stored in Row-major order. Use `x + y * mapWidth` to access the correct index.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="turnsBetweenHarvests">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            turnsBetweenHarvests
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        After a food tile is harvested, the number of turns before it can be harvested again.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="turnsToCreateHuman">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            turnsToCreateHuman
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The number of turns between fresh humans being spawned on the road.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="turnsToLowerHarvest">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            turnsToLowerHarvest
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The number of turns before the harvest rate is lowered (length of each season basically).
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="units">
+            
+                
+<span class="types ">
+
+    <span class="type array">Array.&lt;<a href="Unit.html">Unit</a>></span>
+
+
+            
+            units
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        Every Unit in the game.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="wallMaterials">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            wallMaterials
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        The number of materials in a wall.
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+        <h3 class="subsection-title">Methods</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="getTileAt">
+            
+                
+<span class="types multitype">
+
+    <span class="type Tile"><a href="Tile.html">Tile</a></span>
+|
+
+<span class="types multitype">
+
+    <span class="type null">null</span>
+
+
+            
+            getTileAt<span class="signature">(x, y)</span>
+        </h4>
+    
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+
+    
+    <div class="description">
+        Gets the Tile at a specified (x, y) position
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>x</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                integer between 0 and the mapWidth</td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>y</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="types ">
+
+    <span class="type number">number</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                integer between 0 and the mapHeight</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+<div class="returns">
+
+<h5>Returns:
+
+
+<span class="types multitype">
+
+    <span class="type Tile"><a href="Tile.html">Tile</a></span>
+|
+
+<span class="types multitype">
+
+    <span class="type null">null</span>
+
+
+
+</h5>
+the Tile at (x, y) or null if out of bounds
+
+</div>
+    
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+    
+    
+</article>
+
+</section>  
+
+
+
+
+
+        
+
+        <footer>
+            
+                &copy; MST ACM SIG-GAME &mdash;
+            
+            Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Fri Nov 10 2017 17:34:46 GMT-0600 (CST)
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

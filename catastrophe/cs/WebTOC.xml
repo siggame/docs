@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="332ea8fb-887e-4d21-8638-cdad5bded9ed" Title="Joueur.cs.Games.Catastrophe" Url="html/5560f6f0-aa18-70d8-65e6-c4c4a11f6176.htm">
+    <HelpTOCNode Id="a4e21989-fa05-4a31-b1ec-dce5eab3a10d" Title="AI Class" Url="html/42c69b1f-8bcb-36c8-ea99-d4a8845bd34a.htm">
+      <HelpTOCNode Title="AI Constructor " Url="html/372b0d51-e702-2ca1-fd6a-e5effdb9a9c5.htm" />
+      <HelpTOCNode Id="4d84edab-4f09-4a43-af78-799a97e26727" Title="AI Methods" Url="html/5e18d332-4f5b-bc48-829e-eee87a1650b7.htm">
+        <HelpTOCNode Title="CheckForShelter Method " Url="html/21a157e3-b177-53c5-a2a0-7aa65e283e61.htm" />
+        <HelpTOCNode Title="Ended Method " Url="html/8c57b13c-7a01-68f1-1ff5-0df013c940eb.htm" />
+        <HelpTOCNode Title="GameUpdated Method " Url="html/79e17f1f-93a8-1004-cef4-96fad6f520d6.htm" />
+        <HelpTOCNode Title="GetName Method " Url="html/6dba97c9-39c0-6995-da1f-b3a8c4366753.htm" />
+        <HelpTOCNode Title="RunTurn Method " Url="html/3dd630e9-9044-357c-cb44-106484d40067.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/2f46820d-dd3b-1df5-7a4e-d5c6825536bd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0d659e98-7f34-4b9b-86e2-9ae715fd5f87" Title="AI Fields" Url="html/e03d0b69-8c5f-36c1-be47-3a16a2aa77e9.htm">
+        <HelpTOCNode Title="Game Field" Url="html/37d85c54-fa7a-14e6-5e6e-0834cefdffb9.htm" />
+        <HelpTOCNode Title="Player Field" Url="html/d917dfa9-6dab-df13-0c42-ba632b7b1bb9.htm" />
+        <HelpTOCNode Title="Rand Field" Url="html/1f55d536-2325-3fce-b176-fb4f21d4d3a7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="62b1cb19-1681-421b-b219-a74c2578a961" Title="Game Class" Url="html/ed7e8ddf-1e7b-d445-3525-e8c42b45bd65.htm">
+      <HelpTOCNode Title="Game Constructor " Url="html/3b596392-7caf-0bd8-53e5-dc26044f0138.htm" />
+      <HelpTOCNode Id="0f806119-0a0a-4fcb-9ef1-f3e395838958" Title="Game Properties" Url="html/38954058-8497-691d-a066-1ae401de9022.htm">
+        <HelpTOCNode Title="CatEnergyMult Property " Url="html/0f5d9e6f-12f2-deab-1e83-bdfb074b44dd.htm" />
+        <HelpTOCNode Title="CurrentPlayer Property " Url="html/b95b9bfa-7ae7-959d-54b3-2a9b7ebc44ed.htm" />
+        <HelpTOCNode Title="CurrentTurn Property " Url="html/320dd044-3384-ac77-49bd-1c8c84c413cd.htm" />
+        <HelpTOCNode Title="HarvestCooldown Property " Url="html/06449ec4-9551-9611-5dfa-75e3ae0cc6a9.htm" />
+        <HelpTOCNode Title="Jobs Property " Url="html/7e053fcd-0897-9662-b8b8-8590330d4892.htm" />
+        <HelpTOCNode Title="LowerHarvestAmount Property " Url="html/35c16d27-2211-4dbc-aff4-231c1339eae7.htm" />
+        <HelpTOCNode Title="MapHeight Property " Url="html/69be50e0-d42c-15b4-5cd0-65a97fbaf254.htm" />
+        <HelpTOCNode Title="MapWidth Property " Url="html/1066bb77-75b5-122e-8d2c-88247dec4299.htm" />
+        <HelpTOCNode Title="MaxTurns Property " Url="html/cec7a429-99d5-9ee9-999f-86e2bc792499.htm" />
+        <HelpTOCNode Title="MonumentCostMult Property " Url="html/82aab1f7-545c-671a-8eb1-3f1f0f626308.htm" />
+        <HelpTOCNode Title="MonumentMaterials Property " Url="html/62ff0b68-8c79-85aa-58f8-82cda349521b.htm" />
+        <HelpTOCNode Title="NeutralMaterials Property " Url="html/876895ba-192b-ff40-4c04-48735152b408.htm" />
+        <HelpTOCNode Title="Players Property " Url="html/7dc90e88-f031-b549-49ee-0b8217f5aaaf.htm" />
+        <HelpTOCNode Title="Session Property " Url="html/49f4543a-8a13-c86d-a7d9-487b24e19700.htm" />
+        <HelpTOCNode Title="ShelterMaterials Property " Url="html/fa7c40b6-29e5-6448-3fe0-c3c042925820.htm" />
+        <HelpTOCNode Title="StarvingEnergyMult Property " Url="html/15257324-af0b-5665-6809-47021fe1d12e.htm" />
+        <HelpTOCNode Title="Structures Property " Url="html/dbec908d-dabb-9128-accf-057d6aac7962.htm" />
+        <HelpTOCNode Title="Tiles Property " Url="html/9fc9d588-fefd-67c6-7210-b95120dedec9.htm" />
+        <HelpTOCNode Title="TurnsBetweenHarvests Property " Url="html/b183c5b4-bfca-60f4-c167-367113948131.htm" />
+        <HelpTOCNode Title="TurnsToCreateHuman Property " Url="html/fa7577fe-fd3d-d827-89a4-ee541d7b6894.htm" />
+        <HelpTOCNode Title="TurnsToLowerHarvest Property " Url="html/63036955-b46f-6f0f-854a-0aec645edfb3.htm" />
+        <HelpTOCNode Title="Units Property " Url="html/db9954e3-cef3-cf56-5ef3-77bfad846791.htm" />
+        <HelpTOCNode Title="WallMaterials Property " Url="html/7612d0aa-13ce-8420-5726-64e5efd6be73.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e7685a6d-3308-488d-bef8-23b18eb06077" Title="Game Methods" Url="html/6b3674af-a5b4-1750-e88e-790be5ad3524.htm">
+        <HelpTOCNode Title="GetTileAt Method " Url="html/26d1a002-5968-f5d6-fc6a-1a3394ba6a25.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9cf13dd4-3c28-40b4-adca-2560ec6b0851" Title="GameObject Class" Url="html/9ef10b84-3ae7-9f5f-6c6e-9fb1e35a6711.htm">
+      <HelpTOCNode Title="GameObject Constructor " Url="html/6780ff75-88bc-5e84-dda3-4c347ce46f5e.htm" />
+      <HelpTOCNode Id="fd132773-668f-4a8f-9310-36417d9c9b64" Title="GameObject Properties" Url="html/ccb0b017-c089-a4a8-98db-3c3595e27326.htm">
+        <HelpTOCNode Title="Logs Property " Url="html/11ef2d5a-150d-bf3f-e88d-f1793c9d10fe.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0645d7bf-b846-46fa-8c6d-da400b4c2ca9" Title="GameObject Methods" Url="html/b34d3c55-2bf0-f7e1-b510-e7a87fd8e416.htm">
+        <HelpTOCNode Title="Log Method " Url="html/7b7d7fd2-df47-b2ea-0eb8-362270f760bd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a8df7cb-0c84-4ce7-a257-6657c14ffae2" Title="Job Class" Url="html/62df443c-edbd-c976-028d-01a13ec9f573.htm">
+      <HelpTOCNode Title="Job Constructor " Url="html/6f513474-2b92-057d-fe2b-4cf67ae60e11.htm" />
+      <HelpTOCNode Id="0f2545dc-364c-45c5-8b5d-d078efd7d9f7" Title="Job Properties" Url="html/3b740308-1e52-d6b6-3e6c-468eab4825ac.htm">
+        <HelpTOCNode Title="ActionCost Property " Url="html/c8d4917f-8c48-f494-a16e-d85a73964d48.htm" />
+        <HelpTOCNode Title="CarryLimit Property " Url="html/993ac65e-7db9-20f6-d158-f4df2815bcdb.htm" />
+        <HelpTOCNode Title="Moves Property " Url="html/0dda159c-b205-b10e-e111-8cd06e371cee.htm" />
+        <HelpTOCNode Title="RegenRate Property " Url="html/d4227352-f374-f02d-5201-dbd02e399153.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/20d16455-d679-1776-5103-f39d89e50300.htm" />
+        <HelpTOCNode Title="Upkeep Property " Url="html/2c90349b-ecab-8385-1bea-624771d1d61f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Job Methods" Url="html/d3e4d2d6-bc6c-2612-1b07-e3379e072641.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1acccf80-674f-458a-b371-5263173e334d" Title="Player Class" Url="html/1255a1bd-42e4-9c3f-e9bc-f30ea0938c44.htm">
+      <HelpTOCNode Title="Player Constructor " Url="html/6c92cc0f-1c5f-a116-8034-37ab7359986e.htm" />
+      <HelpTOCNode Id="cd780658-9abc-4092-9985-e1d9e56a5138" Title="Player Properties" Url="html/9c39432c-d470-2577-79a4-56f8de97af8e.htm">
+        <HelpTOCNode Title="Cat Property " Url="html/b1d4eac2-9fe2-4ad0-afcd-b3271c0a29d8.htm" />
+        <HelpTOCNode Title="ClientType Property " Url="html/d401e322-da36-8c56-b54e-d4c693ba3dc3.htm" />
+        <HelpTOCNode Title="Food Property " Url="html/ead793da-4bc8-873e-661e-22c7ddb55216.htm" />
+        <HelpTOCNode Title="Lost Property " Url="html/33b5b395-90f8-3cfc-884a-44a8de50df40.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/71634efd-79ad-2324-b2a5-5f52b71e348e.htm" />
+        <HelpTOCNode Title="Opponent Property " Url="html/db3455af-7565-a807-4f8c-f0c978b65407.htm" />
+        <HelpTOCNode Title="ReasonLost Property " Url="html/95c5a831-ae18-3dd1-ed6c-396a2e0bce88.htm" />
+        <HelpTOCNode Title="ReasonWon Property " Url="html/2140c30c-3d20-71ed-a6fa-e7bd013787a1.htm" />
+        <HelpTOCNode Title="Structures Property " Url="html/6aa3c285-8d3d-97c5-a3d9-30fd517b45cc.htm" />
+        <HelpTOCNode Title="TimeRemaining Property " Url="html/463dd8bb-44ba-2d98-73a0-42caee20fec2.htm" />
+        <HelpTOCNode Title="Units Property " Url="html/5d835490-4c44-45dc-e504-4323364886c7.htm" />
+        <HelpTOCNode Title="Upkeep Property " Url="html/1531c643-9b71-d2a5-686e-6e0801c1318f.htm" />
+        <HelpTOCNode Title="Won Property " Url="html/3602ddba-e05d-addb-7495-468442cbc4ae.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Player Methods" Url="html/8cf5a197-cb51-0ee0-8f32-9e0cb5a0363b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="85c1d237-c14f-44d4-ae12-ae453c61c1c3" Title="Structure Class" Url="html/b0c08fd9-99df-a45f-65ca-c81be2e806d6.htm">
+      <HelpTOCNode Title="Structure Constructor " Url="html/924c4b6f-0e41-b610-11d5-6267ece08765.htm" />
+      <HelpTOCNode Id="55f2a081-5019-42a9-bac2-be92ee7a4b55" Title="Structure Properties" Url="html/f46b527e-da6b-9642-b8aa-99b2734bf92e.htm">
+        <HelpTOCNode Title="EffectRadius Property " Url="html/c8a96e6b-3447-4dc8-3415-d14009459e55.htm" />
+        <HelpTOCNode Title="Materials Property " Url="html/f36c1634-334f-8523-2d10-515a1acdf13c.htm" />
+        <HelpTOCNode Title="Owner Property " Url="html/7f56800c-9d0d-d3a5-5780-14bc29e9d9d6.htm" />
+        <HelpTOCNode Title="Tile Property " Url="html/18884a93-74b8-39b1-1cef-17b1dc7cc661.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/0811b432-1799-896d-cbae-6a522cfdf925.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Structure Methods" Url="html/af6699a6-889f-f382-e07d-9b3c453a46f7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd5b6e11-9e7a-43a2-b116-5b6b310332a5" Title="Tile Class" Url="html/0a5a7f14-b596-aa9e-221f-3bd5e076b0e5.htm">
+      <HelpTOCNode Title="Tile Constructor " Url="html/7873a3ae-9de1-7022-ab26-c9a4f3bea2d2.htm" />
+      <HelpTOCNode Id="026e3b0a-084b-4ac3-b65a-59a70566005c" Title="Tile Properties" Url="html/6851f80d-3d21-8d61-52f3-0c28a04b610b.htm">
+        <HelpTOCNode Title="Food Property " Url="html/1fbe3f84-3091-7010-5a9f-34101be13dc5.htm" />
+        <HelpTOCNode Title="HarvestRate Property " Url="html/bd760d1a-f0ea-ec88-42d5-09fe1cf6cc13.htm" />
+        <HelpTOCNode Title="Materials Property " Url="html/5060b0cb-2798-e4a9-4477-b9aa8fadd499.htm" />
+        <HelpTOCNode Title="Structure Property " Url="html/03939ef1-8e10-ab1f-e540-3865568ff956.htm" />
+        <HelpTOCNode Title="TileEast Property " Url="html/a6d9c085-be41-28a6-263b-674f128b3a60.htm" />
+        <HelpTOCNode Title="TileNorth Property " Url="html/9d1ea619-2fd1-d61c-f06e-4c723d713041.htm" />
+        <HelpTOCNode Title="TileSouth Property " Url="html/b6e7d8a0-cae0-6e69-4259-8a70af8f3f10.htm" />
+        <HelpTOCNode Title="TileWest Property " Url="html/33dd88e8-d518-1e34-ea28-0d8319d618cf.htm" />
+        <HelpTOCNode Title="TurnsToHarvest Property " Url="html/7b04ebe7-914c-6bfc-8df6-fb9f95509145.htm" />
+        <HelpTOCNode Title="Unit Property " Url="html/7c204b11-b490-271d-71e0-b63dfd92972c.htm" />
+        <HelpTOCNode Title="X Property " Url="html/ab12e2a7-cbc2-ad51-7304-8053c257d2a0.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/c93b2dc0-4608-0989-0b40-9b5a5e112fec.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="17920df4-10d4-4fbf-a7e0-bb6b2ef92bf5" Title="Tile Methods" Url="html/3a74e237-2b5b-476c-6ce3-acca915ccaee.htm">
+        <HelpTOCNode Title="GetNeighbors Method " Url="html/6ccf4eb1-d18e-268b-a665-e9b7c9c18e4f.htm" />
+        <HelpTOCNode Title="HasNeighbor Method " Url="html/52e96d6d-e7f0-d224-48ce-92bb5dcdbb0b.htm" />
+        <HelpTOCNode Title="IsPathable Method " Url="html/d9fccc14-1b14-12bd-c55c-c932e08a68f5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2d3a097e-5593-48fb-8d0b-5a890160a6f3" Title="Unit Class" Url="html/da786f76-48d4-2aef-2482-dbf8158c7822.htm">
+      <HelpTOCNode Title="Unit Constructor " Url="html/662464da-b035-f226-3a34-25ccd197068e.htm" />
+      <HelpTOCNode Id="ed4eb7af-6873-47d4-abf0-742cac2d183c" Title="Unit Properties" Url="html/eccfa0ca-6d47-95e8-8424-68f5b833702a.htm">
+        <HelpTOCNode Title="Acted Property " Url="html/26154ce0-4283-7e46-4456-733308c4b758.htm" />
+        <HelpTOCNode Title="Energy Property " Url="html/31bfa922-4cb2-596b-3fe4-dfff8780edd5.htm" />
+        <HelpTOCNode Title="Food Property " Url="html/5df14268-3ef2-9d37-7723-08e0ee94bca5.htm" />
+        <HelpTOCNode Title="Job Property " Url="html/c520fc81-6bfe-ce4a-2e34-772a78a44988.htm" />
+        <HelpTOCNode Title="Materials Property " Url="html/0fc6256e-ebf2-10bf-6853-dfa3fddcd730.htm" />
+        <HelpTOCNode Title="MovementTarget Property " Url="html/da4ab7ce-6896-5a2e-96f3-40389d802cc0.htm" />
+        <HelpTOCNode Title="Moves Property " Url="html/d7cfc735-814a-dd34-62ae-4a9f8d05aa39.htm" />
+        <HelpTOCNode Title="Owner Property " Url="html/65821f28-e1ed-aee9-58f8-b0df0f1ec3d1.htm" />
+        <HelpTOCNode Title="Squad Property " Url="html/94138079-6d80-d916-b7ec-84b70aa01088.htm" />
+        <HelpTOCNode Title="Starving Property " Url="html/dfed6fe1-cd9e-d5d4-9731-9cddfa73d6cc.htm" />
+        <HelpTOCNode Title="Tile Property " Url="html/be8cabce-2abb-41c9-5bd5-04fcc2ed4642.htm" />
+        <HelpTOCNode Title="TurnsToDie Property " Url="html/ae755d7c-d97d-2be8-ec4e-1ed3f126e7d2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="53dfc802-8160-4184-9dc2-239cbfa75379" Title="Unit Methods" Url="html/80848558-062c-f15c-04e2-4c837b1d7427.htm">
+        <HelpTOCNode Title="Attack Method " Url="html/a235a341-fb61-441b-c9fd-985eda6f615a.htm" />
+        <HelpTOCNode Title="ChangeJob Method " Url="html/402e6571-db44-dbdb-0a7c-1655eeea9a5e.htm" />
+        <HelpTOCNode Title="Construct Method " Url="html/2d1df13b-b4a5-00c9-ac51-afb403c23dbf.htm" />
+        <HelpTOCNode Title="Convert Method " Url="html/c7a41282-5111-bf12-5dee-2cdd05c367f0.htm" />
+        <HelpTOCNode Title="Deconstruct Method " Url="html/de76170b-358a-5db1-7ffc-fced415983ee.htm" />
+        <HelpTOCNode Title="Drop Method " Url="html/1ee2b132-1409-c30d-82f7-4286b8bbd20d.htm" />
+        <HelpTOCNode Title="Harvest Method " Url="html/e9aa2623-8d1e-f558-0892-7d113913d554.htm" />
+        <HelpTOCNode Title="Move Method " Url="html/1998ab50-f11b-ccd8-a9b9-a7dc5eab6785.htm" />
+        <HelpTOCNode Title="Pickup Method " Url="html/fdd65d64-1074-fcec-49e6-835e224bd792.htm" />
+        <HelpTOCNode Title="Rest Method " Url="html/11202f9c-04f0-2425-8f6a-931a4e7dd874.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

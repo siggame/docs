@@ -19,6 +19,8 @@ games:
     url: /stumped
   - name: "MMAI 20: Catastrophe"
     url: /catastrophe
+  - name: "MMAI 21: Pirates"
+    url: /pirates
 
 mst_ai:
   - name: "Chess"

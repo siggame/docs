@@ -1,9 +1,9 @@
 ---
 layout: docs
-tags: Piracy
+tags: Pirates
 ---
 
-# Piracy
+# Pirates
 
 ## Visualizer
 
@@ -13,7 +13,7 @@ tags: Piracy
 
 ## Documentation
 
-Each of the Piracy clients has an associated documentation set.
+Each of the Pirates clients has an associated documentation set.
 Feel free to browse!
 
 ### Docs
@@ -28,14 +28,13 @@ Feel free to browse!
 
 ### Other Docs and Downloads
 
-* [Game Rules](https://github.com/siggame/Cadre/blob/master/Games/Piracy/rules.md)
-* [Opening Presentation](https://drive.google.com/open?id=15DjZCi33gOyV0vYllV0EBzmWY_zDFJSXT___rLVC19w)
-* [Getting Started Slides](https://drive.google.com/open?id=1GveWMIhfULGXtdpbzAvlqCWOvIS0k_i-oV3JoP5eLRg)
+* [Game Rules](https://github.com/siggame/Cadre/blob/master/Games/Pirates/rules.md)
+* [Opening Presentation](https://docs.google.com/presentation/d/17wl9brwT6Pm6lbbV-FQAnbhn9l6PVB5Mp2URDtCvNQM/edit?usp=sharing)
 
-[cpp]: http://siggame.io/Joueur.cpp/namespacecpp__client_1_1piracy.html
-[cs]: http://siggame.io/Joueur.cs/games/Joueur.cs.Games.Piracy.html
-[java]: http://siggame.io/Joueur.java/games/piracy/package-summary.html
-[js]: http://siggame.io/Joueur.js/Piracy.html
-[lua]: http://siggame.io/Joueur.lua/piracy/
-[py]: http://siggame.io/Joueur.py/piracy/
-[ts]: http://siggame.io/Joueur.ts/modules/piracy.html
+[cpp]: http://siggame.io/Joueur.cpp/namespacecpp__client_1_1pirates.html
+[cs]: http://siggame.io/Joueur.cs/games/Joueur.cs.Games.Pirates.html
+[java]: http://siggame.io/Joueur.java/games/pirates/package-summary.html
+[js]: http://siggame.io/Joueur.js/Pirates.html
+[lua]: http://siggame.io/Joueur.lua/pirates/
+[py]: http://siggame.io/Joueur.py/pirates/
+[ts]: http://siggame.io/Joueur.ts/modules/pirates.html

@@ -21,6 +21,12 @@ In-Class Presentation <i class="fa fa-file-powerpoint-o"></i>
 Frequently Asked Questions <i class="fa fa-question-circle"></i>
 </a>
 
+The game clients can be found here:
+* [C++](https://github.com/siggame/Joueur.cpp/tree/Chess-ShellAI)
+* [C#](https://github.com/siggame/Joueur.cs/tree/Chess-ShellAI)
+* [Java](https://github.com/siggame/Joueur.java/tree/Chess-ShellAI)
+* [Python](https://github.com/siggame/Joueur.py/tree/Chess-ShellAI)
+
 Each of the chess clients has an associated documentation set. Feel
 free to browse!
 

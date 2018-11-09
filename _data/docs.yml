@@ -33,8 +33,6 @@ other:
     url: /advice/arena
   - name: Game Server
     url: /advice/gameserver
-  - name: FAQs
-    url: https://docs.google.com/document/d/1MYn3rsE82sqVYKHXOLbkX5tYE22VFYk63dvDSAexmoI/pub
   - name: Discord Chat
     url: /advice/discord
   - name: Non MST Students

@@ -32,6 +32,5 @@ can view the docs offline. We'll miss you though.
 * [Lua](http://siggame.io/Joueur.lua/newtonian/)
 ### Other Docs and Downloads
 
-* [Presentation](https://docs.google.com/presentation/d/1jr5txRKU4tTx1HzM2LuLrodnppAgxAOwFKi57dmxMYc/pub?start=false&loop=false&delayms=60000)
-* [Game Documentation (Google Docs)](https://docs.google.com/document/d/1GQ9qsLr6KZ8S0fbY-LsohOrq_nA_PlhnAZJdl2Urf-o/pub)
-* [How to fix "Function Not Implemented"](https://docs.google.com/document/d/1t9wFoAbLC1K6EFcS11qJ9GCuof9-7xSkRgXbwvMAqFU/pub)
+* [Presentation](https://docs.google.com/presentation/d/1-n-F1yyLx92PJx3UTuBjs9FGgjoE6F2oaf-_gprxj4w/edit?usp=sharing)
+* [Game Documentation (Google Docs)](https://docs.google.com/document/d/1UCKtIpaOLhrnO9uPGsm1HbnVhnbvT68EZz46iX3iA4k/edit?usp=sharing)

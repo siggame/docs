@@ -21,6 +21,8 @@ games:
     url: /catastrophe
   - name: "MMAI 21: Pirates"
     url: /pirates
+  - name: "MMAI 22: Newtonian"
+    url: /newtonian
 
 mst_ai:
   - name: "Chess"

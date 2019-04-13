@@ -32,5 +32,5 @@ can view the docs offline. We'll miss you though.
 * [Lua](http://siggame.io/Joueur.lua/stardash/)
 ### Other Docs and Downloads
 
-* [Presentation](https://docs.google.com/presentation/d/1-n-F1yyLx92PJx3UTuBjs9FGgjoE6F2oaf-_gprxj4w/edit?usp=sharing)
+* [Presentation](https://docs.google.com/presentation/d/15lJcIiPPkP8L0uuYkq-ZJzg0CkIgfWgRKYAwUxyLMqI/edit?usp=sharing)
 * [Game Documentation (Google Docs)](https://docs.google.com/document/d/1UCKtIpaOLhrnO9uPGsm1HbnVhnbvT68EZz46iX3iA4k/edit?usp=sharing)

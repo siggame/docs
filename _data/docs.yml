@@ -23,6 +23,8 @@ games:
     url: /pirates
   - name: "MMAI 22: Newtonian"
     url: /newtonian
+  - name: "MMAI 23: StarDash"
+    url: /stardash
 
 mst_ai:
   - name: "Chess"

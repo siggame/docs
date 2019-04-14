@@ -28,8 +28,8 @@ can view the docs offline. We'll miss you though.
 * [C#](https://siggame.io/Joueur.cs/games/index.html)
 * [Java](http://siggame.io/Joueur.java/)
 * [Python](https://siggame.io/Joueur.py/stardash/index.html)
-* [Javascript](http://siggame.io/Joueur.js/stardash.html)
-* [Lua](http://siggame.io/Joueur.lua/stardash/)
+* [Javascript](http://siggame.io/Joueur.js/Stardash.html)
+* [Lua](http://siggame.io/Joueur.lua/starDash/)
 ### Other Docs and Downloads
 
 * [Presentation](https://docs.google.com/presentation/d/15lJcIiPPkP8L0uuYkq-ZJzg0CkIgfWgRKYAwUxyLMqI/edit?usp=sharing)

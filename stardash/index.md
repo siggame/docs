@@ -27,7 +27,7 @@ can view the docs offline. We'll miss you though.
 * [C++](http://siggame.io/Joueur.cpp/namespacecpp__client_1_1stardash.html)
 * [C#](https://siggame.io/Joueur.cs/games/index.html)
 * [Java](http://siggame.io/Joueur.java/)
-* [Python](https://siggame.io/Joueur.py/stardash/index.html)
+* [Python](https://siggame.io/Joueur.py/stardash/)
 * [Javascript](http://siggame.io/Joueur.js/Stardash.html)
 * [Lua](http://siggame.io/Joueur.lua/starDash/)
 ### Other Docs and Downloads

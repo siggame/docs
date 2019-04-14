@@ -33,4 +33,4 @@ can view the docs offline. We'll miss you though.
 ### Other Docs and Downloads
 
 * [Presentation](https://docs.google.com/presentation/d/15lJcIiPPkP8L0uuYkq-ZJzg0CkIgfWgRKYAwUxyLMqI/edit?usp=sharing)
-* [Game Documentation (Google Docs)](https://docs.google.com/document/d/1UCKtIpaOLhrnO9uPGsm1HbnVhnbvT68EZz46iX3iA4k/edit?usp=sharing)
+* [Game Documentation (Google Docs)](https://github.com/siggame/Cadre/blob/master/Games/Stardash/rules.md)

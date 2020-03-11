@@ -22,18 +22,32 @@ Frequently Asked Questions <i class="fa fa-question-circle"></i>
 </a>
 
 The game clients can be found here:
-* [C++](https://github.com/siggame/Joueur.cpp/tree/Chess-ShellAI)
-* [C#](https://github.com/siggame/Joueur.cs/tree/Chess-ShellAI)
-* [Java](https://github.com/siggame/Joueur.java/tree/Chess-ShellAI)
-* [Python](https://github.com/siggame/Joueur.py/tree/Chess-ShellAI)
+
+* [C++](https://github.com/siggame/Joueur.cpp/tree/Chess-V2-ShellAI)
+* [C#](https://github.com/siggame/Joueur.cs/tree/Chess-V2-ShellAI)
+* [Go](https://github.com/siggame/Joueur.go/tree/Chess-V2-ShellAI)
+* [Java](https://github.com/siggame/Joueur.java/tree/Chess-V2-ShellAI)
+* [JavaScript](https://github.com/siggame/Joueur.js/tree/Chess-V2-ShellAI)
+* [Lua](https://github.com/siggame/Joueur.lua/tree/Chess-V2-ShellAI)
+* [Python](https://github.com/siggame/Joueur.py/tree/Chess-V2-ShellAI)
+* [TypeScript](https://github.com/siggame/Joueur.ts/tree/Chess-V2-ShellAI)
 
 Each of the chess clients has an associated documentation set. Feel
 free to browse!
 
-* [C++](/chess/cpp)
-* [C#](/chess/csharp)
-* [Java](/chess/java)
-* [Python](/chess/python)
+* [C++](http://siggame.io/Joueur.cpp/namespacecpp__client_1_1chess.html)
+* [C#](http://siggame.io/Joueur.cs/games/Joueur.cs.Games.Chess.html)
+* [Go](http://siggame.io/Joueur.go/pkg/joueur/games/chess/)
+* [Java](http://siggame.io/Joueur.java/games/chess/package-summary.html)
+* [JavaScript](http://siggame.io/Joueur.js/Chess.html)
+* [Lua](http://siggame.io/Joueur.lua/chess/)
+* [Python](http://siggame.io/Joueur.py/chess/)
+* [TypeScript](http://siggame.io/Joueur.ts/modules/chess.html)
+
+## Test AI
+
+To help test your AI we supply an AI that will always make random valid moves.
+You can get the random valid move test AI [here](https://github.com/siggame/Joueur.js/tree/Chess-V2-Tester).
 
 ## Tournament
 

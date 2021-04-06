@@ -35,14 +35,14 @@ The game clients can be found here:
 Each of the chess clients has an associated documentation set. Feel
 free to browse!
 
-* [C++](http://siggame.io/Joueur.cpp/namespacecpp__client_1_1chess.html)
-* [C#](http://siggame.io/Joueur.cs/games/Joueur.cs.Games.Chess.html)
-* [Go](http://siggame.io/Joueur.go/pkg/joueur/games/chess/)
-* [Java](http://siggame.io/Joueur.java/games/chess/package-summary.html)
-* [JavaScript](http://siggame.io/Joueur.js/Chess.html)
-* [Lua](http://siggame.io/Joueur.lua/chess/)
-* [Python](http://siggame.io/Joueur.py/chess/)
-* [TypeScript](http://siggame.io/Joueur.ts/modules/chess.html)
+* [C++](http://siggame.github.io/Joueur.cpp/namespacecpp__client_1_1chess.html)
+* [C#](http://siggame.github.io/Joueur.cs/games/Joueur.cs.Games.Chess.html)
+* [Go](http://siggame.github.io/Joueur.go/pkg/joueur/games/chess/)
+* [Java](http://siggame.github.io/Joueur.java/games/chess/package-summary.html)
+* [JavaScript](http://siggame.github.io/Joueur.js/Chess.html)
+* [Lua](http://siggame.github.io/Joueur.lua/chess/)
+* [Python](http://siggame.github.io/Joueur.py/chess/)
+* [TypeScript](http://siggame.github.io/Joueur.ts/modules/chess.html)
 
 ## Test AI
 
